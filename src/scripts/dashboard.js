@@ -375,11 +375,21 @@ function getProcedureCards(index) {
     return [
       {
         name: item.procedureName || item.chartName || item.title || item.fileName,
-        code: item.chartType || item.procedureName || item.chartName,
+        code: item.procedureName || item.chartName || item.title || item.fileName,
         runway: item.runway,
         filePath: item.filePath,
       },
     ];
+  });
+}
+
+function uniqueByProcedureIdentity(procedures) {
+  const seen = new Set();
+  return procedures.filter((procedure) => {
+    const key = [procedure.code, procedure.name, procedure.runway, procedure.filePath].filter(Boolean).join("|");
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
   });
 }
 
@@ -774,7 +784,7 @@ async function loadIacOptions() {
   }
   try {
     const index = await getChartIndex("IAC", airport.icao);
-    const procedures = getProcedureCards(index);
+    const procedures = uniqueByProcedureIdentity(getProcedureCards(index));
     if (!procedures.length) {
       iacProcedureSelect.innerHTML = `<option value="">Sin aproximacion disponible para ${airport.icao}</option>`;
       return;
@@ -782,7 +792,7 @@ async function loadIacOptions() {
     iacProcedureSelect.innerHTML = `
       <option value="">Seleccione una aproximacion</option>
       <option value="NO_IAC">Sin aproximacion</option>
-      ${uniqueByCode(procedures).map((p) => `<option value="${p.code}">${p.name}${p.runway ? ` / ${p.runway}` : ""}</option>`).join("")}
+      ${procedures.map((p) => `<option value="${p.code}">${p.name}${p.runway ? ` / ${p.runway}` : ""}</option>`).join("")}
     `;
   } catch {
     iacProcedureSelect.innerHTML = `<option value="">Sin aproximacion disponible para ${airport.icao}</option>`;
