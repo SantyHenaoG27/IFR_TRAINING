@@ -1,0 +1,71 @@
+{
+  "airport": "SKAS",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKAS/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKAS_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/01 SKAS_ADC.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "SKAS ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "02 SKAS_SID1.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/02 SKAS_SID1.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "SKAS SID1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKAS_STAR1.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/03 SKAS_STAR1.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "SKAS STAR1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKAS_STAR2.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/04 SKAS_STAR2.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "SKAS STAR2",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKAS_IAC1.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/05 SKAS_IAC1.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "SKAS IAC1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKAS_CARTA_VISIBILIDAD.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/06 SKAS_CARTA_VISIBILIDAD.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "SKAS CARTA VISIBILIDAD",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKAS",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

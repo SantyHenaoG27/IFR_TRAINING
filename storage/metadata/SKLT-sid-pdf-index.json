@@ -1,0 +1,228 @@
+{
+  "airport": "SKLT",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKLT/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - AROT3D KALO3B MIKO3B ROKU3B SPRI1D BUTA1M RWY 21 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - AROT3D KALO3B MIKO3B ROKU3B SPRI1D BUTA1M RWY 21 RNAV (Tabular description).pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "AROT3D KALO3B MIKO3B ROKU3B SPRI1D BUTA1M RWY 21 RNAV",
+      "procedures": [
+        {
+          "name": "AROT3D",
+          "code": "AROT3D"
+        },
+        {
+          "name": "KALO3B",
+          "code": "KALO3B"
+        },
+        {
+          "name": "MIKO3B",
+          "code": "MIKO3B"
+        },
+        {
+          "name": "ROKU3B",
+          "code": "ROKU3B"
+        },
+        {
+          "name": "SPRI1D",
+          "code": "SPRI1D"
+        },
+        {
+          "name": "BUTA1M",
+          "code": "BUTA1M"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - AROT3D KALO3B MIKO3B ROKU3B SPRI1D BUTA1M RWY 21 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - AROT3D KALO3B MIKO3B ROKU3B SPRI1D BUTA1M RWY 21 RNAV.pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "AROT3D KALO3B MIKO3B ROKU3B SPRI1D BUTA1M RWY 21 RNAV",
+      "procedures": [
+        {
+          "name": "AROT3D",
+          "code": "AROT3D"
+        },
+        {
+          "name": "KALO3B",
+          "code": "KALO3B"
+        },
+        {
+          "name": "MIKO3B",
+          "code": "MIKO3B"
+        },
+        {
+          "name": "ROKU3B",
+          "code": "ROKU3B"
+        },
+        {
+          "name": "SPRI1D",
+          "code": "SPRI1D"
+        },
+        {
+          "name": "BUTA1M",
+          "code": "BUTA1M"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - AROT3E KALO3D MIKO3C ROKU3C RWY 03 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - AROT3E KALO3D MIKO3C ROKU3C RWY 03 RNAV (Tabular description).pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "AROT3E KALO3D MIKO3C ROKU3C RWY 03 RNAV",
+      "procedures": [
+        {
+          "name": "AROT3E",
+          "code": "AROT3E"
+        },
+        {
+          "name": "KALO3D",
+          "code": "KALO3D"
+        },
+        {
+          "name": "MIKO3C",
+          "code": "MIKO3C"
+        },
+        {
+          "name": "ROKU3C",
+          "code": "ROKU3C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - AROT3E KALO3D MIKO3C ROKU3C RWY 03 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - AROT3E KALO3D MIKO3C ROKU3C RWY 03 RNAV.pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "AROT3E KALO3D MIKO3C ROKU3C RWY 03 RNAV",
+      "procedures": [
+        {
+          "name": "AROT3E",
+          "code": "AROT3E"
+        },
+        {
+          "name": "KALO3D",
+          "code": "KALO3D"
+        },
+        {
+          "name": "MIKO3C",
+          "code": "MIKO3C"
+        },
+        {
+          "name": "ROKU3C",
+          "code": "ROKU3C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - BODA3B DALO3B MEXA2A RWY 03.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - BODA3B DALO3B MEXA2A RWY 03.pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "BODA3B DALO3B MEXA2A RWY 03",
+      "procedures": [
+        {
+          "name": "BODA3B",
+          "code": "BODA3B"
+        },
+        {
+          "name": "DALO3B",
+          "code": "DALO3B"
+        },
+        {
+          "name": "MEXA2A",
+          "code": "MEXA2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - BODA3C BUTA2K DALO3C KALO2C MEXA2B SPRI2B RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - BODA3C BUTA2K DALO3C KALO2C MEXA2B SPRI2B RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "BODA3C BUTA2K DALO3C KALO2C MEXA2B SPRI2B RWY 21",
+      "procedures": [
+        {
+          "name": "BODA3C",
+          "code": "BODA3C"
+        },
+        {
+          "name": "BUTA2K",
+          "code": "BUTA2K"
+        },
+        {
+          "name": "DALO3C",
+          "code": "DALO3C"
+        },
+        {
+          "name": "KALO2C",
+          "code": "KALO2C"
+        },
+        {
+          "name": "MEXA2B",
+          "code": "MEXA2B"
+        },
+        {
+          "name": "SPRI2B",
+          "code": "SPRI2B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - BUTA2L SPRI3C RWY 03 RNAV (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - BUTA2L SPRI3C RWY 03 RNAV (Tabular Description).pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "BUTA2L SPRI3C RWY 03 RNAV",
+      "procedures": [
+        {
+          "name": "BUTA2L",
+          "code": "BUTA2L"
+        },
+        {
+          "name": "SPRI3C",
+          "code": "SPRI3C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - BUTA2L SPRI3C RWY 03 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/SID/SID - ICAO - BUTA2L SPRI3C RWY 03 RNAV.pdf",
+      "airport": "SKLT",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "BUTA2L SPRI3C RWY 03 RNAV",
+      "procedures": [
+        {
+          "name": "BUTA2L",
+          "code": "BUTA2L"
+        },
+        {
+          "name": "SPRI3C",
+          "code": "SPRI3C"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

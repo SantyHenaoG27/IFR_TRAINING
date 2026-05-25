@@ -1,0 +1,62 @@
+{
+  "airport": "SKPP",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKPP/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 08 (AR) (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/IAC/IAC - ICAO - RNP Y RWY 08 (AR) (Tabular Description).pdf",
+      "airport": "SKPP",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 08",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 08 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/IAC/IAC - ICAO - RNP Y RWY 08 (AR).pdf",
+      "airport": "SKPP",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 08 26 (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/IAC/IAC - ICAO - RNP Z RWY 08 26 (Tabular Description).pdf",
+      "airport": "SKPP",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 08 26",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 08 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/IAC/IAC - ICAO - RNP Z RWY 08 26.pdf",
+      "airport": "SKPP",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 08 26",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Y RWY 08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/IAC/IAC - ICAO - VOR Y RWY 08.pdf",
+      "airport": "SKPP",
+      "chartType": "IAC",
+      "procedureName": "VOR Y",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Z RWY 08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/IAC/IAC - ICAO - VOR Z RWY 08.pdf",
+      "airport": "SKPP",
+      "chartType": "IAC",
+      "procedureName": "VOR Z",
+      "runway": "RWY 08",
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "airport": "SKYP",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKYP/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKYP_TRG_ZONE 1.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/ADC/01 SKYP_TRG_ZONE 1.pdf",
+      "airport": "SKYP",
+      "chartType": "ADC",
+      "chartName": "SKYP TRG ZONE 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKYP_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/ADC/03 SKYP_ADC.pdf",
+      "airport": "SKYP",
+      "chartType": "ADC",
+      "chartName": "SKYP ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/ADC/Visibility chart - ICAO.pdf",
+      "airport": "SKYP",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKYP",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

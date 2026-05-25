@@ -1,0 +1,18 @@
+{
+  "airport": "SKMZ",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKMZ/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKMZ_SID_1_RWY_28.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/SID/02 SKMZ_SID_1_RWY_28.pdf",
+      "airport": "SKMZ",
+      "chartType": "SID",
+      "runway": "RWY 28",
+      "title": "SKMZ_SID_1_RWY_28",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

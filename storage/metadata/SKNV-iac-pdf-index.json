@@ -1,0 +1,26 @@
+{
+  "airport": "SKNV",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKNV/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "11 SKNV_IAC_1_VOR_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/IAC/11 SKNV_IAC_1_VOR_RWY_02.pdf",
+      "airport": "SKNV",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKNV_IAC_2_VOR_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/IAC/12 SKNV_IAC_2_VOR_RWY_20.pdf",
+      "airport": "SKNV",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 20",
+      "isTabular": false
+    }
+  ]
+}

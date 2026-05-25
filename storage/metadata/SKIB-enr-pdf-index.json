@@ -1,0 +1,17 @@
+{
+  "airport": "SKIB",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKIB/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKIB_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/ENR/03 SKIB_CTR.pdf",
+      "airport": "SKIB",
+      "chartType": "ENR",
+      "chartName": "SKIB CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

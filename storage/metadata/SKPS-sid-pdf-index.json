@@ -1,0 +1,56 @@
+{
+  "airport": "SKPS",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKPS/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - ANKA2B TITG2A RWY 02 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPS/SID/SID - ICAO - ANKA2B TITG2A RWY 02 RNAV (Tabular description).pdf",
+      "airport": "SKPS",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "ANKA2B TITG2A RWY 02 RNAV",
+      "procedures": [
+        {
+          "name": "ANKA2B",
+          "code": "ANKA2B"
+        },
+        {
+          "name": "TITG2A",
+          "code": "TITG2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ANKA2B TITG2A RWY 02 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPS/SID/SID - ICAO - ANKA2B TITG2A RWY 02 RNAV.pdf",
+      "airport": "SKPS",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "ANKA2B TITG2A RWY 02 RNAV",
+      "procedures": [
+        {
+          "name": "ANKA2B",
+          "code": "ANKA2B"
+        },
+        {
+          "name": "TITG2A",
+          "code": "TITG2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - MER7 RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKPS/SID/SID - ICAO - MER7 RWY 02.pdf",
+      "airport": "SKPS",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "MER7 RWY 02",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

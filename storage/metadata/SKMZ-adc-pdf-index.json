@@ -1,0 +1,26 @@
+{
+  "airport": "SKMZ",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKMZ/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKMZ_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/ADC/01 SKMZ_ADC.pdf",
+      "airport": "SKMZ",
+      "chartType": "ADC",
+      "chartName": "SKMZ ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/ADC/Visibility chart - ICAO.pdf",
+      "airport": "SKMZ",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

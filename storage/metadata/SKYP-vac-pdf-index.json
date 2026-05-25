@@ -1,0 +1,26 @@
+{
+  "airport": "SKYP",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKYP/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual departures arrivals NE.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/VAC/VAC - ICAO - Visual departures arrivals NE.pdf",
+      "airport": "SKYP",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures arrivals NE",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual departures arrivals SW.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/VAC/VAC - ICAO - Visual departures arrivals SW.pdf",
+      "airport": "SKYP",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures arrivals SW",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

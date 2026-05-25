@@ -1,0 +1,18 @@
+{
+  "airport": "SKPD",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKPD/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKPD_STAR_1_RNAV_RWY_18.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/STAR/04 SKPD_STAR_1_RNAV_RWY_18.pdf",
+      "airport": "SKPD",
+      "chartType": "STAR",
+      "runway": "RWY 18",
+      "title": "SKPD_STAR_1_RNAV_RWY_18",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

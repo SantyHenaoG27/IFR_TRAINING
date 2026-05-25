@@ -1,0 +1,70 @@
+{
+  "airport": "SKPP",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKPP/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - GIBT1K MER1J KUDG1H KONK1B KONK1C RWY 08 26 RNAV (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/STAR/STAR - ICAO - GIBT1K MER1J KUDG1H KONK1B KONK1C RWY 08 26 RNAV (Tabular Description).pdf",
+      "airport": "SKPP",
+      "chartType": "STAR",
+      "runway": "RWY 08 26",
+      "title": "GIBT1K MER1J KUDG1H KONK1B KONK1C RWY 08 26 RNAV",
+      "procedures": [
+        {
+          "name": "GIBT1K",
+          "code": "GIBT1K"
+        },
+        {
+          "name": "MER1J",
+          "code": "MER1J"
+        },
+        {
+          "name": "KUDG1H",
+          "code": "KUDG1H"
+        },
+        {
+          "name": "KONK1B",
+          "code": "KONK1B"
+        },
+        {
+          "name": "KONK1C",
+          "code": "KONK1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - GIBT1K MER1J KUDG1H KONK1B KONK1C RWY 08 26 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/STAR/STAR - ICAO - GIBT1K MER1J KUDG1H KONK1B KONK1C RWY 08 26 RNAV.pdf",
+      "airport": "SKPP",
+      "chartType": "STAR",
+      "runway": "RWY 08 26",
+      "title": "GIBT1K MER1J KUDG1H KONK1B KONK1C RWY 08 26 RNAV",
+      "procedures": [
+        {
+          "name": "GIBT1K",
+          "code": "GIBT1K"
+        },
+        {
+          "name": "MER1J",
+          "code": "MER1J"
+        },
+        {
+          "name": "KUDG1H",
+          "code": "KUDG1H"
+        },
+        {
+          "name": "KONK1B",
+          "code": "KONK1B"
+        },
+        {
+          "name": "KONK1C",
+          "code": "KONK1C"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

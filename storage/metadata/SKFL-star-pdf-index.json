@@ -1,0 +1,77 @@
+{
+  "airport": "SKFL",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKFL/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - EDPI1F GAXA2F GEBU3A KUDG1C VUKT1E RWY 30 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/STAR/STAR - ICAO - EDPI1F GAXA2F GEBU3A KUDG1C VUKT1E RWY 30 12.pdf",
+      "airport": "SKFL",
+      "chartType": "STAR",
+      "runway": "RWY 30 12",
+      "title": "EDPI1F GAXA2F GEBU3A KUDG1C VUKT1E RWY 30 12",
+      "procedures": [
+        {
+          "name": "EDPI1F",
+          "code": "EDPI1F"
+        },
+        {
+          "name": "GAXA2F",
+          "code": "GAXA2F"
+        },
+        {
+          "name": "GEBU3A",
+          "code": "GEBU3A"
+        },
+        {
+          "name": "KUDG1C",
+          "code": "KUDG1C"
+        },
+        {
+          "name": "VUKT1E",
+          "code": "VUKT1E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - EDPI1G KUDG3B RWY 30 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/STAR/STAR - ICAO - EDPI1G KUDG3B RWY 30 12.pdf",
+      "airport": "SKFL",
+      "chartType": "STAR",
+      "runway": "RWY 30 12",
+      "title": "EDPI1G KUDG3B RWY 30 12",
+      "procedures": [
+        {
+          "name": "EDPI1G",
+          "code": "EDPI1G"
+        },
+        {
+          "name": "KUDG3B",
+          "code": "KUDG3B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - PADA2G REPE2A RWY 30 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/STAR/STAR - ICAO - PADA2G REPE2A RWY 30 12.pdf",
+      "airport": "SKFL",
+      "chartType": "STAR",
+      "runway": "RWY 30 12",
+      "title": "PADA2G REPE2A RWY 30 12",
+      "procedures": [
+        {
+          "name": "PADA2G",
+          "code": "PADA2G"
+        },
+        {
+          "name": "REPE2A",
+          "code": "REPE2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

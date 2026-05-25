@@ -1,0 +1,17 @@
+{
+  "airport": "SKVP",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKVP/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual departures RWY 02 20 JESUIB ROBL1B CORA1A CORA1B.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/VAC/VAC - ICAO - Visual departures RWY 02 20 JESUIB ROBL1B CORA1A CORA1B.pdf",
+      "airport": "SKVP",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures RWY 02 20 JESUIB ROBL1B CORA1A CORA1B",
+      "runway": "RWY 02 20",
+      "isTabular": false
+    }
+  ]
+}

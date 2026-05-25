@@ -1,0 +1,26 @@
+{
+  "airport": "SKCL",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKCL/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "39 SKCL_VAC 1.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/VAC/39 SKCL_VAC 1.pdf",
+      "airport": "SKCL",
+      "chartType": "VAC",
+      "chartName": "SKCL VAC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "40 SKCL_VAC 2.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/VAC/40 SKCL_VAC 2.pdf",
+      "airport": "SKCL",
+      "chartType": "VAC",
+      "chartName": "SKCL VAC 2",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "airport": "SKUC",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKUC/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "08 SKUC_IAC_1_VOR_RWY_11.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/IAC/08 SKUC_IAC_1_VOR_RWY_11.pdf",
+      "airport": "SKUC",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 11",
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKUC_IAC_2_RNP_RWY_11.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/IAC/09 SKUC_IAC_2_RNP_RWY_11.pdf",
+      "airport": "SKUC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 11",
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKUC_IAC_3_RNP_RWY_29.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/IAC/10 SKUC_IAC_3_RNP_RWY_29.pdf",
+      "airport": "SKUC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 29",
+      "isTabular": false
+    }
+  ]
+}

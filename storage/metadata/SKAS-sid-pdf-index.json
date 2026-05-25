@@ -1,0 +1,18 @@
+{
+  "airport": "SKAS",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKAS/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKAS_SID1.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/SID/02 SKAS_SID1.pdf",
+      "airport": "SKAS",
+      "chartType": "SID",
+      "runway": null,
+      "title": "SKAS_SID1",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

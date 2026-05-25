@@ -1,0 +1,126 @@
+{
+  "airport": "SKMR",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKMR/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03. SKMR_SID_1_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/03. SKMR_SID_1_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 32",
+      "title": ". SKMR_SID_1_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "04. SKMR_SID_2_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/04. SKMR_SID_2_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 32",
+      "title": ". SKMR_SID_2_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05. SKMR_SID_RNAV_3_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/05. SKMR_SID_RNAV_3_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 32",
+      "title": ". SKMR_SID_RNAV_3_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06. SKMR_SID_RNAV_4_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/06. SKMR_SID_RNAV_4_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 32",
+      "title": ". SKMR_SID_RNAV_4_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "07. SKMR_SID_5_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/07. SKMR_SID_5_RWY_14.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 14",
+      "title": ". SKMR_SID_5_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08. SKMR_SID_6_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/08. SKMR_SID_6_RWY_14.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 14",
+      "title": ". SKMR_SID_6_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09. SKMR_SID_RNAV_7_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/09. SKMR_SID_RNAV_7_RWY_14.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 14",
+      "title": ". SKMR_SID_RNAV_7_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "10. SKMR_SID_RNAV_8_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/10. SKMR_SID_RNAV_8_RWY_14.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 14",
+      "title": ". SKMR_SID_RNAV_8_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14 32 BOGA1B BOGA1C (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/SID - ICAO - RNAV RWY 14 32 BOGA1B BOGA1C (Tabular description).pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 14 32",
+      "title": "RNAV RWY 14 32 BOGA1B BOGA1C",
+      "procedures": [
+        {
+          "name": "BOGA1B",
+          "code": "BOGA1B"
+        },
+        {
+          "name": "BOGA1C",
+          "code": "BOGA1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14 32 BOGA1B BOGA1C.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/SID/SID - ICAO - RNAV RWY 14 32 BOGA1B BOGA1C.pdf",
+      "airport": "SKMR",
+      "chartType": "SID",
+      "runway": "RWY 14 32",
+      "title": "RNAV RWY 14 32 BOGA1B BOGA1C",
+      "procedures": [
+        {
+          "name": "BOGA1B",
+          "code": "BOGA1B"
+        },
+        {
+          "name": "BOGA1C",
+          "code": "BOGA1C"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

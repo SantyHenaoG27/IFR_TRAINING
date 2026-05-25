@@ -1,0 +1,305 @@
+{
+  "airport": "SKYP",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKYP/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23 (Holdings for contingency).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23 (Holdings for contingency).pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23 (Holdings for contingency)",
+      "procedures": [
+        {
+          "name": "ANGU1C",
+          "code": "ANGU1C"
+        },
+        {
+          "name": "BUTI1C",
+          "code": "BUTI1C"
+        },
+        {
+          "name": "KOTM1A",
+          "code": "KOTM1A"
+        },
+        {
+          "name": "OSIL1J",
+          "code": "OSIL1J"
+        },
+        {
+          "name": "REMI1G",
+          "code": "REMI1G"
+        },
+        {
+          "name": "TITN1C",
+          "code": "TITN1C"
+        },
+        {
+          "name": "TOBS1C",
+          "code": "TOBS1C"
+        },
+        {
+          "name": "UBNO1F",
+          "code": "UBNO1F"
+        },
+        {
+          "name": "VUGE1C",
+          "code": "VUGE1C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23 (Tabular description).pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23",
+      "procedures": [
+        {
+          "name": "ANGU1C",
+          "code": "ANGU1C"
+        },
+        {
+          "name": "BUTI1C",
+          "code": "BUTI1C"
+        },
+        {
+          "name": "KOTM1A",
+          "code": "KOTM1A"
+        },
+        {
+          "name": "OSIL1J",
+          "code": "OSIL1J"
+        },
+        {
+          "name": "REMI1G",
+          "code": "REMI1G"
+        },
+        {
+          "name": "TITN1C",
+          "code": "TITN1C"
+        },
+        {
+          "name": "TOBS1C",
+          "code": "TOBS1C"
+        },
+        {
+          "name": "UBNO1F",
+          "code": "UBNO1F"
+        },
+        {
+          "name": "VUGE1C",
+          "code": "VUGE1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23.pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "ANGU1C, BUTI1C, KOTM1A, OSIL1J, REMI1G, TITN1C, TOBS1C, UBNO1F, VUGE1C RWY 23",
+      "procedures": [
+        {
+          "name": "ANGU1C",
+          "code": "ANGU1C"
+        },
+        {
+          "name": "BUTI1C",
+          "code": "BUTI1C"
+        },
+        {
+          "name": "KOTM1A",
+          "code": "KOTM1A"
+        },
+        {
+          "name": "OSIL1J",
+          "code": "OSIL1J"
+        },
+        {
+          "name": "REMI1G",
+          "code": "REMI1G"
+        },
+        {
+          "name": "TITN1C",
+          "code": "TITN1C"
+        },
+        {
+          "name": "TOBS1C",
+          "code": "TOBS1C"
+        },
+        {
+          "name": "UBNO1F",
+          "code": "UBNO1F"
+        },
+        {
+          "name": "VUGE1C",
+          "code": "VUGE1C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05 (Holdings for contingency).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05 (Holdings for contingency).pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05 (Holdings for contingency)",
+      "procedures": [
+        {
+          "name": "ANGU1D",
+          "code": "ANGU1D"
+        },
+        {
+          "name": "BUTI1D",
+          "code": "BUTI1D"
+        },
+        {
+          "name": "KOTM1B",
+          "code": "KOTM1B"
+        },
+        {
+          "name": "OSIL1K",
+          "code": "OSIL1K"
+        },
+        {
+          "name": "REMI1H",
+          "code": "REMI1H"
+        },
+        {
+          "name": "TITN1D",
+          "code": "TITN1D"
+        },
+        {
+          "name": "TOBS1D",
+          "code": "TOBS1D"
+        },
+        {
+          "name": "UBNO1G",
+          "code": "UBNO1G"
+        },
+        {
+          "name": "VUGE1D",
+          "code": "VUGE1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05 (Tabular description).pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05",
+      "procedures": [
+        {
+          "name": "ANGU1D",
+          "code": "ANGU1D"
+        },
+        {
+          "name": "BUTI1D",
+          "code": "BUTI1D"
+        },
+        {
+          "name": "KOTM1B",
+          "code": "KOTM1B"
+        },
+        {
+          "name": "OSIL1K",
+          "code": "OSIL1K"
+        },
+        {
+          "name": "REMI1H",
+          "code": "REMI1H"
+        },
+        {
+          "name": "TITN1D",
+          "code": "TITN1D"
+        },
+        {
+          "name": "TOBS1D",
+          "code": "TOBS1D"
+        },
+        {
+          "name": "UBNO1G",
+          "code": "UBNO1G"
+        },
+        {
+          "name": "VUGE1D",
+          "code": "VUGE1D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05.pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "ANGU1D, BUTI1D, KOTM1B, OSIL1K, REMI1H, TITN1D, TOBS1D, UBNO1G, VUGE1D RWY 05",
+      "procedures": [
+        {
+          "name": "ANGU1D",
+          "code": "ANGU1D"
+        },
+        {
+          "name": "BUTI1D",
+          "code": "BUTI1D"
+        },
+        {
+          "name": "KOTM1B",
+          "code": "KOTM1B"
+        },
+        {
+          "name": "OSIL1K",
+          "code": "OSIL1K"
+        },
+        {
+          "name": "REMI1H",
+          "code": "REMI1H"
+        },
+        {
+          "name": "TITN1D",
+          "code": "TITN1D"
+        },
+        {
+          "name": "TOBS1D",
+          "code": "TOBS1D"
+        },
+        {
+          "name": "UBNO1G",
+          "code": "UBNO1G"
+        },
+        {
+          "name": "VUGE1D",
+          "code": "VUGE1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - BUTI2B RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/STAR/STAR - ICAO - BUTI2B RWY 05.pdf",
+      "airport": "SKYP",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "BUTI2B RWY 05",
+      "procedures": [
+        {
+          "name": "BUTI2B",
+          "code": "BUTI2B"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

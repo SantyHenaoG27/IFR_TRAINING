@@ -1,0 +1,58 @@
+{
+  "airport": "SKUI",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKUI/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "10 SKUI_STAR_1_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/STAR/10 SKUI_STAR_1_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "STAR",
+      "runway": "RWY 31",
+      "title": "SKUI_STAR_1_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKUI_STAR_2_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/STAR/11 SKUI_STAR_2_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "STAR",
+      "runway": "RWY 31",
+      "title": "SKUI_STAR_2_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKUI_STAR_3_RNAV_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/STAR/12 SKUI_STAR_3_RNAV_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "STAR",
+      "runway": "RWY 31",
+      "title": "SKUI_STAR_3_RNAV_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "13 SKUI_STAR_4_RNAV_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/STAR/13 SKUI_STAR_4_RNAV_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "STAR",
+      "runway": "RWY 31",
+      "title": "SKUI_STAR_4_RNAV_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "14 SKUI_STAR_5_RNAV_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/STAR/14 SKUI_STAR_5_RNAV_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "STAR",
+      "runway": "RWY 31",
+      "title": "SKUI_STAR_5_RNAV_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

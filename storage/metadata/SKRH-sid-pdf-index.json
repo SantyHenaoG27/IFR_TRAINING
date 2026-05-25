@@ -1,0 +1,167 @@
+{
+  "airport": "SKRH",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKRH/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - RNP RWY 10 VUP1N ATED1E BUXE1B TIPG1E XUXO1F (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/SID/SID - ICAO - RNP RWY 10 VUP1N ATED1E BUXE1B TIPG1E XUXO1F (Tabular description).pdf",
+      "airport": "SKRH",
+      "chartType": "SID",
+      "runway": "RWY 10",
+      "title": "RNP RWY 10 VUP1N ATED1E BUXE1B TIPG1E XUXO1F",
+      "procedures": [
+        {
+          "name": "VUP1N",
+          "code": "VUP1N"
+        },
+        {
+          "name": "ATED1E",
+          "code": "ATED1E"
+        },
+        {
+          "name": "BUXE1B",
+          "code": "BUXE1B"
+        },
+        {
+          "name": "TIPG1E",
+          "code": "TIPG1E"
+        },
+        {
+          "name": "XUXO1F",
+          "code": "XUXO1F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNP RWY 10 VUP1N ATED1E BUXE1B TIPG1E XUXO1F.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/SID/SID - ICAO - RNP RWY 10 VUP1N ATED1E BUXE1B TIPG1E XUXO1F.pdf",
+      "airport": "SKRH",
+      "chartType": "SID",
+      "runway": "RWY 10",
+      "title": "RNP RWY 10 VUP1N ATED1E BUXE1B TIPG1E XUXO1F",
+      "procedures": [
+        {
+          "name": "VUP1N",
+          "code": "VUP1N"
+        },
+        {
+          "name": "ATED1E",
+          "code": "ATED1E"
+        },
+        {
+          "name": "BUXE1B",
+          "code": "BUXE1B"
+        },
+        {
+          "name": "TIPG1E",
+          "code": "TIPG1E"
+        },
+        {
+          "name": "XUXO1F",
+          "code": "XUXO1F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNP RWY 28 VUP2Q ATED1D BUXE1C TIPG1D XUXO1E (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/SID/SID - ICAO - RNP RWY 28 VUP2Q ATED1D BUXE1C TIPG1D XUXO1E (Tabular description).pdf",
+      "airport": "SKRH",
+      "chartType": "SID",
+      "runway": "RWY 28",
+      "title": "RNP RWY 28 VUP2Q ATED1D BUXE1C TIPG1D XUXO1E",
+      "procedures": [
+        {
+          "name": "VUP2Q",
+          "code": "VUP2Q"
+        },
+        {
+          "name": "ATED1D",
+          "code": "ATED1D"
+        },
+        {
+          "name": "BUXE1C",
+          "code": "BUXE1C"
+        },
+        {
+          "name": "TIPG1D",
+          "code": "TIPG1D"
+        },
+        {
+          "name": "XUXO1E",
+          "code": "XUXO1E"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNP RWY 28 VUP2Q ATED1D BUXE1C TIPG1D XUXO1E.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/SID/SID - ICAO - RNP RWY 28 VUP2Q ATED1D BUXE1C TIPG1D XUXO1E.pdf",
+      "airport": "SKRH",
+      "chartType": "SID",
+      "runway": "RWY 28",
+      "title": "RNP RWY 28 VUP2Q ATED1D BUXE1C TIPG1D XUXO1E",
+      "procedures": [
+        {
+          "name": "VUP2Q",
+          "code": "VUP2Q"
+        },
+        {
+          "name": "ATED1D",
+          "code": "ATED1D"
+        },
+        {
+          "name": "BUXE1C",
+          "code": "BUXE1C"
+        },
+        {
+          "name": "TIPG1D",
+          "code": "TIPG1D"
+        },
+        {
+          "name": "XUXO1E",
+          "code": "XUXO1E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 10 ATED2F BUXE1A VUP2M XUXO1B TIPG4A URIB2A.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/SID/SID - ICAO - RWY 10 ATED2F BUXE1A VUP2M XUXO1B TIPG4A URIB2A.pdf",
+      "airport": "SKRH",
+      "chartType": "SID",
+      "runway": "RWY 10",
+      "title": "RWY 10 ATED2F BUXE1A VUP2M XUXO1B TIPG4A URIB2A",
+      "procedures": [
+        {
+          "name": "ATED2F",
+          "code": "ATED2F"
+        },
+        {
+          "name": "BUXE1A",
+          "code": "BUXE1A"
+        },
+        {
+          "name": "VUP2M",
+          "code": "VUP2M"
+        },
+        {
+          "name": "XUXO1B",
+          "code": "XUXO1B"
+        },
+        {
+          "name": "TIPG4A",
+          "code": "TIPG4A"
+        },
+        {
+          "name": "URIB2A",
+          "code": "URIB2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "airport": "SKBG",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKBG/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKBG_TRG_ZONE.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/ADC/01 SKBG_TRG_ZONE.pdf",
+      "airport": "SKBG",
+      "chartType": "ADC",
+      "chartName": "SKBG TRG ZONE",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKBG_AMA.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/ADC/04 SKBG_AMA.pdf",
+      "airport": "SKBG",
+      "chartType": "ADC",
+      "chartName": "SKBG AMA",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "28 SKBG_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/ADC/28 SKBG_Carta_visibilidad.pdf",
+      "airport": "SKBG",
+      "chartType": "ADC",
+      "chartName": "SKBG Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKBG",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKBG",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

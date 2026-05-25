@@ -1,0 +1,160 @@
+{
+  "airport": "SKVP",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKVP/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - RWY 02 BUXE1F IRON1H.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 02 BUXE1F IRON1H.pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "RWY 02 BUXE1F IRON1H",
+      "procedures": [
+        {
+          "name": "BUXE1F",
+          "code": "BUXE1F"
+        },
+        {
+          "name": "IRON1H",
+          "code": "IRON1H"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 02 EDVA2F UGOS2C.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 02 EDVA2F UGOS2C.pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "RWY 02 EDVA2F UGOS2C",
+      "procedures": [
+        {
+          "name": "EDVA2F",
+          "code": "EDVA2F"
+        },
+        {
+          "name": "UGOS2C",
+          "code": "UGOS2C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 02 PUKV2A SEKB2A (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 02 PUKV2A SEKB2A (Tabular description).pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "RWY 02 PUKV2A SEKB2A",
+      "procedures": [
+        {
+          "name": "PUKV2A",
+          "code": "PUKV2A"
+        },
+        {
+          "name": "SEKB2A",
+          "code": "SEKB2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RWY 02 PUKV2A SEKB2A.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 02 PUKV2A SEKB2A.pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "RWY 02 PUKV2A SEKB2A",
+      "procedures": [
+        {
+          "name": "PUKV2A",
+          "code": "PUKV2A"
+        },
+        {
+          "name": "SEKB2A",
+          "code": "SEKB2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 20 BUXE1G IRON1J.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 20 BUXE1G IRON1J.pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "RWY 20 BUXE1G IRON1J",
+      "procedures": [
+        {
+          "name": "BUXE1G",
+          "code": "BUXE1G"
+        },
+        {
+          "name": "IRON1J",
+          "code": "IRON1J"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 20 EDVA2G UGOS1D.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 20 EDVA2G UGOS1D.pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "RWY 20 EDVA2G UGOS1D",
+      "procedures": [
+        {
+          "name": "EDVA2G",
+          "code": "EDVA2G"
+        },
+        {
+          "name": "UGOS1D",
+          "code": "UGOS1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 20 PUKV2B ASAX2A (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 20 PUKV2B ASAX2A (Tabular description).pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "RWY 20 PUKV2B ASAX2A",
+      "procedures": [
+        {
+          "name": "PUKV2B",
+          "code": "PUKV2B"
+        },
+        {
+          "name": "ASAX2A",
+          "code": "ASAX2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RWY 20 PUKV2B ASAX2A.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/SID/SID - ICAO - RWY 20 PUKV2B ASAX2A.pdf",
+      "airport": "SKVP",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "RWY 20 PUKV2B ASAX2A",
+      "procedures": [
+        {
+          "name": "PUKV2B",
+          "code": "PUKV2B"
+        },
+        {
+          "name": "ASAX2A",
+          "code": "ASAX2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

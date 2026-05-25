@@ -1,0 +1,44 @@
+{
+  "airport": "SKEJ",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKEJ/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKEJ_TRG_ZONE 1.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/ADC/02 SKEJ_TRG_ZONE 1.pdf",
+      "airport": "SKEJ",
+      "chartType": "ADC",
+      "chartName": "SKEJ TRG ZONE 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKEJ_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/ADC/03 SKEJ_ADC.pdf",
+      "airport": "SKEJ",
+      "chartType": "ADC",
+      "chartName": "SKEJ ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKEJ_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/ADC/12 SKEJ_Carta_visibilidad.pdf",
+      "airport": "SKEJ",
+      "chartType": "ADC",
+      "chartName": "SKEJ Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKEJ",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "airport": "SKVV",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKVV/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKVV_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/03 SKVV_ADC.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "SKVV ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKVV_AMA.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/04 SKVV_AMA.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "SKVV AMA",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "17 SKVV_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/17 SKVV_Carta_visibilidad.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "SKVV Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "AERODROME CIRCUIT RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/AERODROME CIRCUIT RWY 05.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "AERODROME CIRCUIT RWY 05",
+      "runway": "RWY 05",
+      "isTabular": false
+    },
+    {
+      "fileName": "AERODROME CIRCUIT RWY 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/AERODROME CIRCUIT RWY 23.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "AERODROME CIRCUIT RWY 23",
+      "runway": "RWY 23",
+      "isTabular": false
+    },
+    {
+      "fileName": "Training Zone - ICAO - SKE67.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/Training Zone - ICAO - SKE67.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "Training Zone - ICAO - SKE67",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training Zone - ICAO - SKE68.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/Training Zone - ICAO - SKE68.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "Training Zone - ICAO - SKE68",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training Zone - ICAO - SKE70.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/Training Zone - ICAO - SKE70.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "Training Zone - ICAO - SKE70",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training Zone - ICAO SKE39 SKE40 SKE69.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/Training Zone - ICAO SKE39 SKE40 SKE69.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "Training Zone - ICAO SKE39 SKE40 SKE69",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT COORDINATES PBN PROCEDURES.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/ADC/WPT COORDINATES PBN PROCEDURES.pdf",
+      "airport": "SKVV",
+      "chartType": "ADC",
+      "chartName": "WPT COORDINATES PBN PROCEDURES",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

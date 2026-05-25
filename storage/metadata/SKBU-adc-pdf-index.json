@@ -1,0 +1,26 @@
+{
+  "airport": "SKBU",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKBU/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKBU_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBU/ADC/02 SKBU_ADC.pdf",
+      "airport": "SKBU",
+      "chartType": "ADC",
+      "chartName": "SKBU ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKBU_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKBU/ADC/04 SKBU_Carta_visibilidad.pdf",
+      "airport": "SKBU",
+      "chartType": "ADC",
+      "chartName": "SKBU Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

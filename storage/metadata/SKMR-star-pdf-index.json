@@ -1,0 +1,108 @@
+{
+  "airport": "SKMR",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKMR/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "12. SKMR_STAR_1_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/12. SKMR_STAR_1_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_1_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "13. SKMR_STAR_2_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/13. SKMR_STAR_2_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_2_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "14. SKMR_STAR_3_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/14. SKMR_STAR_3_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_3_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "15. SKMR_STAR_4_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/15. SKMR_STAR_4_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_4_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "16. SKMR_STAR_5_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/16. SKMR_STAR_5_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_5_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "17. SKMR_STAR_6_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/17. SKMR_STAR_6_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_6_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "18. SKMR_STAR_RNAV_7_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/18. SKMR_STAR_RNAV_7_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_RNAV_7_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "19. SKMR_STAR_RNAV_8_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/19. SKMR_STAR_RNAV_8_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_RNAV_8_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "20. SKMR_STAR_9_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/20. SKMR_STAR_9_RWY_14.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 14",
+      "title": ". SKMR_STAR_9_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "21. SKMR_STAR_RNAV_10_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/STAR/21. SKMR_STAR_RNAV_10_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "STAR",
+      "runway": "RWY 32",
+      "title": ". SKMR_STAR_RNAV_10_RWY_32",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

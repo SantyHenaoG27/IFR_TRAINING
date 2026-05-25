@@ -1,0 +1,17 @@
+{
+  "airport": "SKSJ",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKSJ/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04. SKSJ_IAC_1_VOR Y_RWY_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKSJ/IAC/04. SKSJ_IAC_1_VOR Y_RWY_19.pdf",
+      "airport": "SKSJ",
+      "chartType": "IAC",
+      "procedureName": "VOR Y",
+      "runway": "RWY 19",
+      "isTabular": false
+    }
+  ]
+}

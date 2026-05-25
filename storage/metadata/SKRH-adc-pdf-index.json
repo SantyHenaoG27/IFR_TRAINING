@@ -1,0 +1,35 @@
+{
+  "airport": "SKRH",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKRH/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKRH_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/ADC/01 SKRH_ADC.pdf",
+      "airport": "SKRH",
+      "chartType": "ADC",
+      "chartName": "SKRH ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO -.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/ADC/Visibility chart - ICAO -.pdf",
+      "airport": "SKRH",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO -",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKRH",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

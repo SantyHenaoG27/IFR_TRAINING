@@ -1,0 +1,26 @@
+{
+  "airport": "SKUC",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKUC/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKUC_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/ADC/02 SKUC_ADC.pdf",
+      "airport": "SKUC",
+      "chartType": "ADC",
+      "chartName": "SKUC ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKUC_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/ADC/11 SKUC_Carta_visibilidad.pdf",
+      "airport": "SKUC",
+      "chartType": "ADC",
+      "chartName": "SKUC Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

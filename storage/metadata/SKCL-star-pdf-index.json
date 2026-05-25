@@ -1,0 +1,267 @@
+{
+  "airport": "SKCL",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKCL/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "25 SKCL_STAR 6_RNAV_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/25 SKCL_STAR 6_RNAV_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "SKCL_STAR 6_RNAV_RWY_02",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "28 SKCL_STAR 9_RNAV_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/28 SKCL_STAR 9_RNAV_RWY_20.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "SKCL_STAR 9_RNAV_RWY_20",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "30 SKCL_STAR 11_RNAV_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/30 SKCL_STAR 11_RNAV_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "SKCL_STAR 11_RNAV_RWY_02",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DADV1A ESAR1A ILKU1A ISAD3A RWY 02 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - DADV1A ESAR1A ILKU1A ISAD3A RWY 02 RNAV (Tabular description).pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "DADV1A ESAR1A ILKU1A ISAD3A RWY 02 RNAV",
+      "procedures": [
+        {
+          "name": "DADV1A",
+          "code": "DADV1A"
+        },
+        {
+          "name": "ESAR1A",
+          "code": "ESAR1A"
+        },
+        {
+          "name": "ILKU1A",
+          "code": "ILKU1A"
+        },
+        {
+          "name": "ISAD3A",
+          "code": "ISAD3A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - DADV1A ESAR1A ILKU1A ISAD3A RWY 02 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - DADV1A ESAR1A ILKU1A ISAD3A RWY 02 RNAV.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "DADV1A ESAR1A ILKU1A ISAD3A RWY 02 RNAV",
+      "procedures": [
+        {
+          "name": "DADV1A",
+          "code": "DADV1A"
+        },
+        {
+          "name": "ESAR1A",
+          "code": "ESAR1A"
+        },
+        {
+          "name": "ILKU1A",
+          "code": "ILKU1A"
+        },
+        {
+          "name": "ISAD3A",
+          "code": "ISAD3A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DAKO8A RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - DAKO8A RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "DAKO8A RWY 02",
+      "procedures": [
+        {
+          "name": "DAKO8A",
+          "code": "DAKO8A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ISOP4A RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - ISOP4A RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "ISOP4A RWY 02",
+      "procedures": [
+        {
+          "name": "ISOP4A",
+          "code": "ISOP4A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - MANG1B RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - MANG1B RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "MANG1B RWY 02",
+      "procedures": [
+        {
+          "name": "MANG1B",
+          "code": "MANG1B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 20 ANKA3A DAKO3B PPN3C (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - RWY 20 ANKA3A DAKO3B PPN3C (Tabular description).pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "RWY 20 ANKA3A DAKO3B PPN3C",
+      "procedures": [
+        {
+          "name": "ANKA3A",
+          "code": "ANKA3A"
+        },
+        {
+          "name": "DAKO3B",
+          "code": "DAKO3B"
+        },
+        {
+          "name": "PPN3C",
+          "code": "PPN3C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 20 ANKA3A DAKO3B PPN3C.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - RWY 20 ANKA3A DAKO3B PPN3C.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "RWY 20 ANKA3A DAKO3B PPN3C",
+      "procedures": [
+        {
+          "name": "ANKA3A",
+          "code": "ANKA3A"
+        },
+        {
+          "name": "DAKO3B",
+          "code": "DAKO3B"
+        },
+        {
+          "name": "PPN3C",
+          "code": "PPN3C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 20 ETAL3A KIKU3C SIPA3A ULQ4F (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - RWY 20 ETAL3A KIKU3C SIPA3A ULQ4F (Tabular description).pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "RWY 20 ETAL3A KIKU3C SIPA3A ULQ4F",
+      "procedures": [
+        {
+          "name": "ETAL3A",
+          "code": "ETAL3A"
+        },
+        {
+          "name": "KIKU3C",
+          "code": "KIKU3C"
+        },
+        {
+          "name": "SIPA3A",
+          "code": "SIPA3A"
+        },
+        {
+          "name": "ULQ4F",
+          "code": "ULQ4F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 20 ETAL3A KIKU3C SIPA3A ULQ4F.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - RWY 20 ETAL3A KIKU3C SIPA3A ULQ4F.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "RWY 20 ETAL3A KIKU3C SIPA3A ULQ4F",
+      "procedures": [
+        {
+          "name": "ETAL3A",
+          "code": "ETAL3A"
+        },
+        {
+          "name": "KIKU3C",
+          "code": "KIKU3C"
+        },
+        {
+          "name": "SIPA3A",
+          "code": "SIPA3A"
+        },
+        {
+          "name": "ULQ4F",
+          "code": "ULQ4F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ULQ2A RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - ULQ2A RWY 20.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "ULQ2A RWY 20",
+      "procedures": [
+        {
+          "name": "ULQ2A",
+          "code": "ULQ2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ULQ7D RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/STAR/STAR - ICAO - ULQ7D RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "ULQ7D RWY 02",
+      "procedures": [
+        {
+          "name": "ULQ7D",
+          "code": "ULQ7D"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

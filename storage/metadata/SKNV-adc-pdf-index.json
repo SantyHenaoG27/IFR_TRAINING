@@ -1,0 +1,35 @@
+{
+  "airport": "SKNV",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKNV/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKNV_TRG_ZONE_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/ADC/01 SKNV_TRG_ZONE_1.pdf",
+      "airport": "SKNV",
+      "chartType": "ADC",
+      "chartName": "SKNV TRG ZONE 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKNV_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/ADC/03 SKNV_ADC.pdf",
+      "airport": "SKNV",
+      "chartType": "ADC",
+      "chartName": "SKNV ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "15 SKNV_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/ADC/15 SKNV_Carta_visibilidad.pdf",
+      "airport": "SKNV",
+      "chartType": "ADC",
+      "chartName": "SKNV Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

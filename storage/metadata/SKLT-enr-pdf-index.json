@@ -1,0 +1,26 @@
+{
+  "airport": "SKLT",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKLT/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Control zone - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ENR/Control zone - ICAO.pdf",
+      "airport": "SKLT",
+      "chartType": "ENR",
+      "chartName": "Control zone - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Minimum area altitudes.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ENR/Minimum area altitudes.pdf",
+      "airport": "SKLT",
+      "chartType": "ENR",
+      "chartName": "Minimum area altitudes",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

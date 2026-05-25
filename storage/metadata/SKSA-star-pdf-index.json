@@ -1,0 +1,62 @@
+{
+  "airport": "SKSA",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKSA/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - ISRO1E NETK1B SIPI1B TME1L RNAV RWY 34 (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/STAR/STAR - ICAO - ISRO1E NETK1B SIPI1B TME1L RNAV RWY 34 (Tabular Description).pdf",
+      "airport": "SKSA",
+      "chartType": "STAR",
+      "runway": "RWY 34",
+      "title": "ISRO1E NETK1B SIPI1B TME1L RNAV RWY 34",
+      "procedures": [
+        {
+          "name": "ISRO1E",
+          "code": "ISRO1E"
+        },
+        {
+          "name": "NETK1B",
+          "code": "NETK1B"
+        },
+        {
+          "name": "SIPI1B",
+          "code": "SIPI1B"
+        },
+        {
+          "name": "TME1L",
+          "code": "TME1L"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - ISRO1E NETK1B SIPI1B TME1L RNAV RWY 34.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/STAR/STAR - ICAO - ISRO1E NETK1B SIPI1B TME1L RNAV RWY 34.pdf",
+      "airport": "SKSA",
+      "chartType": "STAR",
+      "runway": "RWY 34",
+      "title": "ISRO1E NETK1B SIPI1B TME1L RNAV RWY 34",
+      "procedures": [
+        {
+          "name": "ISRO1E",
+          "code": "ISRO1E"
+        },
+        {
+          "name": "NETK1B",
+          "code": "NETK1B"
+        },
+        {
+          "name": "SIPI1B",
+          "code": "SIPI1B"
+        },
+        {
+          "name": "TME1L",
+          "code": "TME1L"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

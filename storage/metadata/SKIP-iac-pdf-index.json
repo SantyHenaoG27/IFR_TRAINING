@@ -1,0 +1,53 @@
+{
+  "airport": "SKIP",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKIP/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "09 SKIP_IAC_1_VOR_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/IAC/09 SKIP_IAC_1_VOR_RWY_08.pdf",
+      "airport": "SKIP",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 08 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/IAC/IAC - ICAO - RNP RWY 08 (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 08",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/IAC/IAC - ICAO - RNP RWY 08.pdf",
+      "airport": "SKIP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 26 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/IAC/IAC - ICAO - RNP RWY 26 (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 26",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/IAC/IAC - ICAO - RNP RWY 26.pdf",
+      "airport": "SKIP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 26",
+      "isTabular": false
+    }
+  ]
+}

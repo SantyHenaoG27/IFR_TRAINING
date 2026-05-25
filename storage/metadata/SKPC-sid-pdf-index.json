@@ -1,0 +1,61 @@
+{
+  "airport": "SKPC",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKPC/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - SIDU2A RWY 25.pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/SID/SID - ICAO - SIDU2A RWY 25.pdf",
+      "airport": "SKPC",
+      "chartType": "SID",
+      "runway": "RWY 25",
+      "title": "SIDU2A RWY 25",
+      "procedures": [
+        {
+          "name": "SIDU2A",
+          "code": "SIDU2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - SIDU2D OVTU2B RWY 25 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/SID/SID - ICAO - SIDU2D OVTU2B RWY 25 RNAV (Tabular description).pdf",
+      "airport": "SKPC",
+      "chartType": "SID",
+      "runway": "RWY 25",
+      "title": "SIDU2D OVTU2B RWY 25 RNAV",
+      "procedures": [
+        {
+          "name": "SIDU2D",
+          "code": "SIDU2D"
+        },
+        {
+          "name": "OVTU2B",
+          "code": "OVTU2B"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - SIDU2D OVTU2B RWY 25 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/SID/SID - ICAO - SIDU2D OVTU2B RWY 25 RNAV.pdf",
+      "airport": "SKPC",
+      "chartType": "SID",
+      "runway": "RWY 25",
+      "title": "SIDU2D OVTU2B RWY 25 RNAV",
+      "procedures": [
+        {
+          "name": "SIDU2D",
+          "code": "SIDU2D"
+        },
+        {
+          "name": "OVTU2B",
+          "code": "OVTU2B"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

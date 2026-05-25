@@ -1,0 +1,71 @@
+{
+  "airport": "SKSP",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKSP/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "16 SKSP_IAC_6_RNP_RWY_24.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/16 SKSP_IAC_6_RNP_RWY_24.pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 24",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 06 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/IAC - ICAO - RNP RWY 06 (Tabular description).pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 06",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/IAC - ICAO - RNP RWY 06.pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 06",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Y RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/IAC - ICAO - VOR Y RWY 06.pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "VOR Y",
+      "runway": "RWY 06",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Y RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/IAC - ICAO - VOR Y RWY 24.pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "VOR Y",
+      "runway": "RWY 24",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Z RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/IAC - ICAO - VOR Z RWY 06.pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "VOR Z",
+      "runway": "RWY 06",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Z RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/IAC/IAC - ICAO - VOR Z RWY 24.pdf",
+      "airport": "SKSP",
+      "chartType": "IAC",
+      "procedureName": "VOR Z",
+      "runway": "RWY 24",
+      "isTabular": false
+    }
+  ]
+}

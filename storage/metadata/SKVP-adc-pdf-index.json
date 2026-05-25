@@ -1,0 +1,35 @@
+{
+  "airport": "SKVP",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKVP/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKVP_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/ADC/01 SKVP_ADC.pdf",
+      "airport": "SKVP",
+      "chartType": "ADC",
+      "chartName": "SKVP ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO -.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/ADC/Visibility chart - ICAO -.pdf",
+      "airport": "SKVP",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO -",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKVP",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "airport": "SKGI",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKGI/GMC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKGI_Circuito_AD_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/GMC/03 SKGI_Circuito_AD_RWY_02.pdf",
+      "airport": "SKGI",
+      "chartType": "GMC",
+      "chartName": "SKGI Circuito AD RWY 02",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKGI_Circuito_AD_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/GMC/04 SKGI_Circuito_AD_RWY_20.pdf",
+      "airport": "SKGI",
+      "chartType": "GMC",
+      "chartName": "SKGI Circuito AD RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    }
+  ]
+}

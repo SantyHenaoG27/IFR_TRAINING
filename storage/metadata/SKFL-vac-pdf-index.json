@@ -1,0 +1,17 @@
+{
+  "airport": "SKFL",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKFL/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual departures arrivals GARZON 1 PUERTO RICO 1 CURILLO 1 CARTAGENA 1 RWY 30 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/VAC/VAC - ICAO - Visual departures arrivals GARZON 1 PUERTO RICO 1 CURILLO 1 CARTAGENA 1 RWY 30 12.pdf",
+      "airport": "SKFL",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures arrivals GARZON 1 PUERTO RICO 1 CURILLO 1 CARTAGENA 1 RWY 30 12",
+      "runway": "RWY 30 12",
+      "isTabular": false
+    }
+  ]
+}

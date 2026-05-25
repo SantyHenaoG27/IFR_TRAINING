@@ -1,0 +1,80 @@
+{
+  "airport": "SKIB",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKIB/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "09 SKIB_IAC_1_VOR_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/09 SKIB_IAC_1_VOR_RWY_32.pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKIB_IAC_2_RNP_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/10 SKIB_IAC_2_RNP_RWY_32.pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 14 (AR) (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/IAC - ICAO - RNP RWY 14 (AR) (Tabular description).pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 14",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 14 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/IAC - ICAO - RNP RWY 14 (AR).pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 14",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP X RWY 32 (AR) (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/IAC - ICAO - RNP X RWY 32 (AR) (Tabular description).pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP X",
+      "runway": "RWY 32",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP X RWY 32 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/IAC - ICAO - RNP X RWY 32 (AR).pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP X",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 32 (AR) (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/IAC - ICAO - RNP Y RWY 32 (AR) (Tabular description).pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 32",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 32 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/IAC/IAC - ICAO - RNP Y RWY 32 (AR).pdf",
+      "airport": "SKIB",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 32",
+      "isTabular": false
+    }
+  ]
+}

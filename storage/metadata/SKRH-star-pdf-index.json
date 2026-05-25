@@ -1,0 +1,147 @@
+{
+  "airport": "SKRH",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKRH/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - RWY 10 ATED2A BUXE1D TIPG2B VUP1S XUXO2C (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/STAR/STAR - ICAO - RWY 10 ATED2A BUXE1D TIPG2B VUP1S XUXO2C (Tabular description).pdf",
+      "airport": "SKRH",
+      "chartType": "STAR",
+      "runway": "RWY 10",
+      "title": "RWY 10 ATED2A BUXE1D TIPG2B VUP1S XUXO2C",
+      "procedures": [
+        {
+          "name": "ATED2A",
+          "code": "ATED2A"
+        },
+        {
+          "name": "BUXE1D",
+          "code": "BUXE1D"
+        },
+        {
+          "name": "TIPG2B",
+          "code": "TIPG2B"
+        },
+        {
+          "name": "VUP1S",
+          "code": "VUP1S"
+        },
+        {
+          "name": "XUXO2C",
+          "code": "XUXO2C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 10 ATED2A BUXE1D TIPG2B VUP1S XUXO2C.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/STAR/STAR - ICAO - RWY 10 ATED2A BUXE1D TIPG2B VUP1S XUXO2C.pdf",
+      "airport": "SKRH",
+      "chartType": "STAR",
+      "runway": "RWY 10",
+      "title": "RWY 10 ATED2A BUXE1D TIPG2B VUP1S XUXO2C",
+      "procedures": [
+        {
+          "name": "ATED2A",
+          "code": "ATED2A"
+        },
+        {
+          "name": "BUXE1D",
+          "code": "BUXE1D"
+        },
+        {
+          "name": "TIPG2B",
+          "code": "TIPG2B"
+        },
+        {
+          "name": "VUP1S",
+          "code": "VUP1S"
+        },
+        {
+          "name": "XUXO2C",
+          "code": "XUXO2C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 10 VUP1R.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/STAR/STAR - ICAO - RWY 10 VUP1R.pdf",
+      "airport": "SKRH",
+      "chartType": "STAR",
+      "runway": "RWY 10",
+      "title": "RWY 10 VUP1R",
+      "procedures": [
+        {
+          "name": "VUP1R",
+          "code": "VUP1R"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 28 ATED1C BUXE1E TIPG1C VUP1T XUXO1D (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/STAR/STAR - ICAO - RWY 28 ATED1C BUXE1E TIPG1C VUP1T XUXO1D (Tabular description).pdf",
+      "airport": "SKRH",
+      "chartType": "STAR",
+      "runway": "RWY 28",
+      "title": "RWY 28 ATED1C BUXE1E TIPG1C VUP1T XUXO1D",
+      "procedures": [
+        {
+          "name": "ATED1C",
+          "code": "ATED1C"
+        },
+        {
+          "name": "BUXE1E",
+          "code": "BUXE1E"
+        },
+        {
+          "name": "TIPG1C",
+          "code": "TIPG1C"
+        },
+        {
+          "name": "VUP1T",
+          "code": "VUP1T"
+        },
+        {
+          "name": "XUXO1D",
+          "code": "XUXO1D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 28 ATED1C BUXE1E TIPG1C VUP1T XUXO1D.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/STAR/STAR - ICAO - RWY 28 ATED1C BUXE1E TIPG1C VUP1T XUXO1D.pdf",
+      "airport": "SKRH",
+      "chartType": "STAR",
+      "runway": "RWY 28",
+      "title": "RWY 28 ATED1C BUXE1E TIPG1C VUP1T XUXO1D",
+      "procedures": [
+        {
+          "name": "ATED1C",
+          "code": "ATED1C"
+        },
+        {
+          "name": "BUXE1E",
+          "code": "BUXE1E"
+        },
+        {
+          "name": "TIPG1C",
+          "code": "TIPG1C"
+        },
+        {
+          "name": "VUP1T",
+          "code": "VUP1T"
+        },
+        {
+          "name": "XUXO1D",
+          "code": "XUXO1D"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

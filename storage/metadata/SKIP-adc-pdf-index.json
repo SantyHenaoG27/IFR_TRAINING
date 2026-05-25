@@ -1,0 +1,35 @@
+{
+  "airport": "SKIP",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKIP/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKIP_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/ADC/02 SKIP_ADC.pdf",
+      "airport": "SKIP",
+      "chartType": "ADC",
+      "chartName": "SKIP ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKIP_Carta_Visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/ADC/10 SKIP_Carta_Visibilidad.pdf",
+      "airport": "SKIP",
+      "chartType": "ADC",
+      "chartName": "SKIP Carta Visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKIP",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "airport": "SKCZ",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKCZ/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "11 Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/ADC/11 Carta_visibilidad.pdf",
+      "airport": "SKCZ",
+      "chartType": "ADC",
+      "chartName": "Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKCZ",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

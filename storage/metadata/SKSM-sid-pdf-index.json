@@ -1,0 +1,38 @@
+{
+  "airport": "SKSM",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKSM/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKSM SID_1_RWY_01_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/SID/03 SKSM SID_1_RWY_01_19.pdf",
+      "airport": "SKSM",
+      "chartType": "SID",
+      "runway": "RWY 01 19",
+      "title": "SKSM SID_1_RWY_01_19",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKSM SID_2_RNAV_RWY_01_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/SID/04 SKSM SID_2_RNAV_RWY_01_19.pdf",
+      "airport": "SKSM",
+      "chartType": "SID",
+      "runway": "RWY 01 19",
+      "title": "SKSM SID_2_RNAV_RWY_01_19",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKSM SID_3_RNAV_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/SID/05 SKSM SID_3_RNAV_RWY_01.pdf",
+      "airport": "SKSM",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "SKSM SID_3_RNAV_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

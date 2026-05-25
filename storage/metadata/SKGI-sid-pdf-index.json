@@ -1,0 +1,18 @@
+{
+  "airport": "SKGI",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKGI/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "07 SKGI_SID_1_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/SID/07 SKGI_SID_1_RWY_20.pdf",
+      "airport": "SKGI",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "SKGI_SID_1_RWY_20",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

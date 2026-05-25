@@ -1,0 +1,53 @@
+{
+  "airport": "SKPP",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKPP/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKPP_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/ADC/02 SKPP_ADC.pdf",
+      "airport": "SKPP",
+      "chartType": "ADC",
+      "chartName": "SKPP ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKPP_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/ADC/06 SKPP_Carta_visibilidad.pdf",
+      "airport": "SKPP",
+      "chartType": "ADC",
+      "chartName": "SKPP Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP RWY 26 (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/ADC/RVFP - ICAO - RNP RWY 26 (Tabular Description).pdf",
+      "airport": "SKPP",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP RWY 26 (Tabular Description)",
+      "runway": "RWY 26",
+      "isTabular": true
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP RWY 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/ADC/RVFP - ICAO - RNP RWY 26.pdf",
+      "airport": "SKPP",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP RWY 26",
+      "runway": "RWY 26",
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKPP",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

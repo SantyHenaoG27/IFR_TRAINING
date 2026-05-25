@@ -1,0 +1,62 @@
+{
+  "airport": "SKMD",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKMD/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "06 SKMD_APDC_2.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/ADC/06 SKMD_APDC_2.pdf",
+      "airport": "SKMD",
+      "chartType": "ADC",
+      "chartName": "SKMD APDC 2",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "14 SKMD_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/ADC/14 SKMD_Carta_visibilidad.pdf",
+      "airport": "SKMD",
+      "chartType": "ADC",
+      "chartName": "SKMD Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKMD",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP RWY 02 20 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/ADC/RVFP - ICAO - RNP RWY 02 20 (Tabular description).pdf",
+      "airport": "SKMD",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP RWY 02 20 (Tabular description)",
+      "runway": "RWY 02 20",
+      "isTabular": true
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP RWY 02 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/ADC/RVFP - ICAO - RNP RWY 02 20.pdf",
+      "airport": "SKMD",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP RWY 02 20",
+      "runway": "RWY 02 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone - ICAO - SKE33, SKE34, SKE35, SKE36.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/ADC/Training zone - ICAO - SKE33, SKE34, SKE35, SKE36.pdf",
+      "airport": "SKMD",
+      "chartType": "ADC",
+      "chartName": "Training zone - ICAO - SKE33, SKE34, SKE35, SKE36",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

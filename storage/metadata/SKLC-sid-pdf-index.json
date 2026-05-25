@@ -1,0 +1,182 @@
+{
+  "airport": "SKLC",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKLC/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKLC_SID_1_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/04 SKLC_SID_1_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "SKLC_SID_1_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKLC_SID_2_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/05 SKLC_SID_2_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "SKLC_SID_2_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKLC_SID_3_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/06 SKLC_SID_3_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "SKLC_SID_3_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKLC_SID_4_RNAV_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/07 SKLC_SID_4_RNAV_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "SKLC_SID_4_RNAV_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKLC_SID_5_RNAV_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/08 SKLC_SID_5_RNAV_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "SKLC_SID_5_RNAV_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKLC_SID_6_RNAV_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/09 SKLC_SID_6_RNAV_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "SKLC_SID_6_RNAV_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKLC_SID_7_RWY_15.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/10 SKLC_SID_7_RWY_15.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 15",
+      "title": "SKLC_SID_7_RWY_15",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKLC_SID_8_RWY_15.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/11 SKLC_SID_8_RWY_15.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 15",
+      "title": "SKLC_SID_8_RWY_15",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKLC_SID_9_RNAV_RWY_15.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/12 SKLC_SID_9_RNAV_RWY_15.pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 15",
+      "title": "SKLC_SID_9_RNAV_RWY_15",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - BOKU1H MAPS1A REMU1B RWY 33 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/SID - ICAO - BOKU1H MAPS1A REMU1B RWY 33 RNAV (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "BOKU1H MAPS1A REMU1B RWY 33 RNAV",
+      "procedures": [
+        {
+          "name": "BOKU1H",
+          "code": "BOKU1H"
+        },
+        {
+          "name": "MAPS1A",
+          "code": "MAPS1A"
+        },
+        {
+          "name": "REMU1B",
+          "code": "REMU1B"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ISRA1F REMU1D REMU1E RWY 15 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/SID - ICAO - ISRA1F REMU1D REMU1E RWY 15 RNAV (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 15",
+      "title": "ISRA1F REMU1D REMU1E RWY 15 RNAV",
+      "procedures": [
+        {
+          "name": "ISRA1F",
+          "code": "ISRA1F"
+        },
+        {
+          "name": "REMU1D",
+          "code": "REMU1D"
+        },
+        {
+          "name": "REMU1E",
+          "code": "REMU1E"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ISRA2E REMU2C RWY 33 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/SID - ICAO - ISRA2E REMU2C RWY 33 RNAV (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "ISRA2E REMU2C RWY 33 RNAV",
+      "procedures": [
+        {
+          "name": "ISRA2E",
+          "code": "ISRA2E"
+        },
+        {
+          "name": "REMU2C",
+          "code": "REMU2C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - KAKO1A KUBE1A RWY 33 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/SID/SID - ICAO - KAKO1A KUBE1A RWY 33 RNAV (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "SID",
+      "runway": "RWY 33",
+      "title": "KAKO1A KUBE1A RWY 33 RNAV",
+      "procedures": [
+        {
+          "name": "KAKO1A",
+          "code": "KAKO1A"
+        },
+        {
+          "name": "KUBE1A",
+          "code": "KUBE1A"
+        }
+      ],
+      "isTabular": true
+    }
+  ]
+}

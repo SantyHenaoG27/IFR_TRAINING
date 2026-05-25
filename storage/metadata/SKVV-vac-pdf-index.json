@@ -1,0 +1,26 @@
+{
+  "airport": "SKVV",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKVV/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual departures and arrivals north GUATEQUE1A.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/VAC/VAC - ICAO - Visual departures and arrivals north GUATEQUE1A.pdf",
+      "airport": "SKVV",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures and arrivals north GUATEQUE1A",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual departures and arrivals south SAN MARTÍN1A CASIBARE1A CASIBARE1E RWY 05 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/VAC/VAC - ICAO - Visual departures and arrivals south SAN MARTÍN1A CASIBARE1A CASIBARE1E RWY 05 23.pdf",
+      "airport": "SKVV",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures and arrivals south SAN MARTÍN1A CASIBARE1A CASIBARE1E RWY 05 23",
+      "runway": "RWY 05 23",
+      "isTabular": false
+    }
+  ]
+}

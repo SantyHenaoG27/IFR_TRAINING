@@ -1,0 +1,17 @@
+{
+  "airport": "SKMD",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKMD/GMC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aircraft Parking Docking Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/GMC/Aircraft Parking Docking Chart - ICAO.pdf",
+      "airport": "SKMD",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

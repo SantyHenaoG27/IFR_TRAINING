@@ -1,0 +1,323 @@
+{
+  "airport": "SKBO",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - ILS X CAT II CAT III RWY 14L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS X CAT II CAT III RWY 14L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS X",
+      "runway": "RWY 14L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS X CAT II CAT III RWY 14R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS X CAT II CAT III RWY 14R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS X",
+      "runway": "RWY 14R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 14L (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS Y RWY 14L (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 14L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 14L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS Y RWY 14L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 14L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 14R (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS Y RWY 14R (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 14R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 14R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS Y RWY 14R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 14R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Z or LOC Z RWY 14L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS Z or LOC Z RWY 14L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS Z",
+      "runway": "RWY 14L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Z or LOC Z RWY 14R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - ILS Z or LOC Z RWY 14R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "ILS Z",
+      "runway": "RWY 14R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP C RWY 32L (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP C RWY 32L (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP C RWY 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP C RWY 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP C RWY 32R (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP C RWY 32R (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP C RWY 32R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP C RWY 32R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP D RWY 32L (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP D RWY 32L (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP D RWY 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP D RWY 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP D RWY 32R (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP D RWY 32R (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP D RWY 32R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP D RWY 32R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 14L (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP RWY 14L (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 14L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 14L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP RWY 14L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 14L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 14R (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP RWY 14R (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 14R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 14R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP RWY 14R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 14R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP W RWY 32L (AR) (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP W RWY 32L (AR) (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP W",
+      "runway": "RWY 32L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP W RWY 32L (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP W RWY 32L (AR).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP W",
+      "runway": "RWY 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP W RWY 32R (AR) (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP W RWY 32R (AR) (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP W",
+      "runway": "RWY 32R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP W RWY 32R (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP W RWY 32R (AR).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP W",
+      "runway": "RWY 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 32L (AR) (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Y RWY 32L (AR) (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 32L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 32L (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Y RWY 32L (AR).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 32R (AR) (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Y RWY 32R (AR) (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 32R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 32R (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Y RWY 32R (AR).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 32L (AR) (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Z RWY 32L (AR) (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 32L",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 32L (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Z RWY 32L (AR).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 32R (AR) (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Z RWY 32R (AR) (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 32R",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 32R (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - RNP Z RWY 32R (AR).pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR A RWY 32L 32R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - VOR A RWY 32L 32R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 32L 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 14L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - VOR RWY 14L.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 14L",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 14R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/IAC/IAC - ICAO - VOR RWY 14R.pdf",
+      "airport": "SKBO",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 14R",
+      "isTabular": false
+    }
+  ]
+}

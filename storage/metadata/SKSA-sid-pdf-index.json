@@ -1,0 +1,28 @@
+{
+  "airport": "SKSA",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKSA/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKSA_SID_1_RNAV_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/SID/02 SKSA_SID_1_RNAV_RWY_16.pdf",
+      "airport": "SKSA",
+      "chartType": "SID",
+      "runway": "RWY 16",
+      "title": "SKSA_SID_1_RNAV_RWY_16",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKSA_SID_2_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/SID/03 SKSA_SID_2_RWY_16.pdf",
+      "airport": "SKSA",
+      "chartType": "SID",
+      "runway": "RWY 16",
+      "title": "SKSA_SID_2_RWY_16",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

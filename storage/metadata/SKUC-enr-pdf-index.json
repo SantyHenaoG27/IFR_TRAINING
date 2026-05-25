@@ -1,0 +1,17 @@
+{
+  "airport": "SKUC",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKUC/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKUC_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/ENR/01 SKUC_CTR.pdf",
+      "airport": "SKUC",
+      "chartType": "ENR",
+      "chartName": "SKUC CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

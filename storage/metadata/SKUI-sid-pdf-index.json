@@ -1,0 +1,68 @@
+{
+  "airport": "SKUI",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKUI/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKUI_SID_1_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/SID/04 SKUI_SID_1_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "SID",
+      "runway": "RWY 31",
+      "title": "SKUI_SID_1_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKUI_SID_2_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/SID/05 SKUI_SID_2_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "SID",
+      "runway": "RWY 31",
+      "title": "SKUI_SID_2_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKUI_SID_3_RNAV_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/SID/06 SKUI_SID_3_RNAV_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "SID",
+      "runway": "RWY 31",
+      "title": "SKUI_SID_3_RNAV_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKUI_SID_4_RNAV_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/SID/07 SKUI_SID_4_RNAV_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "SID",
+      "runway": "RWY 31",
+      "title": "SKUI_SID_4_RNAV_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKUI_SID_5_RNAV_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/SID/08 SKUI_SID_5_RNAV_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "SID",
+      "runway": "RWY 31",
+      "title": "SKUI_SID_5_RNAV_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKUI_SID_6_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/SID/09 SKUI_SID_6_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "SID",
+      "runway": "RWY 31",
+      "title": "SKUI_SID_6_RWY_31",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "airport": "SKCO",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKCO/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKCO",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/ADC/Visibility Chart - ICAO.pdf",
+      "airport": "SKCO",
+      "chartType": "ADC",
+      "chartName": "Visibility Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKCO",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

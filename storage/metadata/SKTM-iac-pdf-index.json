@@ -1,0 +1,17 @@
+{
+  "airport": "SKTM",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKTM/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKTM_IAC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKTM/IAC/04 SKTM_IAC_1.pdf",
+      "airport": "SKTM",
+      "chartType": "IAC",
+      "procedureName": "04 SKTM_IAC_1.pdf",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

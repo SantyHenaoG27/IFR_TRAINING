@@ -1,0 +1,71 @@
+{
+  "airport": "SKCG",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKCG/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "06 SKCG_GMC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/06 SKCG_GMC_1.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "SKCG GMC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKCG_AOC_2.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/08 SKCG_AOC_2.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "SKCG AOC 2",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "22 SKCG_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/22 SKCG_Carta_visibilidad.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "SKCG Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart 1 - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/Aerodrome Heliport Chart 1 - ICAO.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart 1 - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart 2 - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/Aerodrome Heliport Chart 2 - ICAO.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart 2 - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome obstacle chart type A RWY 01 19.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/Aerodrome obstacle chart type A RWY 01 19.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "Aerodrome obstacle chart type A RWY 01 19",
+      "runway": "RWY 01 19",
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKCG",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

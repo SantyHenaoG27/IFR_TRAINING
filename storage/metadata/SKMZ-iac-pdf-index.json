@@ -1,0 +1,26 @@
+{
+  "airport": "SKMZ",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKMZ/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "05 SKMZ_IAC_1_RWY_10.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/IAC/05 SKMZ_IAC_1_RWY_10.pdf",
+      "airport": "SKMZ",
+      "chartType": "IAC",
+      "procedureName": "05 SKMZ_IAC_1_RWY_10.pdf",
+      "runway": "RWY 10",
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKMZ_IAC_2_RWY_10.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/IAC/06 SKMZ_IAC_2_RWY_10.pdf",
+      "airport": "SKMZ",
+      "chartType": "IAC",
+      "procedureName": "06 SKMZ_IAC_2_RWY_10.pdf",
+      "runway": "RWY 10",
+      "isTabular": false
+    }
+  ]
+}

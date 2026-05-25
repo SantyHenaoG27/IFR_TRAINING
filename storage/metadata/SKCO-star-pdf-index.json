@@ -1,0 +1,119 @@
+{
+  "airport": "SKCO",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKCO/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - EGOB1J GIBT1G TUNG1C RWY 06 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/STAR/STAR - ICAO - EGOB1J GIBT1G TUNG1C RWY 06 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "STAR",
+      "runway": "RWY 06",
+      "title": "EGOB1J GIBT1G TUNG1C RWY 06",
+      "procedures": [
+        {
+          "name": "EGOB1J",
+          "code": "EGOB1J"
+        },
+        {
+          "name": "GIBT1G",
+          "code": "GIBT1G"
+        },
+        {
+          "name": "TUNG1C",
+          "code": "TUNG1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - EGOB1J GIBT1G TUNG1C RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/STAR/STAR - ICAO - EGOB1J GIBT1G TUNG1C RWY 06.pdf",
+      "airport": "SKCO",
+      "chartType": "STAR",
+      "runway": "RWY 06",
+      "title": "EGOB1J GIBT1G TUNG1C RWY 06",
+      "procedures": [
+        {
+          "name": "EGOB1J",
+          "code": "EGOB1J"
+        },
+        {
+          "name": "GIBT1G",
+          "code": "GIBT1G"
+        },
+        {
+          "name": "TUNG1C",
+          "code": "TUNG1C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - EGOB1K GIBT1H TUNG1D RWY 24 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/STAR/STAR - ICAO - EGOB1K GIBT1H TUNG1D RWY 24 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "STAR",
+      "runway": "RWY 24",
+      "title": "EGOB1K GIBT1H TUNG1D RWY 24",
+      "procedures": [
+        {
+          "name": "EGOB1K",
+          "code": "EGOB1K"
+        },
+        {
+          "name": "GIBT1H",
+          "code": "GIBT1H"
+        },
+        {
+          "name": "TUNG1D",
+          "code": "TUNG1D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - EGOB1K GIBT1H TUNG1D RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/STAR/STAR - ICAO - EGOB1K GIBT1H TUNG1D RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "STAR",
+      "runway": "RWY 24",
+      "title": "EGOB1K GIBT1H TUNG1D RWY 24",
+      "procedures": [
+        {
+          "name": "EGOB1K",
+          "code": "EGOB1K"
+        },
+        {
+          "name": "GIBT1H",
+          "code": "GIBT1H"
+        },
+        {
+          "name": "TUNG1D",
+          "code": "TUNG1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - GIBT2B XOKI2A RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/STAR/STAR - ICAO - GIBT2B XOKI2A RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "STAR",
+      "runway": "RWY 24",
+      "title": "GIBT2B XOKI2A RWY 24",
+      "procedures": [
+        {
+          "name": "GIBT2B",
+          "code": "GIBT2B"
+        },
+        {
+          "name": "XOKI2A",
+          "code": "XOKI2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

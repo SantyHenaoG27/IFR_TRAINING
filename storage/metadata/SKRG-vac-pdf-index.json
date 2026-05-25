@@ -1,0 +1,26 @@
+{
+  "airport": "SKRG",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKRG/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual Arrivals CARMEN DE VIBORAL 1A GUARNE 1C LAFE 1B LAS PALMAS 1B STA ELENA 1B SN VICENTE 1B RWY 01 19.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/VAC/VAC - ICAO - Visual Arrivals CARMEN DE VIBORAL 1A GUARNE 1C LAFE 1B LAS PALMAS 1B STA ELENA 1B SN VICENTE 1B RWY 01 19.pdf",
+      "airport": "SKRG",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual Arrivals CARMEN DE VIBORAL 1A GUARNE 1C LAFE 1B LAS PALMAS 1B STA ELENA 1B SN VICENTE 1B RWY 01 19",
+      "runway": "RWY 01 19",
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual Departures GUARNE 1B LAFE 1A PALMAS 1A RNG 1A STA ELENA 1A SN VICENTE 1A RWY 01 19.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/VAC/VAC - ICAO - Visual Departures GUARNE 1B LAFE 1A PALMAS 1A RNG 1A STA ELENA 1A SN VICENTE 1A RWY 01 19.pdf",
+      "airport": "SKRG",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual Departures GUARNE 1B LAFE 1A PALMAS 1A RNG 1A STA ELENA 1A SN VICENTE 1A RWY 01 19",
+      "runway": "RWY 01 19",
+      "isTabular": false
+    }
+  ]
+}

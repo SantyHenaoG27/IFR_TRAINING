@@ -1,0 +1,44 @@
+{
+  "airport": "SKVV",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKVV/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - RNP RWY 23 (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/IAC/IAC - ICAO - RNP RWY 23 (Tabular Description).pdf",
+      "airport": "SKVV",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 23",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/IAC/IAC - ICAO - RNP RWY 23.pdf",
+      "airport": "SKVV",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 23",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR A RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/IAC/IAC - ICAO - VOR A RWY 05.pdf",
+      "airport": "SKVV",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 05",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR B RWY 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/IAC/IAC - ICAO - VOR B RWY 23.pdf",
+      "airport": "SKVV",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 23",
+      "isTabular": false
+    }
+  ]
+}

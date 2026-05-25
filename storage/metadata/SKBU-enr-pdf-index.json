@@ -1,0 +1,17 @@
+{
+  "airport": "SKBU",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKBU/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKBU_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKBU/ENR/01 SKBU_CTR.pdf",
+      "airport": "SKBU",
+      "chartType": "ENR",
+      "chartName": "SKBU CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

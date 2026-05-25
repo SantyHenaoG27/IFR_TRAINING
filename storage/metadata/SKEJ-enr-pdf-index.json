@@ -1,0 +1,17 @@
+{
+  "airport": "SKEJ",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKEJ/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKEJ_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/ENR/01 SKEJ_CTR.pdf",
+      "airport": "SKEJ",
+      "chartType": "ENR",
+      "chartName": "SKEJ CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

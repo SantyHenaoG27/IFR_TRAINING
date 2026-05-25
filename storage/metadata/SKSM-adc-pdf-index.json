@@ -1,0 +1,17 @@
+{
+  "airport": "SKSM",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKSM/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKSM_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/ADC/02 SKSM_ADC.pdf",
+      "airport": "SKSM",
+      "chartType": "ADC",
+      "chartName": "SKSM ADC",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

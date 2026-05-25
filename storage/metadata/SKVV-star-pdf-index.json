@@ -1,0 +1,78 @@
+{
+  "airport": "SKVV",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKVV/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - ANLA3C RWY 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/STAR/STAR - ICAO - ANLA3C RWY 23.pdf",
+      "airport": "SKVV",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "ANLA3C RWY 23",
+      "procedures": [
+        {
+          "name": "ANLA3C",
+          "code": "ANLA3C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ANLA5A RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/STAR/STAR - ICAO - ANLA5A RWY 05.pdf",
+      "airport": "SKVV",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "ANLA5A RWY 05",
+      "procedures": [
+        {
+          "name": "ANLA5A",
+          "code": "ANLA5A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - EVRA3F RWY 23 RNAV (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/STAR/STAR - ICAO - EVRA3F RWY 23 RNAV (Tabular Description).pdf",
+      "airport": "SKVV",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "EVRA3F RWY 23 RNAV",
+      "procedures": [
+        {
+          "name": "EVRA3F",
+          "code": "EVRA3F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - EVRA3F RWY 23 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/STAR/STAR - ICAO - EVRA3F RWY 23 RNAV.pdf",
+      "airport": "SKVV",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "EVRA3F RWY 23 RNAV",
+      "procedures": [
+        {
+          "name": "EVRA3F",
+          "code": "EVRA3F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual departures and RNAV STAR procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/STAR/VAC - ICAO - Visual departures and RNAV STAR procedures.pdf",
+      "airport": "SKVV",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "VAC - ICAO - Visual departures and RNAV STAR procedures",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

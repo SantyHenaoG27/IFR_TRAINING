@@ -1,0 +1,28 @@
+{
+  "airport": "SKSP",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKSP/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "05 SKSP_SID_1_RWY_24.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/SID/05 SKSP_SID_1_RWY_24.pdf",
+      "airport": "SKSP",
+      "chartType": "SID",
+      "runway": "RWY 24",
+      "title": "SKSP_SID_1_RWY_24",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKSP_SID_2_RWY_06.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/SID/06 SKSP_SID_2_RWY_06.pdf",
+      "airport": "SKSP",
+      "chartType": "SID",
+      "runway": "RWY 06",
+      "title": "SKSP_SID_2_RWY_06",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

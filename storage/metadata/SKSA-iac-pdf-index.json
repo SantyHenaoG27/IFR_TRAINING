@@ -1,0 +1,26 @@
+{
+  "airport": "SKSA",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKSA/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "05 SKSA_IAC_1_RNP_RWY_34.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/IAC/05 SKSA_IAC_1_RNP_RWY_34.pdf",
+      "airport": "SKSA",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 34",
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKSA_IAC_2_VOR_A_RWY_34.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/IAC/06 SKSA_IAC_2_VOR_A_RWY_34.pdf",
+      "airport": "SKSA",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 34",
+      "isTabular": false
+    }
+  ]
+}

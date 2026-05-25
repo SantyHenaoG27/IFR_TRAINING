@@ -1,0 +1,135 @@
+{
+  "airport": "SKPP",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKPP/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - CLO1K GAVA1D MER1H KUDG1G RWY 08 RNAV (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/SID/SID - ICAO - CLO1K GAVA1D MER1H KUDG1G RWY 08 RNAV (Tabular Description).pdf",
+      "airport": "SKPP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "CLO1K GAVA1D MER1H KUDG1G RWY 08 RNAV",
+      "procedures": [
+        {
+          "name": "CLO1K",
+          "code": "CLO1K"
+        },
+        {
+          "name": "GAVA1D",
+          "code": "GAVA1D"
+        },
+        {
+          "name": "MER1H",
+          "code": "MER1H"
+        },
+        {
+          "name": "KUDG1G",
+          "code": "KUDG1G"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - CLO1K GAVA1D MER1H KUDG1G RWY 08 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/SID/SID - ICAO - CLO1K GAVA1D MER1H KUDG1G RWY 08 RNAV.pdf",
+      "airport": "SKPP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "CLO1K GAVA1D MER1H KUDG1G RWY 08 RNAV",
+      "procedures": [
+        {
+          "name": "CLO1K",
+          "code": "CLO1K"
+        },
+        {
+          "name": "GAVA1D",
+          "code": "GAVA1D"
+        },
+        {
+          "name": "MER1H",
+          "code": "MER1H"
+        },
+        {
+          "name": "KUDG1G",
+          "code": "KUDG1G"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - CLO1L GIBT1J MER1G KUDG1F RWY 26 RNAV (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/SID/SID - ICAO - CLO1L GIBT1J MER1G KUDG1F RWY 26 RNAV (Tabular Description).pdf",
+      "airport": "SKPP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "CLO1L GIBT1J MER1G KUDG1F RWY 26 RNAV",
+      "procedures": [
+        {
+          "name": "CLO1L",
+          "code": "CLO1L"
+        },
+        {
+          "name": "GIBT1J",
+          "code": "GIBT1J"
+        },
+        {
+          "name": "MER1G",
+          "code": "MER1G"
+        },
+        {
+          "name": "KUDG1F",
+          "code": "KUDG1F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - CLO1L GIBT1J MER1G KUDG1F RWY 26 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/SID/SID - ICAO - CLO1L GIBT1J MER1G KUDG1F RWY 26 RNAV.pdf",
+      "airport": "SKPP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "CLO1L GIBT1J MER1G KUDG1F RWY 26 RNAV",
+      "procedures": [
+        {
+          "name": "CLO1L",
+          "code": "CLO1L"
+        },
+        {
+          "name": "GIBT1J",
+          "code": "GIBT1J"
+        },
+        {
+          "name": "MER1G",
+          "code": "MER1G"
+        },
+        {
+          "name": "KUDG1F",
+          "code": "KUDG1F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - CLO4B CLO1J RWY 08 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPP/SID/SID - ICAO - CLO4B CLO1J RWY 08 26.pdf",
+      "airport": "SKPP",
+      "chartType": "SID",
+      "runway": "RWY 08 26",
+      "title": "CLO4B CLO1J RWY 08 26",
+      "procedures": [
+        {
+          "name": "CLO4B",
+          "code": "CLO4B"
+        },
+        {
+          "name": "CLO1J",
+          "code": "CLO1J"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

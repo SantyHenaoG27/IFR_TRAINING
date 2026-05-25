@@ -1,0 +1,84 @@
+{
+  "airport": "SKLC",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKLC/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "13 SKLC_STAR_1_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/STAR/13 SKLC_STAR_1_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "STAR",
+      "runway": "RWY 33",
+      "title": "SKLC_STAR_1_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "14 SKLC_STAR_2_RNAV_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/STAR/14 SKLC_STAR_2_RNAV_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "STAR",
+      "runway": "RWY 33",
+      "title": "SKLC_STAR_2_RNAV_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "15 SKLC_STAR_3_RNAV_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/STAR/15 SKLC_STAR_3_RNAV_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "STAR",
+      "runway": "RWY 33",
+      "title": "SKLC_STAR_3_RNAV_RWY_33",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - BOKU1J ISRA1G MAPS2B REMU1F RWY 33 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/STAR/STAR - ICAO - BOKU1J ISRA1G MAPS2B REMU1F RWY 33 RNAV (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "STAR",
+      "runway": "RWY 33",
+      "title": "BOKU1J ISRA1G MAPS2B REMU1F RWY 33 RNAV",
+      "procedures": [
+        {
+          "name": "BOKU1J",
+          "code": "BOKU1J"
+        },
+        {
+          "name": "ISRA1G",
+          "code": "ISRA1G"
+        },
+        {
+          "name": "MAPS2B",
+          "code": "MAPS2B"
+        },
+        {
+          "name": "REMU1F",
+          "code": "REMU1F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - KAKO1B KUBE1B RWY 33 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/STAR/STAR - ICAO - KAKO1B KUBE1B RWY 33 RNAV (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "STAR",
+      "runway": "RWY 33",
+      "title": "KAKO1B KUBE1B RWY 33 RNAV",
+      "procedures": [
+        {
+          "name": "KAKO1B",
+          "code": "KAKO1B"
+        },
+        {
+          "name": "KUBE1B",
+          "code": "KUBE1B"
+        }
+      ],
+      "isTabular": true
+    }
+  ]
+}

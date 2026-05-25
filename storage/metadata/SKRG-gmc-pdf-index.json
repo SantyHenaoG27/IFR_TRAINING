@@ -1,0 +1,35 @@
+{
+  "airport": "SKRG",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKRG/GMC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aircraft Parking Docking Chart Cargo - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/GMC/Aircraft Parking Docking Chart Cargo - ICAO.pdf",
+      "airport": "SKRG",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart Cargo - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart Commercial Apron- ICAO (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/GMC/Aircraft Parking Docking Chart Commercial Apron- ICAO (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart Commercial Apron- ICAO (Tabular description)",
+      "runway": null,
+      "isTabular": true
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart Commercial Apron- ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/GMC/Aircraft Parking Docking Chart Commercial Apron- ICAO.pdf",
+      "airport": "SKRG",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart Commercial Apron- ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

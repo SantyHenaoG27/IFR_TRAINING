@@ -1,0 +1,161 @@
+{
+  "airport": "SKYP",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKYP/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - DEVA1A RWY 05 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - DEVA1A RWY 05 (Tabular description).pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "DEVA1A RWY 05",
+      "procedures": [
+        {
+          "name": "DEVA1A",
+          "code": "DEVA1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - DEVA1A RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - DEVA1A RWY 05.pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "DEVA1A RWY 05",
+      "procedures": [
+        {
+          "name": "DEVA1A",
+          "code": "DEVA1A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - KOTM1C SIRU1A TITN1E UBNO1H RWY 23 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - KOTM1C SIRU1A TITN1E UBNO1H RWY 23 RNAV (Tabular description).pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 23",
+      "title": "KOTM1C SIRU1A TITN1E UBNO1H RWY 23 RNAV",
+      "procedures": [
+        {
+          "name": "KOTM1C",
+          "code": "KOTM1C"
+        },
+        {
+          "name": "SIRU1A",
+          "code": "SIRU1A"
+        },
+        {
+          "name": "TITN1E",
+          "code": "TITN1E"
+        },
+        {
+          "name": "UBNO1H",
+          "code": "UBNO1H"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - KOTM1C SIRU1A TITN1E UBNO1H RWY 23 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - KOTM1C SIRU1A TITN1E UBNO1H RWY 23 RNAV.pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 23",
+      "title": "KOTM1C SIRU1A TITN1E UBNO1H RWY 23 RNAV",
+      "procedures": [
+        {
+          "name": "KOTM1C",
+          "code": "KOTM1C"
+        },
+        {
+          "name": "SIRU1A",
+          "code": "SIRU1A"
+        },
+        {
+          "name": "TITN1E",
+          "code": "TITN1E"
+        },
+        {
+          "name": "UBNO1H",
+          "code": "UBNO1H"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - OSIL1L REMI1J TOBS1E VUGE1E RWY 05 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - OSIL1L REMI1J TOBS1E VUGE1E RWY 05 RNAV (Tabular description).pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "OSIL1L REMI1J TOBS1E VUGE1E RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "OSIL1L",
+          "code": "OSIL1L"
+        },
+        {
+          "name": "REMI1J",
+          "code": "REMI1J"
+        },
+        {
+          "name": "TOBS1E",
+          "code": "TOBS1E"
+        },
+        {
+          "name": "VUGE1E",
+          "code": "VUGE1E"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - OSIL1L REMI1J TOBS1E VUGE1E RWY 05 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - OSIL1L REMI1J TOBS1E VUGE1E RWY 05 RNAV.pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "OSIL1L REMI1J TOBS1E VUGE1E RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "OSIL1L",
+          "code": "OSIL1L"
+        },
+        {
+          "name": "REMI1J",
+          "code": "REMI1J"
+        },
+        {
+          "name": "TOBS1E",
+          "code": "TOBS1E"
+        },
+        {
+          "name": "VUGE1E",
+          "code": "VUGE1E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - SUPN2A RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKYP/SID/SID - ICAO - SUPN2A RWY 05.pdf",
+      "airport": "SKYP",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "SUPN2A RWY 05",
+      "procedures": [
+        {
+          "name": "SUPN2A",
+          "code": "SUPN2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

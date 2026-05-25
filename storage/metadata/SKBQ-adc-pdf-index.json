@@ -1,0 +1,80 @@
+{
+  "airport": "SKBQ",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKBQ/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKBQ_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/04 SKBQ_ADC.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "SKBQ ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKBQ_APDC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/05 SKBQ_APDC.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "SKBQ APDC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKBQ_AOC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/06 SKBQ_AOC.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "SKBQ AOC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKBQ_AMA.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/07 SKBQ_AMA.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "SKBQ AMA",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "28 SKBQ_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/28 SKBQ_Carta_visibilidad.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "SKBQ Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone - ICAO - SKE3.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/Training zone - ICAO - SKE3.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "Training zone - ICAO - SKE3",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone - ICAO - SKE72.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/Training zone - ICAO - SKE72.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "Training zone - ICAO - SKE72",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKBQ",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

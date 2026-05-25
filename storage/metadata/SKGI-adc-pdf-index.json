@@ -1,0 +1,44 @@
+{
+  "airport": "SKGI",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKGI/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKGI_TRG_ZONE.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/ADC/01 SKGI_TRG_ZONE.pdf",
+      "airport": "SKGI",
+      "chartType": "ADC",
+      "chartName": "SKGI TRG ZONE",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKGI_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/ADC/05 SKGI_ADC.pdf",
+      "airport": "SKGI",
+      "chartType": "ADC",
+      "chartName": "SKGI ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKGI_APDC.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/ADC/06 SKGI_APDC.pdf",
+      "airport": "SKGI",
+      "chartType": "ADC",
+      "chartName": "SKGI APDC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "18 SKGI_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/ADC/18 SKGI_Carta_visibilidad.pdf",
+      "airport": "SKGI",
+      "chartType": "ADC",
+      "chartName": "SKGI Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

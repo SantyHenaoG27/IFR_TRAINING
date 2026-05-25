@@ -1,0 +1,53 @@
+{
+  "airport": "SKVV",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKVV/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - NIPN2A RWY 05 RNAV (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/SID/SID - ICAO - NIPN2A RWY 05 RNAV (Tabular Description).pdf",
+      "airport": "SKVV",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "NIPN2A RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "NIPN2A",
+          "code": "NIPN2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - NIPN2A RWY 05 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/SID/SID - ICAO - NIPN2A RWY 05 RNAV.pdf",
+      "airport": "SKVV",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "NIPN2A RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "NIPN2A",
+          "code": "NIPN2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - VVC1K RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKVV/SID/SID - ICAO - VVC1K RWY 05.pdf",
+      "airport": "SKVV",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "VVC1K RWY 05",
+      "procedures": [
+        {
+          "name": "VVC1K",
+          "code": "VVC1K"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

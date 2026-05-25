@@ -1,0 +1,26 @@
+{
+  "airport": "SKGY",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKGY/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "10. SKGY_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKGY/ADC/10. SKGY_Carta_visibilidad.pdf",
+      "airport": "SKGY",
+      "chartType": "ADC",
+      "chartName": ". SKGY Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKGY/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKGY",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

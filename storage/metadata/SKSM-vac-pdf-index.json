@@ -1,0 +1,17 @@
+{
+  "airport": "SKSM",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKSM/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "13 SKSM VAC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/VAC/13 SKSM VAC_1.pdf",
+      "airport": "SKSM",
+      "chartType": "VAC",
+      "chartName": "SKSM VAC 1",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

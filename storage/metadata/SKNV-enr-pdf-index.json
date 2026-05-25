@@ -1,0 +1,17 @@
+{
+  "airport": "SKNV",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKNV/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKNV_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/ENR/02 SKNV_CTR.pdf",
+      "airport": "SKNV",
+      "chartType": "ENR",
+      "chartName": "SKNV CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

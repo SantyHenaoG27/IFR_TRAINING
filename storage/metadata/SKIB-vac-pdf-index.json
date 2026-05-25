@@ -1,0 +1,17 @@
+{
+  "airport": "SKIB",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKIB/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "11 SKIB_VAC.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/VAC/11 SKIB_VAC.pdf",
+      "airport": "SKIB",
+      "chartType": "VAC",
+      "chartName": "SKIB VAC",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

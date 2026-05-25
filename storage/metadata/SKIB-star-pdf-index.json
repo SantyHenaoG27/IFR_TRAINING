@@ -1,0 +1,81 @@
+{
+  "airport": "SKIB",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKIB/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - RNP RWY 14 32 ABL2Q IBG3A MQU1B SILE3G (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/STAR/STAR - ICAO - RNP RWY 14 32 ABL2Q IBG3A MQU1B SILE3G (Tabular description).pdf",
+      "airport": "SKIB",
+      "chartType": "STAR",
+      "runway": "RWY 14 32",
+      "title": "RNP RWY 14 32 ABL2Q IBG3A MQU1B SILE3G",
+      "procedures": [
+        {
+          "name": "ABL2Q",
+          "code": "ABL2Q"
+        },
+        {
+          "name": "IBG3A",
+          "code": "IBG3A"
+        },
+        {
+          "name": "MQU1B",
+          "code": "MQU1B"
+        },
+        {
+          "name": "SILE3G",
+          "code": "SILE3G"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RNP RWY 14 32 ABL2Q IBG3A MQU1B SILE3G.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/STAR/STAR - ICAO - RNP RWY 14 32 ABL2Q IBG3A MQU1B SILE3G.pdf",
+      "airport": "SKIB",
+      "chartType": "STAR",
+      "runway": "RWY 14 32",
+      "title": "RNP RWY 14 32 ABL2Q IBG3A MQU1B SILE3G",
+      "procedures": [
+        {
+          "name": "ABL2Q",
+          "code": "ABL2Q"
+        },
+        {
+          "name": "IBG3A",
+          "code": "IBG3A"
+        },
+        {
+          "name": "MQU1B",
+          "code": "MQU1B"
+        },
+        {
+          "name": "SILE3G",
+          "code": "SILE3G"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 14 32 ABL1P SILE2F.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/STAR/STAR - ICAO - RWY 14 32 ABL1P SILE2F.pdf",
+      "airport": "SKIB",
+      "chartType": "STAR",
+      "runway": "RWY 14 32",
+      "title": "RWY 14 32 ABL1P SILE2F",
+      "procedures": [
+        {
+          "name": "ABL1P",
+          "code": "ABL1P"
+        },
+        {
+          "name": "SILE2F",
+          "code": "SILE2F"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

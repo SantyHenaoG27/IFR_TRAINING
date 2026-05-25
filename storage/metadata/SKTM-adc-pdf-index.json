@@ -1,0 +1,26 @@
+{
+  "airport": "SKTM",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKTM/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKTM_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKTM/ADC/02 SKTM_ADC.pdf",
+      "airport": "SKTM",
+      "chartType": "ADC",
+      "chartName": "SKTM ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKTM_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKTM/ADC/05 SKTM_Carta_visibilidad.pdf",
+      "airport": "SKTM",
+      "chartType": "ADC",
+      "chartName": "SKTM Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

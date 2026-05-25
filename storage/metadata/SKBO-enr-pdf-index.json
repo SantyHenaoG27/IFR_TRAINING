@@ -1,0 +1,35 @@
+{
+  "airport": "SKBO",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Control zone - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ENR/Control zone - ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "ENR",
+      "chartName": "Control zone - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Minimum area altitudes.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ENR/Minimum area altitudes.pdf",
+      "airport": "SKBO",
+      "chartType": "ENR",
+      "chartName": "Minimum area altitudes",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Minimum vectoring altitudes.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ENR/Minimum vectoring altitudes.pdf",
+      "airport": "SKBO",
+      "chartType": "ENR",
+      "chartName": "Minimum vectoring altitudes",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

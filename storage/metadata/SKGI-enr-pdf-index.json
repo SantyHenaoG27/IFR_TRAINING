@@ -1,0 +1,17 @@
+{
+  "airport": "SKGI",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKGI/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKGI_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/ENR/02 SKGI_CTR.pdf",
+      "airport": "SKGI",
+      "chartType": "ENR",
+      "chartName": "SKGI CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

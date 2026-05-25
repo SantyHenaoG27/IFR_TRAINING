@@ -1,0 +1,26 @@
+{
+  "airport": "SKUI",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKUI/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "22 SKUI_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/ADC/22 SKUI_Carta_visibilidad.pdf",
+      "airport": "SKUI",
+      "chartType": "ADC",
+      "chartName": "SKUI Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKUI",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

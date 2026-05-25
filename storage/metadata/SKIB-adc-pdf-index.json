@@ -1,0 +1,53 @@
+{
+  "airport": "SKIB",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKIB/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKIB_TRG_ZONA 1.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/ADC/01 SKIB_TRG_ZONA 1.pdf",
+      "airport": "SKIB",
+      "chartType": "ADC",
+      "chartName": "SKIB TRG ZONA 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "02 SKIB_TRG_ZONA 2.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/ADC/02 SKIB_TRG_ZONA 2.pdf",
+      "airport": "SKIB",
+      "chartType": "ADC",
+      "chartName": "SKIB TRG ZONA 2",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKIB_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/ADC/04 SKIB_ADC.pdf",
+      "airport": "SKIB",
+      "chartType": "ADC",
+      "chartName": "SKIB ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKIB_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/ADC/12 SKIB_Carta_visibilidad.pdf",
+      "airport": "SKIB",
+      "chartType": "ADC",
+      "chartName": "SKIB Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKIB",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

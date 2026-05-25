@@ -1,0 +1,134 @@
+{
+  "airport": "SKCC",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKCC/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "12 SKCC_STAR_1_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/12 SKCC_STAR_1_RWY_16.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 16",
+      "title": "SKCC_STAR_1_RWY_16",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "13 SKCC_STAR_2_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/13 SKCC_STAR_2_RWY_16.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 16",
+      "title": "SKCC_STAR_2_RWY_16",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "14 SKCC_STAR_3_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/14 SKCC_STAR_3_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "SKCC_STAR_3_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "15 SKCC_STAR_4_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/15 SKCC_STAR_4_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "SKCC_STAR_4_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "16 SKCC_STAR_5_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/16 SKCC_STAR_5_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "SKCC_STAR_5_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DIMI1F LUCH1A TIBU1F RWY 16 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/STAR - ICAO - DIMI1F LUCH1A TIBU1F RWY 16 RNAV (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 16",
+      "title": "DIMI1F LUCH1A TIBU1F RWY 16 RNAV",
+      "procedures": [
+        {
+          "name": "DIMI1F",
+          "code": "DIMI1F"
+        },
+        {
+          "name": "LUCH1A",
+          "code": "LUCH1A"
+        },
+        {
+          "name": "TIBU1F",
+          "code": "TIBU1F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - DIMI1F LUCH1A TIBU1F RWY 16 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/STAR - ICAO - DIMI1F LUCH1A TIBU1F RWY 16 RNAV.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 16",
+      "title": "DIMI1F LUCH1A TIBU1F RWY 16 RNAV",
+      "procedures": [
+        {
+          "name": "DIMI1F",
+          "code": "DIMI1F"
+        },
+        {
+          "name": "LUCH1A",
+          "code": "LUCH1A"
+        },
+        {
+          "name": "TIBU1F",
+          "code": "TIBU1F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ESNU2K RWY 16_21 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/STAR - ICAO - ESNU2K RWY 16_21 RNAV (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 16 21",
+      "title": "ESNU2K RWY 16_21 RNAV",
+      "procedures": [
+        {
+          "name": "ESNU2K",
+          "code": "ESNU2K"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - ESNU2K RWY 16_21 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/STAR/STAR - ICAO - ESNU2K RWY 16_21 RNAV.pdf",
+      "airport": "SKCC",
+      "chartType": "STAR",
+      "runway": "RWY 16 21",
+      "title": "ESNU2K RWY 16_21 RNAV",
+      "procedures": [
+        {
+          "name": "ESNU2K",
+          "code": "ESNU2K"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "airport": "SKRG",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKRG/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 01 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/IAC/IAC - ICAO - ILS Y RWY 01 (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 01",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/IAC/IAC - ICAO - ILS Y RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 01",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Z RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/IAC/IAC - ICAO - ILS Z RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "IAC",
+      "procedureName": "ILS Z",
+      "runway": "RWY 01",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - LOC RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/IAC/IAC - ICAO - LOC RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "IAC",
+      "procedureName": "LOC",
+      "runway": "RWY 01",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 01 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/IAC/IAC - ICAO - RNP RWY 01 (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 01",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/IAC/IAC - ICAO - RNP RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 01",
+      "isTabular": false
+    }
+  ]
+}

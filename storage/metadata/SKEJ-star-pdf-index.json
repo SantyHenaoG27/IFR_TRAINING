@@ -1,0 +1,76 @@
+{
+  "airport": "SKEJ",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKEJ/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "07 SKEJ_STAR_1_RNAV_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/STAR/07 SKEJ_STAR_1_RNAV_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "STAR",
+      "runway": "RWY 04",
+      "title": "SKEJ_STAR_1_RNAV_RWY_04",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKEJ_STAR_2_RNAV_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/STAR/08 SKEJ_STAR_2_RNAV_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "STAR",
+      "runway": "RWY 04",
+      "title": "SKEJ_STAR_2_RNAV_RWY_04",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKEJ_STAR_3_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/STAR/09 SKEJ_STAR_3_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "STAR",
+      "runway": "RWY 04",
+      "title": "SKEJ_STAR_3_RWY_04",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - POXO1G UMKA1D YACA1B RWY 04 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/STAR/STAR - ICAO - POXO1G UMKA1D YACA1B RWY 04 (Tabular description).pdf",
+      "airport": "SKEJ",
+      "chartType": "STAR",
+      "runway": "RWY 04",
+      "title": "POXO1G UMKA1D YACA1B RWY 04",
+      "procedures": [
+        {
+          "name": "POXO1G",
+          "code": "POXO1G"
+        },
+        {
+          "name": "UMKA1D",
+          "code": "UMKA1D"
+        },
+        {
+          "name": "YACA1B",
+          "code": "YACA1B"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - YACA1A RWY 04 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/STAR/STAR - ICAO - YACA1A RWY 04 (Tabular description).pdf",
+      "airport": "SKEJ",
+      "chartType": "STAR",
+      "runway": "RWY 04",
+      "title": "YACA1A RWY 04",
+      "procedures": [
+        {
+          "name": "YACA1A",
+          "code": "YACA1A"
+        }
+      ],
+      "isTabular": true
+    }
+  ]
+}

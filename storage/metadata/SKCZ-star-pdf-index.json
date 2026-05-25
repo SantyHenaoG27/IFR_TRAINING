@@ -1,0 +1,18 @@
+{
+  "airport": "SKCZ",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKCZ/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "07 STAR_1_RNAV_RWY_03.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/STAR/07 STAR_1_RNAV_RWY_03.pdf",
+      "airport": "SKCZ",
+      "chartType": "STAR",
+      "runway": "RWY 03",
+      "title": "STAR_1_RNAV_RWY_03",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

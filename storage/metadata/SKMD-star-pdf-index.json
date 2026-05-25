@@ -1,0 +1,23 @@
+{
+  "airport": "SKMD",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKMD/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - RNG1E RWY 02 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/STAR/STAR - ICAO - RNG1E RWY 02 20.pdf",
+      "airport": "SKMD",
+      "chartType": "STAR",
+      "runway": "RWY 02 20",
+      "title": "RNG1E RWY 02 20",
+      "procedures": [
+        {
+          "name": "RNG1E",
+          "code": "RNG1E"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

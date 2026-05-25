@@ -1,0 +1,26 @@
+{
+  "airport": "SKCZ",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKCZ/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "08 IAC_1_VOR_RWY_03.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/IAC/08 IAC_1_VOR_RWY_03.pdf",
+      "airport": "SKCZ",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 03",
+      "isTabular": false
+    },
+    {
+      "fileName": "09 IAC_2_RNP_RWY_03.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/IAC/09 IAC_2_RNP_RWY_03.pdf",
+      "airport": "SKCZ",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 03",
+      "isTabular": false
+    }
+  ]
+}

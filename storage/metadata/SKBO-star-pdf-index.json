@@ -1,0 +1,383 @@
+{
+  "airport": "SKBO",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - ATAN4E HC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E HC.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "ATAN4E HC",
+      "procedures": [
+        {
+          "name": "ATAN4E",
+          "code": "ATAN4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ATAN4E T1.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E T1.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "ATAN4E T1",
+      "procedures": [
+        {
+          "name": "ATAN4E",
+          "code": "ATAN4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ATAN4E T2.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E T2.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "ATAN4E T2",
+      "procedures": [
+        {
+          "name": "ATAN4E",
+          "code": "ATAN4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ATAN4E T3.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E T3.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "ATAN4E T3",
+      "procedures": [
+        {
+          "name": "ATAN4E",
+          "code": "ATAN4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ATAN4E T4.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E T4.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "ATAN4E T4",
+      "procedures": [
+        {
+          "name": "ATAN4E",
+          "code": "ATAN4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ATAN4E.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "ATAN4E",
+      "procedures": [
+        {
+          "name": "ATAN4E",
+          "code": "ATAN4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DOPL4E HC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - DOPL4E HC.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "DOPL4E HC",
+      "procedures": [
+        {
+          "name": "DOPL4E",
+          "code": "DOPL4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DOPL4E T1.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - DOPL4E T1.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "DOPL4E T1",
+      "procedures": [
+        {
+          "name": "DOPL4E",
+          "code": "DOPL4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DOPL4E T2.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - DOPL4E T2.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "DOPL4E T2",
+      "procedures": [
+        {
+          "name": "DOPL4E",
+          "code": "DOPL4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DOPL4E T3.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - DOPL4E T3.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "DOPL4E T3",
+      "procedures": [
+        {
+          "name": "DOPL4E",
+          "code": "DOPL4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DOPL4E.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - DOPL4E.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "DOPL4E",
+      "procedures": [
+        {
+          "name": "DOPL4E",
+          "code": "DOPL4E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Operating instructions).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Operating instructions).pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Operating instructions)",
+      "procedures": [
+        {
+          "name": "ATAN4T",
+          "code": "ATAN4T"
+        },
+        {
+          "name": "GRUD4E",
+          "code": "GRUD4E"
+        },
+        {
+          "name": "GRUD4T",
+          "code": "GRUD4T"
+        },
+        {
+          "name": "MUGO4T",
+          "code": "MUGO4T"
+        },
+        {
+          "name": "ATAN4S",
+          "code": "ATAN4S"
+        },
+        {
+          "name": "GRUD4S",
+          "code": "GRUD4S"
+        },
+        {
+          "name": "GRUD4W",
+          "code": "GRUD4W"
+        },
+        {
+          "name": "MUGO4S",
+          "code": "MUGO4S"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 1)",
+      "procedures": [
+        {
+          "name": "ATAN4T",
+          "code": "ATAN4T"
+        },
+        {
+          "name": "GRUD4E",
+          "code": "GRUD4E"
+        },
+        {
+          "name": "GRUD4T",
+          "code": "GRUD4T"
+        },
+        {
+          "name": "MUGO4T",
+          "code": "MUGO4T"
+        },
+        {
+          "name": "ATAN4S",
+          "code": "ATAN4S"
+        },
+        {
+          "name": "GRUD4S",
+          "code": "GRUD4S"
+        },
+        {
+          "name": "GRUD4W",
+          "code": "GRUD4W"
+        },
+        {
+          "name": "MUGO4S",
+          "code": "MUGO4S"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 2).pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 2)",
+      "procedures": [
+        {
+          "name": "ATAN4T",
+          "code": "ATAN4T"
+        },
+        {
+          "name": "GRUD4E",
+          "code": "GRUD4E"
+        },
+        {
+          "name": "GRUD4T",
+          "code": "GRUD4T"
+        },
+        {
+          "name": "MUGO4T",
+          "code": "MUGO4T"
+        },
+        {
+          "name": "ATAN4S",
+          "code": "ATAN4S"
+        },
+        {
+          "name": "GRUD4S",
+          "code": "GRUD4S"
+        },
+        {
+          "name": "GRUD4W",
+          "code": "GRUD4W"
+        },
+        {
+          "name": "MUGO4S",
+          "code": "MUGO4S"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S",
+      "procedures": [
+        {
+          "name": "ATAN4T",
+          "code": "ATAN4T"
+        },
+        {
+          "name": "GRUD4E",
+          "code": "GRUD4E"
+        },
+        {
+          "name": "GRUD4T",
+          "code": "GRUD4T"
+        },
+        {
+          "name": "MUGO4T",
+          "code": "MUGO4T"
+        },
+        {
+          "name": "ATAN4S",
+          "code": "ATAN4S"
+        },
+        {
+          "name": "GRUD4S",
+          "code": "GRUD4S"
+        },
+        {
+          "name": "GRUD4W",
+          "code": "GRUD4W"
+        },
+        {
+          "name": "MUGO4S",
+          "code": "MUGO4S"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 14L 14R ABL2L VULA6D.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - RWY 14L 14R ABL2L VULA6D.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": "RWY 14L 14R",
+      "title": "RWY 14L 14R ABL2L VULA6D",
+      "procedures": [
+        {
+          "name": "ABL2L",
+          "code": "ABL2L"
+        },
+        {
+          "name": "VULA6D",
+          "code": "VULA6D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 32L 32R ABL2M VULA3F.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - RWY 32L 32R ABL2M VULA3F.pdf",
+      "airport": "SKBO",
+      "chartType": "STAR",
+      "runway": "RWY 32L 32R",
+      "title": "RWY 32L 32R ABL2M VULA3F",
+      "procedures": [
+        {
+          "name": "ABL2M",
+          "code": "ABL2M"
+        },
+        {
+          "name": "VULA3F",
+          "code": "VULA3F"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

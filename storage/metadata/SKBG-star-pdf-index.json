@@ -1,0 +1,68 @@
+{
+  "airport": "SKBG",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKBG/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "14 SKBG_STAR_1_RWY_35_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/STAR/14 SKBG_STAR_1_RWY_35_17.pdf",
+      "airport": "SKBG",
+      "chartType": "STAR",
+      "runway": "RWY 35 17",
+      "title": "SKBG_STAR_1_RWY_35_17",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "15 SKBG_STAR_2_RWY_35_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/STAR/15 SKBG_STAR_2_RWY_35_17.pdf",
+      "airport": "SKBG",
+      "chartType": "STAR",
+      "runway": "RWY 35 17",
+      "title": "SKBG_STAR_2_RWY_35_17",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "16 SKBG_STAR_3_RNAV_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/STAR/16 SKBG_STAR_3_RNAV_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "STAR",
+      "runway": "RWY 35",
+      "title": "SKBG_STAR_3_RNAV_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "17 SKBG_STAR_4_RNAV_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/STAR/17 SKBG_STAR_4_RNAV_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "STAR",
+      "runway": "RWY 35",
+      "title": "SKBG_STAR_4_RNAV_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "18 SKBG_STAR_5_RNAV_RWY_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/STAR/18 SKBG_STAR_5_RNAV_RWY_17.pdf",
+      "airport": "SKBG",
+      "chartType": "STAR",
+      "runway": "RWY 17",
+      "title": "SKBG_STAR_5_RNAV_RWY_17",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "19 SKBG_STAR_6_RNAV_RWY_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/STAR/19 SKBG_STAR_6_RNAV_RWY_17.pdf",
+      "airport": "SKBG",
+      "chartType": "STAR",
+      "runway": "RWY 17",
+      "title": "SKBG_STAR_6_RNAV_RWY_17",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "airport": "SKVP",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKVP/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - RWY 02 BUXE1K EDVA3C IRON2F UGOS3A UMPU3C (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/STAR/STAR - ICAO - RWY 02 BUXE1K EDVA3C IRON2F UGOS3A UMPU3C (Tabular description).pdf",
+      "airport": "SKVP",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "RWY 02 BUXE1K EDVA3C IRON2F UGOS3A UMPU3C",
+      "procedures": [
+        {
+          "name": "BUXE1K",
+          "code": "BUXE1K"
+        },
+        {
+          "name": "EDVA3C",
+          "code": "EDVA3C"
+        },
+        {
+          "name": "IRON2F",
+          "code": "IRON2F"
+        },
+        {
+          "name": "UGOS3A",
+          "code": "UGOS3A"
+        },
+        {
+          "name": "UMPU3C",
+          "code": "UMPU3C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 02 BUXE1K EDVA3C IRON2F UGOS3A UMPU3C.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/STAR/STAR - ICAO - RWY 02 BUXE1K EDVA3C IRON2F UGOS3A UMPU3C.pdf",
+      "airport": "SKVP",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "RWY 02 BUXE1K EDVA3C IRON2F UGOS3A UMPU3C",
+      "procedures": [
+        {
+          "name": "BUXE1K",
+          "code": "BUXE1K"
+        },
+        {
+          "name": "EDVA3C",
+          "code": "EDVA3C"
+        },
+        {
+          "name": "IRON2F",
+          "code": "IRON2F"
+        },
+        {
+          "name": "UGOS3A",
+          "code": "UGOS3A"
+        },
+        {
+          "name": "UMPU3C",
+          "code": "UMPU3C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 02 EDVA1H.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/STAR/STAR - ICAO - RWY 02 EDVA1H.pdf",
+      "airport": "SKVP",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "RWY 02 EDVA1H",
+      "procedures": [
+        {
+          "name": "EDVA1H",
+          "code": "EDVA1H"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 02 UGOS2E IRON1K BUXE1M.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/STAR/STAR - ICAO - RWY 02 UGOS2E IRON1K BUXE1M.pdf",
+      "airport": "SKVP",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "RWY 02 UGOS2E IRON1K BUXE1M",
+      "procedures": [
+        {
+          "name": "UGOS2E",
+          "code": "UGOS2E"
+        },
+        {
+          "name": "IRON1K",
+          "code": "IRON1K"
+        },
+        {
+          "name": "BUXE1M",
+          "code": "BUXE1M"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 20 BUXE1L IRON1G UGOS1B UMPU1D EDVA1J (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/STAR/STAR - ICAO - RWY 20 BUXE1L IRON1G UGOS1B UMPU1D EDVA1J (Tabular description).pdf",
+      "airport": "SKVP",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "RWY 20 BUXE1L IRON1G UGOS1B UMPU1D EDVA1J",
+      "procedures": [
+        {
+          "name": "BUXE1L",
+          "code": "BUXE1L"
+        },
+        {
+          "name": "IRON1G",
+          "code": "IRON1G"
+        },
+        {
+          "name": "UGOS1B",
+          "code": "UGOS1B"
+        },
+        {
+          "name": "UMPU1D",
+          "code": "UMPU1D"
+        },
+        {
+          "name": "EDVA1J",
+          "code": "EDVA1J"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 20 BUXE1L IRON1G UGOS1B UMPU1D EDVA1J.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/STAR/STAR - ICAO - RWY 20 BUXE1L IRON1G UGOS1B UMPU1D EDVA1J.pdf",
+      "airport": "SKVP",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "RWY 20 BUXE1L IRON1G UGOS1B UMPU1D EDVA1J",
+      "procedures": [
+        {
+          "name": "BUXE1L",
+          "code": "BUXE1L"
+        },
+        {
+          "name": "IRON1G",
+          "code": "IRON1G"
+        },
+        {
+          "name": "UGOS1B",
+          "code": "UGOS1B"
+        },
+        {
+          "name": "UMPU1D",
+          "code": "UMPU1D"
+        },
+        {
+          "name": "EDVA1J",
+          "code": "EDVA1J"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

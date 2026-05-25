@@ -1,0 +1,17 @@
+{
+  "airport": "SKQU",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKQU/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKQU_IAC_1_VOR_A_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKQU/IAC/03 SKQU_IAC_1_VOR_A_RWY_01.pdf",
+      "airport": "SKQU",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 01",
+      "isTabular": false
+    }
+  ]
+}

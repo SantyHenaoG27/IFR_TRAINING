@@ -1,0 +1,38 @@
+{
+  "airport": "SKGO",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKGO/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKGO_SID_1_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKGO/SID/04 SKGO_SID_1_RWY_01.pdf",
+      "airport": "SKGO",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "SKGO_SID_1_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKGO_SID_2_RWY_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKGO/SID/05 SKGO_SID_2_RWY_19.pdf",
+      "airport": "SKGO",
+      "chartType": "SID",
+      "runway": "RWY 19",
+      "title": "SKGO_SID_2_RWY_19",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKGO_SID_3_RWY_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKGO/SID/06 SKGO_SID_3_RWY_19.pdf",
+      "airport": "SKGO",
+      "chartType": "SID",
+      "runway": "RWY 19",
+      "title": "SKGO_SID_3_RWY_19",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

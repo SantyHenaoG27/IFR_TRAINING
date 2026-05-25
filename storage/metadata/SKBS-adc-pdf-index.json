@@ -1,0 +1,26 @@
+{
+  "airport": "SKBS",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKBS/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKBS_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKBS/ADC/02 SKBS_ADC.pdf",
+      "airport": "SKBS",
+      "chartType": "ADC",
+      "chartName": "SKBS ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKBS _Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKBS/ADC/03 SKBS _Carta_visibilidad.pdf",
+      "airport": "SKBS",
+      "chartType": "ADC",
+      "chartName": "SKBS  Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

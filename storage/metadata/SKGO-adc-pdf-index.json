@@ -1,0 +1,26 @@
+{
+  "airport": "SKGO",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKGO/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKGO_ADC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKGO/ADC/03 SKGO_ADC_1.pdf",
+      "airport": "SKGO",
+      "chartType": "ADC",
+      "chartName": "SKGO ADC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKGO_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKGO/ADC/08 SKGO_Carta_visibilidad.pdf",
+      "airport": "SKGO",
+      "chartType": "ADC",
+      "chartName": "SKGO Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

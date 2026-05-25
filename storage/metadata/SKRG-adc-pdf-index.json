@@ -1,0 +1,107 @@
+{
+  "airport": "SKRG",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKRG/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKRG_Zona_helicopteros.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/01 SKRG_Zona_helicopteros.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "SKRG Zona helicopteros",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKRG_AOC.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/06 SKRG_AOC.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "SKRG AOC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKRG_PATC.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/07 SKRG_PATC.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "SKRG PATC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKRG_AMA.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/08 SKRG_AMA.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "SKRG AMA",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKRG_RMAC.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/09 SKRG_RMAC.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "SKRG RMAC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "31 SKRG_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/31 SKRG_Carta_visibilidad.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "SKRG Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP A RWY 19 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/RVFP - ICAO - RNP A RWY 19 (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP A RWY 19 (Tabular description)",
+      "runway": "RWY 19",
+      "isTabular": true
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP A RWY 19.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/RVFP - ICAO - RNP A RWY 19.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP A RWY 19",
+      "runway": "RWY 19",
+      "isTabular": false
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP B RWY 19 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/RVFP - ICAO - RNP B RWY 19 (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP B RWY 19 (Tabular description)",
+      "runway": "RWY 19",
+      "isTabular": true
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP B RWY 19.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ADC/RVFP - ICAO - RNP B RWY 19.pdf",
+      "airport": "SKRG",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP B RWY 19",
+      "runway": "RWY 19",
+      "isTabular": false
+    }
+  ]
+}

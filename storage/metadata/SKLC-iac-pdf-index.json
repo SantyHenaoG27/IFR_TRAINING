@@ -1,0 +1,35 @@
+{
+  "airport": "SKLC",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKLC/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "16 SKLC_IAC_1_VOR_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/IAC/16 SKLC_IAC_1_VOR_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 33",
+      "isTabular": false
+    },
+    {
+      "fileName": "17 SKLC_IAC_2_RNP_RWY_33.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/IAC/17 SKLC_IAC_2_RNP_RWY_33.pdf",
+      "airport": "SKLC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 33",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 33 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/IAC/IAC - ICAO - RNP RWY 33 (Tabular description).pdf",
+      "airport": "SKLC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 33",
+      "isTabular": true
+    }
+  ]
+}

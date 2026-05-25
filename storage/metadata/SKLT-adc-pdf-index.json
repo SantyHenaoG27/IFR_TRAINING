@@ -1,0 +1,53 @@
+{
+  "airport": "SKLT",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKLT/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02. SKLT_ADC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ADC/02. SKLT_ADC_1.pdf",
+      "airport": "SKLT",
+      "chartType": "ADC",
+      "chartName": ". SKLT ADC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03. SKLT_APDC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ADC/03. SKLT_APDC_1.pdf",
+      "airport": "SKLT",
+      "chartType": "ADC",
+      "chartName": ". SKLT APDC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04. SKLT_AOC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ADC/04. SKLT_AOC_1.pdf",
+      "airport": "SKLT",
+      "chartType": "ADC",
+      "chartName": ". SKLT AOC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ADC/Visibility chart - ICAO.pdf",
+      "airport": "SKLT",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKLT",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

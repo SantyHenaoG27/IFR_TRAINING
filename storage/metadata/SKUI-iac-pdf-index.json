@@ -1,0 +1,53 @@
+{
+  "airport": "SKUI",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKUI/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "15 SKUI_IAC_1_ILS_Z_CAT_I_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/IAC/15 SKUI_IAC_1_ILS_Z_CAT_I_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "IAC",
+      "procedureName": "15 SKUI_IAC_1_ILS_Z_CAT_I_RWY_31.pdf",
+      "runway": "RWY 31",
+      "isTabular": false
+    },
+    {
+      "fileName": "16 SKUI_IAC_2_VOR_Z_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/IAC/16 SKUI_IAC_2_VOR_Z_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 31",
+      "isTabular": false
+    },
+    {
+      "fileName": "18 SKUI_IAC_4_ILS_Y_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/IAC/18 SKUI_IAC_4_ILS_Y_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "IAC",
+      "procedureName": "18 SKUI_IAC_4_ILS_Y_RWY_31.pdf",
+      "runway": "RWY 31",
+      "isTabular": false
+    },
+    {
+      "fileName": "19 SKUI_IAC_5_RNP_RWY_31.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/IAC/19 SKUI_IAC_5_RNP_RWY_31.pdf",
+      "airport": "SKUI",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 31",
+      "isTabular": false
+    },
+    {
+      "fileName": "20 SKUI_IAC_6_RNP_RWY_13.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/IAC/20 SKUI_IAC_6_RNP_RWY_13.pdf",
+      "airport": "SKUI",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 13",
+      "isTabular": false
+    }
+  ]
+}

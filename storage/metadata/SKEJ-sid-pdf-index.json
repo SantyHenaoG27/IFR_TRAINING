@@ -1,0 +1,68 @@
+{
+  "airport": "SKEJ",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKEJ/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKEJ_SID_1_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/SID/04 SKEJ_SID_1_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "SID",
+      "runway": "RWY 04",
+      "title": "SKEJ_SID_1_RWY_04",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKEJ_SID_2_RNAV_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/SID/05 SKEJ_SID_2_RNAV_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "SID",
+      "runway": "RWY 04",
+      "title": "SKEJ_SID_2_RNAV_RWY_04",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKEJ_SID_3_RNAV_RWY_22.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/SID/06 SKEJ_SID_3_RNAV_RWY_22.pdf",
+      "airport": "SKEJ",
+      "chartType": "SID",
+      "runway": "RWY 22",
+      "title": "SKEJ_SID_3_RNAV_RWY_22",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - AKSO1A RWY 04 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/SID/SID - ICAO - AKSO1A RWY 04 (Tabular description).pdf",
+      "airport": "SKEJ",
+      "chartType": "SID",
+      "runway": "RWY 04",
+      "title": "AKSO1A RWY 04",
+      "procedures": [
+        {
+          "name": "AKSO1A",
+          "code": "AKSO1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - AKSO1B RWY 22 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/SID/SID - ICAO - AKSO1B RWY 22 (Tabular description).pdf",
+      "airport": "SKEJ",
+      "chartType": "SID",
+      "runway": "RWY 22",
+      "title": "AKSO1B RWY 22",
+      "procedures": [
+        {
+          "name": "AKSO1B",
+          "code": "AKSO1B"
+        }
+      ],
+      "isTabular": true
+    }
+  ]
+}

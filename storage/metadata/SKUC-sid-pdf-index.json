@@ -1,0 +1,48 @@
+{
+  "airport": "SKUC",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKUC/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKUC_SID_1_RWY_11.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/SID/03 SKUC_SID_1_RWY_11.pdf",
+      "airport": "SKUC",
+      "chartType": "SID",
+      "runway": "RWY 11",
+      "title": "SKUC_SID_1_RWY_11",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKUC_SID_2_RWY_11.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/SID/04 SKUC_SID_2_RWY_11.pdf",
+      "airport": "SKUC",
+      "chartType": "SID",
+      "runway": "RWY 11",
+      "title": "SKUC_SID_2_RWY_11",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKUC_SID_3_RNAV_RWY_11.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/SID/05 SKUC_SID_3_RNAV_RWY_11.pdf",
+      "airport": "SKUC",
+      "chartType": "SID",
+      "runway": "RWY 11",
+      "title": "SKUC_SID_3_RNAV_RWY_11",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKUC_SID_4_RWY_29.pdf",
+      "filePath": "storage/uploads/pdfs/SKUC/SID/06 SKUC_SID_4_RWY_29.pdf",
+      "airport": "SKUC",
+      "chartType": "SID",
+      "runway": "RWY 29",
+      "title": "SKUC_SID_4_RWY_29",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

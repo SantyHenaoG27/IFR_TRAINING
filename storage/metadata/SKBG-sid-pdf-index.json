@@ -1,0 +1,98 @@
+{
+  "airport": "SKBG",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKBG/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "05 SKBG_SID_1_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/05 SKBG_SID_1_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 35",
+      "title": "SKBG_SID_1_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKBG_SID_2_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/06 SKBG_SID_2_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 35",
+      "title": "SKBG_SID_2_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKBG_SID_3_RWY_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/07 SKBG_SID_3_RWY_17.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 17",
+      "title": "SKBG_SID_3_RWY_17",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKBG_SID_4_RWY_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/08 SKBG_SID_4_RWY_17.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 17",
+      "title": "SKBG_SID_4_RWY_17",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKBG_SID_5_RNAV_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/09 SKBG_SID_5_RNAV_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 35",
+      "title": "SKBG_SID_5_RNAV_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKBG_SID_6_RNAV_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/10 SKBG_SID_6_RNAV_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 35",
+      "title": "SKBG_SID_6_RNAV_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKBG_SID_7_RNAV_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/11 SKBG_SID_7_RNAV_RWY_35.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 35",
+      "title": "SKBG_SID_7_RNAV_RWY_35",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKBG_SID_8_RNAV_RWY_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/12 SKBG_SID_8_RNAV_RWY_17.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 17",
+      "title": "SKBG_SID_8_RNAV_RWY_17",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "13 SKBG_SID_9_RNAV_RWY_17.pdf",
+      "filePath": "storage/uploads/pdfs/SKBG/SID/13 SKBG_SID_9_RNAV_RWY_17.pdf",
+      "airport": "SKBG",
+      "chartType": "SID",
+      "runway": "RWY 17",
+      "title": "SKBG_SID_9_RNAV_RWY_17",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

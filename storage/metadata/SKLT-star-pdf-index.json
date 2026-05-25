@@ -1,0 +1,141 @@
+{
+  "airport": "SKLT",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKLT/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - AROT3C KALO3A RWY 21 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO - AROT3C KALO3A RWY 21 RNAV (Tabular description).pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "AROT3C KALO3A RWY 21 RNAV",
+      "procedures": [
+        {
+          "name": "AROT3C",
+          "code": "AROT3C"
+        },
+        {
+          "name": "KALO3A",
+          "code": "KALO3A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - AROT3C KALO3A RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO - AROT3C KALO3A RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "AROT3C KALO3A RWY 21",
+      "procedures": [
+        {
+          "name": "AROT3C",
+          "code": "AROT3C"
+        },
+        {
+          "name": "KALO3A",
+          "code": "KALO3A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - DALO2D BODA2D RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO - DALO2D BODA2D RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "DALO2D BODA2D RWY 21",
+      "procedures": [
+        {
+          "name": "DALO2D",
+          "code": "DALO2D"
+        },
+        {
+          "name": "BODA2D",
+          "code": "BODA2D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - PABO1A ROKU3A RWY 21 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO - PABO1A ROKU3A RWY 21 (Tabular description).pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "PABO1A ROKU3A RWY 21",
+      "procedures": [
+        {
+          "name": "PABO1A",
+          "code": "PABO1A"
+        },
+        {
+          "name": "ROKU3A",
+          "code": "ROKU3A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - PABO1A ROKU3A RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO - PABO1A ROKU3A RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "PABO1A ROKU3A RWY 21",
+      "procedures": [
+        {
+          "name": "PABO1A",
+          "code": "PABO1A"
+        },
+        {
+          "name": "ROKU3A",
+          "code": "ROKU3A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO- BUTA2J SPRI3A RWY 21 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO- BUTA2J SPRI3A RWY 21 (Tabular description).pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "STAR - ICAO- BUTA2J SPRI3A RWY 21",
+      "procedures": [
+        {
+          "name": "BUTA2J",
+          "code": "BUTA2J"
+        },
+        {
+          "name": "SPRI3A",
+          "code": "SPRI3A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO- BUTA2J SPRI3A RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/STAR/STAR - ICAO- BUTA2J SPRI3A RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "STAR",
+      "runway": "RWY 21",
+      "title": "STAR - ICAO- BUTA2J SPRI3A RWY 21",
+      "procedures": [
+        {
+          "name": "BUTA2J",
+          "code": "BUTA2J"
+        },
+        {
+          "name": "SPRI3A",
+          "code": "SPRI3A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "airport": "SKBO",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/GMC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aerodrome Ground movement chart east - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aerodrome Ground movement chart east - ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aerodrome Ground movement chart east - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Ground movement chart west - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aerodrome Ground movement chart west - ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aerodrome Ground movement chart west - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome taxiing circuits LVP arrivals RWY 14L 32R departures 14R 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aerodrome taxiing circuits LVP arrivals RWY 14L 32R departures 14R 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aerodrome taxiing circuits LVP arrivals RWY 14L 32R departures 14R 32L",
+      "runway": "RWY 14L 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart Cargo - ICAO (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart Cargo - ICAO (Tabular Description).pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart Cargo - ICAO (Tabular Description)",
+      "runway": null,
+      "isTabular": true
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart Cargo - ICAO (Towing Instructions).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart Cargo - ICAO (Towing Instructions).pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart Cargo - ICAO (Towing Instructions)",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart Cargo - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart Cargo - ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart Cargo - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart T1 - ICAO (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart T1 - ICAO (Tabular Description).pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart T1 - ICAO (Tabular Description)",
+      "runway": null,
+      "isTabular": true
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart T1 - ICAO (Towing Instructions).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart T1 - ICAO (Towing Instructions).pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart T1 - ICAO (Towing Instructions)",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart T1- ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart T1- ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart T1- ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart T2 - ICAO (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart T2 - ICAO (Tabular Description).pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart T2 - ICAO (Tabular Description)",
+      "runway": null,
+      "isTabular": true
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart T2 - ICAO (Towing Instructions).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart T2 - ICAO (Towing Instructions).pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart T2 - ICAO (Towing Instructions)",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart T2 - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/GMC/Aircraft Parking Docking Chart T2 - ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart T2 - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "airport": "SKPV",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKPV/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKPV_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKPV/ADC/01 SKPV_ADC.pdf",
+      "airport": "SKPV",
+      "chartType": "ADC",
+      "chartName": "SKPV ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "01 SKPV_RVFP_RWY_35.pdf",
+      "filePath": "storage/uploads/pdfs/SKPV/ADC/01 SKPV_RVFP_RWY_35.pdf",
+      "airport": "SKPV",
+      "chartType": "ADC",
+      "chartName": "SKPV RVFP RWY 35",
+      "runway": "RWY 35",
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKPV_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKPV/ADC/03 SKPV_Carta_visibilidad.pdf",
+      "airport": "SKPV",
+      "chartType": "ADC",
+      "chartName": "SKPV Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

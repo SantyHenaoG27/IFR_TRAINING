@@ -1,0 +1,38 @@
+{
+  "airport": "SKPS",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKPS/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - PAKE1A RWY 02 20 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPS/STAR/STAR - ICAO - PAKE1A RWY 02 20 RNAV (Tabular description).pdf",
+      "airport": "SKPS",
+      "chartType": "STAR",
+      "runway": "RWY 02 20",
+      "title": "PAKE1A RWY 02 20 RNAV",
+      "procedures": [
+        {
+          "name": "PAKE1A",
+          "code": "PAKE1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - PAKE1A RWY 02 20 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPS/STAR/STAR - ICAO - PAKE1A RWY 02 20 RNAV.pdf",
+      "airport": "SKPS",
+      "chartType": "STAR",
+      "runway": "RWY 02 20",
+      "title": "PAKE1A RWY 02 20 RNAV",
+      "procedures": [
+        {
+          "name": "PAKE1A",
+          "code": "PAKE1A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

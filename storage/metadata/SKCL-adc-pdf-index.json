@@ -1,0 +1,143 @@
+{
+  "airport": "SKCL",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKCL/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKCL_TRG_ZONE 1.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/01 SKCL_TRG_ZONE 1.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL TRG ZONE 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "02 SKCL_TRG_ZONE 2.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/02 SKCL_TRG_ZONE 2.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL TRG ZONE 2",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKCLA_RTE_VFR_Sobrevuelo.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/03 SKCLA_RTE_VFR_Sobrevuelo.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCLA RTE VFR Sobrevuelo",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKCL_AD_Circuito_RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/05 SKCL_AD_Circuito_RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL AD Circuito RWY 02",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKCL_AD_Circuito_RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/06 SKCL_AD_Circuito_RWY 20.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL AD Circuito RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKCL_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/07 SKCL_ADC.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKCL_APDC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/08 SKCL_APDC.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL APDC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKCL_APDC_Carga.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/09 SKCL_APDC_Carga.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL APDC Carga",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKCL_SPOTS.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/10 SKCL_SPOTS.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL SPOTS",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKCL_PATC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/11 SKCL_PATC.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL PATC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "13 SKCL_RMAC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/13 SKCL_RMAC.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL RMAC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "41 SKCL_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/41 SKCL_Carta_visibilidad.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "SKCL Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Area Minimum Altitude.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/Area Minimum Altitude.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "Area Minimum Altitude",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone 3 - ICAO - SKE41, SKE42.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/Training zone 3 - ICAO - SKE41, SKE42.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "Training zone 3 - ICAO - SKE41, SKE42",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKCL",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

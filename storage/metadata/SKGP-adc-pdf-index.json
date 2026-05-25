@@ -1,0 +1,35 @@
+{
+  "airport": "SKGP",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKGP/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKGP_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/ADC/01 SKGP_ADC.pdf",
+      "airport": "SKGP",
+      "chartType": "ADC",
+      "chartName": "SKGP ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKGP_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/ADC/08 SKGP_Carta_visibilidad.pdf",
+      "airport": "SKGP",
+      "chartType": "ADC",
+      "chartName": "SKGP Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKGP",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

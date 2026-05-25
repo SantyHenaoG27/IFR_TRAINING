@@ -1,0 +1,17 @@
+{
+  "airport": "SKFL",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKFL/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - VOR A RWY 30 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/IAC/IAC - ICAO - VOR A RWY 30 12.pdf",
+      "airport": "SKFL",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 30 12",
+      "isTabular": false
+    }
+  ]
+}

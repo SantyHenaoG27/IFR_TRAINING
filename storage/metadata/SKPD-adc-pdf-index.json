@@ -1,0 +1,26 @@
+{
+  "airport": "SKPD",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKPD/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKPD_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/ADC/01 SKPD_ADC.pdf",
+      "airport": "SKPD",
+      "chartType": "ADC",
+      "chartName": "SKPD ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKPD_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/ADC/07 SKPD_Carta_visibilidad.pdf",
+      "airport": "SKPD",
+      "chartType": "ADC",
+      "chartName": "SKPD Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

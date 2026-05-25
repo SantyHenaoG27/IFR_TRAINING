@@ -1,0 +1,53 @@
+{
+  "airport": "SKMD",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKMD/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "09 SKMD_VAC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/VAC/09 SKMD_VAC_1.pdf",
+      "airport": "SKMD",
+      "chartType": "VAC",
+      "chartName": "SKMD VAC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKMD_VAC_4.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/VAC/12 SKMD_VAC_4.pdf",
+      "airport": "SKMD",
+      "chartType": "VAC",
+      "chartName": "SKMD VAC 4",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "13 SKMD_VAC_5.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/VAC/13 SKMD_VAC_5.pdf",
+      "airport": "SKMD",
+      "chartType": "VAC",
+      "chartName": "SKMD VAC 5",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual arrivals ALEJA1.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/VAC/VAC - ICAO - Visual arrivals ALEJA1.pdf",
+      "airport": "SKMD",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual arrivals ALEJA1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual departures ANTONIO1A.pdf",
+      "filePath": "storage/uploads/pdfs/SKMD/VAC/VAC - ICAO - Visual departures ANTONIO1A.pdf",
+      "airport": "SKMD",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures ANTONIO1A",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "airport": "SKCZ",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKCZ/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SID_1_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/SID/04 SID_1_RWY_21.pdf",
+      "airport": "SKCZ",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "SID_1_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SID_2_RNAV_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/SID/05 SID_2_RNAV_RWY_21.pdf",
+      "airport": "SKCZ",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "SID_2_RNAV_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SID_3_RNAV_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/SID/06 SID_3_RNAV_RWY_21.pdf",
+      "airport": "SKCZ",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "SID_3_RNAV_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

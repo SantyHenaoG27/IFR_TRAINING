@@ -1,0 +1,17 @@
+{
+  "airport": "SKGO",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKGO/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "07 SKGO_IAC_1_VOR_A_RWY_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKGO/IAC/07 SKGO_IAC_1_VOR_A_RWY_19.pdf",
+      "airport": "SKGO",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 19",
+      "isTabular": false
+    }
+  ]
+}

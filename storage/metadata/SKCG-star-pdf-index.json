@@ -1,0 +1,28 @@
+{
+  "airport": "SKCG",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKCG/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "15 SKCG_STAR_1_RNAV_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/STAR/15 SKCG_STAR_1_RNAV_RWY_01.pdf",
+      "airport": "SKCG",
+      "chartType": "STAR",
+      "runway": "RWY 01",
+      "title": "SKCG_STAR_1_RNAV_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "16 SKCG_STAR_2_RNAV_RWY_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/STAR/16 SKCG_STAR_2_RNAV_RWY_19.pdf",
+      "airport": "SKCG",
+      "chartType": "STAR",
+      "runway": "RWY 19",
+      "title": "SKCG_STAR_2_RNAV_RWY_19",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

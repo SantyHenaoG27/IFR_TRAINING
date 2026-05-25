@@ -1,0 +1,26 @@
+{
+  "airport": "SKBQ",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKBQ/GMC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aircraft Parking Docking Chart - ICAO (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/GMC/Aircraft Parking Docking Chart - ICAO (Tabular description 1).pdf",
+      "airport": "SKBQ",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart - ICAO (Tabular description 1)",
+      "runway": null,
+      "isTabular": true
+    },
+    {
+      "fileName": "Aircraft Parking Docking Chart - ICAO (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/GMC/Aircraft Parking Docking Chart - ICAO (Tabular description 2).pdf",
+      "airport": "SKBQ",
+      "chartType": "GMC",
+      "chartName": "Aircraft Parking Docking Chart - ICAO (Tabular description 2)",
+      "runway": null,
+      "isTabular": true
+    }
+  ]
+}

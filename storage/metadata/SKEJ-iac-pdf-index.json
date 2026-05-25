@@ -1,0 +1,35 @@
+{
+  "airport": "SKEJ",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKEJ/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "10 SKEJ_IAC_1_VOR_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/IAC/10 SKEJ_IAC_1_VOR_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 04",
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKEJ_IAC_2_RNP_RWY_04.pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/IAC/11 SKEJ_IAC_2_RNP_RWY_04.pdf",
+      "airport": "SKEJ",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 04",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 04 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKEJ/IAC/IAC - ICAO - RNP RWY 04 (Tabular description).pdf",
+      "airport": "SKEJ",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 04",
+      "isTabular": true
+    }
+  ]
+}

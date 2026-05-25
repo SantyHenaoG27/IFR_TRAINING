@@ -1,0 +1,35 @@
+{
+  "airport": "SKMR",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKMR/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "29. SKMR_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/ADC/29. SKMR_Carta_visibilidad.pdf",
+      "airport": "SKMR",
+      "chartType": "ADC",
+      "chartName": ". SKMR Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKMR",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKMR",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

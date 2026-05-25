@@ -1,0 +1,198 @@
+{
+  "airport": "SKCL",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKCL/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - ASIK1D TOLI1F ULQ1K (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - ASIK1D TOLI1F ULQ1K (Tabular Description).pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": null,
+      "title": "ASIK1D TOLI1F ULQ1K",
+      "procedures": [
+        {
+          "name": "ASIK1D",
+          "code": "ASIK1D"
+        },
+        {
+          "name": "TOLI1F",
+          "code": "TOLI1F"
+        },
+        {
+          "name": "ULQ1K",
+          "code": "ULQ1K"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ASIK1D TOLI1F ULQ1K.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - ASIK1D TOLI1F ULQ1K.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": null,
+      "title": "ASIK1D TOLI1F ULQ1K",
+      "procedures": [
+        {
+          "name": "ASIK1D",
+          "code": "ASIK1D"
+        },
+        {
+          "name": "TOLI1F",
+          "code": "TOLI1F"
+        },
+        {
+          "name": "ULQ1K",
+          "code": "ULQ1K"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - BUN3C SIGI6C RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - BUN3C SIGI6C RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "BUN3C SIGI6C RWY 02",
+      "procedures": [
+        {
+          "name": "BUN3C",
+          "code": "BUN3C"
+        },
+        {
+          "name": "SIGI6C",
+          "code": "SIGI6C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - CLO1C RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - CLO1C RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "CLO1C RWY 02",
+      "procedures": [
+        {
+          "name": "CLO1C",
+          "code": "CLO1C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - CLO1D RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - CLO1D RWY 02.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "CLO1D RWY 02",
+      "procedures": [
+        {
+          "name": "CLO1D",
+          "code": "CLO1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - ISOP4B PPN8B RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - ISOP4B PPN8B RWY 20.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "ISOP4B PPN8B RWY 20",
+      "procedures": [
+        {
+          "name": "ISOP4B",
+          "code": "ISOP4B"
+        },
+        {
+          "name": "PPN8B",
+          "code": "PPN8B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - KIKU5A RWY 02 KIKU5B RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - KIKU5A RWY 02 KIKU5B RWY 20.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "KIKU5A RWY 02 KIKU5B RWY 20",
+      "procedures": [
+        {
+          "name": "KIKU5A",
+          "code": "KIKU5A"
+        },
+        {
+          "name": "KIKU5B",
+          "code": "KIKU5B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - MONV1A MONV1B RWY 02 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - MONV1A MONV1B RWY 02 RNAV (Tabular description).pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "MONV1A MONV1B RWY 02 RNAV",
+      "procedures": [
+        {
+          "name": "MONV1A",
+          "code": "MONV1A"
+        },
+        {
+          "name": "MONV1B",
+          "code": "MONV1B"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - MONV1A MONV1B RWY 02 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - MONV1A MONV1B RWY 02 RNAV.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "MONV1A MONV1B RWY 02 RNAV",
+      "procedures": [
+        {
+          "name": "MONV1A",
+          "code": "MONV1A"
+        },
+        {
+          "name": "MONV1B",
+          "code": "MONV1B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - ULQ1B RWY 02 ULQ1C RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - ULQ1B RWY 02 ULQ1C RWY 20.pdf",
+      "airport": "SKCL",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "ULQ1B RWY 02 ULQ1C RWY 20",
+      "procedures": [
+        {
+          "name": "ULQ1B",
+          "code": "ULQ1B"
+        },
+        {
+          "name": "ULQ1C",
+          "code": "ULQ1C"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

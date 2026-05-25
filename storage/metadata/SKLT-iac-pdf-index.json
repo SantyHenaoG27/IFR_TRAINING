@@ -1,0 +1,44 @@
+{
+  "airport": "SKLT",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKLT/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - RNP RWY 21 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/IAC/IAC - ICAO - RNP RWY 21 (Tabular description).pdf",
+      "airport": "SKLT",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 21",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/IAC/IAC - ICAO - RNP RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 21",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 03.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/IAC/IAC - ICAO - VOR RWY 03.pdf",
+      "airport": "SKLT",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 03",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKLT/IAC/IAC - ICAO - VOR RWY 21.pdf",
+      "airport": "SKLT",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 21",
+      "isTabular": false
+    }
+  ]
+}

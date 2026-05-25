@@ -1,0 +1,18 @@
+{
+  "airport": "SKMU",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKMU/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKMU_SID1.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/SID/02 SKMU_SID1.pdf",
+      "airport": "SKMU",
+      "chartType": "SID",
+      "runway": null,
+      "title": "SKMU_SID1",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

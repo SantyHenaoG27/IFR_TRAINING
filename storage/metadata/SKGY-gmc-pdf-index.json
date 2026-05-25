@@ -1,0 +1,26 @@
+{
+  "airport": "SKGY",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKGY/GMC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01. SKGY_Circuito_AD_RWY_11_29.pdf",
+      "filePath": "storage/uploads/pdfs/SKGY/GMC/01. SKGY_Circuito_AD_RWY_11_29.pdf",
+      "airport": "SKGY",
+      "chartType": "GMC",
+      "chartName": ". SKGY Circuito AD RWY 11 29",
+      "runway": "RWY 11 29",
+      "isTabular": false
+    },
+    {
+      "fileName": "01. SKGY_Circuito_AD_RWY_11_29_sect_s.pdf",
+      "filePath": "storage/uploads/pdfs/SKGY/GMC/01. SKGY_Circuito_AD_RWY_11_29_sect_s.pdf",
+      "airport": "SKGY",
+      "chartType": "GMC",
+      "chartName": ". SKGY Circuito AD RWY 11 29 sect s",
+      "runway": "RWY 11 29",
+      "isTabular": false
+    }
+  ]
+}

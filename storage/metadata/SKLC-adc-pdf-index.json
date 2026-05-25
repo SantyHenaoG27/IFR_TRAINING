@@ -1,0 +1,26 @@
+{
+  "airport": "SKLC",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKLC/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "20 SKLC_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/ADC/20 SKLC_Carta_visibilidad.pdf",
+      "airport": "SKLC",
+      "chartType": "ADC",
+      "chartName": "SKLC Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKLC/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKLC",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

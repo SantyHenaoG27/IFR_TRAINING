@@ -1,0 +1,138 @@
+{
+  "airport": "SKIP",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKIP/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "06 SKIP_STAR_1_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/06 SKIP_STAR_1_RWY_08.pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "SKIP_STAR_1_RWY_08",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKIP_STAR_2_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/07 SKIP_STAR_2_RWY_08.pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "SKIP_STAR_2_RWY_08",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKIP_STAR_3_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/08 SKIP_STAR_3_RWY_08.pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "SKIP_STAR_3_RWY_08",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RNAV RWY 08 EGOB2D GAVE2D PAMB2D DUBK1A (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/STAR - ICAO - RNAV RWY 08 EGOB2D GAVE2D PAMB2D DUBK1A (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "RNAV RWY 08 EGOB2D GAVE2D PAMB2D DUBK1A",
+      "procedures": [
+        {
+          "name": "EGOB2D",
+          "code": "EGOB2D"
+        },
+        {
+          "name": "GAVE2D",
+          "code": "GAVE2D"
+        },
+        {
+          "name": "PAMB2D",
+          "code": "PAMB2D"
+        },
+        {
+          "name": "DUBK1A",
+          "code": "DUBK1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RNAV RWY 08 EGOB2D GAVE2D PAMB2D DUBK1A.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/STAR - ICAO - RNAV RWY 08 EGOB2D GAVE2D PAMB2D DUBK1A.pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "RNAV RWY 08 EGOB2D GAVE2D PAMB2D DUBK1A",
+      "procedures": [
+        {
+          "name": "EGOB2D",
+          "code": "EGOB2D"
+        },
+        {
+          "name": "GAVE2D",
+          "code": "GAVE2D"
+        },
+        {
+          "name": "PAMB2D",
+          "code": "PAMB2D"
+        },
+        {
+          "name": "DUBK1A",
+          "code": "DUBK1A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 26 EGOB1E GAVE1E PAMB1E (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/STAR - ICAO - RWY 26 EGOB1E GAVE1E PAMB1E (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 26",
+      "title": "RWY 26 EGOB1E GAVE1E PAMB1E",
+      "procedures": [
+        {
+          "name": "EGOB1E",
+          "code": "EGOB1E"
+        },
+        {
+          "name": "GAVE1E",
+          "code": "GAVE1E"
+        },
+        {
+          "name": "PAMB1E",
+          "code": "PAMB1E"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 26 EGOB1E GAVE1E PAMB1E.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/STAR/STAR - ICAO - RWY 26 EGOB1E GAVE1E PAMB1E.pdf",
+      "airport": "SKIP",
+      "chartType": "STAR",
+      "runway": "RWY 26",
+      "title": "RWY 26 EGOB1E GAVE1E PAMB1E",
+      "procedures": [
+        {
+          "name": "EGOB1E",
+          "code": "EGOB1E"
+        },
+        {
+          "name": "GAVE1E",
+          "code": "GAVE1E"
+        },
+        {
+          "name": "PAMB1E",
+          "code": "PAMB1E"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

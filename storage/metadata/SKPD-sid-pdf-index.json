@@ -1,0 +1,28 @@
+{
+  "airport": "SKPD",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKPD/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKPD_SID_1_RNAV_RWY_18.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/SID/02 SKPD_SID_1_RNAV_RWY_18.pdf",
+      "airport": "SKPD",
+      "chartType": "SID",
+      "runway": "RWY 18",
+      "title": "SKPD_SID_1_RNAV_RWY_18",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKPD_SID_2_RNAV_RWY_36.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/SID/03 SKPD_SID_2_RNAV_RWY_36.pdf",
+      "airport": "SKPD",
+      "chartType": "SID",
+      "runway": "RWY 36",
+      "title": "SKPD_SID_2_RNAV_RWY_36",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

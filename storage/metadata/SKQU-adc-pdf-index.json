@@ -1,0 +1,35 @@
+{
+  "airport": "SKQU",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKQU/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKQU_ADC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKQU/ADC/02 SKQU_ADC_1.pdf",
+      "airport": "SKQU",
+      "chartType": "ADC",
+      "chartName": "SKQU ADC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKQU_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKQU/ADC/04 SKQU_Carta_visibilidad.pdf",
+      "airport": "SKQU",
+      "chartType": "ADC",
+      "chartName": "SKQU Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone 1 - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKQU/ADC/Training zone 1 - ICAO.pdf",
+      "airport": "SKQU",
+      "chartType": "ADC",
+      "chartName": "Training zone 1 - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

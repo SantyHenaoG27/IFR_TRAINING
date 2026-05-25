@@ -1,0 +1,35 @@
+{
+  "airport": "SKFL",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKFL/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKFL",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone - ICAO - SKE52.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/ADC/Training zone - ICAO - SKE52.pdf",
+      "airport": "SKFL",
+      "chartType": "ADC",
+      "chartName": "Training zone - ICAO - SKE52",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/ADC/Visibility chart - ICAO.pdf",
+      "airport": "SKFL",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

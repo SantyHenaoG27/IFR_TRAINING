@@ -1,0 +1,53 @@
+{
+  "airport": "SKVP",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKVP/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC- ICAO - RNP RWY 02 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/IAC/IAC- ICAO - RNP RWY 02 (Tabular description).pdf",
+      "airport": "SKVP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 02",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC- ICAO - RNP RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/IAC/IAC- ICAO - RNP RWY 02.pdf",
+      "airport": "SKVP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC- ICAO - RNP RWY 20 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/IAC/IAC- ICAO - RNP RWY 20 (Tabular description).pdf",
+      "airport": "SKVP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 20",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC- ICAO - RNP RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/IAC/IAC- ICAO - RNP RWY 20.pdf",
+      "airport": "SKVP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC- ICAO - VOR RWY 02.pdf",
+      "filePath": "storage/uploads/pdfs/SKVP/IAC/IAC- ICAO - VOR RWY 02.pdf",
+      "airport": "SKVP",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 02",
+      "isTabular": false
+    }
+  ]
+}

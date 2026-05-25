@@ -1,0 +1,17 @@
+{
+  "airport": "SKCZ",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKCZ/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKCZ/ENR/01 CTR.pdf",
+      "airport": "SKCZ",
+      "chartType": "ENR",
+      "chartName": "CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

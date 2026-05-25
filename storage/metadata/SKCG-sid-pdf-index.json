@@ -1,0 +1,96 @@
+{
+  "airport": "SKCG",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKCG/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "09 SKCG_SID_1_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/09 SKCG_SID_1_RWY_01.pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "SKCG_SID_1_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKCG_SID_2_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/10 SKCG_SID_2_RWY_01.pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "SKCG_SID_2_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "11 SKCG_SID_3_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/11 SKCG_SID_3_RWY_01.pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "SKCG_SID_3_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "12 SKCG_SID_4_RNAV_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/12 SKCG_SID_4_RNAV_RWY_01.pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "SKCG_SID_4_RNAV_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "14 SKCG_SID_6_RWY_19.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/14 SKCG_SID_6_RWY_19.pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 19",
+      "title": "SKCG_SID_6_RWY_19",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - ESKA2A ILMI2A RWY 01 RNAV (tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/SID - ICAO - ESKA2A ILMI2A RWY 01 RNAV (tabular description).pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "ESKA2A ILMI2A RWY 01 RNAV (tabular description)",
+      "procedures": [
+        {
+          "name": "ESKA2A",
+          "code": "ESKA2A"
+        },
+        {
+          "name": "ILMI2A",
+          "code": "ILMI2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ESKA2A ILMI2A RWY 01 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/SID/SID - ICAO - ESKA2A ILMI2A RWY 01 RNAV.pdf",
+      "airport": "SKCG",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": "ESKA2A ILMI2A RWY 01 RNAV",
+      "procedures": [
+        {
+          "name": "ESKA2A",
+          "code": "ESKA2A"
+        },
+        {
+          "name": "ILMI2A",
+          "code": "ILMI2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "airport": "SKGP",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKGP/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKGP_SID_1_RNAV_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/SID/02 SKGP_SID_1_RNAV_RWY_02.pdf",
+      "airport": "SKGP",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "SKGP_SID_1_RNAV_RWY_02",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKGP_SID_2_RNAV_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/SID/03 SKGP_SID_2_RNAV_RWY_20.pdf",
+      "airport": "SKGP",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "SKGP_SID_2_RNAV_RWY_20",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "airport": "SKBO",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Heliport Chart - ICAO",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Sensitive areas LVP RWY 14L 32R 14R 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Aerodrome Sensitive areas LVP RWY 14L 32R 14R 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Aerodrome Sensitive areas LVP RWY 14L 32R 14R 32L",
+      "runway": "RWY 14L 32R 14R 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome critical areas LVP RWY 14L 32R 14R 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Aerodrome critical areas LVP RWY 14L 32R 14R 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Aerodrome critical areas LVP RWY 14L 32R 14R 32L",
+      "runway": "RWY 14L 32R 14R 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome obstacle chart RWY 14L 32R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Aerodrome obstacle chart RWY 14L 32R.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Aerodrome obstacle chart RWY 14L 32R",
+      "runway": "RWY 14L 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome obstacle chart RWY 14R 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Aerodrome obstacle chart RWY 14R 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Aerodrome obstacle chart RWY 14R 32L",
+      "runway": "RWY 14R 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "Precision approach terrain chart RWY 14L 32R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Precision approach terrain chart RWY 14L 32R.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Precision approach terrain chart RWY 14L 32R",
+      "runway": "RWY 14L 32R",
+      "isTabular": false
+    },
+    {
+      "fileName": "Precision approach terrain chart RWY 14R 32L.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Precision approach terrain chart RWY 14R 32L.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Precision approach terrain chart RWY 14R 32L",
+      "runway": "RWY 14R 32L",
+      "isTabular": false
+    },
+    {
+      "fileName": "Visibility chart - ICAO -.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/Visibility chart - ICAO -.pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "Visibility chart - ICAO -",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/WPT coordinates PBN procedures (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures (Tabular description 1)",
+      "runway": null,
+      "isTabular": true
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/ADC/WPT coordinates PBN procedures (Tabular description 2).pdf",
+      "airport": "SKBO",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures (Tabular description 2)",
+      "runway": null,
+      "isTabular": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "airport": "SKUI",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKUI/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "21 SKUI_VAC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/VAC/21 SKUI_VAC_1.pdf",
+      "airport": "SKUI",
+      "chartType": "VAC",
+      "chartName": "SKUI VAC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "22 SKUI_VAC_2.pdf",
+      "filePath": "storage/uploads/pdfs/SKUI/VAC/22 SKUI_VAC_2.pdf",
+      "airport": "SKUI",
+      "chartType": "VAC",
+      "chartName": "SKUI VAC 2",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

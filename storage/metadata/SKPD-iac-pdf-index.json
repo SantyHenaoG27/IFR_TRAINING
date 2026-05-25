@@ -1,0 +1,26 @@
+{
+  "airport": "SKPD",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKPD/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "05 SKPD_IAC_1_VOR_DME_RWY_18.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/IAC/05 SKPD_IAC_1_VOR_DME_RWY_18.pdf",
+      "airport": "SKPD",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 18",
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKPD_IAC_2_RNP_RWY_18.pdf",
+      "filePath": "storage/uploads/pdfs/SKPD/IAC/06 SKPD_IAC_2_RNP_RWY_18.pdf",
+      "airport": "SKPD",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 18",
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "airport": "SKBU",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKBU/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKBU_STAR_1_VOR_RWY_09.pdf",
+      "filePath": "storage/uploads/pdfs/SKBU/STAR/02 SKBU_STAR_1_VOR_RWY_09.pdf",
+      "airport": "SKBU",
+      "chartType": "STAR",
+      "runway": "RWY 09",
+      "title": "SKBU_STAR_1_VOR_RWY_09",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

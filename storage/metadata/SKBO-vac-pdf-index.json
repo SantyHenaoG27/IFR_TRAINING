@@ -1,0 +1,26 @@
+{
+  "airport": "SKBO",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual departures RWY 14R 14L CALER1A CALER1B CISCO3A MESAL1A QUIRA3A.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/VAC/VAC - ICAO - Visual departures RWY 14R 14L CALER1A CALER1B CISCO3A MESAL1A QUIRA3A.pdf",
+      "airport": "SKBO",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures RWY 14R 14L CALER1A CALER1B CISCO3A MESAL1A QUIRA3A",
+      "runway": "RWY 14R 14L",
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual departures RWY 32R 32L QUIRA2B MESAL1C.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/VAC/VAC - ICAO - Visual departures RWY 32R 32L QUIRA2B MESAL1C.pdf",
+      "airport": "SKBO",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures RWY 32R 32L QUIRA2B MESAL1C",
+      "runway": "RWY 32R 32L",
+      "isTabular": false
+    }
+  ]
+}

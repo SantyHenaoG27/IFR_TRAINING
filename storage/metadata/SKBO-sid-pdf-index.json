@@ -1,0 +1,722 @@
+{
+  "airport": "SKBO",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKBO/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 1)",
+      "procedures": [
+        {
+          "name": "DANS4R",
+          "code": "DANS4R"
+        },
+        {
+          "name": "VASI4U",
+          "code": "VASI4U"
+        },
+        {
+          "name": "VASI2T",
+          "code": "VASI2T"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 2).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 2)",
+      "procedures": [
+        {
+          "name": "DANS4R",
+          "code": "DANS4R"
+        },
+        {
+          "name": "VASI4U",
+          "code": "VASI4U"
+        },
+        {
+          "name": "VASI2T",
+          "code": "VASI2T"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 3).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 3).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 3)",
+      "procedures": [
+        {
+          "name": "DANS4R",
+          "code": "DANS4R"
+        },
+        {
+          "name": "VASI4U",
+          "code": "VASI4U"
+        },
+        {
+          "name": "VASI2T",
+          "code": "VASI2T"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 4).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 4).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T (Tabular description 4)",
+      "procedures": [
+        {
+          "name": "DANS4R",
+          "code": "DANS4R"
+        },
+        {
+          "name": "VASI4U",
+          "code": "VASI4U"
+        },
+        {
+          "name": "VASI2T",
+          "code": "VASI2T"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "RNAV RWY 14L 14R 32L 32R DANS4R VASI4U VASI2T",
+      "procedures": [
+        {
+          "name": "DANS4R",
+          "code": "DANS4R"
+        },
+        {
+          "name": "VASI4U",
+          "code": "VASI4U"
+        },
+        {
+          "name": "VASI2T",
+          "code": "VASI2T"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 1)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA4U",
+          "code": "LIXA4U"
+        },
+        {
+          "name": "POVS5U",
+          "code": "POVS5U"
+        },
+        {
+          "name": "SILE5E",
+          "code": "SILE5E"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 2).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 2)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA4U",
+          "code": "LIXA4U"
+        },
+        {
+          "name": "POVS5U",
+          "code": "POVS5U"
+        },
+        {
+          "name": "SILE5E",
+          "code": "SILE5E"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 3).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 3).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 3)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA4U",
+          "code": "LIXA4U"
+        },
+        {
+          "name": "POVS5U",
+          "code": "POVS5U"
+        },
+        {
+          "name": "SILE5E",
+          "code": "SILE5E"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 4).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 4).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R (Tabular description 4)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA4U",
+          "code": "LIXA4U"
+        },
+        {
+          "name": "POVS5U",
+          "code": "POVS5U"
+        },
+        {
+          "name": "SILE5E",
+          "code": "SILE5E"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R ISNO2S LIXA4U POVS5U SILE5E VAPO4R",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA4U",
+          "code": "LIXA4U"
+        },
+        {
+          "name": "POVS5U",
+          "code": "POVS5U"
+        },
+        {
+          "name": "SILE5E",
+          "code": "SILE5E"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R USID4B (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R USID4B (Tabular description).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R USID4B",
+      "procedures": [
+        {
+          "name": "USID4B",
+          "code": "USID4B"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 14L 14R USID4B.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 14L 14R USID4B.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RNAV RWY 14L 14R USID4B",
+      "procedures": [
+        {
+          "name": "USID4B",
+          "code": "USID4B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 1).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 1)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA2T",
+          "code": "LIXA2T"
+        },
+        {
+          "name": "POVS3T",
+          "code": "POVS3T"
+        },
+        {
+          "name": "SILE1F",
+          "code": "SILE1F"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 2).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 2)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA2T",
+          "code": "LIXA2T"
+        },
+        {
+          "name": "POVS3T",
+          "code": "POVS3T"
+        },
+        {
+          "name": "SILE1F",
+          "code": "SILE1F"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 3).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 3).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 3)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA2T",
+          "code": "LIXA2T"
+        },
+        {
+          "name": "POVS3T",
+          "code": "POVS3T"
+        },
+        {
+          "name": "SILE1F",
+          "code": "SILE1F"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 4).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 4).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R (Tabular description 4)",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA2T",
+          "code": "LIXA2T"
+        },
+        {
+          "name": "POVS3T",
+          "code": "POVS3T"
+        },
+        {
+          "name": "SILE1F",
+          "code": "SILE1F"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R ISNO2S LIXA2T POVS3T SILE1F VAPO4R",
+      "procedures": [
+        {
+          "name": "ISNO2S",
+          "code": "ISNO2S"
+        },
+        {
+          "name": "LIXA2T",
+          "code": "LIXA2T"
+        },
+        {
+          "name": "POVS3T",
+          "code": "POVS3T"
+        },
+        {
+          "name": "SILE1F",
+          "code": "SILE1F"
+        },
+        {
+          "name": "VAPO4R",
+          "code": "VAPO4R"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R USID3C (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R USID3C (Tabular description).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R USID3C",
+      "procedures": [
+        {
+          "name": "USID3C",
+          "code": "USID3C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 32L 32R USID3C.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RNAV RWY 32L 32R USID3C.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RNAV RWY 32L 32R USID3C",
+      "procedures": [
+        {
+          "name": "USID3C",
+          "code": "USID3C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 14L 14R ABL3A KAMI6A SILE2A BOGU8A.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 14L 14R ABL3A KAMI6A SILE2A BOGU8A.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RWY 14L 14R ABL3A KAMI6A SILE2A BOGU8A",
+      "procedures": [
+        {
+          "name": "ABL3A",
+          "code": "ABL3A"
+        },
+        {
+          "name": "KAMI6A",
+          "code": "KAMI6A"
+        },
+        {
+          "name": "SILE2A",
+          "code": "SILE2A"
+        },
+        {
+          "name": "BOGU8A",
+          "code": "BOGU8A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 14L 14R ZIP3C.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 14L 14R ZIP3C.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R",
+      "title": "RWY 14L 14R ZIP3C",
+      "procedures": [
+        {
+          "name": "ZIP3C",
+          "code": "ZIP3C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 14R 14L ABL7E.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 14R 14L ABL7E.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14R 14L",
+      "title": "RWY 14R 14L ABL7E",
+      "procedures": [
+        {
+          "name": "ABL7E",
+          "code": "ABL7E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 14R 14L EVRA5B ZIP5H.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 14R 14L EVRA5B ZIP5H.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14R 14L",
+      "title": "RWY 14R 14L EVRA5B ZIP5H",
+      "procedures": [
+        {
+          "name": "EVRA5B",
+          "code": "EVRA5B"
+        },
+        {
+          "name": "ZIP5H",
+          "code": "ZIP5H"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 32L 32R ABL4K ZIP4D.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 32L 32R ABL4K ZIP4D.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RWY 32L 32R ABL4K ZIP4D",
+      "procedures": [
+        {
+          "name": "ABL4K",
+          "code": "ABL4K"
+        },
+        {
+          "name": "ZIP4D",
+          "code": "ZIP4D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 32L 32R BOGU4C KAMI4C SILE4D.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 32L 32R BOGU4C KAMI4C SILE4D.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32L 32R",
+      "title": "RWY 32L 32R BOGU4C KAMI4C SILE4D",
+      "procedures": [
+        {
+          "name": "BOGU4C",
+          "code": "BOGU4C"
+        },
+        {
+          "name": "KAMI4C",
+          "code": "KAMI4C"
+        },
+        {
+          "name": "SILE4D",
+          "code": "SILE4D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 32R 32L USID4A ZIP4B.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - RWY 32R 32L USID4A ZIP4B.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 32R 32L",
+      "title": "RWY 32R 32L USID4A ZIP4B",
+      "procedures": [
+        {
+          "name": "USID4A",
+          "code": "USID4A"
+        },
+        {
+          "name": "ZIP4B",
+          "code": "ZIP4B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R (Tabular descripition 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R (Tabular descripition 2).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R (Tabular descripition 2)",
+      "procedures": [
+        {
+          "name": "TOBK4R",
+          "code": "TOBK4R"
+        },
+        {
+          "name": "OSUS4R",
+          "code": "OSUS4R"
+        },
+        {
+          "name": "TOBK1S",
+          "code": "TOBK1S"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV (Tabular descripition 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV (Tabular descripition 1).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV (Tabular descripition 1)",
+      "procedures": [
+        {
+          "name": "TOBK4R",
+          "code": "TOBK4R"
+        },
+        {
+          "name": "OSUS4R",
+          "code": "OSUS4R"
+        },
+        {
+          "name": "TOBK1S",
+          "code": "TOBK1S"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV (Tabular descripition 3).pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV (Tabular descripition 3).pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV (Tabular descripition 3)",
+      "procedures": [
+        {
+          "name": "TOBK4R",
+          "code": "TOBK4R"
+        },
+        {
+          "name": "OSUS4R",
+          "code": "OSUS4R"
+        },
+        {
+          "name": "TOBK1S",
+          "code": "TOBK1S"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKBO/SID/SID - ICAO - TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV.pdf",
+      "airport": "SKBO",
+      "chartType": "SID",
+      "runway": "RWY 14L 14R 32L 32R",
+      "title": "TOBK4R OSUS4R TOBK1S RWY 14L 14R 32L 32R RNAV",
+      "procedures": [
+        {
+          "name": "TOBK4R",
+          "code": "TOBK4R"
+        },
+        {
+          "name": "OSUS4R",
+          "code": "OSUS4R"
+        },
+        {
+          "name": "TOBK1S",
+          "code": "TOBK1S"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

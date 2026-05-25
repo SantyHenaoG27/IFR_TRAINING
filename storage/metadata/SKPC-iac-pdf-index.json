@@ -1,0 +1,35 @@
+{
+  "airport": "SKPC",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKPC/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - RNP RWY 07 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/IAC/IAC - ICAO - RNP RWY 07 (Tabular description).pdf",
+      "airport": "SKPC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 07",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 07.pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/IAC/IAC - ICAO - RNP RWY 07.pdf",
+      "airport": "SKPC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 07",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 07.pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/IAC/IAC - ICAO - VOR RWY 07.pdf",
+      "airport": "SKPC",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 07",
+      "isTabular": false
+    }
+  ]
+}

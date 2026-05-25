@@ -1,0 +1,17 @@
+{
+  "airport": "SKCG",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKCG/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "21 SKCG_VAC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCG/VAC/21 SKCG_VAC.pdf",
+      "airport": "SKCG",
+      "chartType": "VAC",
+      "chartName": "SKCG VAC",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

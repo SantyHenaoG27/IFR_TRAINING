@@ -1,0 +1,230 @@
+{
+  "airport": "SKCO",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKCO/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - ANGE1A EGOB1G ENSO1C RWY 06 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - ANGE1A EGOB1G ENSO1C RWY 06 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 06",
+      "title": "ANGE1A EGOB1G ENSO1C RWY 06",
+      "procedures": [
+        {
+          "name": "ANGE1A",
+          "code": "ANGE1A"
+        },
+        {
+          "name": "EGOB1G",
+          "code": "EGOB1G"
+        },
+        {
+          "name": "ENSO1C",
+          "code": "ENSO1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ANGE1A EGOB1G ENSO1C RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - ANGE1A EGOB1G ENSO1C RWY 06.pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 06",
+      "title": "ANGE1A EGOB1G ENSO1C RWY 06",
+      "procedures": [
+        {
+          "name": "ANGE1A",
+          "code": "ANGE1A"
+        },
+        {
+          "name": "EGOB1G",
+          "code": "EGOB1G"
+        },
+        {
+          "name": "ENSO1C",
+          "code": "ENSO1C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - ANGE1B EGOB1H ENSO1D RWY 24 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - ANGE1B EGOB1H ENSO1D RWY 24 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 24",
+      "title": "ANGE1B EGOB1H ENSO1D RWY 24",
+      "procedures": [
+        {
+          "name": "ANGE1B",
+          "code": "ANGE1B"
+        },
+        {
+          "name": "EGOB1H",
+          "code": "EGOB1H"
+        },
+        {
+          "name": "ENSO1D",
+          "code": "ENSO1D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ANGE1B EGOB1H ENSO1D RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - ANGE1B EGOB1H ENSO1D RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 24",
+      "title": "ANGE1B EGOB1H ENSO1D RWY 24",
+      "procedures": [
+        {
+          "name": "ANGE1B",
+          "code": "ANGE1B"
+        },
+        {
+          "name": "EGOB1H",
+          "code": "EGOB1H"
+        },
+        {
+          "name": "ENSO1D",
+          "code": "ENSO1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - ANGE1C ENSO4A TCO4A RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - ANGE1C ENSO4A TCO4A RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 24",
+      "title": "ANGE1C ENSO4A TCO4A RWY 24",
+      "procedures": [
+        {
+          "name": "ANGE1C",
+          "code": "ANGE1C"
+        },
+        {
+          "name": "ENSO4A",
+          "code": "ENSO4A"
+        },
+        {
+          "name": "TCO4A",
+          "code": "TCO4A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - ENSO4B EGOB1L GIBT2A TUNG1E XOKI2B RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - ENSO4B EGOB1L GIBT2A TUNG1E XOKI2B RWY 06.pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 06",
+      "title": "ENSO4B EGOB1L GIBT2A TUNG1E XOKI2B RWY 06",
+      "procedures": [
+        {
+          "name": "ENSO4B",
+          "code": "ENSO4B"
+        },
+        {
+          "name": "EGOB1L",
+          "code": "EGOB1L"
+        },
+        {
+          "name": "GIBT2A",
+          "code": "GIBT2A"
+        },
+        {
+          "name": "TUNG1E",
+          "code": "TUNG1E"
+        },
+        {
+          "name": "XOKI2B",
+          "code": "XOKI2B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - TUNG1A XOKI1D RWY 06 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - TUNG1A XOKI1D RWY 06 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 06",
+      "title": "TUNG1A XOKI1D RWY 06",
+      "procedures": [
+        {
+          "name": "TUNG1A",
+          "code": "TUNG1A"
+        },
+        {
+          "name": "XOKI1D",
+          "code": "XOKI1D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - TUNG1A XOKI1D RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - TUNG1A XOKI1D RWY 06.pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 06",
+      "title": "TUNG1A XOKI1D RWY 06",
+      "procedures": [
+        {
+          "name": "TUNG1A",
+          "code": "TUNG1A"
+        },
+        {
+          "name": "XOKI1D",
+          "code": "XOKI1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - TUNG1B XOKI1E RWY 24 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - TUNG1B XOKI1E RWY 24 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 24",
+      "title": "TUNG1B XOKI1E RWY 24",
+      "procedures": [
+        {
+          "name": "TUNG1B",
+          "code": "TUNG1B"
+        },
+        {
+          "name": "XOKI1E",
+          "code": "XOKI1E"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - TUNG1B XOKI1E RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/SID/SID - ICAO - TUNG1B XOKI1E RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "SID",
+      "runway": "RWY 24",
+      "title": "TUNG1B XOKI1E RWY 24",
+      "procedures": [
+        {
+          "name": "TUNG1B",
+          "code": "TUNG1B"
+        },
+        {
+          "name": "XOKI1E",
+          "code": "XOKI1E"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

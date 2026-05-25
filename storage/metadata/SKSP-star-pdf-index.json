@@ -1,0 +1,122 @@
+{
+  "airport": "SKSP",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKSP/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "09 SKSP_STAR_3_RNAV_RWY_06.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/STAR/09 SKSP_STAR_3_RNAV_RWY_06.pdf",
+      "airport": "SKSP",
+      "chartType": "STAR",
+      "runway": "RWY 06",
+      "title": "SKSP_STAR_3_RNAV_RWY_06",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKSP_STAR_4_RNAV_RWY_24.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/STAR/10 SKSP_STAR_4_RNAV_RWY_24.pdf",
+      "airport": "SKSP",
+      "chartType": "STAR",
+      "runway": "RWY 24",
+      "title": "SKSP_STAR_4_RNAV_RWY_24",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - AMUB1E BIXO1E DAGA1C DURA1E FALL1E LEVO1E PELR1E TIMR1C UGEV1E RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/STAR/STAR - ICAO - AMUB1E BIXO1E DAGA1C DURA1E FALL1E LEVO1E PELR1E TIMR1C UGEV1E RWY 06.pdf",
+      "airport": "SKSP",
+      "chartType": "STAR",
+      "runway": "RWY 06",
+      "title": "AMUB1E BIXO1E DAGA1C DURA1E FALL1E LEVO1E PELR1E TIMR1C UGEV1E RWY 06",
+      "procedures": [
+        {
+          "name": "AMUB1E",
+          "code": "AMUB1E"
+        },
+        {
+          "name": "BIXO1E",
+          "code": "BIXO1E"
+        },
+        {
+          "name": "DAGA1C",
+          "code": "DAGA1C"
+        },
+        {
+          "name": "DURA1E",
+          "code": "DURA1E"
+        },
+        {
+          "name": "FALL1E",
+          "code": "FALL1E"
+        },
+        {
+          "name": "LEVO1E",
+          "code": "LEVO1E"
+        },
+        {
+          "name": "PELR1E",
+          "code": "PELR1E"
+        },
+        {
+          "name": "TIMR1C",
+          "code": "TIMR1C"
+        },
+        {
+          "name": "UGEV1E",
+          "code": "UGEV1E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - AMUB1F BIXO1F DAGA1D DURA1F FALL1F LEVO1F PELR1F TIMR1D UGEV1F RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKSP/STAR/STAR - ICAO - AMUB1F BIXO1F DAGA1D DURA1F FALL1F LEVO1F PELR1F TIMR1D UGEV1F RWY 24.pdf",
+      "airport": "SKSP",
+      "chartType": "STAR",
+      "runway": "RWY 24",
+      "title": "AMUB1F BIXO1F DAGA1D DURA1F FALL1F LEVO1F PELR1F TIMR1D UGEV1F RWY 24",
+      "procedures": [
+        {
+          "name": "AMUB1F",
+          "code": "AMUB1F"
+        },
+        {
+          "name": "BIXO1F",
+          "code": "BIXO1F"
+        },
+        {
+          "name": "DAGA1D",
+          "code": "DAGA1D"
+        },
+        {
+          "name": "DURA1F",
+          "code": "DURA1F"
+        },
+        {
+          "name": "FALL1F",
+          "code": "FALL1F"
+        },
+        {
+          "name": "LEVO1F",
+          "code": "LEVO1F"
+        },
+        {
+          "name": "PELR1F",
+          "code": "PELR1F"
+        },
+        {
+          "name": "TIMR1D",
+          "code": "TIMR1D"
+        },
+        {
+          "name": "UGEV1F",
+          "code": "UGEV1F"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

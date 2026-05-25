@@ -1,0 +1,18 @@
+{
+  "airport": "SKTM",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKTM/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKTM_SID_1_RWY_07.pdf",
+      "filePath": "storage/uploads/pdfs/SKTM/SID/03 SKTM_SID_1_RWY_07.pdf",
+      "airport": "SKTM",
+      "chartType": "SID",
+      "runway": "RWY 07",
+      "title": "SKTM_SID_1_RWY_07",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

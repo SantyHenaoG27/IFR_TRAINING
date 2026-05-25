@@ -1,0 +1,18 @@
+{
+  "airport": "SKSJ",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKSJ/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02. SKSJ_SID_1_RWY_01.pdf",
+      "filePath": "storage/uploads/pdfs/SKSJ/SID/02. SKSJ_SID_1_RWY_01.pdf",
+      "airport": "SKSJ",
+      "chartType": "SID",
+      "runway": "RWY 01",
+      "title": ". SKSJ_SID_1_RWY_01",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

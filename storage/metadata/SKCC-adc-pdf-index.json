@@ -1,0 +1,62 @@
+{
+  "airport": "SKCC",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKCC/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKCC_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/ADC/02 SKCC_ADC.pdf",
+      "airport": "SKCC",
+      "chartType": "ADC",
+      "chartName": "SKCC ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKCC_APDC.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/ADC/03 SKCC_APDC.pdf",
+      "airport": "SKCC",
+      "chartType": "ADC",
+      "chartName": "SKCC APDC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "27 SKCC_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/ADC/27 SKCC_Carta_visibilidad.pdf",
+      "airport": "SKCC",
+      "chartType": "ADC",
+      "chartName": "SKCC Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP A RWY 21 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/ADC/RVFP - ICAO - RNP A RWY 21 (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP A RWY 21 (Tabular description)",
+      "runway": "RWY 21",
+      "isTabular": true
+    },
+    {
+      "fileName": "RVFP - ICAO - RNP A RWY 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/ADC/RVFP - ICAO - RNP A RWY 21.pdf",
+      "airport": "SKCC",
+      "chartType": "ADC",
+      "chartName": "RVFP - ICAO - RNP A RWY 21",
+      "runway": "RWY 21",
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKCC",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

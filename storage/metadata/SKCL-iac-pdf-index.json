@@ -1,0 +1,80 @@
+{
+  "airport": "SKCL",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKCL/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "31 SKCL_IAC 1_ILS_Z_CAT_I_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/31 SKCL_IAC 1_ILS_Z_CAT_I_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "31 SKCL_IAC 1_ILS_Z_CAT_I_RWY_02.pdf",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "32 SKCL_IAC 2_ILS_Y_CAT_I_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/32 SKCL_IAC 2_ILS_Y_CAT_I_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "32 SKCL_IAC 2_ILS_Y_CAT_I_RWY_02.pdf",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "33 SKCL_IAC 3_LOC_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/33 SKCL_IAC 3_LOC_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "LOC",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "34 SKCL_IAC 4_VOR_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/34 SKCL_IAC 4_VOR_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "36 SKCL_IAC 6_RNP_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/36 SKCL_IAC 6_RNP_RWY_02.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "37 SKCL_IAC 7_RNP_Z_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/37 SKCL_IAC 7_RNP_Z_RWY_20.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "38 SKCL_IAC 8_RNP_Y_RWY_20_AR.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/38 SKCL_IAC 8_RNP_Y_RWY_20_AR.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKCL/IAC/IAC - ICAO - VOR RWY 20.pdf",
+      "airport": "SKCL",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 20",
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "airport": "SKSJ",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKSJ/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01. SKSJ_ADC_1.pdf",
+      "filePath": "storage/uploads/pdfs/SKSJ/ADC/01. SKSJ_ADC_1.pdf",
+      "airport": "SKSJ",
+      "chartType": "ADC",
+      "chartName": ". SKSJ ADC 1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05. SKSJ_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKSJ/ADC/05. SKSJ_Carta_visibilidad.pdf",
+      "airport": "SKSJ",
+      "chartType": "ADC",
+      "chartName": ". SKSJ Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

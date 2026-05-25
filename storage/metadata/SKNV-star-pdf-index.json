@@ -1,0 +1,48 @@
+{
+  "airport": "SKNV",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKNV/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "07 SKNV_STAR_1_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/STAR/07 SKNV_STAR_1_RWY_20.pdf",
+      "airport": "SKNV",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "SKNV_STAR_1_RWY_20",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKNV_STAR_2_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/STAR/08 SKNV_STAR_2_RWY_20.pdf",
+      "airport": "SKNV",
+      "chartType": "STAR",
+      "runway": "RWY 20",
+      "title": "SKNV_STAR_2_RWY_20",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKNV_STAR_3_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/STAR/09 SKNV_STAR_3_RWY_02.pdf",
+      "airport": "SKNV",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "SKNV_STAR_3_RWY_02",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "10 SKNV_STAR_4_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKNV/STAR/10 SKNV_STAR_4_RWY_02.pdf",
+      "airport": "SKNV",
+      "chartType": "STAR",
+      "runway": "RWY 02",
+      "title": "SKNV_STAR_4_RWY_02",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "airport": "SKBQ",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKBQ/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV (Tabular description).pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "ANLU1A",
+          "code": "ANLU1A"
+        },
+        {
+          "name": "GEGI1B",
+          "code": "GEGI1B"
+        },
+        {
+          "name": "UTGO1A",
+          "code": "UTGO1A"
+        },
+        {
+          "name": "NINL3A",
+          "code": "NINL3A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "ANLU1A",
+          "code": "ANLU1A"
+        },
+        {
+          "name": "GEGI1B",
+          "code": "GEGI1B"
+        },
+        {
+          "name": "UTGO1A",
+          "code": "UTGO1A"
+        },
+        {
+          "name": "NINL3A",
+          "code": "NINL3A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - CTG1G DARN1F EGOK1D ENTI1E GEGI1A LOKO1B KAKU1G SINO1B SUSTI1B VOVL1E UGRE1F VARO1H RWY 23 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - CTG1G DARN1F EGOK1D ENTI1E GEGI1A LOKO1B KAKU1G SINO1B SUSTI1B VOVL1E UGRE1F VARO1H RWY 23 RNAV.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 23",
+      "title": "CTG1G DARN1F EGOK1D ENTI1E GEGI1A LOKO1B KAKU1G SINO1B SUSTI1B VOVL1E UGRE1F VARO1H RWY 23 RNAV",
+      "procedures": [
+        {
+          "name": "CTG1G",
+          "code": "CTG1G"
+        },
+        {
+          "name": "DARN1F",
+          "code": "DARN1F"
+        },
+        {
+          "name": "EGOK1D",
+          "code": "EGOK1D"
+        },
+        {
+          "name": "ENTI1E",
+          "code": "ENTI1E"
+        },
+        {
+          "name": "GEGI1A",
+          "code": "GEGI1A"
+        },
+        {
+          "name": "LOKO1B",
+          "code": "LOKO1B"
+        },
+        {
+          "name": "KAKU1G",
+          "code": "KAKU1G"
+        },
+        {
+          "name": "SINO1B",
+          "code": "SINO1B"
+        },
+        {
+          "name": "SUSTI1B",
+          "code": "SUSTI1B"
+        },
+        {
+          "name": "VOVL1E",
+          "code": "VOVL1E"
+        },
+        {
+          "name": "UGRE1F",
+          "code": "UGRE1F"
+        },
+        {
+          "name": "VARO1H",
+          "code": "VARO1H"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - CTG1G RWY 23 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - CTG1G RWY 23 RNAV (Tabular description).pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 23",
+      "title": "CTG1G RWY 23 RNAV",
+      "procedures": [
+        {
+          "name": "CTG1G",
+          "code": "CTG1G"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - CTG2F VARO2G KAKU1F VOVL2D UGRE2E SINO1A SUST1A RWY 05 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - CTG2F VARO2G KAKU1F VOVL2D UGRE2E SINO1A SUST1A RWY 05 (Tabular description).pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "CTG2F VARO2G KAKU1F VOVL2D UGRE2E SINO1A SUST1A RWY 05",
+      "procedures": [
+        {
+          "name": "CTG2F",
+          "code": "CTG2F"
+        },
+        {
+          "name": "VARO2G",
+          "code": "VARO2G"
+        },
+        {
+          "name": "KAKU1F",
+          "code": "KAKU1F"
+        },
+        {
+          "name": "VOVL2D",
+          "code": "VOVL2D"
+        },
+        {
+          "name": "UGRE2E",
+          "code": "UGRE2E"
+        },
+        {
+          "name": "SINO1A",
+          "code": "SINO1A"
+        },
+        {
+          "name": "SUST1A",
+          "code": "SUST1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - CTG2F VARO2G KAKU1F VOVL2D UGRE2E SINO1A SUST1A RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - CTG2F VARO2G KAKU1F VOVL2D UGRE2E SINO1A SUST1A RWY 05.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "CTG2F VARO2G KAKU1F VOVL2D UGRE2E SINO1A SUST1A RWY 05",
+      "procedures": [
+        {
+          "name": "CTG2F",
+          "code": "CTG2F"
+        },
+        {
+          "name": "VARO2G",
+          "code": "VARO2G"
+        },
+        {
+          "name": "KAKU1F",
+          "code": "KAKU1F"
+        },
+        {
+          "name": "VOVL2D",
+          "code": "VOVL2D"
+        },
+        {
+          "name": "UGRE2E",
+          "code": "UGRE2E"
+        },
+        {
+          "name": "SINO1A",
+          "code": "SINO1A"
+        },
+        {
+          "name": "SUST1A",
+          "code": "SUST1A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - DARN4B EGOK2B ENTI2C ISOT3B STA4C TIGR2A UMKI2B VUMB2B RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - DARN4B EGOK2B ENTI2C ISOT3B STA4C TIGR2A UMKI2B VUMB2B RWY 05.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "DARN4B EGOK2B ENTI2C ISOT3B STA4C TIGR2A UMKI2B VUMB2B RWY 05",
+      "procedures": [
+        {
+          "name": "DARN4B",
+          "code": "DARN4B"
+        },
+        {
+          "name": "EGOK2B",
+          "code": "EGOK2B"
+        },
+        {
+          "name": "ENTI2C",
+          "code": "ENTI2C"
+        },
+        {
+          "name": "ISOT3B",
+          "code": "ISOT3B"
+        },
+        {
+          "name": "STA4C",
+          "code": "STA4C"
+        },
+        {
+          "name": "TIGR2A",
+          "code": "TIGR2A"
+        },
+        {
+          "name": "UMKI2B",
+          "code": "UMKI2B"
+        },
+        {
+          "name": "VUMB2B",
+          "code": "VUMB2B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - EVPI2A RWY 05 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - EVPI2A RWY 05 RNAV (Tabular description).pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "EVPI2A RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "EVPI2A",
+          "code": "EVPI2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - EVPI2A RWY 05 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - EVPI2A RWY 05 RNAV.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "EVPI2A RWY 05 RNAV",
+      "procedures": [
+        {
+          "name": "EVPI2A",
+          "code": "EVPI2A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 05 23 BAQ2H (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - RWY 05 23 BAQ2H (Tabular description).pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05 23",
+      "title": "RWY 05 23 BAQ2H",
+      "procedures": [
+        {
+          "name": "BAQ2H",
+          "code": "BAQ2H"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RWY 05 23 BAQ2H.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - RWY 05 23 BAQ2H.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05 23",
+      "title": "RWY 05 23 BAQ2H",
+      "procedures": [
+        {
+          "name": "BAQ2H",
+          "code": "BAQ2H"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 05 BAQ2F.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - RWY 05 BAQ2F.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "RWY 05 BAQ2F",
+      "procedures": [
+        {
+          "name": "BAQ2F",
+          "code": "BAQ2F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 05 CTG3E EDRE3A MORG3C KAKU2A VARO3D.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/SID/SID - ICAO - RWY 05 CTG3E EDRE3A MORG3C KAKU2A VARO3D.pdf",
+      "airport": "SKBQ",
+      "chartType": "SID",
+      "runway": "RWY 05",
+      "title": "RWY 05 CTG3E EDRE3A MORG3C KAKU2A VARO3D",
+      "procedures": [
+        {
+          "name": "CTG3E",
+          "code": "CTG3E"
+        },
+        {
+          "name": "EDRE3A",
+          "code": "EDRE3A"
+        },
+        {
+          "name": "MORG3C",
+          "code": "MORG3C"
+        },
+        {
+          "name": "KAKU2A",
+          "code": "KAKU2A"
+        },
+        {
+          "name": "VARO3D",
+          "code": "VARO3D"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

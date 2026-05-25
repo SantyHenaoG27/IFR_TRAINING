@@ -1,0 +1,28 @@
+{
+  "airport": "SKBU",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKBU/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKBU_SID_1_VOR_RWY_27.pdf",
+      "filePath": "storage/uploads/pdfs/SKBU/SID/02 SKBU_SID_1_VOR_RWY_27.pdf",
+      "airport": "SKBU",
+      "chartType": "SID",
+      "runway": "RWY 27",
+      "title": "SKBU_SID_1_VOR_RWY_27",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "02 SKBU_SID_2_VOR_RWY_27.pdf",
+      "filePath": "storage/uploads/pdfs/SKBU/SID/02 SKBU_SID_2_VOR_RWY_27.pdf",
+      "airport": "SKBU",
+      "chartType": "SID",
+      "runway": "RWY 27",
+      "title": "SKBU_SID_2_VOR_RWY_27",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

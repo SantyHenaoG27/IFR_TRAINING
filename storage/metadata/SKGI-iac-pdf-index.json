@@ -1,0 +1,17 @@
+{
+  "airport": "SKGI",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKGI/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "08 SKGI_IAC_1_VOR_A_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKGI/IAC/08 SKGI_IAC_1_VOR_A_RWY_02.pdf",
+      "airport": "SKGI",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 02",
+      "isTabular": false
+    }
+  ]
+}

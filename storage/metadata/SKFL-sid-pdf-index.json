@@ -1,0 +1,107 @@
+{
+  "airport": "SKFL",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKFL/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "SID - ICAO - EDPI1D GAXA2D RWY 30.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/SID/SID - ICAO - EDPI1D GAXA2D RWY 30.pdf",
+      "airport": "SKFL",
+      "chartType": "SID",
+      "runway": "RWY 30",
+      "title": "EDPI1D GAXA2D RWY 30",
+      "procedures": [
+        {
+          "name": "EDPI1D",
+          "code": "EDPI1D"
+        },
+        {
+          "name": "GAXA2D",
+          "code": "GAXA2D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - EDPI1E GAXA2G RWY 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/SID/SID - ICAO - EDPI1E GAXA2G RWY 12.pdf",
+      "airport": "SKFL",
+      "chartType": "SID",
+      "runway": "RWY 12",
+      "title": "EDPI1E GAXA2G RWY 12",
+      "procedures": [
+        {
+          "name": "EDPI1E",
+          "code": "EDPI1E"
+        },
+        {
+          "name": "GAXA2G",
+          "code": "GAXA2G"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - GAXA3H PADA3F RWY 12 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/SID/SID - ICAO - GAXA3H PADA3F RWY 12 (Tabular description).pdf",
+      "airport": "SKFL",
+      "chartType": "SID",
+      "runway": "RWY 12",
+      "title": "GAXA3H PADA3F RWY 12",
+      "procedures": [
+        {
+          "name": "GAXA3H",
+          "code": "GAXA3H"
+        },
+        {
+          "name": "PADA3F",
+          "code": "PADA3F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - GAXA3H PADA3F RWY 12.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/SID/SID - ICAO - GAXA3H PADA3F RWY 12.pdf",
+      "airport": "SKFL",
+      "chartType": "SID",
+      "runway": "RWY 12",
+      "title": "GAXA3H PADA3F RWY 12",
+      "procedures": [
+        {
+          "name": "GAXA3H",
+          "code": "GAXA3H"
+        },
+        {
+          "name": "PADA3F",
+          "code": "PADA3F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - GEBU2A KUDG2A VUKT1D RWY 30.pdf",
+      "filePath": "storage/uploads/pdfs/SKFL/SID/SID - ICAO - GEBU2A KUDG2A VUKT1D RWY 30.pdf",
+      "airport": "SKFL",
+      "chartType": "SID",
+      "runway": "RWY 30",
+      "title": "GEBU2A KUDG2A VUKT1D RWY 30",
+      "procedures": [
+        {
+          "name": "GEBU2A",
+          "code": "GEBU2A"
+        },
+        {
+          "name": "KUDG2A",
+          "code": "KUDG2A"
+        },
+        {
+          "name": "VUKT1D",
+          "code": "VUKT1D"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

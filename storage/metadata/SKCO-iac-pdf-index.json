@@ -1,0 +1,62 @@
+{
+  "airport": "SKCO",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKCO/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC - ICAO - RNP RWY 06 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/IAC/IAC - ICAO - RNP RWY 06 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 06",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 06.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/IAC/IAC - ICAO - RNP RWY 06.pdf",
+      "airport": "SKCO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 06",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 24 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/IAC/IAC - ICAO - RNP RWY 24 (Tabular description).pdf",
+      "airport": "SKCO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 24",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/IAC/IAC - ICAO - RNP RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 24",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Y RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/IAC/IAC - ICAO - VOR Y RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "IAC",
+      "procedureName": "VOR Y",
+      "runway": "RWY 24",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR Z RWY 24.pdf",
+      "filePath": "storage/uploads/pdfs/SKCO/IAC/IAC - ICAO - VOR Z RWY 24.pdf",
+      "airport": "SKCO",
+      "chartType": "IAC",
+      "procedureName": "VOR Z",
+      "runway": "RWY 24",
+      "isTabular": false
+    }
+  ]
+}

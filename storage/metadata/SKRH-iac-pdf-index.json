@@ -1,0 +1,53 @@
+{
+  "airport": "SKRH",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKRH/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "IAC- ICAO - RNP RWY 10 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/IAC/IAC- ICAO - RNP RWY 10 (Tabular description).pdf",
+      "airport": "SKRH",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 10",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC- ICAO - RNP RWY 10.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/IAC/IAC- ICAO - RNP RWY 10.pdf",
+      "airport": "SKRH",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 10",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC- ICAO - RNP RWY 28 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/IAC/IAC- ICAO - RNP RWY 28 (Tabular description).pdf",
+      "airport": "SKRH",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 28",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC- ICAO - RNP RWY 28.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/IAC/IAC- ICAO - RNP RWY 28.pdf",
+      "airport": "SKRH",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 28",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC- ICAO - VOR RWY 10.pdf",
+      "filePath": "storage/uploads/pdfs/SKRH/IAC/IAC- ICAO - VOR RWY 10.pdf",
+      "airport": "SKRH",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 10",
+      "isTabular": false
+    }
+  ]
+}

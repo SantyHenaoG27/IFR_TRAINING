@@ -1,0 +1,28 @@
+{
+  "airport": "SKIB",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKIB/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "05 SKIB_SID_1_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/SID/05 SKIB_SID_1_RWY_14.pdf",
+      "airport": "SKIB",
+      "chartType": "SID",
+      "runway": "RWY 14",
+      "title": "SKIB_SID_1_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKIB_SID_2_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKIB/SID/06 SKIB_SID_2_RWY_14.pdf",
+      "airport": "SKIB",
+      "chartType": "SID",
+      "runway": "RWY 14",
+      "title": "SKIB_SID_2_RWY_14",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

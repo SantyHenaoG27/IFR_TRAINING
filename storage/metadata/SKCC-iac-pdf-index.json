@@ -1,0 +1,116 @@
+{
+  "airport": "SKCC",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKCC/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "20 SKCC_IAC_3_VOR_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/20 SKCC_IAC_3_VOR_RWY_16.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 16",
+      "isTabular": false
+    },
+    {
+      "fileName": "21 SKCC_IAC_4_ILS_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/21 SKCC_IAC_4_ILS_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "21 SKCC_IAC_4_ILS_RWY_21.pdf",
+      "runway": "RWY 21",
+      "isTabular": false
+    },
+    {
+      "fileName": "22 SKCC_IAC_5_VOR_A_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/22 SKCC_IAC_5_VOR_A_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 21",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS W RWY 16 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS W RWY 16 (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS W",
+      "runway": "RWY 16",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS W RWY 16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS W RWY 16.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS W",
+      "runway": "RWY 16",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS X RWY 16 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS X RWY 16 (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS X",
+      "runway": "RWY 16",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS X RWY 16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS X RWY 16.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS X",
+      "runway": "RWY 16",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 16 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS Y RWY 16 (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 16",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS Y RWY 16.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 16",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Z o LOC Z RWY 16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - ILS Z o LOC Z RWY 16.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "ILS Z",
+      "runway": "RWY 16",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP A RWY 34 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - RNP A RWY 34 (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 34",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP A RWY 34.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/IAC/IAC - ICAO - RNP A RWY 34.pdf",
+      "airport": "SKCC",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 34",
+      "isTabular": false
+    }
+  ]
+}

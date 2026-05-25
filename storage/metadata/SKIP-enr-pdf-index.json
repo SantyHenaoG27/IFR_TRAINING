@@ -1,0 +1,17 @@
+{
+  "airport": "SKIP",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKIP/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKIP_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/ENR/01 SKIP_CTR.pdf",
+      "airport": "SKIP",
+      "chartType": "ENR",
+      "chartName": "SKIP CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

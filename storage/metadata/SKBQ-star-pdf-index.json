@@ -1,0 +1,274 @@
+{
+  "airport": "SKBQ",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKBQ/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - CTG1A DARN1A EDRE1B EGOK1A ENTI3B KAKU2C LOLU1A MORG1B STA2B UGRE1D UGSO1D UMKI1A VARO2C VUMB1A RWY 05.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - CTG1A DARN1A EDRE1B EGOK1A ENTI3B KAKU2C LOLU1A MORG1B STA2B UGRE1D UGSO1D UMKI1A VARO2C VUMB1A RWY 05.pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "CTG1A DARN1A EDRE1B EGOK1A ENTI3B KAKU2C LOLU1A MORG1B STA2B UGRE1D UGSO1D UMKI1A VARO2C VUMB1A RWY 05",
+      "procedures": [
+        {
+          "name": "CTG1A",
+          "code": "CTG1A"
+        },
+        {
+          "name": "DARN1A",
+          "code": "DARN1A"
+        },
+        {
+          "name": "EDRE1B",
+          "code": "EDRE1B"
+        },
+        {
+          "name": "EGOK1A",
+          "code": "EGOK1A"
+        },
+        {
+          "name": "ENTI3B",
+          "code": "ENTI3B"
+        },
+        {
+          "name": "KAKU2C",
+          "code": "KAKU2C"
+        },
+        {
+          "name": "LOLU1A",
+          "code": "LOLU1A"
+        },
+        {
+          "name": "MORG1B",
+          "code": "MORG1B"
+        },
+        {
+          "name": "STA2B",
+          "code": "STA2B"
+        },
+        {
+          "name": "UGRE1D",
+          "code": "UGRE1D"
+        },
+        {
+          "name": "UGSO1D",
+          "code": "UGSO1D"
+        },
+        {
+          "name": "UMKI1A",
+          "code": "UMKI1A"
+        },
+        {
+          "name": "VARO2C",
+          "code": "VARO2C"
+        },
+        {
+          "name": "VUMB1A",
+          "code": "VUMB1A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - CTG1A RWY 05 (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - CTG1A RWY 05 (Tabular description 1).pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "CTG1A RWY 05 (Tabular description 1)",
+      "procedures": [
+        {
+          "name": "CTG1A",
+          "code": "CTG1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - CTG1A RWY 05 (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - CTG1A RWY 05 (Tabular description 2).pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05",
+      "title": "CTG1A RWY 05 (Tabular description 2)",
+      "procedures": [
+        {
+          "name": "CTG1A",
+          "code": "CTG1A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - CTG1H DARN1E EDRE1E EGOK1C ENTI1F KAKU1H LOLU1C MORG1G STA2F UGRE1G UGSO1E UMKI1C VARO1J VUMB1E RWY 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - CTG1H DARN1E EDRE1E EGOK1C ENTI1F KAKU1H LOLU1C MORG1G STA2F UGRE1G UGSO1E UMKI1C VARO1J VUMB1E RWY 23.pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "CTG1H DARN1E EDRE1E EGOK1C ENTI1F KAKU1H LOLU1C MORG1G STA2F UGRE1G UGSO1E UMKI1C VARO1J VUMB1E RWY 23",
+      "procedures": [
+        {
+          "name": "CTG1H",
+          "code": "CTG1H"
+        },
+        {
+          "name": "DARN1E",
+          "code": "DARN1E"
+        },
+        {
+          "name": "EDRE1E",
+          "code": "EDRE1E"
+        },
+        {
+          "name": "EGOK1C",
+          "code": "EGOK1C"
+        },
+        {
+          "name": "ENTI1F",
+          "code": "ENTI1F"
+        },
+        {
+          "name": "KAKU1H",
+          "code": "KAKU1H"
+        },
+        {
+          "name": "LOLU1C",
+          "code": "LOLU1C"
+        },
+        {
+          "name": "MORG1G",
+          "code": "MORG1G"
+        },
+        {
+          "name": "STA2F",
+          "code": "STA2F"
+        },
+        {
+          "name": "UGRE1G",
+          "code": "UGRE1G"
+        },
+        {
+          "name": "UGSO1E",
+          "code": "UGSO1E"
+        },
+        {
+          "name": "UMKI1C",
+          "code": "UMKI1C"
+        },
+        {
+          "name": "VARO1J",
+          "code": "VARO1J"
+        },
+        {
+          "name": "VUMB1E",
+          "code": "VUMB1E"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - CTG1H RWY 23 (Tabular description 1).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - CTG1H RWY 23 (Tabular description 1).pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "CTG1H RWY 23 (Tabular description 1)",
+      "procedures": [
+        {
+          "name": "CTG1H",
+          "code": "CTG1H"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - CTG1H RWY 23 (Tabular description 2).pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - CTG1H RWY 23 (Tabular description 2).pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 23",
+      "title": "CTG1H RWY 23 (Tabular description 2)",
+      "procedures": [
+        {
+          "name": "CTG1H",
+          "code": "CTG1H"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - ENTI4A STA6A RWY 05 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - ENTI4A STA6A RWY 05 23.pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05 23",
+      "title": "ENTI4A STA6A RWY 05 23",
+      "procedures": [
+        {
+          "name": "ENTI4A",
+          "code": "ENTI4A"
+        },
+        {
+          "name": "STA6A",
+          "code": "STA6A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - KAKU1E MORG1F VARO1F RWY 05 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - KAKU1E MORG1F VARO1F RWY 05 23.pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05 23",
+      "title": "KAKU1E MORG1F VARO1F RWY 05 23",
+      "procedures": [
+        {
+          "name": "KAKU1E",
+          "code": "KAKU1E"
+        },
+        {
+          "name": "MORG1F",
+          "code": "MORG1F"
+        },
+        {
+          "name": "VARO1F",
+          "code": "VARO1F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 05 23 ISOT5A.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - RWY 05 23 ISOT5A.pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05 23",
+      "title": "RWY 05 23 ISOT5A",
+      "procedures": [
+        {
+          "name": "ISOT5A",
+          "code": "ISOT5A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - VOVL4A RWY 05 23.pdf",
+      "filePath": "storage/uploads/pdfs/SKBQ/STAR/STAR - ICAO - VOVL4A RWY 05 23.pdf",
+      "airport": "SKBQ",
+      "chartType": "STAR",
+      "runway": "RWY 05 23",
+      "title": "VOVL4A RWY 05 23",
+      "procedures": [
+        {
+          "name": "VOVL4A",
+          "code": "VOVL4A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

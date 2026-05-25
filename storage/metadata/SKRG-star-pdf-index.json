@@ -1,0 +1,277 @@
+{
+  "airport": "SKRG",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKRG/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - AKPE4C ARTU4A ISPA3A KORB3A NENE3A OPME4A TEDO3A RWY 01 19 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - AKPE4C ARTU4A ISPA3A KORB3A NENE3A OPME4A TEDO3A RWY 01 19 RNAV (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01 19",
+      "title": "AKPE4C ARTU4A ISPA3A KORB3A NENE3A OPME4A TEDO3A RWY 01 19 RNAV",
+      "procedures": [
+        {
+          "name": "AKPE4C",
+          "code": "AKPE4C"
+        },
+        {
+          "name": "ARTU4A",
+          "code": "ARTU4A"
+        },
+        {
+          "name": "ISPA3A",
+          "code": "ISPA3A"
+        },
+        {
+          "name": "KORB3A",
+          "code": "KORB3A"
+        },
+        {
+          "name": "NENE3A",
+          "code": "NENE3A"
+        },
+        {
+          "name": "OPME4A",
+          "code": "OPME4A"
+        },
+        {
+          "name": "TEDO3A",
+          "code": "TEDO3A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - AKPE4C ARTU4A ISPA3A KORB3A NENE3A OPME4A TEDO3A RWY 01 19 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - AKPE4C ARTU4A ISPA3A KORB3A NENE3A OPME4A TEDO3A RWY 01 19 RNAV.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01 19",
+      "title": "AKPE4C ARTU4A ISPA3A KORB3A NENE3A OPME4A TEDO3A RWY 01 19 RNAV",
+      "procedures": [
+        {
+          "name": "AKPE4C",
+          "code": "AKPE4C"
+        },
+        {
+          "name": "ARTU4A",
+          "code": "ARTU4A"
+        },
+        {
+          "name": "ISPA3A",
+          "code": "ISPA3A"
+        },
+        {
+          "name": "KORB3A",
+          "code": "KORB3A"
+        },
+        {
+          "name": "NENE3A",
+          "code": "NENE3A"
+        },
+        {
+          "name": "OPME4A",
+          "code": "OPME4A"
+        },
+        {
+          "name": "TEDO3A",
+          "code": "TEDO3A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - ISVO4A NIRS3C RENO3B RWY 01 19 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - ISVO4A NIRS3C RENO3B RWY 01 19 RNAV (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01 19",
+      "title": "ISVO4A NIRS3C RENO3B RWY 01 19 RNAV",
+      "procedures": [
+        {
+          "name": "ISVO4A",
+          "code": "ISVO4A"
+        },
+        {
+          "name": "NIRS3C",
+          "code": "NIRS3C"
+        },
+        {
+          "name": "RENO3B",
+          "code": "RENO3B"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - ISVO4A NIRS3C RENO3B RWY 01 19 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - ISVO4A NIRS3C RENO3B RWY 01 19 RNAV.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01 19",
+      "title": "ISVO4A NIRS3C RENO3B RWY 01 19 RNAV",
+      "procedures": [
+        {
+          "name": "ISVO4A",
+          "code": "ISVO4A"
+        },
+        {
+          "name": "NIRS3C",
+          "code": "NIRS3C"
+        },
+        {
+          "name": "RENO3B",
+          "code": "RENO3B"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - LATI3C BIVI3C OBLU1A DIPR3B AKSE3A MRN3D RWY 01 19 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - LATI3C BIVI3C OBLU1A DIPR3B AKSE3A MRN3D RWY 01 19 RNAV (Tabular description).pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01 19",
+      "title": "LATI3C BIVI3C OBLU1A DIPR3B AKSE3A MRN3D RWY 01 19 RNAV",
+      "procedures": [
+        {
+          "name": "LATI3C",
+          "code": "LATI3C"
+        },
+        {
+          "name": "BIVI3C",
+          "code": "BIVI3C"
+        },
+        {
+          "name": "OBLU1A",
+          "code": "OBLU1A"
+        },
+        {
+          "name": "DIPR3B",
+          "code": "DIPR3B"
+        },
+        {
+          "name": "AKSE3A",
+          "code": "AKSE3A"
+        },
+        {
+          "name": "MRN3D",
+          "code": "MRN3D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - LATI3C BIVI3C OBLU1A DIPR3B AKSE3A MRN3D RWY 01 19 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - LATI3C BIVI3C OBLU1A DIPR3B AKSE3A MRN3D RWY 01 19 RNAV.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01 19",
+      "title": "LATI3C BIVI3C OBLU1A DIPR3B AKSE3A MRN3D RWY 01 19 RNAV",
+      "procedures": [
+        {
+          "name": "LATI3C",
+          "code": "LATI3C"
+        },
+        {
+          "name": "BIVI3C",
+          "code": "BIVI3C"
+        },
+        {
+          "name": "OBLU1A",
+          "code": "OBLU1A"
+        },
+        {
+          "name": "DIPR3B",
+          "code": "DIPR3B"
+        },
+        {
+          "name": "AKSE3A",
+          "code": "AKSE3A"
+        },
+        {
+          "name": "MRN3D",
+          "code": "MRN3D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - MATR6A RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - MATR6A RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01",
+      "title": "MATR6A RWY 01",
+      "procedures": [
+        {
+          "name": "MATR6A",
+          "code": "MATR6A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - MRN9A RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - MRN9A RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01",
+      "title": "MRN9A RWY 01",
+      "procedures": [
+        {
+          "name": "MRN9A",
+          "code": "MRN9A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - NIRS4A RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - NIRS4A RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01",
+      "title": "NIRS4A RWY 01",
+      "procedures": [
+        {
+          "name": "NIRS4A",
+          "code": "NIRS4A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RENO3A RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - RENO3A RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01",
+      "title": "RENO3A RWY 01",
+      "procedures": [
+        {
+          "name": "RENO3A",
+          "code": "RENO3A"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "STAR - ICAO - RNG4C RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/STAR/STAR - ICAO - RNG4C RWY 01.pdf",
+      "airport": "SKRG",
+      "chartType": "STAR",
+      "runway": "RWY 01",
+      "title": "RNG4C RWY 01",
+      "procedures": [
+        {
+          "name": "RNG4C",
+          "code": "RNG4C"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "airport": "SKMR",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKMR/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "22. SKMR_IAC_1_ILS_Z_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/22. SKMR_IAC_1_ILS_Z_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "22. SKMR_IAC_1_ILS_Z_RWY_32.pdf",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "24. SKMR_IAC_3_LOC_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/24. SKMR_IAC_3_LOC_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "LOC",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "25. SKMR_IAC_4_VOR_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/25. SKMR_IAC_4_VOR_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "26. SKMR_IAC_5_RNAV_RWY_32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/26. SKMR_IAC_5_RNAV_RWY_32.pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "RNAV",
+      "runway": "RWY 32",
+      "isTabular": false
+    },
+    {
+      "fileName": "27. SKMR_IAC_6_VOR_RWY_14.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/27. SKMR_IAC_6_VOR_RWY_14.pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 14",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 32 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/IAC - ICAO - ILS Y RWY 32 (Tabular description).pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 32",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y RWY 32.pdf",
+      "filePath": "storage/uploads/pdfs/SKMR/IAC/IAC - ICAO - ILS Y RWY 32.pdf",
+      "airport": "SKMR",
+      "chartType": "IAC",
+      "procedureName": "ILS Y",
+      "runway": "RWY 32",
+      "isTabular": false
+    }
+  ]
+}

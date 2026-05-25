@@ -1,0 +1,46 @@
+{
+  "airport": "SKPC",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKPC/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "STAR - ICAO - SIDU2B OVTU2A RWY 07 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/STAR/STAR - ICAO - SIDU2B OVTU2A RWY 07 RNAV (Tabular description).pdf",
+      "airport": "SKPC",
+      "chartType": "STAR",
+      "runway": "RWY 07",
+      "title": "SIDU2B OVTU2A RWY 07 RNAV",
+      "procedures": [
+        {
+          "name": "SIDU2B",
+          "code": "SIDU2B"
+        },
+        {
+          "name": "OVTU2A",
+          "code": "OVTU2A"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "STAR - ICAO - SIDU2B OVTU2A RWY 07 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKPC/STAR/STAR - ICAO - SIDU2B OVTU2A RWY 07 RNAV.pdf",
+      "airport": "SKPC",
+      "chartType": "STAR",
+      "runway": "RWY 07",
+      "title": "SIDU2B OVTU2A RWY 07 RNAV",
+      "procedures": [
+        {
+          "name": "SIDU2B",
+          "code": "SIDU2B"
+        },
+        {
+          "name": "OVTU2A",
+          "code": "OVTU2A"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

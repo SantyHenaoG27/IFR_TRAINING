@@ -1,0 +1,35 @@
+{
+  "airport": "SKSA",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKSA/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKSA_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/ADC/01 SKSA_ADC.pdf",
+      "airport": "SKSA",
+      "chartType": "ADC",
+      "chartName": "SKSA ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKSA_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/ADC/07 SKSA_Carta_visibilidad.pdf",
+      "airport": "SKSA",
+      "chartType": "ADC",
+      "chartName": "SKSA Carta visibilidad",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKSA/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKSA",
+      "chartType": "ADC",
+      "chartName": "WPT coordinates PBN procedures",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

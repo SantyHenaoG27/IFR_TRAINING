@@ -1,0 +1,28 @@
+{
+  "airport": "SKAS",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKAS/STAR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKAS_STAR1.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/STAR/03 SKAS_STAR1.pdf",
+      "airport": "SKAS",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "SKAS_STAR1",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKAS_STAR2.pdf",
+      "filePath": "storage/uploads/pdfs/SKAS/STAR/04 SKAS_STAR2.pdf",
+      "airport": "SKAS",
+      "chartType": "STAR",
+      "runway": null,
+      "title": "SKAS_STAR2",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

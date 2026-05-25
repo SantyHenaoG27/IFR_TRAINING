@@ -1,0 +1,26 @@
+{
+  "airport": "SKMZ",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKMZ/VAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "VAC - ICAO - Visual arrivals RWY 10 NEIRA1B ARAUCA1D CHINA1B.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/VAC/VAC - ICAO - Visual arrivals RWY 10 NEIRA1B ARAUCA1D CHINA1B.pdf",
+      "airport": "SKMZ",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual arrivals RWY 10 NEIRA1B ARAUCA1D CHINA1B",
+      "runway": "RWY 10",
+      "isTabular": false
+    },
+    {
+      "fileName": "VAC - ICAO - Visual departures RWY 28 NEIRA1A ARAUCA1C CHINA1A.pdf",
+      "filePath": "storage/uploads/pdfs/SKMZ/VAC/VAC - ICAO - Visual departures RWY 28 NEIRA1A ARAUCA1C CHINA1A.pdf",
+      "airport": "SKMZ",
+      "chartType": "VAC",
+      "chartName": "VAC - ICAO - Visual departures RWY 28 NEIRA1A ARAUCA1C CHINA1A",
+      "runway": "RWY 28",
+      "isTabular": false
+    }
+  ]
+}

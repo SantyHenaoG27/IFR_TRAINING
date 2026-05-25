@@ -1,0 +1,17 @@
+{
+  "airport": "SKGY",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKGY/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "ENROUTE_CHART_SKP35.pdf",
+      "filePath": "storage/uploads/pdfs/SKGY/ENR/ENROUTE_CHART_SKP35.pdf",
+      "airport": "SKGY",
+      "chartType": "ENR",
+      "chartName": "ENROUTE CHART SKP35",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "airport": "SKMU",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKMU/ADC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKMU_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/ADC/01 SKMU_ADC.pdf",
+      "airport": "SKMU",
+      "chartType": "ADC",
+      "chartName": "SKMU ADC",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "02 SKMU_SID1.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/ADC/02 SKMU_SID1.pdf",
+      "airport": "SKMU",
+      "chartType": "ADC",
+      "chartName": "SKMU SID1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKMU_STAR1.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/ADC/03 SKMU_STAR1.pdf",
+      "airport": "SKMU",
+      "chartType": "ADC",
+      "chartName": "SKMU STAR1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKMU_IAC1.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/ADC/04 SKMU_IAC1.pdf",
+      "airport": "SKMU",
+      "chartType": "ADC",
+      "chartName": "SKMU IAC1",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKMU_IAC2.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/ADC/05 SKMU_IAC2.pdf",
+      "airport": "SKMU",
+      "chartType": "ADC",
+      "chartName": "SKMU IAC2",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKMU_CARTA_VISIBILIDAD.pdf",
+      "filePath": "storage/uploads/pdfs/SKMU/ADC/06 SKMU_CARTA_VISIBILIDAD.pdf",
+      "airport": "SKMU",
+      "chartType": "ADC",
+      "chartName": "SKMU CARTA VISIBILIDAD",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

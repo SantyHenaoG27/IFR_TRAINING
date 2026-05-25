@@ -1,0 +1,26 @@
+{
+  "airport": "SKGP",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKGP/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "06 SKGP_IAC_1_RNP_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/IAC/06 SKGP_IAC_1_RNP_RWY_20.pdf",
+      "airport": "SKGP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKGP_IAC_2_RNP_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKGP/IAC/07 SKGP_IAC_2_RNP_RWY_02.pdf",
+      "airport": "SKGP",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 02",
+      "isTabular": false
+    }
+  ]
+}

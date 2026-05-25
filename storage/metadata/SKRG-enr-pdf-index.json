@@ -1,0 +1,17 @@
+{
+  "airport": "SKRG",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKRG/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "Control Zone - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKRG/ENR/Control Zone - ICAO.pdf",
+      "airport": "SKRG",
+      "chartType": "ENR",
+      "chartName": "Control Zone - ICAO",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

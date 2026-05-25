@@ -1,0 +1,17 @@
+{
+  "airport": "SKSM",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKSM/ENR",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKSM_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/ENR/01 SKSM_CTR.pdf",
+      "airport": "SKSM",
+      "chartType": "ENR",
+      "chartName": "SKSM CTR",
+      "runway": null,
+      "isTabular": false
+    }
+  ]
+}

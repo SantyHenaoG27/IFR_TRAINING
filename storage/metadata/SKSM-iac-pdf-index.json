@@ -1,0 +1,80 @@
+{
+  "airport": "SKSM",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKSM/IAC",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "14 SKSM IAC_Carta_Visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/14 SKSM IAC_Carta_Visibilidad.pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "14 SKSM IAC_Carta_Visibilidad.pdf",
+      "runway": null,
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 19 (AR) (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - RNP RWY 19 (AR) (Tabular description).pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 19",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 19 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - RNP RWY 19 (AR).pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "RNP",
+      "runway": "RWY 19",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 01 (AR) (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - RNP Y RWY 01 (AR) (Tabular description).pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 01",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 01 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - RNP Y RWY 01 (AR).pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "RNP Y",
+      "runway": "RWY 01",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 01 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - RNP Z RWY 01 (Tabular description).pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 01",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - RNP Z RWY 01.pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "RNP Z",
+      "runway": "RWY 01",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - VOR RWY 01.pdf",
+      "filePath": "storage/uploads/pdfs/SKSM/IAC/IAC - ICAO - VOR RWY 01.pdf",
+      "airport": "SKSM",
+      "chartType": "IAC",
+      "procedureName": "VOR",
+      "runway": "RWY 01",
+      "isTabular": false
+    }
+  ]
+}

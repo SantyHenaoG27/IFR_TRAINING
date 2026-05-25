@@ -1,0 +1,206 @@
+{
+  "airport": "SKIP",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKIP/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "03 SKIP_SID_1_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/03 SKIP_SID_1_RWY_08.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "SKIP_SID_1_RWY_08",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "04 SKIP_SID_2_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/04 SKIP_SID_2_RWY_08.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "SKIP_SID_2_RWY_08",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKIP_SID_3_RWY_26.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/05 SKIP_SID_3_RWY_26.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "SKIP_SID_3_RWY_26",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - DUBK1B ESAR1C PAMB1F RWY 26 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - DUBK1B ESAR1C PAMB1F RWY 26 RNAV (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "DUBK1B ESAR1C PAMB1F RWY 26 RNAV",
+      "procedures": [
+        {
+          "name": "DUBK1B",
+          "code": "DUBK1B"
+        },
+        {
+          "name": "ESAR1C",
+          "code": "ESAR1C"
+        },
+        {
+          "name": "PAMB1F",
+          "code": "PAMB1F"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - DUBK1B ESAR1C PAMB1F RWY 26 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - DUBK1B ESAR1C PAMB1F RWY 26 RNAV.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "DUBK1B ESAR1C PAMB1F RWY 26 RNAV",
+      "procedures": [
+        {
+          "name": "DUBK1B",
+          "code": "DUBK1B"
+        },
+        {
+          "name": "ESAR1C",
+          "code": "ESAR1C"
+        },
+        {
+          "name": "PAMB1F",
+          "code": "PAMB1F"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - DUBK1C ESAR1B PAMB1G RWY 08 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - DUBK1C ESAR1B PAMB1G RWY 08 RNAV (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "DUBK1C ESAR1B PAMB1G RWY 08 RNAV",
+      "procedures": [
+        {
+          "name": "DUBK1C",
+          "code": "DUBK1C"
+        },
+        {
+          "name": "ESAR1B",
+          "code": "ESAR1B"
+        },
+        {
+          "name": "PAMB1G",
+          "code": "PAMB1G"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - DUBK1C ESAR1B PAMB1G RWY 08 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - DUBK1C ESAR1B PAMB1G RWY 08 RNAV.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "DUBK1C ESAR1B PAMB1G RWY 08 RNAV",
+      "procedures": [
+        {
+          "name": "DUBK1C",
+          "code": "DUBK1C"
+        },
+        {
+          "name": "ESAR1B",
+          "code": "ESAR1B"
+        },
+        {
+          "name": "PAMB1G",
+          "code": "PAMB1G"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 08 EGOB1G MER1D (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - RNAV RWY 08 EGOB1G MER1D (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "RNAV RWY 08 EGOB1G MER1D",
+      "procedures": [
+        {
+          "name": "EGOB1G",
+          "code": "EGOB1G"
+        },
+        {
+          "name": "MER1D",
+          "code": "MER1D"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RNAV RWY 08 EGOB1G MER1D.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - RNAV RWY 08 EGOB1G MER1D.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "RNAV RWY 08 EGOB1G MER1D",
+      "procedures": [
+        {
+          "name": "EGOB1G",
+          "code": "EGOB1G"
+        },
+        {
+          "name": "MER1D",
+          "code": "MER1D"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - RWY 26 EGOB1F MER1C (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - RWY 26 EGOB1F MER1C (Tabular description).pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "RWY 26 EGOB1F MER1C",
+      "procedures": [
+        {
+          "name": "EGOB1F",
+          "code": "EGOB1F"
+        },
+        {
+          "name": "MER1C",
+          "code": "MER1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - RWY 26 EGOB1F MER1C.pdf",
+      "filePath": "storage/uploads/pdfs/SKIP/SID/SID - ICAO - RWY 26 EGOB1F MER1C.pdf",
+      "airport": "SKIP",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "RWY 26 EGOB1F MER1C",
+      "procedures": [
+        {
+          "name": "EGOB1F",
+          "code": "EGOB1F"
+        },
+        {
+          "name": "MER1C",
+          "code": "MER1C"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}

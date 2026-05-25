@@ -1,0 +1,144 @@
+{
+  "airport": "SKCC",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKCC/SID",
+  "generatedFrom": "filename parsing and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKCC_SID_1_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/04 SKCC_SID_1_RWY_16.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 16",
+      "title": "SKCC_SID_1_RWY_16",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "05 SKCC_ SID_2_RWY_16.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/05 SKCC_ SID_2_RWY_16.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 16",
+      "title": "SKCC_ SID_2_RWY_16",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKCC_SID_3_RWY_03.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/06 SKCC_SID_3_RWY_03.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "SKCC_SID_3_RWY_03",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKCC_SID_4_RWY_03.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/07 SKCC_SID_4_RWY_03.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 03",
+      "title": "SKCC_SID_4_RWY_03",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKCC_SID_5_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/08 SKCC_SID_5_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "SKCC_SID_5_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "09 SKCC_SID_6_RWY_21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/09 SKCC_SID_6_RWY_21.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 21",
+      "title": "SKCC_SID_6_RWY_21",
+      "procedures": [],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - UMPE1B UMPE1C RNAV RWY 16 21 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/SID - ICAO - UMPE1B UMPE1C RNAV RWY 16 21 (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 16 21",
+      "title": "UMPE1B UMPE1C RNAV RWY 16 21",
+      "procedures": [
+        {
+          "name": "UMPE1B",
+          "code": "UMPE1B"
+        },
+        {
+          "name": "UMPE1C",
+          "code": "UMPE1C"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - UMPE1B UMPE1C RNAV RWY 16 21.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/SID - ICAO - UMPE1B UMPE1C RNAV RWY 16 21.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 16 21",
+      "title": "UMPE1B UMPE1C RNAV RWY 16 21",
+      "procedures": [
+        {
+          "name": "UMPE1B",
+          "code": "UMPE1B"
+        },
+        {
+          "name": "UMPE1C",
+          "code": "UMPE1C"
+        }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - UMPE1D UMPE1E RWY 03 34 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/SID - ICAO - UMPE1D UMPE1E RWY 03 34 RNAV (Tabular description).pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 03 34",
+      "title": "UMPE1D UMPE1E RWY 03 34 RNAV",
+      "procedures": [
+        {
+          "name": "UMPE1D",
+          "code": "UMPE1D"
+        },
+        {
+          "name": "UMPE1E",
+          "code": "UMPE1E"
+        }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - UMPE1D UMPE1E RWY 03 34 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKCC/SID/SID - ICAO - UMPE1D UMPE1E RWY 03 34 RNAV.pdf",
+      "airport": "SKCC",
+      "chartType": "SID",
+      "runway": "RWY 03 34",
+      "title": "UMPE1D UMPE1E RWY 03 34 RNAV",
+      "procedures": [
+        {
+          "name": "UMPE1D",
+          "code": "UMPE1D"
+        },
+        {
+          "name": "UMPE1E",
+          "code": "UMPE1E"
+        }
+      ],
+      "isTabular": false
+    }
+  ]
+}
