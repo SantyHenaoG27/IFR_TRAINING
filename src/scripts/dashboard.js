@@ -46,6 +46,8 @@ const skpeRows = document.querySelector("#skpeRows");
 const skpeCount = document.querySelector("#skpeCount");
 let colombianAirports = [];
 let allWaypoints = [];
+let dashMapInstance = null;
+let routeLineGeoJSON = { type: "FeatureCollection", features: [] };
 let routeWaypoints = [];
 const chartCache = {};
 
@@ -182,6 +184,36 @@ function updateRouteChartTitles() {
     "ICAO",
     "Busca cualquier aeropuerto colombiano para consultar sus cartas disponibles.",
   );
+}
+
+function updateRouteLineOnMap() {
+  const origin = getAirportForPanel("origin");
+  const destination = getAirportForPanel("destination");
+
+  if (
+    origin?.latitude != null && origin?.longitude != null &&
+    destination?.latitude != null && destination?.longitude != null
+  ) {
+    routeLineGeoJSON = {
+      type: "FeatureCollection",
+      features: [{
+        type: "Feature",
+        geometry: {
+          type: "LineString",
+          coordinates: [
+            [origin.longitude, origin.latitude],
+            [destination.longitude, destination.latitude],
+          ],
+        },
+        properties: {},
+      }],
+    };
+  } else {
+    routeLineGeoJSON = { type: "FeatureCollection", features: [] };
+  }
+
+  const source = dashMapInstance?.getSource("route-line");
+  if (source) source.setData(routeLineGeoJSON);
 }
 
 function getChartResultBox(panel) {
@@ -580,6 +612,7 @@ function setupAirportSearch() {
       input.value = item.dataset.value;
       closeAirportSuggestions();
       updateRouteChartTitles();
+      updateRouteLineOnMap();
       loadOriginRunways();
       loadSidOptions();
       loadDestinationRunways();
@@ -590,11 +623,13 @@ function setupAirportSearch() {
 
   originAirportInput?.addEventListener("input", () => {
     updateRouteChartTitles();
+    updateRouteLineOnMap();
     loadOriginRunways();
     loadSidOptions();
   });
   destinationAirportInput?.addEventListener("input", () => {
     updateRouteChartTitles();
+    updateRouteLineOnMap();
     loadDestinationRunways();
     loadStarOptions();
     loadIacOptions();
@@ -666,7 +701,7 @@ async function loadStarOptions() {
   if (!starProcedureSelect) return;
   const airport = getAirportForPanel("destination");
   if (!airport) {
-    starProcedureSelect.innerHTML = `<option value="">Seleccione primero un aeropuerto de destino</option>`;
+    starProcedureSelect.innerHTML = `<option value="">Seleccione un aeropuerto de destino primero</option>`;
     return;
   }
   try {
@@ -826,6 +861,8 @@ const waypointsReady = loadWaypoints();
 const airportsReady = loadAirports();
 loadSkpeProcedures();
 loadSidOptions();
+loadStarOptions();
+loadIacOptions();
 initDashboardMap(airportsReady, waypointsReady);
 
 function setupWaypointInput() {
@@ -1000,6 +1037,7 @@ function initDashboardMap(airportsReady, waypointsReady) {
     zoom: 5.5,
     attributionControl: true,
   });
+  dashMapInstance = dashMap;
 
   dashMap.addControl(new maplibregl.NavigationControl(), "top-right");
   dashMap.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-left");
@@ -1077,6 +1115,13 @@ function initDashboardMap(airportsReady, waypointsReady) {
         "visibility": layerVisible("dashToggleAirports") ? "visible" : "none",
       },
       paint: { "text-color": "#fbbf24", "text-halo-color": "#020617", "text-halo-width": 1.5 },
+    });
+
+    dashMap.addSource("route-line", { type: "geojson", data: routeLineGeoJSON });
+    dashMap.addLayer({
+      id: "route-line-layer", type: "line", source: "route-line",
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: { "line-color": "#38bdf8", "line-width": 2.5, "line-dasharray": [3, 2] },
     });
   }
 
