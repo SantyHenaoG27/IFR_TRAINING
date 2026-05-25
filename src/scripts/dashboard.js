@@ -88,8 +88,8 @@ function renderAirports(airports) {
     routeAirportStatus.textContent = String(airports.length).padStart(3, "0");
   }
 
-  airportCount.textContent = String(airports.length).padStart(3, "0");
-  airportRows.innerHTML = airports
+  if (airportCount) airportCount.textContent = String(airports.length).padStart(3, "0");
+  if (airportRows) airportRows.innerHTML = airports
     .map(
       (airport) => `
         <div class="airport-row">
@@ -613,8 +613,8 @@ async function loadAirports() {
       routeAirportStatus.textContent = "ERR";
     }
 
-    airportCount.textContent = "ERR";
-    airportRows.innerHTML = `
+    if (airportCount) airportCount.textContent = "ERR";
+    if (airportRows) airportRows.innerHTML = `
       <div class="airport-row">
         <code>NO DATA</code>
         <span>Archivo no disponible</span>
