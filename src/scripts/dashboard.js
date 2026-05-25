@@ -190,6 +190,11 @@ function updateRouteLineOnMap() {
   const origin = getAirportForPanel("origin");
   const destination = getAirportForPanel("destination");
 
+  console.log("[route-line] origin:", origin?.icao, origin?.latitude, origin?.longitude);
+  console.log("[route-line] destination:", destination?.icao, destination?.latitude, destination?.longitude);
+  console.log("[route-line] dashMapInstance:", !!dashMapInstance);
+  console.log("[route-line] source exists:", !!dashMapInstance?.getSource("route-line"));
+
   if (
     origin?.latitude != null && origin?.longitude != null &&
     destination?.latitude != null && destination?.longitude != null
@@ -208,21 +213,24 @@ function updateRouteLineOnMap() {
         properties: {},
       }],
     };
+    console.log("[route-line] GeoJSON built:", JSON.stringify(routeLineGeoJSON));
   } else {
     routeLineGeoJSON = { type: "FeatureCollection", features: [] };
+    console.log("[route-line] condition failed — no line drawn");
   }
 
-  function applyRouteData() {
-    const source = dashMapInstance?.getSource("route-line");
-    if (source) {
-      source.setData(routeLineGeoJSON);
-    } else if (dashMapInstance) {
-      dashMapInstance.once("style.load", () => {
-        dashMapInstance.getSource("route-line")?.setData(routeLineGeoJSON);
-      });
-    }
+  const source = dashMapInstance?.getSource("route-line");
+  if (source) {
+    source.setData(routeLineGeoJSON);
+    console.log("[route-line] setData called OK");
+  } else if (dashMapInstance) {
+    console.log("[route-line] source not ready, waiting for style.load");
+    dashMapInstance.once("style.load", () => {
+      dashMapInstance.getSource("route-line")?.setData(routeLineGeoJSON);
+    });
+  } else {
+    console.log("[route-line] dashMapInstance is null");
   }
-  applyRouteData();
 }
 
 function getChartResultBox(panel) {
