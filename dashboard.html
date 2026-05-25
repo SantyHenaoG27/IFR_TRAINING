@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IFR Colombia Data Dashboard</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="src/scripts/dashboard.js?v=6" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
+    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js" defer></script>
+    <script src="src/scripts/dashboard.js?v=10" defer></script>
   </head>
   <body>
     <main class="shell">
@@ -15,6 +17,10 @@
           <h1>Dashboard de datos operativos</h1>
         </div>
         <div class="top-actions">
+          <a class="login-access" href="map.html">
+            <span>Ver</span>
+            <strong>MAPA IFR</strong>
+          </a>
           <a class="login-access" href="index.html">
             <span>Volver</span>
             <strong>PLANNER</strong>
@@ -57,12 +63,61 @@
               <input class="airport-search-input" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 2" />
               <div class="airport-suggestions" role="listbox"></div>
             </label>
-            <label class="field sid-select-field">
+          </div>
+          <div class="flight-airports-grid" style="margin-top:10px;">
+            <label class="field">
+              <span>Pista origen</span>
+              <select id="originRunwaySelect" aria-label="Pista de origen">
+                <option value="">Seleccione pista</option>
+              </select>
+            </label>
+            <label class="field">
               <span>Salida SID</span>
               <select id="sidProcedureSelect" aria-label="Seleccion de salida SID">
                 <option>Seleccione una salida</option>
               </select>
             </label>
+          </div>
+          <div class="route-waypoints-section">
+            <div class="field">
+              <span>Puntos de ruta / Waypoints</span>
+              <div id="waypointTags" class="waypoint-tags" aria-label="Waypoints seleccionados"></div>
+              <div class="waypoint-input-wrap">
+                <input type="text" id="routeWaypointsInput" autocomplete="off" spellcheck="false" placeholder="Escribe un waypoint..." aria-label="Agregar waypoint" />
+                <div id="waypointSuggestions" class="waypoint-drop"></div>
+              </div>
+            </div>
+            <div class="flight-airports-grid" style="margin-top:10px;">
+              <label class="field">
+                <span>Pista destino</span>
+                <select id="destinationRunwaySelect" aria-label="Pista de destino">
+                  <option value="">Seleccione pista</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Llegada STAR</span>
+                <select id="starProcedureSelect" aria-label="Seleccion de llegada STAR">
+                  <option value="">Seleccione una llegada</option>
+                </select>
+              </label>
+              <div class="field sid-select-field">
+                <span>Aproximacion IAC</span>
+                <div class="iac-row">
+                  <select id="iacProcedureSelect" aria-label="Seleccion de aproximacion IAC">
+                    <option value="">Seleccione una aproximacion</option>
+                  </select>
+                  <button type="button" id="createRouteBtn" class="btn-create-route">Crear Ruta</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="routeSummaryPanel" class="route-summary-panel hidden-panel">
+            <div class="route-summary-head">
+              <span>RUTA GENERADA</span>
+              <button type="button" class="route-summary-close" aria-label="Cerrar resumen">&#x2715;</button>
+            </div>
+            <div class="route-string"></div>
+            <div class="route-details"></div>
           </div>
         </article>
 
@@ -138,23 +193,79 @@
           </div>
         </article>
 
-        <article class="read-card wide waypoint-panel">
+        <article class="read-card chart-custom-card">
           <div class="module-head">
-            <h2>Waypoints Colombia</h2>
-            <span class="chip active" id="waypointCount">LOAD</span>
+            <h2 id="customChartAirportTitle">Busqueda de aeropuerto</h2>
+            <span class="chip active" id="customChartAirportCode">ICAO</span>
           </div>
-          <div class="data-note">
-            Fuente filtrada por region <code>SK</code>. Orden detectado: <code>nombre, latitud, longitud, region</code>
+          <div class="data-note" id="customChartNote">
+            Busca cualquier aeropuerto colombiano para consultar sus cartas disponibles.
           </div>
-          <div class="waypoint-table" aria-label="Waypoints cargados desde archivo">
-            <div class="waypoint-row header">
-              <span>Waypoint</span>
-              <span>Latitud</span>
-              <span>Longitud</span>
-              <span>Region</span>
+          <div class="custom-search-field">
+            <span class="custom-search-label">Aeropuerto</span>
+            <div class="custom-search-row">
+              <div class="airport-combobox">
+                <input class="airport-search-input custom-search-input" data-route-role="custom" autocomplete="off" placeholder="SKBO o El Dorado" aria-label="Aeropuerto personalizado" />
+                <div class="airport-suggestions" role="listbox"></div>
+              </div>
+              <button type="button" id="customSearchClear" class="btn-clear-search" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Cancelar busqueda">&#x2715;</button>
             </div>
-            <div id="waypointRows"></div>
           </div>
+          <div class="chart-type-menu" aria-label="Tipos de cartas personalizadas">
+            <button type="button" data-chart-panel="custom" data-chart-type="ADC">ADC</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="ENR">ENR</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="GMC">GMC</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="IAC">IAC</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="SID">SID</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="STAR">STAR</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="VAC">VAC</button>
+          </div>
+          <div class="chart-result-list" id="customChartResults"></div>
+          <div class="chart-preview hidden-panel" id="customChartPreview">
+            <div class="chart-preview-head">
+              <div>
+                <span>Previsualizacion</span>
+                <strong id="customPreviewTitle">Carta seleccionada</strong>
+              </div>
+              <div class="chart-preview-actions">
+                <a id="customPreviewView" href="#" target="_blank" rel="noreferrer">Ver</a>
+                <a id="customPreviewDownload" href="#" download>Descargar</a>
+                <button id="customPreviewHide" type="button">Ocultar</button>
+              </div>
+            </div>
+            <iframe id="customPreviewFrame" title="Previsualizacion carta personalizada"></iframe>
+          </div>
+        </article>
+
+        <article class="read-card wide map-card" aria-label="Mapa aeronautico Colombia">
+          <div class="module-head">
+            <h2>Mapa IFR Colombia</h2>
+            <span class="chip active" id="dashMapStatus">LOAD</span>
+          </div>
+          <div class="dash-map-controls">
+            <div class="dash-style-group">
+              <button type="button" class="dash-style-btn is-active" data-dash-style="liberty">Mapa</button>
+              <button type="button" class="dash-style-btn" data-dash-style="dark">Dark</button>
+              <button type="button" class="dash-style-btn" data-dash-style="satellite">Satelite</button>
+            </div>
+            <span class="map-layer-label">Capas</span>
+            <button type="button" id="dashToggleAirports" class="map-layer-btn is-active">
+              <span class="map-layer-dot" style="background:#fbbf24;"></span>
+              Aeropuertos
+              <code id="dashAirportCount">---</code>
+            </button>
+            <button type="button" id="dashToggleWaypoints" class="map-layer-btn is-active">
+              <span class="map-layer-dot" style="background:#67e8f9;"></span>
+              Waypoints
+              <code id="dashWaypointCount">----</code>
+            </button>
+            <button type="button" id="dashToggleGpsWaypoints" class="map-layer-btn is-active">
+              <span class="map-layer-dot" style="background:#34d399;"></span>
+              GPS Waypoints
+              <code id="dashGpsWaypointCount">----</code>
+            </button>
+          </div>
+          <div id="dashMapContainer" class="dash-map-container"></div>
         </article>
 
         <article class="read-card wide airport-panel">

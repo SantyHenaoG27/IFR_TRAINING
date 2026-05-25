@@ -5,6 +5,10 @@ const airportCount = document.querySelector("#airportCount");
 const airportSearchInputs = document.querySelectorAll(".airport-search-input");
 const routeAirportStatus = document.querySelector("#routeAirportStatus");
 const sidProcedureSelect = document.querySelector("#sidProcedureSelect");
+const originRunwaySelect = document.querySelector("#originRunwaySelect");
+const destinationRunwaySelect = document.querySelector("#destinationRunwaySelect");
+const starProcedureSelect = document.querySelector("#starProcedureSelect");
+const iacProcedureSelect = document.querySelector("#iacProcedureSelect");
 const originAirportInput = document.querySelector('[data-route-role="origin"]');
 const destinationAirportInput = document.querySelector('[data-route-role="destination"]');
 const originChartAirportTitle = document.querySelector("#originChartAirportTitle");
@@ -27,9 +31,22 @@ const destinationPreviewView = document.querySelector("#destinationPreviewView")
 const destinationPreviewDownload = document.querySelector("#destinationPreviewDownload");
 const destinationPreviewHide = document.querySelector("#destinationPreviewHide");
 const destinationPreviewFrame = document.querySelector("#destinationPreviewFrame");
+const customAirportInput = document.querySelector('[data-route-role="custom"]');
+const customChartAirportTitle = document.querySelector("#customChartAirportTitle");
+const customChartAirportCode = document.querySelector("#customChartAirportCode");
+const customChartNote = document.querySelector("#customChartNote");
+const customChartResults = document.querySelector("#customChartResults");
+const customChartPreview = document.querySelector("#customChartPreview");
+const customPreviewTitle = document.querySelector("#customPreviewTitle");
+const customPreviewView = document.querySelector("#customPreviewView");
+const customPreviewDownload = document.querySelector("#customPreviewDownload");
+const customPreviewHide = document.querySelector("#customPreviewHide");
+const customPreviewFrame = document.querySelector("#customPreviewFrame");
 const skpeRows = document.querySelector("#skpeRows");
 const skpeCount = document.querySelector("#skpeCount");
 let colombianAirports = [];
+let allWaypoints = [];
+let routeWaypoints = [];
 const chartCache = {};
 
 async function fetchJson(path) {
@@ -48,10 +65,10 @@ function formatCoordinate(value) {
 }
 
 function renderWaypoints(waypoints) {
+  if (!waypointCount && !waypointRows) return;
   const visibleWaypoints = waypoints.slice(0, 80);
-
-  waypointCount.textContent = String(waypoints.length).padStart(4, "0");
-  waypointRows.innerHTML = visibleWaypoints
+  if (waypointCount) waypointCount.textContent = String(waypoints.length).padStart(4, "0");
+  if (waypointRows) waypointRows.innerHTML = visibleWaypoints
     .map(
       (waypoint) => `
         <div class="waypoint-row">
@@ -155,10 +172,21 @@ function updateRouteChartTitles() {
     "DEST",
     "Selecciona el aeropuerto de destino para preparar sus cartas disponibles.",
   );
+  updateChartTitle(
+    customAirportInput,
+    customChartAirportTitle,
+    customChartAirportCode,
+    customChartNote,
+    "Busqueda de aeropuerto",
+    "ICAO",
+    "Busca cualquier aeropuerto colombiano para consultar sus cartas disponibles.",
+  );
 }
 
 function getChartResultBox(panel) {
-  return panel === "origin" ? originChartResults : destinationChartResults;
+  if (panel === "origin") return originChartResults;
+  if (panel === "destination") return destinationChartResults;
+  return customChartResults;
 }
 
 function getChartPreviewElements(panel) {
@@ -173,18 +201,32 @@ function getChartPreviewElements(panel) {
     };
   }
 
+  if (panel === "destination") {
+    return {
+      preview: destinationChartPreview,
+      title: destinationPreviewTitle,
+      view: destinationPreviewView,
+      download: destinationPreviewDownload,
+      hide: destinationPreviewHide,
+      frame: destinationPreviewFrame,
+    };
+  }
+
   return {
-    preview: destinationChartPreview,
-    title: destinationPreviewTitle,
-    view: destinationPreviewView,
-    download: destinationPreviewDownload,
-    hide: destinationPreviewHide,
-    frame: destinationPreviewFrame,
+    preview: customChartPreview,
+    title: customPreviewTitle,
+    view: customPreviewView,
+    download: customPreviewDownload,
+    hide: customPreviewHide,
+    frame: customPreviewFrame,
   };
 }
 
 function getAirportForPanel(panel) {
-  const input = panel === "origin" ? originAirportInput : destinationAirportInput;
+  let input;
+  if (panel === "origin") input = originAirportInput;
+  else if (panel === "destination") input = destinationAirportInput;
+  else input = customAirportInput;
   const icao = parseAirportCode(input?.value || "");
   return colombianAirports.find((airport) => airport.icao === icao);
 }
@@ -204,6 +246,15 @@ function renderUnavailableCharts(panel, message) {
 function isNavigationProcedureChart(item) {
   const text = `${item.fileName} ${item.title} ${item.chartName}`.toUpperCase();
   return !text.includes("TABULAR DESCRIPTION") && item.isTabular !== true;
+}
+
+function uniqueByCode(procedures) {
+  const seen = new Set();
+  return procedures.filter((p) => {
+    if (seen.has(p.code)) return false;
+    seen.add(p.code);
+    return true;
+  });
 }
 
 function getProcedureCards(index) {
@@ -276,9 +327,18 @@ function setupChartButtons() {
       const panel = button.dataset.chartPanel;
       const airport = getAirportForPanel(panel);
 
+      const isActive = button.classList.contains("is-active");
+
       document
         .querySelectorAll(`[data-chart-panel="${panel}"]`)
         .forEach((item) => item.classList.remove("is-active"));
+
+      if (isActive) {
+        getChartResultBox(panel).innerHTML = "";
+        getChartPreviewElements(panel).preview?.classList.add("hidden-panel");
+        return;
+      }
+
       button.classList.add("is-active");
 
       if (!airport) {
@@ -308,6 +368,7 @@ function setupChartPreview() {
   [
     getChartPreviewElements("origin"),
     getChartPreviewElements("destination"),
+    getChartPreviewElements("custom"),
   ].forEach((preview) => {
     preview.hide?.addEventListener("click", () => {
       preview.preview?.classList.add("hidden-panel");
@@ -396,15 +457,26 @@ function setupAirportSearch() {
       input.value = item.dataset.value;
       closeAirportSuggestions();
       updateRouteChartTitles();
+      loadOriginRunways();
       loadSidOptions();
+      loadDestinationRunways();
+      loadStarOptions();
+      loadIacOptions();
     });
   });
 
   originAirportInput?.addEventListener("input", () => {
     updateRouteChartTitles();
+    loadOriginRunways();
     loadSidOptions();
   });
-  destinationAirportInput?.addEventListener("input", updateRouteChartTitles);
+  destinationAirportInput?.addEventListener("input", () => {
+    updateRouteChartTitles();
+    loadDestinationRunways();
+    loadStarOptions();
+    loadIacOptions();
+  });
+  customAirportInput?.addEventListener("input", updateRouteChartTitles);
 
   document.addEventListener("click", (event) => {
     if (!event.target.closest(".airport-combobox")) {
@@ -441,6 +513,56 @@ function renderSkpeProcedures(data) {
     .join("");
 }
 
+function loadOriginRunways() {
+  if (!originRunwaySelect) return;
+  const airport = getAirportForPanel("origin");
+  if (!airport || !airport.runways?.length) {
+    originRunwaySelect.innerHTML = `<option value="">Seleccione pista</option>`;
+    return;
+  }
+  originRunwaySelect.innerHTML = `
+    <option value="">Seleccione pista</option>
+    ${airport.runways.map((rwy) => `<option value="${rwy}">${rwy}</option>`).join("")}
+  `;
+}
+
+function loadDestinationRunways() {
+  if (!destinationRunwaySelect) return;
+  const airport = getAirportForPanel("destination");
+  if (!airport || !airport.runways?.length) {
+    destinationRunwaySelect.innerHTML = `<option value="">Seleccione pista</option>`;
+    return;
+  }
+  destinationRunwaySelect.innerHTML = `
+    <option value="">Seleccione pista</option>
+    ${airport.runways.map((rwy) => `<option value="${rwy}">${rwy}</option>`).join("")}
+  `;
+}
+
+async function loadStarOptions() {
+  if (!starProcedureSelect) return;
+  const airport = getAirportForPanel("destination");
+  if (!airport) {
+    starProcedureSelect.innerHTML = `<option value="">Seleccione primero un aeropuerto de destino</option>`;
+    return;
+  }
+  try {
+    const index = await getChartIndex("STAR", airport.icao);
+    const procedures = getProcedureCards(index);
+    if (!procedures.length) {
+      starProcedureSelect.innerHTML = `<option value="">Sin llegada disponible para ${airport.icao}</option>`;
+      return;
+    }
+    starProcedureSelect.innerHTML = `
+      <option value="">Seleccione una llegada</option>
+      <option value="NO_STAR">Sin llegada</option>
+      ${uniqueByCode(procedures).map((p) => `<option value="${p.code}">${p.name} [${p.code}]${p.runway ? ` / ${p.runway}` : ""}</option>`).join("")}
+    `;
+  } catch {
+    starProcedureSelect.innerHTML = `<option value="">Sin llegada disponible para ${airport.icao}</option>`;
+  }
+}
+
 function renderSidOptions(index) {
   if (!sidProcedureSelect) {
     return;
@@ -456,10 +578,10 @@ function renderSidOptions(index) {
   sidProcedureSelect.innerHTML = `
     <option value="">Seleccione una salida</option>
     <option value="NO_SID">Sin salida</option>
-    ${procedures
+    ${uniqueByCode(procedures)
       .map(
         (procedure) =>
-          `<option value="${procedure.code}">${procedure.name} [${procedure.code}] / ${procedure.runway}</option>`,
+          `<option value="${procedure.code}">${procedure.name} [${procedure.code}]${procedure.runway ? ` / ${procedure.runway}` : ""}</option>`,
       )
       .join("")}
   `;
@@ -468,10 +590,11 @@ function renderSidOptions(index) {
 async function loadWaypoints() {
   try {
     const waypoints = await fetchJson("storage/metadata/waypoints-colombia.json");
+    allWaypoints = waypoints;
     renderWaypoints(waypoints);
   } catch (error) {
-    waypointCount.textContent = "ERR";
-    waypointRows.innerHTML = `
+    if (waypointCount) waypointCount.textContent = "ERR";
+    if (waypointRows) waypointRows.innerHTML = `
       <div class="waypoint-row">
         <code>NO DATA</code>
         <span>Archivo no disponible</span>
@@ -524,6 +647,30 @@ async function loadSkpeProcedures() {
   }
 }
 
+async function loadIacOptions() {
+  if (!iacProcedureSelect) return;
+  const airport = getAirportForPanel("destination");
+  if (!airport) {
+    iacProcedureSelect.innerHTML = `<option value="">Seleccione primero un aeropuerto de destino</option>`;
+    return;
+  }
+  try {
+    const index = await getChartIndex("IAC", airport.icao);
+    const procedures = getProcedureCards(index);
+    if (!procedures.length) {
+      iacProcedureSelect.innerHTML = `<option value="">Sin aproximacion disponible para ${airport.icao}</option>`;
+      return;
+    }
+    iacProcedureSelect.innerHTML = `
+      <option value="">Seleccione una aproximacion</option>
+      <option value="NO_IAC">Sin aproximacion</option>
+      ${uniqueByCode(procedures).map((p) => `<option value="${p.code}">${p.name}${p.runway ? ` / ${p.runway}` : ""}</option>`).join("")}
+    `;
+  } catch {
+    iacProcedureSelect.innerHTML = `<option value="">Sin aproximacion disponible para ${airport.icao}</option>`;
+  }
+}
+
 async function loadSidOptions() {
   if (!sidProcedureSelect) {
     return;
@@ -547,7 +694,350 @@ async function loadSidOptions() {
 setupAirportSearch();
 setupChartButtons();
 setupChartPreview();
-loadWaypoints();
-loadAirports();
+const waypointsReady = loadWaypoints();
+const airportsReady = loadAirports();
 loadSkpeProcedures();
 loadSidOptions();
+initDashboardMap(airportsReady, waypointsReady);
+
+function setupWaypointInput() {
+  const input = document.querySelector("#routeWaypointsInput");
+  const drop = document.querySelector("#waypointSuggestions");
+  const tagsBox = document.querySelector("#waypointTags");
+
+  if (!input || !drop || !tagsBox) return;
+
+  function renderTags() {
+    tagsBox.innerHTML = routeWaypoints
+      .map(
+        (name, i) => `
+        <span class="waypoint-tag">
+          ${name}
+          <button type="button" data-index="${i}" aria-label="Quitar ${name}">&times;</button>
+        </span>
+      `,
+      )
+      .join("");
+  }
+
+  function addWaypoint(name) {
+    routeWaypoints.push(name);
+    renderTags();
+    input.value = "";
+    input.focus();
+  }
+
+  function removeWaypoint(index) {
+    routeWaypoints.splice(index, 1);
+    renderTags();
+  }
+
+  function closeDrop() {
+    drop.classList.remove("is-open");
+    drop.innerHTML = "";
+  }
+
+  function showSuggestions(token) {
+    const query = token.trim().toUpperCase();
+    if (query.length < 2) { closeDrop(); return; }
+
+    const matches = allWaypoints
+      .filter((w) => w.name.toUpperCase().startsWith(query))
+      .slice(0, 10);
+
+    if (!matches.length) { closeDrop(); return; }
+
+    drop.innerHTML = matches
+      .map(
+        (w) => `
+        <button class="waypoint-drop-item" type="button" data-name="${w.name}">
+          <code>${w.name}</code>
+          <span>${Number(w.latitude).toFixed(4)}, ${Number(w.longitude).toFixed(4)}</span>
+        </button>
+      `,
+      )
+      .join("");
+    drop.classList.add("is-open");
+  }
+
+  input.addEventListener("input", () => showSuggestions(input.value));
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeDrop();
+    if (e.key === "Backspace" && input.value === "" && routeWaypoints.length) {
+      removeWaypoint(routeWaypoints.length - 1);
+    }
+  });
+
+  drop.addEventListener("click", (e) => {
+    const item = e.target.closest(".waypoint-drop-item");
+    if (!item) return;
+    addWaypoint(item.dataset.name);
+    closeDrop();
+  });
+
+  tagsBox.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-index]");
+    if (!btn) return;
+    removeWaypoint(Number(btn.dataset.index));
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest(".waypoint-input-wrap") && !e.target.closest("#waypointTags")) {
+      closeDrop();
+    }
+  });
+}
+
+setupWaypointInput();
+setupCreateRouteBtn();
+
+function setupCreateRouteBtn() {
+  const btn = document.getElementById("createRouteBtn");
+  const panel = document.getElementById("routeSummaryPanel");
+  if (!btn || !panel) return;
+
+  btn.addEventListener("click", () => {
+    const originIcao = parseAirportCode(originAirportInput?.value || "");
+    const destIcao   = parseAirportCode(destinationAirportInput?.value || "");
+    const originAirport = colombianAirports.find((a) => a.icao === originIcao);
+    const destAirport   = colombianAirports.find((a) => a.icao === destIcao);
+
+    const originRwy = originRunwaySelect?.value || "";
+    const sid       = sidProcedureSelect?.value || "";
+    const star      = starProcedureSelect?.value || "";
+    const destRwy   = destinationRunwaySelect?.value || "";
+    const iac       = iacProcedureSelect?.value || "";
+    const waypoints = [...routeWaypoints];
+
+    const routeParts = [];
+    if (originIcao) routeParts.push(originIcao + (originRwy ? `/${originRwy}` : ""));
+    if (sid && sid !== "NO_SID") routeParts.push(sid);
+    routeParts.push(...waypoints);
+    if (star && star !== "NO_STAR") routeParts.push(star);
+    if (destIcao) routeParts.push(destIcao + (destRwy ? `/${destRwy}` : ""));
+    if (iac && iac !== "NO_IAC") routeParts.push(iac);
+
+    panel.querySelector(".route-string").textContent = routeParts.join(" — ");
+
+    const fmt = (v, fallback = "NO_SID NO_STAR NO_IAC".includes(v) ? null : v) => fallback || "—";
+
+    panel.querySelector(".route-details").innerHTML = `
+      <div class="rsum-item"><span>Origen</span><strong>${originAirport ? `${originAirport.icao} — ${originAirport.name}` : "—"}</strong></div>
+      <div class="rsum-item"><span>Pista salida</span><strong>${originRwy || "—"}</strong></div>
+      <div class="rsum-item"><span>SID</span><strong>${sid && sid !== "NO_SID" ? sid : "—"}</strong></div>
+      <div class="rsum-item"><span>Waypoints</span><strong>${waypoints.length ? waypoints.join(" — ") : "—"}</strong></div>
+      <div class="rsum-item"><span>STAR</span><strong>${star && star !== "NO_STAR" ? star : "—"}</strong></div>
+      <div class="rsum-item"><span>Pista llegada</span><strong>${destRwy || "—"}</strong></div>
+      <div class="rsum-item"><span>IAC / Aprox.</span><strong>${iac && iac !== "NO_IAC" ? iac : "—"}</strong></div>
+      <div class="rsum-item"><span>Destino</span><strong>${destAirport ? `${destAirport.icao} — ${destAirport.name}` : "—"}</strong></div>
+    `;
+
+    panel.classList.remove("hidden-panel");
+    panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  });
+
+  panel.querySelector(".route-summary-close")?.addEventListener("click", () => {
+    panel.classList.add("hidden-panel");
+  });
+}
+
+function initDashboardMap(airportsReady, waypointsReady) {
+  const container = document.getElementById("dashMapContainer");
+  if (!container || typeof maplibregl === "undefined") return;
+
+  const DASH_STYLES = {
+    liberty:   "https://tiles.openfreemap.org/styles/liberty",
+    dark:      "https://tiles.openfreemap.org/styles/dark",
+    satellite: {
+      version: 8,
+      glyphs: "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
+      sources: {
+        "esri-sat": {
+          type: "raster",
+          tiles: ["https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"],
+          tileSize: 256,
+          maxzoom: 19,
+          attribution: "Tiles &copy; Esri &mdash; Esri, DigitalGlobe, GeoEye, Earthstar Geographics, CNES/Airbus DS, USDA, USGS, AeroGRID, IGN",
+        },
+      },
+      layers: [{ id: "sat-tiles", type: "raster", source: "esri-sat" }],
+    },
+  };
+
+  const dashMap = new maplibregl.Map({
+    container,
+    style: DASH_STYLES.liberty,
+    center: [-74.2973, 4.5709],
+    zoom: 5.5,
+    attributionControl: true,
+  });
+
+  dashMap.addControl(new maplibregl.NavigationControl(), "top-right");
+  dashMap.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-left");
+
+  // GeoJSON cache — populated once, reused on every style switch
+  let normalWpGeoJSON = null;
+  let gpsWpGeoJSON    = null;
+  let airportGeoJSON  = null;
+
+  const LAYER_GROUPS = {
+    dashToggleAirports:    ["dash-airports-dot",     "dash-airports-label"],
+    dashToggleWaypoints:   ["dash-waypoints-dot",    "dash-waypoints-label"],
+    dashToggleGpsWaypoints:["dash-gps-waypoints-dot","dash-gps-waypoints-label"],
+  };
+
+  function layerVisible(btnId) {
+    return document.getElementById(btnId)?.classList.contains("is-active") ?? true;
+  }
+
+  function addDotAndLabel(sourceId, dotId, labelId, color) {
+    dashMap.addLayer({
+      id: dotId, type: "circle", source: sourceId,
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 2, 10, 4],
+        "circle-color": color,
+        "circle-opacity": 0.85,
+      },
+    });
+    dashMap.addLayer({
+      id: labelId, type: "symbol", source: sourceId,
+      minzoom: 7,
+      layout: {
+        "text-field": ["get", "name"],
+        "text-size": 10,
+        "text-offset": [0, 1],
+        "text-anchor": "top",
+        "text-allow-overlap": false,
+        "visibility": layerVisible("dashToggleWaypoints") ? "visible" : "none",
+      },
+      paint: { "text-color": color, "text-halo-color": "#020617", "text-halo-width": 1.2 },
+    });
+    const vis = (grp) => layerVisible(grp) ? "visible" : "none";
+    dashMap.setLayoutProperty(dotId,   "visibility", vis(labelId.includes("gps") ? "dashToggleGpsWaypoints" : "dashToggleWaypoints"));
+    dashMap.setLayoutProperty(labelId, "visibility", vis(labelId.includes("gps") ? "dashToggleGpsWaypoints" : "dashToggleWaypoints"));
+  }
+
+  function addAllDashLayers() {
+    if (!normalWpGeoJSON) return;
+
+    dashMap.addSource("dash-waypoints",     { type: "geojson", data: normalWpGeoJSON });
+    dashMap.addSource("dash-gps-waypoints", { type: "geojson", data: gpsWpGeoJSON });
+    addDotAndLabel("dash-waypoints",     "dash-waypoints-dot",     "dash-waypoints-label",     "#67e8f9");
+    addDotAndLabel("dash-gps-waypoints", "dash-gps-waypoints-dot", "dash-gps-waypoints-label", "#34d399");
+
+    dashMap.addSource("dash-airports", { type: "geojson", data: airportGeoJSON });
+    dashMap.addLayer({
+      id: "dash-airports-dot", type: "circle", source: "dash-airports",
+      layout: { "visibility": layerVisible("dashToggleAirports") ? "visible" : "none" },
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 5, 12, 10],
+        "circle-color": "#fbbf24",
+        "circle-stroke-width": 1.5,
+        "circle-stroke-color": "#020617",
+      },
+    });
+    dashMap.addLayer({
+      id: "dash-airports-label", type: "symbol", source: "dash-airports",
+      minzoom: 6,
+      layout: {
+        "text-field": ["get", "icao"],
+        "text-size": 10,
+        "text-offset": [0, 1.4],
+        "text-anchor": "top",
+        "text-allow-overlap": false,
+        "visibility": layerVisible("dashToggleAirports") ? "visible" : "none",
+      },
+      paint: { "text-color": "#fbbf24", "text-halo-color": "#020617", "text-halo-width": 1.5 },
+    });
+  }
+
+  // Re-add layers on every style switch (and initial load)
+  dashMap.on("style.load", () => addAllDashLayers());
+
+  // One-time setup after data is ready
+  Promise.all([airportsReady, waypointsReady]).then(() => {
+    const normalWaypoints = allWaypoints.filter((w) => /^[A-Za-z]+$/.test(w.name));
+    const gpsWaypoints    = allWaypoints.filter((w) => /\d/.test(w.name));
+
+    const toGeoJSON = (list, propsFn) => ({
+      type: "FeatureCollection",
+      features: list.map((item) => ({
+        type: "Feature",
+        geometry: { type: "Point", coordinates: [item.longitude, item.latitude] },
+        properties: propsFn(item),
+      })),
+    });
+
+    normalWpGeoJSON = toGeoJSON(normalWaypoints, (w) => ({ name: w.name }));
+    gpsWpGeoJSON    = toGeoJSON(gpsWaypoints,    (w) => ({ name: w.name }));
+    airportGeoJSON  = toGeoJSON(colombianAirports, (a) => ({
+      icao: a.icao, name: a.name, runways: (a.runways || []).join(", "),
+    }));
+
+    if (dashMap.isStyleLoaded()) addAllDashLayers();
+
+    // Popup
+    const popup = new maplibregl.Popup({ closeButton: true, maxWidth: "220px" });
+    dashMap.on("click", "dash-airports-dot", (e) => {
+      const p = e.features[0].properties;
+      popup
+        .setLngLat(e.features[0].geometry.coordinates.slice())
+        .setHTML(`<div class="ifr-popup-inner"><code>${p.icao}</code><strong>${p.name}</strong>${p.runways ? `<span>RWY: ${p.runways}</span>` : ""}</div>`)
+        .addTo(dashMap);
+    });
+    ["dash-airports-dot", "dash-waypoints-dot", "dash-gps-waypoints-dot"].forEach((layer) => {
+      dashMap.on("mouseenter", layer, () => { dashMap.getCanvas().style.cursor = "pointer"; });
+      dashMap.on("mouseleave", layer, () => { dashMap.getCanvas().style.cursor = ""; });
+    });
+
+    // Layer toggles
+    Object.entries(LAYER_GROUPS).forEach(([btnId, layerIds]) => {
+      document.getElementById(btnId)?.addEventListener("click", function () {
+        const active = this.classList.toggle("is-active");
+        layerIds.forEach((id) => {
+          if (dashMap.getLayer(id)) dashMap.setLayoutProperty(id, "visibility", active ? "visible" : "none");
+        });
+      });
+    });
+
+    // Style switcher
+    document.querySelectorAll("[data-dash-style]").forEach((btn) => {
+      btn.addEventListener("click", function () {
+        document.querySelectorAll("[data-dash-style]").forEach((b) => b.classList.remove("is-active"));
+        this.classList.add("is-active");
+        dashMap.setStyle(DASH_STYLES[this.dataset.dashStyle]);
+      });
+    });
+
+    // Counts + status
+    const airportCountEl     = document.getElementById("dashAirportCount");
+    const waypointCountEl    = document.getElementById("dashWaypointCount");
+    const gpsWaypointCountEl = document.getElementById("dashGpsWaypointCount");
+    if (airportCountEl)     airportCountEl.textContent     = String(colombianAirports.length).padStart(3, "0");
+    if (waypointCountEl)    waypointCountEl.textContent    = String(normalWaypoints.length).padStart(4, "0");
+    if (gpsWaypointCountEl) gpsWaypointCountEl.textContent = String(gpsWaypoints.length).padStart(4, "0");
+    const statusEl = document.getElementById("dashMapStatus");
+    if (statusEl) { statusEl.textContent = "OK"; statusEl.className = "chip ok"; }
+
+  }).catch((err) => {
+    console.error("Error en mapa dashboard:", err);
+    const statusEl = document.getElementById("dashMapStatus");
+    if (statusEl) { statusEl.textContent = "ERR"; statusEl.className = "chip warn"; }
+  });
+}
+
+document.querySelector("#customSearchClear")?.addEventListener("click", () => {
+  if (customAirportInput) {
+    customAirportInput.value = "";
+    customAirportInput.dispatchEvent(new Event("input"));
+  }
+  closeAirportSuggestions();
+  document.querySelectorAll('[data-chart-panel="custom"]').forEach((btn) => btn.classList.remove("is-active"));
+  if (customChartResults) customChartResults.innerHTML = "";
+  if (customChartPreview) {
+    customChartPreview.classList.add("hidden-panel");
+    if (customPreviewFrame) customPreviewFrame.src = "";
+  }
+  updateRouteChartTitles();
+});

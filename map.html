@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFR Colombia - Mapa Aeronautico</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
+  </head>
+  <body class="map-page">
+    <header class="map-topbar">
+      <div>
+        <div class="tech-label">IFR TRAINING / COLOMBIA / MAPA AERONAUTICO</div>
+        <h1>Mapa IFR Colombia</h1>
+      </div>
+      <div class="map-controls-bar">
+        <div class="map-layer-group">
+          <span class="map-layer-label">Capas activas</span>
+          <button type="button" id="toggleAirports" class="map-layer-btn is-active" aria-pressed="true">
+            <span class="map-layer-dot" style="background:#fbbf24;"></span>
+            Aeropuertos
+            <code id="airportLayerCount">---</code>
+          </button>
+          <button type="button" id="toggleWaypoints" class="map-layer-btn is-active" aria-pressed="true">
+            <span class="map-layer-dot" style="background:#67e8f9;"></span>
+            Waypoints
+            <code id="waypointLayerCount">----</code>
+          </button>
+        </div>
+        <div class="top-actions">
+          <a class="login-access" href="dashboard.html">
+            <span>Ir a</span>
+            <strong>DASHBOARD</strong>
+          </a>
+          <a class="login-access" href="index.html">
+            <span>Ir a</span>
+            <strong>PLANNER</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+    <div id="mapContainer" class="ifr-map-container"></div>
+    <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js"></script>
+    <script src="src/scripts/map.js"></script>
+  </body>
+</html>
