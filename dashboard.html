@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css?v=3" />
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js" defer></script>
-    <script src="src/scripts/dashboard.js?v=21" defer></script>
+    <script src="src/scripts/dashboard.js?v=23" defer></script>
   </head>
   <body>
     <main class="shell">
@@ -25,7 +25,8 @@
       </header>
 
       <section class="data-dashboard" aria-label="Dashboard solo lectura">
-        <article class="read-card wide flight-airports-panel">
+        <div class="dashboard-row dashboard-row-1">
+        <article class="read-card flight-airports-panel">
           <div class="module-head">
             <h2>RUTA IFR</h2>
             <span class="chip ok" id="routeAirportStatus">LOAD</span>
@@ -85,7 +86,7 @@
               <label class="field">
                 <span>Llegada STAR</span>
                 <select id="starProcedureSelect" aria-label="Seleccion de llegada STAR">
-                  <option value="">Seleccione una llegada</option>
+                  <option value="">Seleccione un aeropuerto de destino primero</option>
                 </select>
               </label>
               <div class="field sid-select-field">
@@ -180,7 +181,9 @@
             <iframe id="destinationPreviewFrame" title="Previsualizacion carta destino"></iframe>
           </div>
         </article>
+        </div>
 
+        <div class="dashboard-row dashboard-row-2">
         <article class="read-card chart-custom-card">
           <div class="module-head">
             <h2 id="customChartAirportTitle">Busqueda de aeropuerto</h2>
@@ -225,7 +228,7 @@
           </div>
         </article>
 
-        <article class="read-card wide map-card" aria-label="Mapa aeronautico Colombia">
+        <article class="read-card map-card" aria-label="Mapa aeronautico Colombia">
           <div class="module-head">
             <h2>Mapa IFR Colombia</h2>
             <span class="chip active" id="dashMapStatus">LOAD</span>
@@ -255,6 +258,17 @@
           </div>
           <div id="dashMapContainer" class="dash-map-container"></div>
         </article>
+
+        <article class="read-card favorites-card" aria-label="Mis vuelos favoritos">
+          <div class="module-head">
+            <h2>Mis vuelos favoritos</h2>
+            <span class="chip">000</span>
+          </div>
+          <div class="favorites-empty">
+            <strong>Sin vuelos guardados</strong>
+          </div>
+        </article>
+        </div>
 
       </section>
     </main>

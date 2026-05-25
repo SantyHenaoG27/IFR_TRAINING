@@ -603,9 +603,22 @@ input[type="checkbox"] {
 }
 
 .data-dashboard {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  flex-direction: column;
   gap: 12px;
+}
+
+.dashboard-row {
+  display: grid;
+  gap: 12px;
+}
+
+.dashboard-row-1 {
+  grid-template-columns: 4fr 3fr 3fr;
+}
+
+.dashboard-row-2 {
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .read-card {
@@ -1424,6 +1437,30 @@ input[type="checkbox"] {
   overflow: hidden;
 }
 
+.map-favorites-row {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+  gap: 12px;
+}
+
+
+.favorites-card {
+  min-height: 400px;
+}
+
+.favorites-empty {
+  display: grid;
+  min-height: 340px;
+  place-items: center;
+  margin-top: 10px;
+  border: 1px dashed var(--border-strong);
+  border-radius: 6px;
+  color: var(--muted);
+  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 12px;
+}
+
 /* ── Mapa IFR ─────────────────────────────────────────────────── */
 
 body.map-page {
@@ -1786,13 +1823,16 @@ body.map-page {
     height: 180px;
   }
 
-  .data-dashboard {
+  .dashboard-row-1,
+  .dashboard-row-2 {
     grid-template-columns: 1fr;
   }
 
-  .read-card.wide {
+  .map-favorites-row {
     grid-column: auto;
+    grid-template-columns: 1fr;
   }
+
 
   .table-row {
     grid-template-columns: 1fr;
