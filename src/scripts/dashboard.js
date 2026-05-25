@@ -1016,30 +1016,46 @@ function setupCustomScrollStrip() {
   const stripInner = document.getElementById("chartScrollStripInner");
   if (!inner || !strip || !stripInner) return;
 
-  let syncingFromStrip = false;
-  let syncingFromInner = false;
+  function constrainInnerHeight() {
+    const card = inner.closest(".chart-custom-card");
+    if (!card) return;
+    const moduleHead = card.querySelector(".module-head");
+    const cardStyle = getComputedStyle(card);
+    const paddingTop = parseFloat(cardStyle.paddingTop) || 0;
+    const paddingBottom = parseFloat(cardStyle.paddingBottom) || 0;
+    const moduleHeadH = moduleHead ? moduleHead.offsetHeight : 0;
+    const available = card.clientHeight - moduleHeadH - paddingTop - paddingBottom;
+    if (available > 60) {
+      inner.style.height = available + "px";
+      inner.style.overflow = "hidden";
+      inner.style.overflowY = "scroll";
+    }
+    updateStripHeight();
+  }
 
   function updateStripHeight() {
     stripInner.style.height = inner.scrollHeight + "px";
   }
 
   strip.addEventListener("scroll", () => {
-    if (syncingFromInner) return;
-    syncingFromStrip = true;
     inner.scrollTop = strip.scrollTop;
-    syncingFromStrip = false;
   });
 
   inner.addEventListener("scroll", () => {
-    if (syncingFromStrip) return;
-    syncingFromInner = true;
-    strip.scrollTop = inner.scrollTop;
-    syncingFromInner = false;
+    if (Math.abs(strip.scrollTop - inner.scrollTop) > 1) {
+      strip.scrollTop = inner.scrollTop;
+    }
   });
 
-  const observer = new MutationObserver(updateStripHeight);
-  observer.observe(inner, { childList: true, subtree: true, attributes: true });
-  updateStripHeight();
+  const mutationObs = new MutationObserver(() => {
+    updateStripHeight();
+  });
+  mutationObs.observe(inner, { childList: true, subtree: true });
+
+  const resizeObs = new ResizeObserver(constrainInnerHeight);
+  resizeObs.observe(inner.closest(".chart-custom-card") || inner);
+
+  constrainInnerHeight();
 }
 
 function setupCreateRouteBtn() {
