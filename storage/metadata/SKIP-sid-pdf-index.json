@@ -66,15 +66,15 @@
       "title": "DUBK1B ESAR1C PAMB1F RWY 26 RNAV",
       "procedures": [
         {
-          "name": "DUBK1B",
+          "name": "DUBKU UNO BRAVO",
           "code": "DUBK1B"
         },
         {
-          "name": "ESAR1C",
+          "name": "ESARO UNO CHARLIE",
           "code": "ESAR1C"
         },
         {
-          "name": "PAMB1F",
+          "name": "PAMBA UNO FOXTROT",
           "code": "PAMB1F"
         }
       ],
@@ -112,15 +112,15 @@
       "title": "DUBK1C ESAR1B PAMB1G RWY 08 RNAV",
       "procedures": [
         {
-          "name": "DUBK1C",
+          "name": "DUBKU UNO CHARLIE",
           "code": "DUBK1C"
         },
         {
-          "name": "ESAR1B",
+          "name": "ESARO UNO BRAVO",
           "code": "ESAR1B"
         },
         {
-          "name": "PAMB1G",
+          "name": "PAMBA UNO GOLF",
           "code": "PAMB1G"
         }
       ],
@@ -158,7 +158,7 @@
           "code": "EGOB1G"
         },
         {
-          "name": "MER1D",
+          "name": "MERCADERES UNO DELTA",
           "code": "MER1D"
         }
       ],

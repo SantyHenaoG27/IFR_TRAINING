@@ -44,16 +44,16 @@
           "code": "BUTA3A"
         },
         {
-          "name": "DABI3B",
+          "name": "DABID TRES BRAVO",
           "code": "DABI3B"
+        },
+        {
+          "name": "OPMEL TRES CHARLIE",
+          "code": "OPME3C"
         },
         {
           "name": "KOTI3A",
           "code": "KOTI3A"
-        },
-        {
-          "name": "OPME3C",
-          "code": "OPME3C"
         }
       ],
       "isTabular": false
@@ -90,15 +90,15 @@
       "title": "DABI2C VULR2A ISVO2B RWY 19",
       "procedures": [
         {
-          "name": "DABI2C",
+          "name": "DABID DOS CHARLIE",
           "code": "DABI2C"
         },
         {
-          "name": "VULR2A",
+          "name": "VULRI DOS ALFA",
           "code": "VULR2A"
         },
         {
-          "name": "ISVO2B",
+          "name": "ISVON DOS BRAVO",
           "code": "ISVO2B"
         }
       ],
@@ -128,7 +128,7 @@
       "title": "IBDA1A RWY 01",
       "procedures": [
         {
-          "name": "IBDA1A",
+          "name": "IBDAM UNO ALFA",
           "code": "IBDA1A"
         }
       ],
@@ -143,15 +143,15 @@
       "title": "ISVA2B MUGO2B RNG2B RWY 01 RNAV",
       "procedures": [
         {
-          "name": "ISVA2B",
+          "name": "ISVAT DOS BRAVO",
           "code": "ISVA2B"
         },
         {
-          "name": "MUGO2B",
+          "name": "MUGOP DOS BRAVO",
           "code": "MUGO2B"
         },
         {
-          "name": "RNG2B",
+          "name": "RNG DOS BRAVO",
           "code": "RNG2B"
         }
       ],
@@ -170,11 +170,11 @@
           "code": "LATI2A"
         },
         {
-          "name": "BIVI3A",
+          "name": "BIVIG TRES ALFA",
           "code": "BIVI3A"
         },
         {
-          "name": "MRN1C",
+          "name": "MRN UNO CHARLIE",
           "code": "MRN1C"
         }
       ],
@@ -227,7 +227,7 @@
       "title": "MRN5B RWY 19",
       "procedures": [
         {
-          "name": "MRN5B",
+          "name": "MRN CINCO BRAVO",
           "code": "MRN5B"
         }
       ],
@@ -257,7 +257,7 @@
       "title": "OPSI2A RWY 19",
       "procedures": [
         {
-          "name": "OPSI2A",
+          "name": "OPSIG DOS ALFA",
           "code": "OPSI2A"
         }
       ],

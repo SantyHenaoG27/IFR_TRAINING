@@ -17,56 +17,44 @@
           "code": "CTG1A"
         },
         {
-          "name": "DARN1A",
+          "name": "DARNIUNOALFA",
           "code": "DARN1A"
         },
         {
-          "name": "EDRE1B",
+          "name": "EDRESUNOBRAVO",
           "code": "EDRE1B"
         },
         {
-          "name": "EGOK1A",
+          "name": "EGOKUUNOALFA",
           "code": "EGOK1A"
         },
         {
-          "name": "ENTI3B",
+          "name": "ENTIPTRESBRAVO",
           "code": "ENTI3B"
         },
         {
-          "name": "KAKU2C",
+          "name": "KAKUDDOSCHARLIE",
           "code": "KAKU2C"
         },
         {
-          "name": "LOLU1A",
+          "name": "LOLUDUNOALFA",
           "code": "LOLU1A"
         },
         {
-          "name": "MORG1B",
+          "name": "MORGIUNO BRAVO",
           "code": "MORG1B"
         },
         {
-          "name": "STA2B",
+          "name": "STADOSBRAVO",
           "code": "STA2B"
         },
         {
-          "name": "UGRE1D",
+          "name": "UGREBUNODELTA",
           "code": "UGRE1D"
         },
         {
-          "name": "UGSO1D",
+          "name": "UGSOLUNODELTA",
           "code": "UGSO1D"
-        },
-        {
-          "name": "UMKI1A",
-          "code": "UMKI1A"
-        },
-        {
-          "name": "VARO2C",
-          "code": "VARO2C"
-        },
-        {
-          "name": "VUMB1A",
-          "code": "VUMB1A"
         }
       ],
       "isTabular": false
@@ -114,56 +102,44 @@
           "code": "CTG1H"
         },
         {
-          "name": "DARN1E",
+          "name": "DARNIUNOECHO",
           "code": "DARN1E"
         },
         {
-          "name": "EDRE1E",
+          "name": "EDRESUNOECHO",
           "code": "EDRE1E"
         },
         {
-          "name": "EGOK1C",
+          "name": "EGOKUUNOCHARLIE",
           "code": "EGOK1C"
         },
         {
-          "name": "ENTI1F",
+          "name": "ENTIPUNOFOXTROT",
           "code": "ENTI1F"
         },
         {
-          "name": "KAKU1H",
+          "name": "KAKUDUNOHOTEL",
           "code": "KAKU1H"
         },
         {
-          "name": "LOLU1C",
+          "name": "LOLUDUNOCHARLIE",
           "code": "LOLU1C"
         },
         {
-          "name": "MORG1G",
+          "name": "MORGIUNO GOLF",
           "code": "MORG1G"
         },
         {
-          "name": "STA2F",
+          "name": "STADOSFOXTROT",
           "code": "STA2F"
         },
         {
-          "name": "UGRE1G",
+          "name": "UGREBUNOGOLF",
           "code": "UGRE1G"
         },
         {
-          "name": "UGSO1E",
+          "name": "UGSOLUNOECHO",
           "code": "UGSO1E"
-        },
-        {
-          "name": "UMKI1C",
-          "code": "UMKI1C"
-        },
-        {
-          "name": "VARO1J",
-          "code": "VARO1J"
-        },
-        {
-          "name": "VUMB1E",
-          "code": "VUMB1E"
         }
       ],
       "isTabular": false
@@ -230,11 +206,11 @@
           "code": "KAKU1E"
         },
         {
-          "name": "MORG1F",
+          "name": "MORGI UNO FOXTROT",
           "code": "MORG1F"
         },
         {
-          "name": "VARO1F",
+          "name": "VARON UNO FOXTROT",
           "code": "VARO1F"
         }
       ],

@@ -40,19 +40,19 @@
       "title": "ANLU1A GEGI1B UTGO1A NINL3A A EGOKU, LOKOV, UGALU, DARNI RWY 05 RNAV",
       "procedures": [
         {
-          "name": "ANLU1A",
+          "name": "ANLUP UNO ALFA",
           "code": "ANLU1A"
         },
         {
-          "name": "GEGI1B",
+          "name": "GEGIS UNO BRAVO",
           "code": "GEGI1B"
         },
         {
-          "name": "UTGO1A",
+          "name": "UTGON UNO ALFA",
           "code": "UTGO1A"
         },
         {
-          "name": "NINL3A",
+          "name": "NINLO TRES ALFA",
           "code": "NINL3A"
         }
       ],
@@ -71,47 +71,43 @@
           "code": "CTG1G"
         },
         {
-          "name": "DARN1F",
+          "name": "DARNIUNOFOXTROT",
           "code": "DARN1F"
         },
         {
-          "name": "EGOK1D",
+          "name": "EGOKUUNODELTA",
           "code": "EGOK1D"
         },
         {
-          "name": "ENTI1E",
+          "name": "ENTIPUNOECHO",
           "code": "ENTI1E"
         },
         {
-          "name": "GEGI1A",
+          "name": "GEGISUNOALFA",
           "code": "GEGI1A"
         },
         {
-          "name": "LOKO1B",
+          "name": "LOKOVUNOBRAVO",
           "code": "LOKO1B"
         },
         {
-          "name": "KAKU1G",
+          "name": "KAKUDUNOGOLF",
           "code": "KAKU1G"
         },
         {
-          "name": "SINO1B",
+          "name": "SINOB UNO BRAVO",
           "code": "SINO1B"
         },
         {
-          "name": "SUSTI1B",
-          "code": "SUSTI1B"
-        },
-        {
-          "name": "VOVL1E",
+          "name": "UUNOECHO",
           "code": "VOVL1E"
         },
         {
-          "name": "UGRE1F",
+          "name": "UGREBUNOFOXTROT",
           "code": "UGRE1F"
         },
         {
-          "name": "VARO1H",
+          "name": "VARONUNO HOTEL",
           "code": "VARO1H"
         }
       ],
@@ -184,28 +180,16 @@
           "code": "CTG2F"
         },
         {
-          "name": "VARO2G",
+          "name": "VARONDOSGOLF",
           "code": "VARO2G"
         },
         {
-          "name": "KAKU1F",
+          "name": "KAKUDUNOFOXTROT",
           "code": "KAKU1F"
         },
         {
-          "name": "VOVL2D",
+          "name": "UGRE2 DELTA",
           "code": "VOVL2D"
-        },
-        {
-          "name": "UGRE2E",
-          "code": "UGRE2E"
-        },
-        {
-          "name": "SINO1A",
-          "code": "SINO1A"
-        },
-        {
-          "name": "SUST1A",
-          "code": "SUST1A"
         }
       ],
       "isTabular": false
@@ -277,7 +261,7 @@
       "title": "EVPI2A RWY 05 RNAV",
       "procedures": [
         {
-          "name": "EVPI2A",
+          "name": "EVPIP DOS ALFA",
           "code": "EVPI2A"
         }
       ],

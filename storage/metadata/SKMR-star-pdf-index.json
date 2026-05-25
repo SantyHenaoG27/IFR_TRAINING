@@ -11,7 +11,12 @@
       "chartType": "STAR",
       "runway": "RWY 32",
       "title": ". SKMR_STAR_1_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "BUTAL CUATRO CHARLIE",
+          "code": "BUTA4C"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -21,7 +26,12 @@
       "chartType": "STAR",
       "runway": "RWY 32",
       "title": ". SKMR_STAR_2_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "BUTAL CUATRO DELTA",
+          "code": "BUTA4D"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -31,7 +41,12 @@
       "chartType": "STAR",
       "runway": "RWY 32",
       "title": ". SKMR_STAR_3_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "RAXOG CINCO ALFA",
+          "code": "RAXO5A"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -41,7 +56,12 @@
       "chartType": "STAR",
       "runway": "RWY 32",
       "title": ". SKMR_STAR_4_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "RAXOG CUATRO CHARLIE",
+          "code": "RAXO4C"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -51,7 +71,20 @@
       "chartType": "STAR",
       "runway": "RWY 32",
       "title": ". SKMR_STAR_5_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPA3G",
+          "code": "AKPA3G"
+        },
+        {
+          "name": "COROZAL TRES ECHO",
+          "code": "CZU3E"
+        },
+        {
+          "name": "IRAXU TRES JULIET",
+          "code": "IRAX3J"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -61,7 +94,20 @@
       "chartType": "STAR",
       "runway": "RWY 32",
       "title": ". SKMR_STAR_6_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPA3H",
+          "code": "AKPA3H"
+        },
+        {
+          "name": "COROZAL TRES FOXTROT",
+          "code": "CZU3F"
+        },
+        {
+          "name": "IRAXU TRES KILO",
+          "code": "IRAX3K"
+        }
+      ],
       "isTabular": false
     },
     {

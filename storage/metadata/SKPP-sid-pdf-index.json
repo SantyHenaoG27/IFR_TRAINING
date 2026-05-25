@@ -44,15 +44,15 @@
           "code": "CLO1K"
         },
         {
-          "name": "GAVA1D",
+          "name": "GAVAD UNO DELTA",
           "code": "GAVA1D"
         },
         {
-          "name": "MER1H",
+          "name": "MERCADERES UNO HOTEL",
           "code": "MER1H"
         },
         {
-          "name": "KUDG1G",
+          "name": "KUDGA UNO GOLF",
           "code": "KUDG1G"
         }
       ],
@@ -98,15 +98,15 @@
           "code": "CLO1L"
         },
         {
-          "name": "GIBT1J",
+          "name": "GIBTU UNO JULIET",
           "code": "GIBT1J"
         },
         {
-          "name": "MER1G",
+          "name": "MERCADERES UNO GOLF",
           "code": "MER1G"
         },
         {
-          "name": "KUDG1F",
+          "name": "KUDGA UNO FOXTROT",
           "code": "KUDG1F"
         }
       ],
@@ -117,7 +117,7 @@
       "filePath": "storage/uploads/pdfs/SKPP/SID/SID - ICAO - CLO4B CLO1J RWY 08 26.pdf",
       "airport": "SKPP",
       "chartType": "SID",
-      "runway": "RWY 08 26",
+      "runway": "RWY 08",
       "title": "CLO4B CLO1J RWY 08 26",
       "procedures": [
         {
@@ -125,7 +125,7 @@
           "code": "CLO4B"
         },
         {
-          "name": "CLO1J",
+          "name": "CALI UNO JULIET",
           "code": "CLO1J"
         }
       ],

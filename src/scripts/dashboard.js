@@ -50,7 +50,8 @@ let routeWaypoints = [];
 const chartCache = {};
 
 async function fetchJson(path) {
-  const response = await fetch(path);
+  const separator = path.includes("?") ? "&" : "?";
+  const response = await fetch(`${path}${separator}v=15`, { cache: "no-store" });
 
   if (!response.ok) {
     throw new Error(`No se pudo leer ${path}`);
@@ -228,7 +229,8 @@ function getAirportForPanel(panel) {
   else if (panel === "destination") input = destinationAirportInput;
   else input = customAirportInput;
   const icao = parseAirportCode(input?.value || "");
-  return colombianAirports.find((airport) => airport.icao === icao);
+  const airport = colombianAirports.find((item) => item.icao === icao);
+  return airport || (icao ? { icao, name: icao, runways: [] } : null);
 }
 
 function renderUnavailableCharts(panel, message) {
@@ -244,8 +246,15 @@ function renderUnavailableCharts(panel, message) {
 }
 
 function isNavigationProcedureChart(item) {
-  const text = `${item.fileName} ${item.title} ${item.chartName}`.toUpperCase();
-  return !text.includes("TABULAR DESCRIPTION") && item.isTabular !== true;
+  const text = `${item.fileName} ${item.title} ${item.chartName} ${item.procedureName}`.toUpperCase();
+  const stem = (item.fileName || "").replace(/\.PDF$/i, "").toUpperCase();
+  const nonGraphicPatterns = [
+    "TABULAR",
+    "OPERATING INSTRUCTIONS",
+    "TOWING INSTRUCTIONS",
+  ];
+  const isSupplement = /(?:^|\s)(?:T\d+|HC)$/.test(stem);
+  return item.isTabular !== true && !isSupplement && !nonGraphicPatterns.some((pattern) => text.includes(pattern));
 }
 
 function uniqueByCode(procedures) {
@@ -257,10 +266,105 @@ function uniqueByCode(procedures) {
   });
 }
 
+function normalizeRunwayLabel(runway) {
+  if (!runway) return "";
+  return runway.replace(/\s+/g, " ").replace(/^RWY\s*/i, "").trim();
+}
+
+function formatProcedureOption(procedure) {
+  const invalidNameFragments = [
+    "ICAO STANDARD",
+    "STANDARD INSTRUMENT",
+    "INSTRUMENT ARRIVAL",
+    "INSTRUMENT DEPARTURE",
+    "CARTA DE",
+    "VUELO POR INSTRUMENTOS",
+    "AIRAC",
+    "AIP",
+  ];
+  const rawName = procedure.name || "";
+  const hasInvalidName = invalidNameFragments.some((fragment) => rawName.toUpperCase().includes(fragment));
+  const name = rawName && rawName !== procedure.code && !hasInvalidName ? rawName : "Procedimiento";
+  const runway = procedure.runways?.length ? ` - RWY ${procedure.runways.join(", ")}` : "";
+  return `${name}  [${procedure.code}]${runway}`;
+}
+
+function groupProcedureOptions(procedures) {
+  const grouped = new Map();
+
+  procedures.forEach((procedure) => {
+    if (!procedure.code) return;
+
+    if (!grouped.has(procedure.code)) {
+      grouped.set(procedure.code, {
+        name: procedure.name || procedure.code,
+        code: procedure.code,
+        runways: [],
+      });
+    }
+
+    const item = grouped.get(procedure.code);
+    if ((!item.name || item.name === item.code) && procedure.name) {
+      item.name = procedure.name;
+    }
+
+    const runway = normalizeRunwayLabel(procedure.runway);
+    if (runway && !item.runways.includes(runway)) {
+      item.runways.push(runway);
+    }
+  });
+
+  return [...grouped.values()].sort((a, b) => a.code.localeCompare(b.code));
+}
+
+function extractProcedureCodesFromText(text) {
+  const ignoredCodes = new Set(["ICAO", "RNAV", "RNP", "STAR", "SID", "RWY", "GNSS"]);
+  const matches = normalizeSearch(text).match(/\b[A-Z]{3,5}\d[A-Z]\b/g) || [];
+  return [...new Set(matches)].filter((code) => !ignoredCodes.has(code));
+}
+
+function getItemProcedureObjects(item) {
+  const indexedProcedures = Array.isArray(item.procedures)
+    ? item.procedures.filter((procedure) => procedure.name || procedure.code)
+    : [];
+
+  if (indexedProcedures.length) {
+    return indexedProcedures.map((procedure) => ({
+      name: procedure.name || procedure.code,
+      code: procedure.code || procedure.name,
+    }));
+  }
+
+  const text = `${item.title || ""} ${item.chartName || ""} ${item.procedureName || ""} ${item.fileName || ""}`;
+  return extractProcedureCodesFromText(text).map((code) => ({ name: code, code }));
+}
+
+function formatProcedureList(item) {
+  const procedures = getItemProcedureObjects(item);
+  if (procedures.length) {
+    return procedures.map((procedure) => `[${procedure.code || procedure.name}]`).join(" ");
+  }
+
+  return item.procedureName || item.chartName || item.title || item.fileName;
+}
+
+function getChartCards(index) {
+  return index.items.filter(isNavigationProcedureChart).map((item) => ({
+    title: item.title || item.chartName || item.procedureName || item.fileName,
+    procedures: formatProcedureList(item),
+    runway: item.runway,
+    chartType: item.chartType,
+    fileName: item.fileName,
+    filePath: item.filePath,
+  }));
+}
+
 function getProcedureCards(index) {
   return index.items.filter(isNavigationProcedureChart).flatMap((item) => {
-    if (item.procedures) {
-      return item.procedures.map((procedure) => ({
+    const itemProcedures = getItemProcedureObjects(item);
+
+    if (itemProcedures.length) {
+      return itemProcedures.map((procedure) => ({
         name: procedure.name,
         code: procedure.code,
         runway: item.runway,
@@ -286,20 +390,24 @@ function renderChartList(panel, chartType, index) {
     return;
   }
 
-  const procedureCards = getProcedureCards(index);
+  const chartCards = getChartCards(index);
 
-  if (!procedureCards.length) {
+  if (!chartCards.length) {
     renderUnavailableCharts(panel, `No hay cartas graficas ${chartType} disponibles.`);
     return;
   }
 
-  box.innerHTML = procedureCards
+  box.innerHTML = chartCards
     .map(
-      (procedure) => {
-        const detail = [procedure.code, procedure.runway].filter(Boolean).join(" / ");
+      (chart) => {
+        const isProcedureChart = ["SID", "STAR"].includes(chartType);
+        const title = isProcedureChart ? chart.procedures : chart.title;
+        const detail = isProcedureChart
+          ? [chartType, chart.runway].filter(Boolean).join(" / ")
+          : [chart.procedures, chart.runway].filter(Boolean).join(" / ");
         return `
-        <button class="chart-result-item" type="button" data-panel="${panel}" data-title="${procedure.name}" data-file="${encodeURI(procedure.filePath)}">
-          <strong>${procedure.name}</strong>
+        <button class="chart-result-item" type="button" data-panel="${panel}" data-title="${chart.title}" data-file="${encodeURI(chart.filePath)}">
+          <strong>${title}</strong>
           <span>${detail}</span>
         </button>
       `;
@@ -326,7 +434,6 @@ function setupChartButtons() {
       const chartType = button.dataset.chartType;
       const panel = button.dataset.chartPanel;
       const airport = getAirportForPanel(panel);
-
       const isActive = button.classList.contains("is-active");
 
       document
@@ -334,8 +441,11 @@ function setupChartButtons() {
         .forEach((item) => item.classList.remove("is-active"));
 
       if (isActive) {
-        getChartResultBox(panel).innerHTML = "";
-        getChartPreviewElements(panel).preview?.classList.add("hidden-panel");
+        const resultBox = getChartResultBox(panel);
+        if (resultBox) resultBox.innerHTML = "";
+        const preview = getChartPreviewElements(panel);
+        preview.preview?.classList.add("hidden-panel");
+        if (preview.frame) preview.frame.src = "";
         return;
       }
 
@@ -356,6 +466,9 @@ function setupChartButtons() {
         renderChartList(panel, chartType, index);
         if (chartType === "SID" && panel === "origin") {
           renderSidOptions(index);
+        }
+        if (chartType === "STAR" && panel === "destination") {
+          renderStarOptions(index, airport.icao);
         }
       } catch (error) {
         renderUnavailableCharts(panel, `No hay cartas ${chartType} disponibles para ${airport.icao}.`);
@@ -548,19 +661,24 @@ async function loadStarOptions() {
   }
   try {
     const index = await getChartIndex("STAR", airport.icao);
-    const procedures = getProcedureCards(index);
-    if (!procedures.length) {
-      starProcedureSelect.innerHTML = `<option value="">Sin llegada disponible para ${airport.icao}</option>`;
-      return;
-    }
-    starProcedureSelect.innerHTML = `
-      <option value="">Seleccione una llegada</option>
-      <option value="NO_STAR">Sin llegada</option>
-      ${uniqueByCode(procedures).map((p) => `<option value="${p.code}">${p.name} [${p.code}]${p.runway ? ` / ${p.runway}` : ""}</option>`).join("")}
-    `;
+    renderStarOptions(index, airport.icao);
   } catch {
     starProcedureSelect.innerHTML = `<option value="">Sin llegada disponible para ${airport.icao}</option>`;
   }
+}
+
+function renderStarOptions(index, icao) {
+  if (!starProcedureSelect) return;
+  const procedures = getProcedureCards(index);
+  if (!procedures.length) {
+    starProcedureSelect.innerHTML = `<option value="">Sin llegada disponible para ${icao}</option>`;
+    return;
+  }
+  starProcedureSelect.innerHTML = `
+    <option value="">Seleccione una llegada</option>
+    <option value="NO_STAR">Sin llegada</option>
+    ${groupProcedureOptions(procedures).map((p) => `<option value="${p.code}">${formatProcedureOption(p)}</option>`).join("")}
+  `;
 }
 
 function renderSidOptions(index) {
@@ -578,10 +696,10 @@ function renderSidOptions(index) {
   sidProcedureSelect.innerHTML = `
     <option value="">Seleccione una salida</option>
     <option value="NO_SID">Sin salida</option>
-    ${uniqueByCode(procedures)
+    ${groupProcedureOptions(procedures)
       .map(
         (procedure) =>
-          `<option value="${procedure.code}">${procedure.name} [${procedure.code}]${procedure.runway ? ` / ${procedure.runway}` : ""}</option>`,
+          `<option value="${procedure.code}">${formatProcedureOption(procedure)}</option>`,
       )
       .join("")}
   `;

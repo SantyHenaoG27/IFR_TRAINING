@@ -9,7 +9,7 @@
       "filePath": "storage/uploads/pdfs/SKMU/STAR/03 SKMU_STAR1.pdf",
       "airport": "SKMU",
       "chartType": "STAR",
-      "runway": null,
+      "runway": "RWY 02",
       "title": "SKMU_STAR1",
       "procedures": [],
       "isTabular": false

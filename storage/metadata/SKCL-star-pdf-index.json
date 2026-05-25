@@ -74,11 +74,11 @@
           "code": "DADV1A"
         },
         {
-          "name": "ESAR1A",
+          "name": "ESARO UNO ALFA",
           "code": "ESAR1A"
         },
         {
-          "name": "ILKU1A",
+          "name": "ILKUG UNO ALFA",
           "code": "ILKU1A"
         },
         {
@@ -97,7 +97,7 @@
       "title": "DAKO8A RWY 02",
       "procedures": [
         {
-          "name": "DAKO8A",
+          "name": "DAKOP OCHO ALFA",
           "code": "DAKO8A"
         }
       ],
@@ -242,7 +242,7 @@
       "title": "ULQ2A RWY 20",
       "procedures": [
         {
-          "name": "ULQ2A",
+          "name": "TULUA DOS ALFA",
           "code": "ULQ2A"
         }
       ],
@@ -257,7 +257,7 @@
       "title": "ULQ7D RWY 02",
       "procedures": [
         {
-          "name": "ULQ7D",
+          "name": "TULUA SIETE DELTA",
           "code": "ULQ7D"
         }
       ],

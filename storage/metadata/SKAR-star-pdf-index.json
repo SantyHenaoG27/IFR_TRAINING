@@ -12,8 +12,14 @@
       "runway": "RWY 20",
       "title": "ISNOX UNO FOXTROT / ISNOX UNO GOLF",
       "procedures": [
-        { "name": "ISNOX UNO FOXTROT", "code": "ISNO1F" },
-        { "name": "ISNOX UNO GOLF", "code": "ISNO1G" }
+        {
+          "name": "ISNOX UNO FOXTROT",
+          "code": "ISNO1F"
+        },
+        {
+          "name": "ISNOX UNO GOLF",
+          "code": "ISNO1G"
+        }
       ],
       "isTabular": false
     },
@@ -25,8 +31,14 @@
       "runway": "RWY 20",
       "title": "ISNOX DOS HOTEL / PEREIRA CUATRO BRAVO",
       "procedures": [
-        { "name": "ISNOX DOS HOTEL", "code": "ISNO2H" },
-        { "name": "PEREIRA CUATRO BRAVO", "code": "PEI4B" }
+        {
+          "name": "ISNOX DOS HOTEL",
+          "code": "ISNO2H"
+        },
+        {
+          "name": "PEREIRA CUATRO BRAVO",
+          "code": "PEI4B"
+        }
       ],
       "isTabular": false
     },
@@ -38,7 +50,10 @@
       "runway": "RWY 20",
       "title": "MATRO CUATRO DELTA",
       "procedures": [
-        { "name": "MATRO CUATRO DELTA", "code": "MATR4D" }
+        {
+          "name": "MATRO CUATRO DELTA",
+          "code": "MATR4D"
+        }
       ],
       "isTabular": false
     },
@@ -50,7 +65,10 @@
       "runway": "RWY 20",
       "title": "ISNOX UNO KILO",
       "procedures": [
-        { "name": "ISNOX UNO KILO", "code": "ISNO1K" }
+        {
+          "name": "ISNOX UNO KILO",
+          "code": "ISNO1K"
+        }
       ],
       "isTabular": false
     },
@@ -62,11 +80,26 @@
       "runway": "RWY 20",
       "title": "ISNOX UNO JULIET / MATRO UNO HOTEL / QUIBDO DOS BRAVO / SIBOS UNO ALFA / TORO UNO ECHO",
       "procedures": [
-        { "name": "ISNOX UNO JULIET", "code": "ISNO1J" },
-        { "name": "MATRO UNO HOTEL", "code": "MATR1H" },
-        { "name": "QUIBDO DOS BRAVO", "code": "UIB2B" },
-        { "name": "SIBOS UNO ALFA", "code": "SIBO1A" },
-        { "name": "TORO UNO ECHO", "code": "TORO1E" }
+        {
+          "name": "ISNO1J",
+          "code": "ISNO1J"
+        },
+        {
+          "name": "MATR1H",
+          "code": "MATR1H"
+        },
+        {
+          "name": "UIB2B",
+          "code": "UIB2B"
+        },
+        {
+          "name": "SIBO1A",
+          "code": "SIBO1A"
+        },
+        {
+          "name": "TORO1E",
+          "code": "TORO1E"
+        }
       ],
       "isTabular": false
     },
@@ -78,11 +111,26 @@
       "runway": "RWY 20",
       "title": "ISNOX UNO JULIET / MATRO UNO HOTEL / QUIBDO DOS BRAVO / SIBOS UNO ALFA / TORO UNO ECHO",
       "procedures": [
-        { "name": "ISNOX UNO JULIET", "code": "ISNO1J" },
-        { "name": "MATRO UNO HOTEL", "code": "MATR1H" },
-        { "name": "QUIBDO DOS BRAVO", "code": "UIB2B" },
-        { "name": "SIBOS UNO ALFA", "code": "SIBO1A" },
-        { "name": "TORO UNO ECHO", "code": "TORO1E" }
+        {
+          "name": "ISNOX UNO JULIET",
+          "code": "ISNO1J"
+        },
+        {
+          "name": "MATRO UNO HOTEL",
+          "code": "MATR1H"
+        },
+        {
+          "name": "QUIBDO DOS BRAVO",
+          "code": "UIB2B"
+        },
+        {
+          "name": "SIBOS UNO ALFA",
+          "code": "SIBO1A"
+        },
+        {
+          "name": "TORO UNO ECHO",
+          "code": "TORO1E"
+        }
       ],
       "isTabular": true
     },

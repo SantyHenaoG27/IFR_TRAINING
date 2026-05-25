@@ -15,7 +15,8 @@
           "name": "IRIGI DOS ECHO",
           "code": "IRIG2E"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "11 SKPE_SID_3_RWY_26.pdf",
@@ -36,7 +37,8 @@
           "name": "IRIGI TRES BRAVO",
           "code": "IRIG3B"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "13 SKPE_SID_5_RNAV_RWY_26.pdf",
@@ -53,7 +55,8 @@
           "name": "TOROL UNO HOTEL",
           "code": "TORO1H"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "16 SKPE_SID_8_RNAV_RWY_08.pdf",
@@ -70,7 +73,8 @@
           "name": "TOROL UNO FOXTROT",
           "code": "TORO1F"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "SID - ICAO - NEBO2B RWY 26 (Tabular Description).pdf",
@@ -83,7 +87,8 @@
           "name": "NEBOV DOS BRAVO",
           "code": "NEBO2B"
         }
-      ]
+      ],
+      "isTabular": true
     },
     {
       "fileName": "SID - ICAO - NEBO2B RWY 26.pdf",
@@ -93,10 +98,11 @@
       "title": "NEBOV DOS BRAVO",
       "procedures": [
         {
-          "name": "NEBOV DOS BRAVO",
+          "name": "NEBO2B",
           "code": "NEBO2B"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "SID - ICAO - RWY 08 PEI4A.pdf",
@@ -109,7 +115,8 @@
           "name": "PEREIRA CUATRO ALFA",
           "code": "PEI4A"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "SID - ICAO - RWY 26 AKSI2B MATR4B.pdf",
@@ -119,14 +126,15 @@
       "title": "AKSIM DOS BRAVO / MATRO CUATRO BRAVO",
       "procedures": [
         {
-          "name": "AKSIM DOS BRAVO",
+          "name": "AKSI2B",
           "code": "AKSI2B"
         },
         {
           "name": "MATRO CUATRO BRAVO",
           "code": "MATR4B"
         }
-      ]
+      ],
+      "isTabular": false
     },
     {
       "fileName": "SID -ICAO - RNP RWY 08 NEBO1A (Tabular description).pdf",
@@ -139,7 +147,8 @@
           "name": "NEBOV UNO ALFA",
           "code": "NEBO1A"
         }
-      ]
+      ],
+      "isTabular": true
     },
     {
       "fileName": "SID -ICAO - RNP RWY 08 NEBO1A.pdf",
@@ -149,10 +158,11 @@
       "title": "NEBOV UNO ALFA",
       "procedures": [
         {
-          "name": "NEBOV UNO ALFA",
+          "name": "NEBO1A",
           "code": "NEBO1A"
         }
-      ]
+      ],
+      "isTabular": false
     }
   ]
 }

@@ -32,11 +32,11 @@
       "title": "AROT3C KALO3A RWY 21",
       "procedures": [
         {
-          "name": "AROT3C",
+          "name": "AROTI TRES CHARLIE",
           "code": "AROT3C"
         },
         {
-          "name": "KALO3A",
+          "name": "KALOR TRES ALFA",
           "code": "KALO3A"
         }
       ],
@@ -51,11 +51,11 @@
       "title": "DALO2D BODA2D RWY 21",
       "procedures": [
         {
-          "name": "DALO2D",
+          "name": "DALOK DOS DELTA",
           "code": "DALO2D"
         },
         {
-          "name": "BODA2D",
+          "name": "BODAT DOS DELTA",
           "code": "BODA2D"
         }
       ],
@@ -89,11 +89,11 @@
       "title": "PABO1A ROKU3A RWY 21",
       "procedures": [
         {
-          "name": "PABO1A",
+          "name": "PABON UNO ALFA",
           "code": "PABO1A"
         },
         {
-          "name": "ROKU3A",
+          "name": "ROKUL TRES ALFA",
           "code": "ROKU3A"
         }
       ],
@@ -127,11 +127,11 @@
       "title": "STAR - ICAO- BUTA2J SPRI3A RWY 21",
       "procedures": [
         {
-          "name": "BUTA2J",
+          "name": "BUTAB DOS JULIET",
           "code": "BUTA2J"
         },
         {
-          "name": "SPRI3A",
+          "name": "SPRIN TRES ALFA",
           "code": "SPRI3A"
         }
       ],

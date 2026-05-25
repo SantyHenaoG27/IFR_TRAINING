@@ -31,7 +31,20 @@
       "chartType": "SID",
       "runway": "RWY 32",
       "title": ". SKMR_SID_RNAV_3_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPEK DOS ECHO",
+          "code": "AKPE2E"
+        },
+        {
+          "name": "BOKUS DOS ECHO",
+          "code": "BOKU2E"
+        },
+        {
+          "name": "RAXOG DOS FOXTROT",
+          "code": "RAXO2F"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -41,7 +54,20 @@
       "chartType": "SID",
       "runway": "RWY 32",
       "title": ". SKMR_SID_RNAV_4_RWY_32",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPAM DOS JULIET",
+          "code": "AKPA2J"
+        },
+        {
+          "name": "COROZAL DOS GOLF",
+          "code": "CZU2G"
+        },
+        {
+          "name": "IRAXU DOS GOLF",
+          "code": "IRAX2G"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -61,7 +87,28 @@
       "chartType": "SID",
       "runway": "RWY 14",
       "title": ". SKMR_SID_6_RWY_14",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPAM TRES CHARLIE",
+          "code": "AKPA3C"
+        },
+        {
+          "name": "AKPEK TRES BRAVO",
+          "code": "AKPE3B"
+        },
+        {
+          "name": "COROZAL TRES DELTA",
+          "code": "CZU3D"
+        },
+        {
+          "name": "IRAXU TRES FOXTROT",
+          "code": "IRAX3F"
+        },
+        {
+          "name": "RAXOG DOS ECHO",
+          "code": "RAXO2E"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -71,7 +118,20 @@
       "chartType": "SID",
       "runway": "RWY 14",
       "title": ". SKMR_SID_RNAV_7_RWY_14",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPEK DOS FOXTROT",
+          "code": "AKPE2F"
+        },
+        {
+          "name": "BOKUS DOS FOXTROT",
+          "code": "BOKU2F"
+        },
+        {
+          "name": "RAXOG DOS GOLF",
+          "code": "RAXO2G"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -81,7 +141,20 @@
       "chartType": "SID",
       "runway": "RWY 14",
       "title": ". SKMR_SID_RNAV_8_RWY_14",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AKPAM DOS KILO",
+          "code": "AKPA2K"
+        },
+        {
+          "name": "COROZAL DOS HOTEL",
+          "code": "CZU2H"
+        },
+        {
+          "name": "IRAXU TRES DELTA",
+          "code": "IRAX3D"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -112,11 +185,11 @@
       "title": "RNAV RWY 14 32 BOGA1B BOGA1C",
       "procedures": [
         {
-          "name": "BOGA1B",
+          "name": "BOGAL UNO BRAVO",
           "code": "BOGA1B"
         },
         {
-          "name": "BOGA1C",
+          "name": "BOGAL UNO CHARLIE",
           "code": "BOGA1C"
         }
       ],

@@ -9,7 +9,7 @@
       "filePath": "storage/uploads/pdfs/SKAS/SID/02 SKAS_SID1.pdf",
       "airport": "SKAS",
       "chartType": "SID",
-      "runway": null,
+      "runway": "RWY 01",
       "title": "SKAS_SID1",
       "procedures": [],
       "isTabular": false

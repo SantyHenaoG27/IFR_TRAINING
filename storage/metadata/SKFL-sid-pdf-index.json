@@ -13,11 +13,11 @@
       "title": "EDPI1D GAXA2D RWY 30",
       "procedures": [
         {
-          "name": "EDPI1D",
+          "name": "EDPIB UNO DELTA",
           "code": "EDPI1D"
         },
         {
-          "name": "GAXA2D",
+          "name": "GAXAP DOS DELTA",
           "code": "GAXA2D"
         }
       ],
@@ -36,7 +36,7 @@
           "code": "EDPI1E"
         },
         {
-          "name": "GAXA2G",
+          "name": "GAXAP DOS GOLF",
           "code": "GAXA2G"
         }
       ],
@@ -74,7 +74,7 @@
           "code": "GAXA3H"
         },
         {
-          "name": "PADA3F",
+          "name": "PADAR TRES FOXTROT",
           "code": "PADA3F"
         }
       ],
@@ -93,11 +93,11 @@
           "code": "GEBU2A"
         },
         {
-          "name": "KUDG2A",
+          "name": "KUDGA DOS ALFA",
           "code": "KUDG2A"
         },
         {
-          "name": "VUKT1D",
+          "name": "VUKTU UNO DELTA",
           "code": "VUKT1D"
         }
       ],

@@ -13,7 +13,7 @@
       "title": "ANLA3C RWY 23",
       "procedures": [
         {
-          "name": "ANLA3C",
+          "name": "ANLAV TRES CHARLIE",
           "code": "ANLA3C"
         }
       ],
@@ -28,7 +28,7 @@
       "title": "ANLA5A RWY 05",
       "procedures": [
         {
-          "name": "ANLA5A",
+          "name": "ANLAV CINCO ALFA",
           "code": "ANLA5A"
         }
       ],
@@ -60,6 +60,34 @@
         {
           "name": "EVRA3F",
           "code": "EVRA3F"
+        },
+        {
+          "name": "KOTER TRES ALFA",
+          "code": "KOTE3A"
+        },
+        {
+          "name": "OGNAS DOS ALFA",
+          "code": "OGNA2A"
+        },
+        {
+          "name": "OPTUT DOS ALFA",
+          "code": "OPTU2A"
+        },
+        {
+          "name": "OSOVO UNO JULIETH",
+          "code": "OSOV1J"
+        },
+        {
+          "name": "POVKA UNO BRAVO",
+          "code": "POVK1B"
+        },
+        {
+          "name": "UBNOT DOS ALFA",
+          "code": "UBNO2A"
+        },
+        {
+          "name": "UBRID DOS BRAVO",
+          "code": "UBRID2B"
         }
       ],
       "isTabular": false

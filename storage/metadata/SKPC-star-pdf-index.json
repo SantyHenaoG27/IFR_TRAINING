@@ -32,11 +32,11 @@
       "title": "SIDU2B OVTU2A RWY 07 RNAV",
       "procedures": [
         {
-          "name": "SIDU2B",
+          "name": "SIDUN DOS BRAVO",
           "code": "SIDU2B"
         },
         {
-          "name": "OVTU2A",
+          "name": "OVTUD DOS ALFA",
           "code": "OVTU2A"
         }
       ],

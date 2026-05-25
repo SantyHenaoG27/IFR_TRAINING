@@ -829,7 +829,7 @@ input[type="checkbox"] {
 .chart-result-list {
   display: grid;
   gap: 7px;
-  max-height: 170px;
+  max-height: 260px;
   margin-top: 12px;
   overflow: auto;
 }
@@ -853,11 +853,11 @@ input[type="checkbox"] {
 }
 
 .chart-result-item strong {
-  overflow: hidden;
   color: var(--text);
   font-size: 12px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .chart-result-item span,
@@ -865,6 +865,8 @@ input[type="checkbox"] {
   color: var(--muted);
   font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
   font-size: 11px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
 }
 
 .chart-empty {

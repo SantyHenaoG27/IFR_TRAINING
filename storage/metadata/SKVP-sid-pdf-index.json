@@ -32,11 +32,11 @@
       "title": "RWY 02 EDVA2F UGOS2C",
       "procedures": [
         {
-          "name": "EDVA2F",
+          "name": "EDVAR DOS FOXTROT",
           "code": "EDVA2F"
         },
         {
-          "name": "UGOS2C",
+          "name": "UGOSA DOS CHARLIE",
           "code": "UGOS2C"
         }
       ],

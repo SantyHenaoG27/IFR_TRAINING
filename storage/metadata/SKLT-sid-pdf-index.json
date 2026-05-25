@@ -52,23 +52,23 @@
           "code": "AROT3D"
         },
         {
-          "name": "KALO3B",
+          "name": "KALOR TRES BRAVO",
           "code": "KALO3B"
         },
         {
-          "name": "MIKO3B",
+          "name": "MIKOX TRES BRAVO",
           "code": "MIKO3B"
         },
         {
-          "name": "ROKU3B",
+          "name": "ROKUL TRES BRAVO",
           "code": "ROKU3B"
         },
         {
-          "name": "SPRI1D",
+          "name": "SPRIN UNO DELTA",
           "code": "SPRI1D"
         },
         {
-          "name": "BUTA1M",
+          "name": "BUTAB UNO MIKE",
           "code": "BUTA1M"
         }
       ],
@@ -114,15 +114,15 @@
           "code": "AROT3E"
         },
         {
-          "name": "KALO3D",
+          "name": "KALOR TRES DELTA",
           "code": "KALO3D"
         },
         {
-          "name": "MIKO3C",
+          "name": "MIKOX TRES CHARLIE",
           "code": "MIKO3C"
         },
         {
-          "name": "ROKU3C",
+          "name": "ROKUL TRES CHARLIE",
           "code": "ROKU3C"
         }
       ],
@@ -141,11 +141,11 @@
           "code": "BODA3B"
         },
         {
-          "name": "DALO3B",
+          "name": "DALOK TRES BRAVO",
           "code": "DALO3B"
         },
         {
-          "name": "MEXA2A",
+          "name": "MEXAS DOS ALFA",
           "code": "MEXA2A"
         }
       ],
@@ -214,11 +214,11 @@
       "title": "BUTA2L SPRI3C RWY 03 RNAV",
       "procedures": [
         {
-          "name": "BUTA2L",
+          "name": "BUTAB DOS LIMA",
           "code": "BUTA2L"
         },
         {
-          "name": "SPRI3C",
+          "name": "SPRIN TRES CHARLIE",
           "code": "SPRI3C"
         }
       ],

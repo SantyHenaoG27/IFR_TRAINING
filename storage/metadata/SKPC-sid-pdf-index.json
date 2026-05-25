@@ -13,7 +13,7 @@
       "title": "SIDU2A RWY 25",
       "procedures": [
         {
-          "name": "SIDU2A",
+          "name": "195 SIDUN DOS ALFA",
           "code": "SIDU2A"
         }
       ],
@@ -47,12 +47,12 @@
       "title": "SIDU2D OVTU2B RWY 25 RNAV",
       "procedures": [
         {
-          "name": "SIDU2D",
-          "code": "SIDU2D"
-        },
-        {
           "name": "OVTU2B",
           "code": "OVTU2B"
+        },
+        {
+          "name": "SIDUN DOS DELTA",
+          "code": "SIDU2D"
         }
       ],
       "isTabular": false

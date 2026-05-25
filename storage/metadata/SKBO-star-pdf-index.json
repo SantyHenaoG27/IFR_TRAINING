@@ -17,7 +17,7 @@
           "code": "ATAN4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - ATAN4E T1.pdf",
@@ -32,7 +32,7 @@
           "code": "ATAN4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - ATAN4E T2.pdf",
@@ -47,7 +47,7 @@
           "code": "ATAN4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - ATAN4E T3.pdf",
@@ -62,7 +62,7 @@
           "code": "ATAN4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - ATAN4E T4.pdf",
@@ -77,19 +77,63 @@
           "code": "ATAN4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - ATAN4E.pdf",
       "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - ATAN4E.pdf",
       "airport": "SKBO",
       "chartType": "STAR",
-      "runway": null,
+      "runway": "RWY 14L 14R 32L 32R",
       "title": "ATAN4E",
       "procedures": [
         {
-          "name": "ATAN4E",
+          "name": "ATANA CUATRO ECHO",
           "code": "ATAN4E"
+        },
+        {
+          "name": "EDPUL CUATRO ECHO",
+          "code": "EDPU4E"
+        },
+        {
+          "name": "ISVAT CUATRO ECHO",
+          "code": "ISVA4E"
+        },
+        {
+          "name": "TIRTO CUATRO ECHO",
+          "code": "TIRT4E"
+        },
+        {
+          "name": "TOLIM CUATRO ECHO",
+          "code": "TOLI4E"
+        },
+        {
+          "name": "GIR CUATRO ECHO",
+          "code": "GIR4E"
+        },
+        {
+          "name": "ATANA CUATRO WISKEY",
+          "code": "ATAN4W"
+        },
+        {
+          "name": "EDPUL CUATRO WISKEY",
+          "code": "EDPU4W"
+        },
+        {
+          "name": "ISVAT CUATRO WISKEY",
+          "code": "ISVA4W"
+        },
+        {
+          "name": "TIRTO CUATRO WISKEY",
+          "code": "TIRT4W"
+        },
+        {
+          "name": "TOLIM CUATRO WISKEY",
+          "code": "TOLI4W"
+        },
+        {
+          "name": "GIR CUATRO WISKEY",
+          "code": "GIR4W"
         }
       ],
       "isTabular": false
@@ -107,7 +151,7 @@
           "code": "DOPL4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - DOPL4E T1.pdf",
@@ -122,7 +166,7 @@
           "code": "DOPL4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - DOPL4E T2.pdf",
@@ -137,7 +181,7 @@
           "code": "DOPL4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - DOPL4E T3.pdf",
@@ -152,14 +196,14 @@
           "code": "DOPL4E"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - DOPL4E.pdf",
       "filePath": "storage/uploads/pdfs/SKBO/STAR/STAR - ICAO - DOPL4E.pdf",
       "airport": "SKBO",
       "chartType": "STAR",
-      "runway": null,
+      "runway": "RWY 14L 14R 32L 32R",
       "title": "DOPL4E",
       "procedures": [
         {
@@ -210,7 +254,7 @@
           "code": "MUGO4S"
         }
       ],
-      "isTabular": false
+      "isTabular": true
     },
     {
       "fileName": "STAR - ICAO - RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S (Tabular description 1).pdf",
@@ -307,36 +351,36 @@
       "title": "RNAV RWY 14L 14R 32L 32R ATAN4T GRUD4E GRUD4T MUGO4T ATAN4S GRUD4S GRUD4W MUGO4S",
       "procedures": [
         {
+          "name": "GRUDE CUATRO ECHO",
+          "code": "GRUD4E"
+        },
+        {
+          "name": "GRUDE CUATRO TANGO",
+          "code": "GRUD4T"
+        },
+        {
+          "name": "MUGOP CUATRO TANGO",
+          "code": "MUGO4T"
+        },
+        {
+          "name": "GRUDE CUATRO SIERRA",
+          "code": "GRUD4S"
+        },
+        {
+          "name": "GRUDE CUATRO WISKEY",
+          "code": "GRUD4W"
+        },
+        {
+          "name": "MUGOP CUATRO SIERRA",
+          "code": "MUGO4S"
+        },
+        {
           "name": "ATAN4T",
           "code": "ATAN4T"
         },
         {
-          "name": "GRUD4E",
-          "code": "GRUD4E"
-        },
-        {
-          "name": "GRUD4T",
-          "code": "GRUD4T"
-        },
-        {
-          "name": "MUGO4T",
-          "code": "MUGO4T"
-        },
-        {
           "name": "ATAN4S",
           "code": "ATAN4S"
-        },
-        {
-          "name": "GRUD4S",
-          "code": "GRUD4S"
-        },
-        {
-          "name": "GRUD4W",
-          "code": "GRUD4W"
-        },
-        {
-          "name": "MUGO4S",
-          "code": "MUGO4S"
         }
       ],
       "isTabular": false
@@ -354,7 +398,7 @@
           "code": "ABL2L"
         },
         {
-          "name": "VULA6D",
+          "name": "VULAM SEIS DELTA",
           "code": "VULA6D"
         }
       ],
@@ -373,7 +417,7 @@
           "code": "ABL2M"
         },
         {
-          "name": "VULA3F",
+          "name": "VULAM TRES FOXTROT",
           "code": "VULA3F"
         }
       ],

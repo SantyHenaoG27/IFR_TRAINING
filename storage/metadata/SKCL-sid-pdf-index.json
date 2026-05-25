@@ -59,11 +59,11 @@
       "title": "BUN3C SIGI6C RWY 02",
       "procedures": [
         {
-          "name": "BUN3C",
+          "name": "BUENAVENTURA TRES CHARLIE",
           "code": "BUN3C"
         },
         {
-          "name": "SIGI6C",
+          "name": "SIGIR SEIS CHARLIE",
           "code": "SIGI6C"
         }
       ],
@@ -78,7 +78,7 @@
       "title": "CLO1C RWY 02",
       "procedures": [
         {
-          "name": "CLO1C",
+          "name": "CALI UNO CHARLIE",
           "code": "CLO1C"
         }
       ],
@@ -93,7 +93,7 @@
       "title": "CLO1D RWY 02",
       "procedures": [
         {
-          "name": "CLO1D",
+          "name": "CALI UNO DELTA",
           "code": "CLO1D"
         }
       ],
@@ -108,11 +108,11 @@
       "title": "ISOP4B PPN8B RWY 20",
       "procedures": [
         {
-          "name": "ISOP4B",
+          "name": "ISOPA CUATRO BRAVO",
           "code": "ISOP4B"
         },
         {
-          "name": "PPN8B",
+          "name": "POPAYAN OCHO BRAVO",
           "code": "PPN8B"
         }
       ],
@@ -123,15 +123,15 @@
       "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - KIKU5A RWY 02 KIKU5B RWY 20.pdf",
       "airport": "SKCL",
       "chartType": "SID",
-      "runway": "RWY 02",
+      "runway": "RWY 02 20",
       "title": "KIKU5A RWY 02 KIKU5B RWY 20",
       "procedures": [
         {
-          "name": "KIKU5A",
+          "name": "KIKUM CINCO ALFA",
           "code": "KIKU5A"
         },
         {
-          "name": "KIKU5B",
+          "name": "KIKUM CINCO BRAVO",
           "code": "KIKU5B"
         }
       ],
@@ -165,11 +165,11 @@
       "title": "MONV1A MONV1B RWY 02 RNAV",
       "procedures": [
         {
-          "name": "MONV1A",
+          "name": "MONVI UNO ALFA",
           "code": "MONV1A"
         },
         {
-          "name": "MONV1B",
+          "name": "MONVI UNO BRAVO",
           "code": "MONV1B"
         }
       ],
@@ -180,15 +180,15 @@
       "filePath": "storage/uploads/pdfs/SKCL/SID/SID - ICAO - ULQ1B RWY 02 ULQ1C RWY 20.pdf",
       "airport": "SKCL",
       "chartType": "SID",
-      "runway": "RWY 02",
+      "runway": "RWY 02 20",
       "title": "ULQ1B RWY 02 ULQ1C RWY 20",
       "procedures": [
         {
-          "name": "ULQ1B",
+          "name": "TULUA UNO BRAVO",
           "code": "ULQ1B"
         },
         {
-          "name": "ULQ1C",
+          "name": "TULUA UNO CHARLIE",
           "code": "ULQ1C"
         }
       ],

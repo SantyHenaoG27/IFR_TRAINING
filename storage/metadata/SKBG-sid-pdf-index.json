@@ -51,7 +51,16 @@
       "chartType": "SID",
       "runway": "RWY 35",
       "title": "SKBG_SID_5_RNAV_RWY_35",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "BARRANCABERMEJA DOS FOXTROT",
+          "code": "EJA2F"
+        },
+        {
+          "name": "UBMUN UNO CHARLIE",
+          "code": "UBMU1C"
+        }
+      ],
       "isTabular": false
     },
     {

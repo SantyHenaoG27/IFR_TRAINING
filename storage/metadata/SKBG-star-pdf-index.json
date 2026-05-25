@@ -31,7 +31,20 @@
       "chartType": "STAR",
       "runway": "RWY 35",
       "title": "SKBG_STAR_3_RNAV_RWY_35",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "MOGOS DOS CHARLIE",
+          "code": "MOGO2C"
+        },
+        {
+          "name": "OPROG UNO BRAVO",
+          "code": "OPRO1B"
+        },
+        {
+          "name": "VOVGO UNO FOXTROT",
+          "code": "VOVG1F"
+        }
+      ],
       "isTabular": false
     },
     {

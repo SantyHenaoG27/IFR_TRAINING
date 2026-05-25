@@ -11,7 +11,20 @@
       "chartType": "SID",
       "runway": "RWY 01",
       "title": ". SKSJ_SID_1_RWY_01",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "SJE1A",
+          "code": "SJE1A"
+        },
+        {
+          "name": "ARTID OGNAS DOS BRAVO",
+          "code": "OGNA2B"
+        },
+        {
+          "name": "UBRID DOS CHARLIE",
+          "code": "UBRI2C"
+        }
+      ],
       "isTabular": false
     }
   ]

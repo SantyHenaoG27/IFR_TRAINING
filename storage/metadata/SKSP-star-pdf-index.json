@@ -11,7 +11,48 @@
       "chartType": "STAR",
       "runway": "RWY 06",
       "title": "SKSP_STAR_3_RNAV_RWY_06",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AMUBI UNO CHARLIE",
+          "code": "AMUB1C"
+        },
+        {
+          "name": "BIXOX DOS CHARLIE",
+          "code": "BIXO2C"
+        },
+        {
+          "name": "DURAM DOS CHARLIE",
+          "code": "DURA2C"
+        },
+        {
+          "name": "ENVELDOSALFA",
+          "code": "ENVE2A"
+        },
+        {
+          "name": "FALLAUNOCHARLIE",
+          "code": "FALL1C"
+        },
+        {
+          "name": "LEVORDOSCHARLIE",
+          "code": "LEVO2C"
+        },
+        {
+          "name": "PELRATRESCHARLIE",
+          "code": "PELR3C"
+        },
+        {
+          "name": "PUMRI DOSALFA",
+          "code": "PUMR2A"
+        },
+        {
+          "name": "TOSAVDOSALFA",
+          "code": "TOSA2A"
+        },
+        {
+          "name": "UGEVA DOS CHARLIE",
+          "code": "UGEV2C"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -21,7 +62,48 @@
       "chartType": "STAR",
       "runway": "RWY 24",
       "title": "SKSP_STAR_4_RNAV_RWY_24",
-      "procedures": [],
+      "procedures": [
+        {
+          "name": "AMUBIUNODELTA",
+          "code": "AMUB1D"
+        },
+        {
+          "name": "BIXOXDOSDELTA",
+          "code": "BIXO2D"
+        },
+        {
+          "name": "DURAMDOSDELTA",
+          "code": "DURA2D"
+        },
+        {
+          "name": "ENVELDOSBRAVO",
+          "code": "ENVE2B"
+        },
+        {
+          "name": "FALLADOSDELTA",
+          "code": "FALL2D"
+        },
+        {
+          "name": "LEVORDOSDELTA",
+          "code": "LEVO2D"
+        },
+        {
+          "name": "PELRA TRES DELTA",
+          "code": "PELR3D"
+        },
+        {
+          "name": "PUMRI DOS BRAVO",
+          "code": "PUMR2B"
+        },
+        {
+          "name": "TOSAV DOS BRAVO",
+          "code": "TOSA2B"
+        },
+        {
+          "name": "UGEVA DOS DELTA",
+          "code": "UGEV2D"
+        }
+      ],
       "isTabular": false
     },
     {
@@ -37,35 +119,35 @@
           "code": "AMUB1E"
         },
         {
-          "name": "BIXO1E",
+          "name": "BIXOX UNO ECHO",
           "code": "BIXO1E"
         },
         {
-          "name": "DAGA1C",
+          "name": "DAGAS UNO CHARLIE",
           "code": "DAGA1C"
         },
         {
-          "name": "DURA1E",
+          "name": "DURAM UNO ECHO",
           "code": "DURA1E"
         },
         {
-          "name": "FALL1E",
+          "name": "FALLA UNO ECHO",
           "code": "FALL1E"
         },
         {
-          "name": "LEVO1E",
+          "name": "LEVOR UNO ECHO",
           "code": "LEVO1E"
         },
         {
-          "name": "PELR1E",
+          "name": "PELRA UNO ECHO",
           "code": "PELR1E"
         },
         {
-          "name": "TIMR1C",
+          "name": "TIMRO UNO CHARLIE",
           "code": "TIMR1C"
         },
         {
-          "name": "UGEV1E",
+          "name": "UGEVA UNO ECHO",
           "code": "UGEV1E"
         }
       ],
@@ -84,35 +166,35 @@
           "code": "AMUB1F"
         },
         {
-          "name": "BIXO1F",
+          "name": "BIXOX UNO FOXTROT",
           "code": "BIXO1F"
         },
         {
-          "name": "DAGA1D",
+          "name": "DAGAS UNO DELTA",
           "code": "DAGA1D"
         },
         {
-          "name": "DURA1F",
+          "name": "DURAM UNO FOXTROT",
           "code": "DURA1F"
         },
         {
-          "name": "FALL1F",
+          "name": "FALLA UNO FOXTROT",
           "code": "FALL1F"
         },
         {
-          "name": "LEVO1F",
+          "name": "LEVOR UNO FOXTROT",
           "code": "LEVO1F"
         },
         {
-          "name": "PELR1F",
+          "name": "PELRA UNO FOXTROT",
           "code": "PELR1F"
         },
         {
-          "name": "TIMR1D",
+          "name": "TIMRO UNO DELTA",
           "code": "TIMR1D"
         },
         {
-          "name": "UGEV1F",
+          "name": "UGEVA UNO FOXTROT",
           "code": "UGEV1F"
         }
       ],

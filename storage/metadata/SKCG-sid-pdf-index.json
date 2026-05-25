@@ -82,11 +82,11 @@
       "title": "ESKA2A ILMI2A RWY 01 RNAV",
       "procedures": [
         {
-          "name": "ESKA2A",
+          "name": "ESKAB DOS ALFA",
           "code": "ESKA2A"
         },
         {
-          "name": "ILMI2A",
+          "name": "UGALU. ILMIK DOS ALFA",
           "code": "ILMI2A"
         }
       ],
