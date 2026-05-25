@@ -212,8 +212,17 @@ function updateRouteLineOnMap() {
     routeLineGeoJSON = { type: "FeatureCollection", features: [] };
   }
 
-  const source = dashMapInstance?.getSource("route-line");
-  if (source) source.setData(routeLineGeoJSON);
+  function applyRouteData() {
+    const source = dashMapInstance?.getSource("route-line");
+    if (source) {
+      source.setData(routeLineGeoJSON);
+    } else if (dashMapInstance) {
+      dashMapInstance.once("style.load", () => {
+        dashMapInstance.getSource("route-line")?.setData(routeLineGeoJSON);
+      });
+    }
+  }
+  applyRouteData();
 }
 
 function getChartResultBox(panel) {
@@ -1117,6 +1126,9 @@ function initDashboardMap(airportsReady, waypointsReady) {
       paint: { "text-color": "#fbbf24", "text-halo-color": "#020617", "text-halo-width": 1.5 },
     });
 
+  }
+
+  function addRouteLine() {
     dashMap.addSource("route-line", { type: "geojson", data: routeLineGeoJSON });
     dashMap.addLayer({
       id: "route-line-layer", type: "line", source: "route-line",
@@ -1126,7 +1138,10 @@ function initDashboardMap(airportsReady, waypointsReady) {
   }
 
   // Re-add layers on every style switch (and initial load)
-  dashMap.on("style.load", () => addAllDashLayers());
+  dashMap.on("style.load", () => {
+    addAllDashLayers();
+    addRouteLine();
+  });
 
   // One-time setup after data is ready
   Promise.all([airportsReady, waypointsReady]).then(() => {
