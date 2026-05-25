@@ -1133,7 +1133,7 @@ function initDashboardMap(airportsReady, waypointsReady) {
     dashMap.addLayer({
       id: "route-line-layer", type: "line", source: "route-line",
       layout: { "line-cap": "round", "line-join": "round" },
-      paint: { "line-color": "#38bdf8", "line-width": 4 },
+      paint: { "line-color": "#e879f9", "line-width": 4 },
     });
   }
 
