@@ -618,7 +618,7 @@ input[type="checkbox"] {
 }
 
 .dashboard-row-2 {
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 1fr;
 }
 
 .read-card {
@@ -964,6 +964,13 @@ input[type="checkbox"] {
   height: 320px;
   border: 0;
   background: #020617;
+}
+
+.free-panel-scroll {
+  overflow-y: auto;
+  height: 100%;
+  min-height: 300px;
+  max-height: 480px;
 }
 
 .chart-preview-scroll-wrap {
