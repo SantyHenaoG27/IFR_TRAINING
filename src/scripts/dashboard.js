@@ -960,6 +960,49 @@ function setupWaypointInput() {
 
 setupWaypointInput();
 setupCreateRouteBtn();
+setupClearRouteBtn();
+
+function setupClearRouteBtn() {
+  const btn = document.getElementById("clearRouteBtn");
+  if (!btn) return;
+
+  btn.addEventListener("click", () => {
+    // Clear all airport inputs
+    [originAirportInput, destinationAirportInput].forEach((input) => {
+      if (input) { input.value = ""; input.dispatchEvent(new Event("input")); }
+    });
+    document.querySelectorAll(".airport-search-input[data-route-role='alterno1'], .airport-search-input[data-route-role='alterno2']").forEach((input) => {
+      input.value = "";
+    });
+    // Reset all airport-combobox inputs in the route panel (catches alternos too)
+    document.querySelectorAll(".flight-airports-panel .airport-search-input").forEach((input) => {
+      input.value = "";
+    });
+
+    // Reset selects
+    ["originRunwaySelect", "sidProcedureSelect", "destinationRunwaySelect", "starProcedureSelect", "iacProcedureSelect"].forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) el.selectedIndex = 0;
+    });
+
+    // Clear waypoints
+    routeWaypoints.length = 0;
+    const tagsBox = document.querySelector("#waypointTags");
+    if (tagsBox) tagsBox.innerHTML = "";
+    const wpInput = document.querySelector("#routeWaypointsInput");
+    if (wpInput) wpInput.value = "";
+
+    // Hide route summary panel
+    const panel = document.getElementById("routeSummaryPanel");
+    if (panel) panel.classList.add("hidden-panel");
+
+    // Clear map line
+    updateRouteLineOnMap();
+
+    closeAirportSuggestions();
+    updateRouteChartTitles();
+  });
+}
 
 function setupCreateRouteBtn() {
   const btn = document.getElementById("createRouteBtn");
