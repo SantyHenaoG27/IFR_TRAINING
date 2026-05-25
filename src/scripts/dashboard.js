@@ -190,27 +190,23 @@ function updateRouteLineOnMap() {
   const origin = getAirportForPanel("origin");
   const destination = getAirportForPanel("destination");
 
-  if (
-    origin?.latitude != null && origin?.longitude != null &&
-    destination?.latitude != null && destination?.longitude != null
-  ) {
-    routeLineGeoJSON = {
-      type: "FeatureCollection",
-      features: [{
-        type: "Feature",
-        geometry: {
-          type: "LineString",
-          coordinates: [
-            [origin.longitude, origin.latitude],
-            [destination.longitude, destination.latitude],
-          ],
-        },
-        properties: {},
-      }],
-    };
-  } else {
-    routeLineGeoJSON = { type: "FeatureCollection", features: [] };
+  const coords = [];
+
+  if (origin?.latitude != null && origin?.longitude != null)
+    coords.push([origin.longitude, origin.latitude]);
+
+  for (const name of routeWaypoints) {
+    const wp = allWaypoints.find((w) => w.name === name);
+    if (wp?.latitude != null && wp?.longitude != null)
+      coords.push([wp.longitude, wp.latitude]);
   }
+
+  if (destination?.latitude != null && destination?.longitude != null)
+    coords.push([destination.longitude, destination.latitude]);
+
+  routeLineGeoJSON = coords.length >= 2
+    ? { type: "FeatureCollection", features: [{ type: "Feature", geometry: { type: "LineString", coordinates: coords }, properties: {} }] }
+    : { type: "FeatureCollection", features: [] };
 
   const source = dashMapInstance?.getSource("route-line");
   if (source) {
@@ -894,6 +890,7 @@ function setupWaypointInput() {
   function addWaypoint(name) {
     routeWaypoints.push(name);
     renderTags();
+    updateRouteLineOnMap();
     input.value = "";
     input.focus();
   }
@@ -901,6 +898,7 @@ function setupWaypointInput() {
   function removeWaypoint(index) {
     routeWaypoints.splice(index, 1);
     renderTags();
+    updateRouteLineOnMap();
   }
 
   function closeDrop() {
