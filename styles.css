@@ -618,7 +618,27 @@ input[type="checkbox"] {
 }
 
 .dashboard-row-2 {
-  grid-template-columns: 1fr 1fr 2fr 1fr;
+  grid-template-columns: 1fr 38px 2fr 1fr;
+  column-gap: 0;
+  row-gap: 12px;
+}
+
+.dashboard-row-2 > .read-card:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.scroll-strip {
+  overflow-y: scroll;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+  border-radius: 0 8px 8px 0;
+  align-self: stretch;
+}
+
+.dashboard-row-2 > .read-card:nth-child(3) {
+  margin-left: 12px;
 }
 
 .read-card {
@@ -966,12 +986,6 @@ input[type="checkbox"] {
   background: #020617;
 }
 
-.free-panel-scroll {
-  overflow-y: auto;
-  height: 100%;
-  min-height: 300px;
-  max-height: 480px;
-}
 
 .chart-preview-scroll-wrap {
   overflow-y: auto;
