@@ -190,51 +190,43 @@
             <h2 id="customChartAirportTitle">Busqueda de aeropuerto</h2>
             <span class="chip active" id="customChartAirportCode">ICAO</span>
           </div>
-          <div class="chart-custom-layout">
-            <div class="chart-custom-controls">
-              <div class="data-note" id="customChartNote">
-                Busca cualquier aeropuerto colombiano para consultar sus cartas disponibles.
+          <div class="data-note" id="customChartNote">
+            Busca cualquier aeropuerto colombiano para consultar sus cartas disponibles.
+          </div>
+          <div class="custom-search-field">
+            <span class="custom-search-label">Aeropuerto</span>
+            <div class="custom-search-row">
+              <div class="airport-combobox">
+                <input class="airport-search-input custom-search-input" data-route-role="custom" autocomplete="off" placeholder="SKBO o El Dorado" aria-label="Aeropuerto personalizado" />
+                <div class="airport-suggestions" role="listbox"></div>
               </div>
-              <div class="custom-search-field">
-                <span class="custom-search-label">Aeropuerto</span>
-                <div class="custom-search-row">
-                  <div class="airport-combobox">
-                    <input class="airport-search-input custom-search-input" data-route-role="custom" autocomplete="off" placeholder="SKBO o El Dorado" aria-label="Aeropuerto personalizado" />
-                    <div class="airport-suggestions" role="listbox"></div>
-                  </div>
-                  <button type="button" id="customSearchClear" class="btn-clear-search" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Cancelar busqueda">&#x2715;</button>
-                </div>
-              </div>
-              <div class="chart-type-menu" aria-label="Tipos de cartas personalizadas">
-                <button type="button" data-chart-panel="custom" data-chart-type="ADC">ADC</button>
-                <button type="button" data-chart-panel="custom" data-chart-type="ENR">ENR</button>
-                <button type="button" data-chart-panel="custom" data-chart-type="GMC">GMC</button>
-                <button type="button" data-chart-panel="custom" data-chart-type="IAC">IAC</button>
-                <button type="button" data-chart-panel="custom" data-chart-type="SID">SID</button>
-                <button type="button" data-chart-panel="custom" data-chart-type="STAR">STAR</button>
-                <button type="button" data-chart-panel="custom" data-chart-type="VAC">VAC</button>
-              </div>
-              <div class="chart-result-list" id="customChartResults"></div>
+              <button type="button" id="customSearchClear" class="btn-clear-search" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Cancelar busqueda">&#x2715;</button>
             </div>
-
-            <div class="chart-custom-preview-pane">
-              <div class="chart-preview hidden-panel" id="customChartPreview">
-                <div class="chart-preview-head">
-                  <div>
-                    <span>Previsualizacion</span>
-                    <strong id="customPreviewTitle">Carta seleccionada</strong>
-                  </div>
-                  <div class="chart-preview-actions">
-                    <a id="customPreviewView" href="#" target="_blank" rel="noreferrer">Ver</a>
-                    <a id="customPreviewDownload" href="#" download>Descargar</a>
-                    <button id="customPreviewHide" type="button">Ocultar</button>
-                  </div>
+          </div>
+          <div class="chart-type-menu" aria-label="Tipos de cartas personalizadas">
+            <button type="button" data-chart-panel="custom" data-chart-type="ADC">ADC</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="ENR">ENR</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="GMC">GMC</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="IAC">IAC</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="SID">SID</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="STAR">STAR</button>
+            <button type="button" data-chart-panel="custom" data-chart-type="VAC">VAC</button>
+          </div>
+          <div class="chart-result-list" id="customChartResults"></div>
+          <div class="chart-preview-scroll-wrap">
+            <div class="chart-preview hidden-panel" id="customChartPreview">
+              <div class="chart-preview-head">
+                <div>
+                  <span>Previsualizacion</span>
+                  <strong id="customPreviewTitle">Carta seleccionada</strong>
                 </div>
-                <iframe id="customPreviewFrame" title="Previsualizacion carta personalizada"></iframe>
+                <div class="chart-preview-actions">
+                  <a id="customPreviewView" href="#" target="_blank" rel="noreferrer">Ver</a>
+                  <a id="customPreviewDownload" href="#" download>Descargar</a>
+                  <button id="customPreviewHide" type="button">Ocultar</button>
+                </div>
               </div>
-              <div class="chart-preview-placeholder">
-                <span>Selecciona una carta para previsualizar</span>
-              </div>
+              <iframe id="customPreviewFrame" title="Previsualizacion carta personalizada"></iframe>
             </div>
           </div>
         </article>
