@@ -47,6 +47,22 @@ select {
   margin-bottom: 16px;
 }
 
+.dashboard-topbar {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+}
+
+.dashboard-topbar > div:first-child {
+  grid-column: 2;
+  text-align: center;
+}
+
+.dashboard-topbar .top-actions {
+  grid-column: 3;
+  justify-self: end;
+}
+
 .top-actions {
   display: flex;
   align-items: stretch;
@@ -970,6 +986,21 @@ input[type="checkbox"] {
   min-height: 320px;
 }
 
+.flight-airports-panel > .module-head {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.flight-airports-panel > .module-head h2 {
+  grid-column: 2;
+  text-align: center;
+}
+
+.flight-airports-panel > .module-head .chip {
+  grid-column: 3;
+  justify-self: end;
+}
+
 .flight-airports-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1706,6 +1737,15 @@ body.map-page {
   .topbar {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .dashboard-topbar {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .dashboard-topbar .top-actions {
+    justify-self: stretch;
   }
 
   .top-actions {

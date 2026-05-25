@@ -4,43 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IFR Colombia Data Dashboard</title>
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="styles.css?v=3" />
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js" defer></script>
     <script src="src/scripts/dashboard.js?v=21" defer></script>
   </head>
   <body>
     <main class="shell">
-      <header class="topbar">
+      <header class="topbar dashboard-topbar">
         <div>
           <div class="tech-label">READ ONLY / IFR TRAINING / COLOMBIA</div>
-          <h1>Dashboard de datos operativos</h1>
+          <h1>IFR TRAINING COL</h1>
         </div>
         <div class="top-actions">
-          <a class="login-access" href="map.html">
-            <span>Ver</span>
-            <strong>MAPA IFR</strong>
-          </a>
           <a class="login-access" href="index.html">
             <span>Volver</span>
             <strong>PLANNER</strong>
           </a>
-          <section class="status-block" aria-label="Estado de acceso">
-            <span class="metric-label">ACCESS MODE</span>
-            <strong>RO</strong>
-            <span class="metric-sub">READ ONLY</span>
-          </section>
         </div>
       </header>
 
       <section class="data-dashboard" aria-label="Dashboard solo lectura">
         <article class="read-card wide flight-airports-panel">
           <div class="module-head">
-            <h2>Aeropuertos de ruta</h2>
+            <h2>RUTA IFR</h2>
             <span class="chip ok" id="routeAirportStatus">LOAD</span>
-          </div>
-          <div class="data-note">
-            Sugerencias desde <code>storage/metadata/airports-colombia-runways.json</code>. Escribe minimo 2 caracteres del ICAO o nombre del aeropuerto.
           </div>
           <div class="flight-airports-grid">
             <label class="field airport-combobox">
