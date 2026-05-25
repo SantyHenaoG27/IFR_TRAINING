@@ -623,8 +623,22 @@ input[type="checkbox"] {
   row-gap: 12px;
 }
 
-.dashboard-row-2 > .read-card:first-child {
+.dashboard-row-2 > .chart-custom-card {
   border-radius: 8px 0 0 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.chart-custom-inner {
+  flex: 1;
+  min-height: 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chart-custom-inner::-webkit-scrollbar {
+  display: none;
 }
 
 .scroll-strip {
@@ -635,6 +649,10 @@ input[type="checkbox"] {
   border-right: 1px solid var(--border);
   border-radius: 0 8px 8px 0;
   align-self: stretch;
+}
+
+.scroll-strip-inner {
+  width: 1px;
 }
 
 .dashboard-row-2 > .read-card:nth-child(3) {

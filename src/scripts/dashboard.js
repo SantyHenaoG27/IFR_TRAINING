@@ -961,6 +961,7 @@ function setupWaypointInput() {
 setupWaypointInput();
 setupCreateRouteBtn();
 setupClearRouteBtn();
+setupCustomScrollStrip();
 
 function setupClearRouteBtn() {
   const btn = document.getElementById("clearRouteBtn");
@@ -1002,6 +1003,38 @@ function setupClearRouteBtn() {
     closeAirportSuggestions();
     updateRouteChartTitles();
   });
+}
+
+function setupCustomScrollStrip() {
+  const inner = document.getElementById("chartCustomInner");
+  const strip = document.getElementById("chartScrollStrip");
+  const stripInner = document.getElementById("chartScrollStripInner");
+  if (!inner || !strip || !stripInner) return;
+
+  let syncingFromStrip = false;
+  let syncingFromInner = false;
+
+  function updateStripHeight() {
+    stripInner.style.height = inner.scrollHeight + "px";
+  }
+
+  strip.addEventListener("scroll", () => {
+    if (syncingFromInner) return;
+    syncingFromStrip = true;
+    inner.scrollTop = strip.scrollTop;
+    syncingFromStrip = false;
+  });
+
+  inner.addEventListener("scroll", () => {
+    if (syncingFromStrip) return;
+    syncingFromInner = true;
+    strip.scrollTop = inner.scrollTop;
+    syncingFromInner = false;
+  });
+
+  const observer = new MutationObserver(updateStripHeight);
+  observer.observe(inner, { childList: true, subtree: true, attributes: true });
+  updateStripHeight();
 }
 
 function setupCreateRouteBtn() {
