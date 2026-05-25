@@ -1,0 +1,35 @@
+{
+  "airport": "SKAR",
+  "chartType": "VAC",
+  "sourceFolder": "storage/uploads/pdfs/SKAR/VAC",
+  "generatedFrom": "filename and PDF text extraction",
+  "items": [
+    {
+      "fileName": "24 SKAR_VAC_1_RUTAS_VFR_DE_SALIDA_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/VAC/24 SKAR_VAC_1_RUTAS_VFR_DE_SALIDA_RWY_02.pdf",
+      "airport": "SKAR",
+      "chartType": "VAC",
+      "chartName": "RUTAS VFR DE SALIDA RWY 02",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "25 SKAR_VAC_2_RUTAS_VFR_DE_SALIDA_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/VAC/25 SKAR_VAC_2_RUTAS_VFR_DE_SALIDA_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "VAC",
+      "chartName": "RUTAS VFR DE SALIDA RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "26 SKAR_VAC_3_RUTAS_VFR_DE_LLEGADA_RWY_02_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/VAC/26 SKAR_VAC_3_RUTAS_VFR_DE_LLEGADA_RWY_02_20.pdf",
+      "airport": "SKAR",
+      "chartType": "VAC",
+      "chartName": "RUTAS VFR DE LLEGADA RWY 02 / 20",
+      "runway": "RWY 02 - 20",
+      "isTabular": false
+    }
+  ]
+}

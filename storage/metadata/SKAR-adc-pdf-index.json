@@ -1,0 +1,33 @@
+{
+  "airport": "SKAR",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKAR/ADC",
+  "generatedFrom": "filename and PDF text extraction",
+  "items": [
+    {
+      "fileName": "04 SKAR_ADC.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/ADC/04 SKAR_ADC.pdf",
+      "airport": "SKAR",
+      "chartType": "ADC",
+      "chartName": "PLANO DE AERÓDROMO - OACI",
+      "runway": "RWY 02 - 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT coordinates PBN procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/ADC/WPT coordinates PBN procedures.pdf",
+      "airport": "SKAR",
+      "chartType": "ADC",
+      "chartName": "COORDENADAS WPT PROCEDIMIENTOS PBN",
+      "isTabular": true
+    },
+    {
+      "fileName": "27 SKAR_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/ADC/27 SKAR_Carta_visibilidad.pdf",
+      "airport": "SKAR",
+      "chartType": "ADC",
+      "chartName": "CARTA DE VISIBILIDAD EN TIERRA",
+      "isTabular": false
+    }
+  ]
+}

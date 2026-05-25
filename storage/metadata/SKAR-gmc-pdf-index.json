@@ -1,0 +1,26 @@
+{
+  "airport": "SKAR",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKAR/GMC",
+  "generatedFrom": "filename and PDF text extraction",
+  "items": [
+    {
+      "fileName": "02 SKAR_Circuito_AD_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/GMC/02 SKAR_Circuito_AD_RWY_02.pdf",
+      "airport": "SKAR",
+      "chartType": "GMC",
+      "chartName": "CIRCUITO DE AERÓDROMO RWY 02",
+      "runway": "RWY 02",
+      "isTabular": false
+    },
+    {
+      "fileName": "03 SKAR_Circuito_AD_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/GMC/03 SKAR_Circuito_AD_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "GMC",
+      "chartName": "CIRCUITO DE AERÓDROMO RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    }
+  ]
+}

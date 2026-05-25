@@ -1,0 +1,80 @@
+{
+  "airport": "SKAR",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKAR/IAC",
+  "generatedFrom": "filename, PDF text extraction and SKAR.txt proc file",
+  "items": [
+    {
+      "fileName": "18 SKAR_ IAC_1_ILS_Z_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/18 SKAR_ IAC_1_ILS_Z_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "ILS Z RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "19 SKAR_ IAC_2_LOC_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/19 SKAR_ IAC_2_LOC_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "LOC RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y CAT I RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/IAC - ICAO - ILS Y CAT I RWY 20.pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "ILS Y CAT I RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS Y CAT I RWY 20 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/IAC - ICAO - ILS Y CAT I RWY 20 (Tabular description).pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "ILS Y CAT I RWY 20",
+      "runway": "RWY 20",
+      "isTabular": true
+    },
+    {
+      "fileName": "21 SKAR_ IAC_4_VOR_Y_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/21 SKAR_ IAC_4_VOR_Y_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "VOR Y RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "22 SKAR_IAC_5_VOR_Z_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/22 SKAR_IAC_5_VOR_Z_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "VOR Z RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/IAC - ICAO - RNP RWY 20.pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "RNP RWY 20",
+      "runway": "RWY 20",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP RWY 20 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/IAC/IAC - ICAO - RNP RWY 20 (Tabular description).pdf",
+      "airport": "SKAR",
+      "chartType": "IAC",
+      "procedureName": "RNP RWY 20",
+      "runway": "RWY 20",
+      "isTabular": true
+    }
+  ]
+}

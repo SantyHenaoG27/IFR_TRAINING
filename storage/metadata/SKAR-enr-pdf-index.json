@@ -1,0 +1,16 @@
+{
+  "airport": "SKAR",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKAR/ENR",
+  "generatedFrom": "filename and PDF text extraction",
+  "items": [
+    {
+      "fileName": "01 SKAR_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/ENR/01 SKAR_CTR.pdf",
+      "airport": "SKAR",
+      "chartType": "ENR",
+      "chartName": "CARTA DE CONTROL DE AERÓDROMO - CTR ARMENIA",
+      "isTabular": false
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "airport": "SKAR",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKAR/SID",
+  "generatedFrom": "filename, PDF text extraction and SKAR.txt proc file",
+  "items": [
+    {
+      "fileName": "05 SKAR_SID_1_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/05 SKAR_SID_1_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "ARMENIA DOS ALFA / ARMENIA DOS FOXTROT",
+      "procedures": [
+        { "name": "ARMENIA DOS ALFA", "code": "AXM2A" },
+        { "name": "ARMENIA DOS FOXTROT", "code": "AXM2F" }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "06 SKAR_SID_2_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/06 SKAR_SID_2_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "PEREIRA DOS DELTA / TORO DOS BRAVO",
+      "procedures": [
+        { "name": "PEREIRA DOS DELTA", "code": "PEI2D" },
+        { "name": "TORO DOS BRAVO", "code": "TORO2B" }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKAR_SID_3_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/07 SKAR_SID_3_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "DOSGO DOS ALFA / DOSGO CINCO BRAVO / TOLIMA DOS BRAVO",
+      "procedures": [
+        { "name": "DOSGO DOS ALFA", "code": "DOSG2A" },
+        { "name": "DOSGO CINCO BRAVO", "code": "DOSG5B" },
+        { "name": "TOLIMA DOS BRAVO", "code": "TOLI2B" }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKAR_SID_4_RWY_02.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/08 SKAR_SID_4_RWY_02.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 02",
+      "title": "ARMENIA UNO GOLF / ARMENIA UNO HOTEL / PEREIRA UNO ECHO / PEREIRA UNO FOXTROT / TORO UNO CHARLIE",
+      "procedures": [
+        { "name": "ARMENIA UNO GOLF", "code": "AXM1G" },
+        { "name": "ARMENIA UNO HOTEL", "code": "AXM1H" },
+        { "name": "PEREIRA UNO ECHO", "code": "PEI1E" },
+        { "name": "PEREIRA UNO FOXTROT", "code": "PEI1F" },
+        { "name": "TORO UNO CHARLIE", "code": "TORO1C" }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - PEI3G TOLI4A TORO2D RWY 20 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/SID - ICAO - PEI3G TOLI4A TORO2D RWY 20 RNAV.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "PEREIRA TRES GOLF / TOLIMA CUATRO ALFA / TORO DOS DELTA",
+      "procedures": [
+        { "name": "PEREIRA TRES GOLF", "code": "PEI3G" },
+        { "name": "TOLIMA CUATRO ALFA", "code": "TOLI4A" },
+        { "name": "TORO DOS DELTA", "code": "TORO2D" }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - PEI3G TOLI4A TORO2D RWY 20 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/SID - ICAO - PEI3G TOLI4A TORO2D RWY 20 RNAV (Tabular description).pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "PEREIRA TRES GOLF / TOLIMA CUATRO ALFA / TORO DOS DELTA",
+      "procedures": [
+        { "name": "PEREIRA TRES GOLF", "code": "PEI3G" },
+        { "name": "TOLIMA CUATRO ALFA", "code": "TOLI4A" },
+        { "name": "TORO DOS DELTA", "code": "TORO2D" }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "SID - ICAO - DOSG2C RWY 20 RNAV.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/SID - ICAO - DOSG2C RWY 20 RNAV.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "DOSGO DOS CHARLIE",
+      "procedures": [
+        { "name": "DOSGO DOS CHARLIE", "code": "DOSG2C" }
+      ],
+      "isTabular": false
+    },
+    {
+      "fileName": "SID - ICAO - DOSG2C RWY 20 RNAV (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/SID - ICAO - DOSG2C RWY 20 RNAV (Tabular description).pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "DOSGO DOS CHARLIE",
+      "procedures": [
+        { "name": "DOSGO DOS CHARLIE", "code": "DOSG2C" }
+      ],
+      "isTabular": true
+    },
+    {
+      "fileName": "11 SKAR_SID_7_RNAV_RWY_20.pdf",
+      "filePath": "storage/uploads/pdfs/SKAR/SID/11 SKAR_SID_7_RNAV_RWY_20.pdf",
+      "airport": "SKAR",
+      "chartType": "SID",
+      "runway": "RWY 20",
+      "title": "SID RNAV 7 RWY 20",
+      "procedures": [],
+      "isTabular": false
+    }
+  ]
+}

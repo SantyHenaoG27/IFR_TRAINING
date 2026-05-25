@@ -30,14 +30,7 @@ const destinationPreviewFrame = document.querySelector("#destinationPreviewFrame
 const skpeRows = document.querySelector("#skpeRows");
 const skpeCount = document.querySelector("#skpeCount");
 let colombianAirports = [];
-const chartIndexes = {
-  ADC: null,
-  ENR: null,
-  GMC: null,
-  IAC: null,
-  SID: null,
-  STAR: null,
-};
+const chartCache = {};
 
 async function fetchJson(path) {
   const response = await fetch(path);
@@ -237,19 +230,8 @@ function getProcedureCards(index) {
 
 function renderChartList(panel, chartType, index) {
   const box = getChartResultBox(panel);
-  const airport = getAirportForPanel(panel);
 
   if (!box) {
-    return;
-  }
-
-  if (!airport) {
-    renderUnavailableCharts(panel, "Selecciona primero un aeropuerto.");
-    return;
-  }
-
-  if (airport.icao !== index.airport) {
-    renderUnavailableCharts(panel, `No hay ${chartType} indexadas para ${airport.icao}.`);
     return;
   }
 
@@ -275,22 +257,16 @@ function renderChartList(panel, chartType, index) {
     .join("");
 }
 
-async function getChartIndex(chartType) {
-  if (chartIndexes[chartType]) {
-    return chartIndexes[chartType];
+async function getChartIndex(chartType, icao) {
+  const cacheKey = `${icao}-${chartType}`;
+
+  if (chartCache[cacheKey]) {
+    return chartCache[cacheKey];
   }
 
-  const pathByType = {
-    ADC: "storage/metadata/adc-pdf-index.json",
-    ENR: "storage/metadata/enr-pdf-index.json",
-    GMC: "storage/metadata/gmc-pdf-index.json",
-    IAC: "storage/metadata/iac-pdf-index.json",
-    SID: "storage/metadata/sid-pdf-index.json",
-    STAR: "storage/metadata/star-pdf-index.json",
-  };
-
-  chartIndexes[chartType] = await fetchJson(pathByType[chartType]);
-  return chartIndexes[chartType];
+  const path = `storage/metadata/${icao}-${chartType.toLowerCase()}-pdf-index.json`;
+  chartCache[cacheKey] = await fetchJson(path);
+  return chartCache[cacheKey];
 }
 
 function setupChartButtons() {
@@ -298,22 +274,31 @@ function setupChartButtons() {
     button.addEventListener("click", async () => {
       const chartType = button.dataset.chartType;
       const panel = button.dataset.chartPanel;
+      const airport = getAirportForPanel(panel);
 
       document
         .querySelectorAll(`[data-chart-panel="${panel}"]`)
         .forEach((item) => item.classList.remove("is-active"));
       button.classList.add("is-active");
 
-      if (!["ADC", "ENR", "GMC", "IAC", "SID", "STAR"].includes(chartType)) {
+      if (!airport) {
+        renderUnavailableCharts(panel, "Selecciona primero un aeropuerto de origen o destino.");
+        return;
+      }
+
+      if (!["ADC", "ENR", "GMC", "IAC", "SID", "STAR", "VAC"].includes(chartType)) {
         renderUnavailableCharts(panel, `${chartType} no esta indexada todavia.`);
         return;
       }
 
       try {
-        const index = await getChartIndex(chartType);
+        const index = await getChartIndex(chartType, airport.icao);
         renderChartList(panel, chartType, index);
+        if (chartType === "SID" && panel === "origin") {
+          renderSidOptions(index);
+        }
       } catch (error) {
-        renderUnavailableCharts(panel, `No se pudo cargar ${chartType}.`);
+        renderUnavailableCharts(panel, `No hay cartas ${chartType} disponibles para ${airport.icao}.`);
       }
     });
   });
@@ -411,10 +396,14 @@ function setupAirportSearch() {
       input.value = item.dataset.value;
       closeAirportSuggestions();
       updateRouteChartTitles();
+      loadSidOptions();
     });
   });
 
-  originAirportInput?.addEventListener("input", updateRouteChartTitles);
+  originAirportInput?.addEventListener("input", () => {
+    updateRouteChartTitles();
+    loadSidOptions();
+  });
   destinationAirportInput?.addEventListener("input", updateRouteChartTitles);
 
   document.addEventListener("click", (event) => {
@@ -540,11 +529,18 @@ async function loadSidOptions() {
     return;
   }
 
+  const airport = getAirportForPanel("origin");
+
+  if (!airport) {
+    sidProcedureSelect.innerHTML = `<option>Seleccione primero un aeropuerto de origen</option>`;
+    return;
+  }
+
   try {
-    const index = await fetchJson("storage/metadata/sid-pdf-index.json");
+    const index = await getChartIndex("SID", airport.icao);
     renderSidOptions(index);
   } catch (error) {
-    sidProcedureSelect.innerHTML = `<option>Sin salida disponible</option>`;
+    sidProcedureSelect.innerHTML = `<option>Sin salida disponible para ${airport?.icao ?? "este aeropuerto"}</option>`;
   }
 }
 
