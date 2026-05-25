@@ -966,6 +966,54 @@ input[type="checkbox"] {
   background: #020617;
 }
 
+.chart-custom-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 8px;
+  align-items: start;
+}
+
+.chart-custom-controls .chart-result-list {
+  max-height: none;
+  overflow-y: visible;
+}
+
+.chart-custom-preview-pane {
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+  max-height: 520px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: #060c18;
+}
+
+.chart-custom-preview-pane .chart-preview {
+  margin-top: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.chart-custom-preview-pane .chart-preview iframe {
+  height: 460px;
+}
+
+.chart-preview-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 16px;
+  color: var(--dim);
+  font-size: 12px;
+  text-align: center;
+}
+
+.chart-preview:not(.hidden-panel) ~ .chart-preview-placeholder {
+  display: none;
+}
+
 .data-table {
   margin-top: 14px;
   overflow: hidden;
