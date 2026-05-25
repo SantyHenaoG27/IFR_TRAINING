@@ -496,7 +496,12 @@ function setupChartButtons() {
       button.classList.add("is-active");
 
       if (!airport) {
-        renderUnavailableCharts(panel, "Selecciona primero un aeropuerto de origen o destino.");
+        renderUnavailableCharts(
+          panel,
+          panel === "custom"
+            ? "Primero ingresa un aeropuerto valido."
+            : "Selecciona primero un aeropuerto de origen o destino."
+        );
         return;
       }
 
