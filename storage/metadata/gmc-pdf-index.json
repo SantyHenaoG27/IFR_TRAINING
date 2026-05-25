@@ -1,0 +1,16 @@
+{
+  "airport": "SKPE",
+  "chartType": "GMC",
+  "sourceFolder": "storage/uploads/pdfs/SKPE/GMC",
+  "generatedFrom": "visual header read from rendered first PDF page",
+  "items": [
+    {
+      "fileName": "Aircraft Parking Docking Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/GMC/Aircraft Parking Docking Chart - ICAO.pdf",
+      "airport": "SKPE",
+      "chartType": "GMC",
+      "chartName": "PLANO ESTACIONAMIENTO Y ATRAQUE - OACI / PLATAFORMA",
+      "isTabular": false
+    }
+  ]
+}

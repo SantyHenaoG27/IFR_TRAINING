@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFR Colombia Data Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="src/scripts/dashboard.js?v=5" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <div class="tech-label">READ ONLY / IFR TRAINING / COLOMBIA</div>
+          <h1>Dashboard de datos operativos</h1>
+        </div>
+        <div class="top-actions">
+          <a class="login-access" href="index.html">
+            <span>Volver</span>
+            <strong>PLANNER</strong>
+          </a>
+          <section class="status-block" aria-label="Estado de acceso">
+            <span class="metric-label">ACCESS MODE</span>
+            <strong>RO</strong>
+            <span class="metric-sub">READ ONLY</span>
+          </section>
+        </div>
+      </header>
+
+      <section class="data-dashboard" aria-label="Dashboard solo lectura">
+        <article class="read-card wide flight-airports-panel">
+          <div class="module-head">
+            <h2>Aeropuertos de ruta</h2>
+            <span class="chip ok" id="routeAirportStatus">LOAD</span>
+          </div>
+          <div class="data-note">
+            Sugerencias desde <code>storage/metadata/airports-colombia-runways.json</code>. Escribe minimo 2 caracteres del ICAO o nombre del aeropuerto.
+          </div>
+          <div class="flight-airports-grid">
+            <label class="field airport-combobox">
+              <span>Origen</span>
+              <input class="airport-search-input" data-route-role="origin" autocomplete="off" placeholder="SKBO o El Dorado" aria-label="Origen" />
+              <div class="airport-suggestions" role="listbox"></div>
+            </label>
+            <label class="field airport-combobox">
+              <span>Destino</span>
+              <input class="airport-search-input" data-route-role="destination" autocomplete="off" placeholder="SKPE o Matecana" aria-label="Destino" />
+              <div class="airport-suggestions" role="listbox"></div>
+            </label>
+            <label class="field airport-combobox">
+              <span>Alterno 1</span>
+              <input class="airport-search-input" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 1" />
+              <div class="airport-suggestions" role="listbox"></div>
+            </label>
+            <label class="field airport-combobox">
+              <span>Alterno 2</span>
+              <input class="airport-search-input" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 2" />
+              <div class="airport-suggestions" role="listbox"></div>
+            </label>
+            <label class="field sid-select-field">
+              <span>Salida SID</span>
+              <select id="sidProcedureSelect" aria-label="Seleccion de salida SID">
+                <option>Seleccione una salida</option>
+              </select>
+            </label>
+          </div>
+        </article>
+
+        <article class="read-card pdf-card">
+          <div class="module-head">
+            <h2 id="originChartAirportTitle">Cartas del origen</h2>
+            <span class="chip active" id="originChartAirportCode">ORIG</span>
+          </div>
+          <div class="data-note" id="originChartNote">
+            Selecciona el aeropuerto de origen para preparar sus cartas disponibles.
+          </div>
+          <div class="chart-type-menu" aria-label="Tipos de cartas">
+            <button type="button" data-chart-panel="origin" data-chart-type="ADC">ADC</button>
+            <button type="button" data-chart-panel="origin" data-chart-type="ENR">ENR</button>
+            <button type="button" data-chart-panel="origin" data-chart-type="GMC">GMC</button>
+            <button type="button" data-chart-panel="origin" data-chart-type="IAC">IAC</button>
+            <button type="button" data-chart-panel="origin" data-chart-type="SID">SID</button>
+            <button type="button" data-chart-panel="origin" data-chart-type="STAR">STAR</button>
+          </div>
+          <div class="chart-result-list" id="originChartResults"></div>
+          <div class="chart-preview hidden-panel" id="originChartPreview">
+            <div class="chart-preview-head">
+              <div>
+                <span>Previsualizacion</span>
+                <strong id="originPreviewTitle">Carta seleccionada</strong>
+              </div>
+              <div class="chart-preview-actions">
+                <a id="originPreviewView" href="#" target="_blank" rel="noreferrer">Ver</a>
+                <a id="originPreviewDownload" href="#" download>Descargar</a>
+                <button id="originPreviewHide" type="button">Ocultar</button>
+              </div>
+            </div>
+            <iframe id="originPreviewFrame" title="Previsualizacion carta origen"></iframe>
+          </div>
+          <div class="pdf-viewer hidden-panel">
+            <iframe
+              title="SKPE STAR RWY 08"
+              src="storage/uploads/pdfs/SKPE/STAR/18%20SKPE_STAR_2_RWY_08.pdf#toolbar=0&navpanes=0"
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="read-card chart-destination-card">
+          <div class="module-head">
+            <h2 id="destinationChartAirportTitle">Cartas del destino</h2>
+            <span class="chip active" id="destinationChartAirportCode">DEST</span>
+          </div>
+          <div class="data-note" id="destinationChartNote">
+            Selecciona el aeropuerto de destino para preparar sus cartas disponibles.
+          </div>
+          <div class="chart-type-menu" aria-label="Tipos de cartas destino">
+            <button type="button" data-chart-panel="destination" data-chart-type="ADC">ADC</button>
+            <button type="button" data-chart-panel="destination" data-chart-type="ENR">ENR</button>
+            <button type="button" data-chart-panel="destination" data-chart-type="GMC">GMC</button>
+            <button type="button" data-chart-panel="destination" data-chart-type="IAC">IAC</button>
+            <button type="button" data-chart-panel="destination" data-chart-type="SID">SID</button>
+            <button type="button" data-chart-panel="destination" data-chart-type="STAR">STAR</button>
+          </div>
+          <div class="chart-result-list" id="destinationChartResults"></div>
+          <div class="chart-preview hidden-panel" id="destinationChartPreview">
+            <div class="chart-preview-head">
+              <div>
+                <span>Previsualizacion</span>
+                <strong id="destinationPreviewTitle">Carta seleccionada</strong>
+              </div>
+              <div class="chart-preview-actions">
+                <a id="destinationPreviewView" href="#" target="_blank" rel="noreferrer">Ver</a>
+                <a id="destinationPreviewDownload" href="#" download>Descargar</a>
+                <button id="destinationPreviewHide" type="button">Ocultar</button>
+              </div>
+            </div>
+            <iframe id="destinationPreviewFrame" title="Previsualizacion carta destino"></iframe>
+          </div>
+        </article>
+
+        <article class="read-card wide waypoint-panel">
+          <div class="module-head">
+            <h2>Waypoints Colombia</h2>
+            <span class="chip active" id="waypointCount">LOAD</span>
+          </div>
+          <div class="data-note">
+            Fuente filtrada por region <code>SK</code>. Orden detectado: <code>nombre, latitud, longitud, region</code>
+          </div>
+          <div class="waypoint-table" aria-label="Waypoints cargados desde archivo">
+            <div class="waypoint-row header">
+              <span>Waypoint</span>
+              <span>Latitud</span>
+              <span>Longitud</span>
+              <span>Region</span>
+            </div>
+            <div id="waypointRows"></div>
+          </div>
+        </article>
+
+        <article class="read-card wide airport-panel">
+          <div class="module-head">
+            <h2>Aeropuertos Colombia</h2>
+            <span class="chip ok" id="airportCount">LOAD</span>
+          </div>
+          <div class="data-note">
+            Fuente filtrada por codigo ICAO <code>SK</code>. Incluye nombre, coordenadas y pistas.
+          </div>
+          <div class="airport-table" aria-label="Aeropuertos colombianos cargados desde archivo">
+            <div class="airport-row header">
+              <span>ICAO</span>
+              <span>Nombre</span>
+              <span>Latitud</span>
+              <span>Longitud</span>
+              <span>Pistas</span>
+            </div>
+            <div id="airportRows"></div>
+          </div>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

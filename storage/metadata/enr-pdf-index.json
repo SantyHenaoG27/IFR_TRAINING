@@ -1,0 +1,16 @@
+{
+  "airport": "SKPE",
+  "chartType": "ENR",
+  "sourceFolder": "storage/uploads/pdfs/SKPE/ENR",
+  "generatedFrom": "visual header read from rendered first PDF page",
+  "items": [
+    {
+      "fileName": "05 SKPE_CTR.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ENR/05 SKPE_CTR.pdf",
+      "airport": "SKPE",
+      "chartType": "ENR",
+      "chartName": "ZONA DE CONTROL (CTR) PEREIRA",
+      "isTabular": false
+    }
+  ]
+}

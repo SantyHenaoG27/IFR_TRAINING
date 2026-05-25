@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFR Colombia Training Console</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <div class="tech-label">IFR TRAINING / COLOMBIA / EFB CONSOLE</div>
+          <h1>Planificacion instrumental operativa</h1>
+        </div>
+        <div class="top-actions">
+          <a class="login-access" href="dashboard.html">
+            <span>Login</span>
+            <strong>DATA DASH</strong>
+          </a>
+          <section class="status-block" aria-label="Metrica de sesion">
+            <span class="metric-label">SESSION SCORE</span>
+            <strong>87%</strong>
+            <span class="metric-sub">RNAV READY</span>
+          </section>
+        </div>
+      </header>
+
+      <div class="workspace">
+        <section class="main-column" aria-label="Constructor y mapa">
+          <div class="od-grid">
+            <label class="field">
+              <span>Origen</span>
+              <input value="SKBO" aria-label="Origen" />
+            </label>
+            <label class="field">
+              <span>Destino</span>
+              <input value="SKCL" aria-label="Destino" />
+            </label>
+            <label class="field">
+              <span>Alterno 1</span>
+              <input value="SKRG" aria-label="Alterno 1" />
+            </label>
+            <label class="field">
+              <span>Alterno 2</span>
+              <input value="SKPE" aria-label="Alterno 2" />
+            </label>
+          </div>
+
+          <div class="route-grid">
+            <article class="module">
+              <div class="module-head">
+                <h2>Salida</h2>
+                <span class="chip ok">VALID</span>
+              </div>
+              <div class="field-row">
+                <label class="field">
+                  <span>Pista</span>
+                  <select>
+                    <option>13L</option>
+                    <option>13R</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>SID</span>
+                  <select>
+                    <option>ZIP2C</option>
+                    <option>ABL2D</option>
+                  </select>
+                </label>
+              </div>
+            </article>
+
+            <article class="module">
+              <div class="module-head">
+                <h2>Ruta intermedia</h2>
+                <span class="chip active">ACTIVE</span>
+              </div>
+              <div class="route-line">
+                <code>ZIP</code>
+                <span></span>
+                <code>ABL</code>
+                <span></span>
+                <code>UL417</code>
+                <span></span>
+                <code>CLO</code>
+              </div>
+              <label class="field full">
+                <span>Enmienda manual</span>
+                <input value="ZIP ABL UL417 CLO" />
+              </label>
+            </article>
+
+            <article class="module">
+              <div class="module-head">
+                <h2>Llegada</h2>
+                <span class="chip warn">WX CHECK</span>
+              </div>
+              <div class="field-row">
+                <label class="field">
+                  <span>STAR</span>
+                  <select>
+                    <option>CLO2A</option>
+                    <option>GIR1B</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>APP</span>
+                  <select>
+                    <option>ILS Z 02</option>
+                    <option>RNAV 02</option>
+                  </select>
+                </label>
+              </div>
+            </article>
+
+            <article class="module summary">
+              <div class="module-head">
+                <h2>Resumen</h2>
+                <span class="chip">SIM</span>
+              </div>
+              <div class="metrics">
+                <div><span>Dist</span><strong>162 NM</strong></div>
+                <div><span>ETE</span><strong>00:48</strong></div>
+                <div><span>MEA</span><strong>15000</strong></div>
+              </div>
+              <div class="actions">
+                <button class="btn secondary">Limpiar</button>
+                <button class="btn primary">Cargar ruta</button>
+              </div>
+            </article>
+          </div>
+
+          <section class="map-panel" aria-label="Mapa operacional">
+            <div class="map-toolbar top-left">
+              <label><input type="checkbox" checked /> Airways</label>
+              <label><input type="checkbox" checked /> Navaids</label>
+              <label><input type="checkbox" /> Terrain</label>
+            </div>
+            <div class="map-toolbar top-right">
+              <button class="tool active">IFR LOW</button>
+              <button class="tool">WX</button>
+              <button class="tool">NOTAM</button>
+            </div>
+            <div class="map-scale">20 NM</div>
+            <div class="map-grid"></div>
+            <div class="route-path"></div>
+            <div class="fix fix-a"><strong>SKBO</strong><span>8900</span></div>
+            <div class="fix fix-b"><strong>ZIP</strong><span>11200</span></div>
+            <div class="fix fix-c"><strong>ABL</strong><span>15000</span></div>
+            <div class="fix fix-d"><strong>CLO</strong><span>9800</span></div>
+            <div class="fix fix-e"><strong>SKCL</strong><span>3160</span></div>
+            <div class="airspace airspace-one">TMA BOG</div>
+            <div class="airspace airspace-two">CTA W</div>
+          </section>
+        </section>
+
+        <aside class="side-console" aria-label="Cartas y aeropuertos">
+          <div class="console-head">
+            <div>
+              <span class="tech-label">CHART DATA</span>
+              <h2>Cartas / Aeropuerto</h2>
+            </div>
+            <span class="sync">SYNC</span>
+          </div>
+
+          <label class="search">
+            <span>Buscar</span>
+            <input value="SKCL ILS" aria-label="Buscar cartas" />
+          </label>
+
+          <div class="result-list" aria-label="Resultados">
+            <button class="result active">
+              <strong>SKCL</strong>
+              <span>Alfonso Bonilla Aragon</span>
+            </button>
+            <button class="result">
+              <strong>SKBO</strong>
+              <span>El Dorado Intl</span>
+            </button>
+            <button class="result">
+              <strong>SKRG</strong>
+              <span>Jose Maria Cordova</span>
+            </button>
+            <button class="result">
+              <strong>SKPE</strong>
+              <span>Matecana</span>
+            </button>
+          </div>
+
+          <section class="doc-group">
+            <div class="group-title">
+              <span>Procedimientos</span>
+              <code>08</code>
+            </div>
+            <button class="doc active"><span>ILS Z RWY 02</span><em>APP</em></button>
+            <button class="doc"><span>RNAV RWY 02</span><em>APP</em></button>
+            <button class="doc"><span>CLO2A Arrival</span><em>STAR</em></button>
+            <button class="doc"><span>Taxi / Parking</span><em>GND</em></button>
+          </section>
+
+          <section class="doc-group">
+            <div class="group-title">
+              <span>Briefing tecnico</span>
+              <code>04</code>
+            </div>
+            <button class="doc"><span>Minimos operativos</span><em>MIN</em></button>
+            <button class="doc warn"><span>Restriccion temporal</span><em>ADV</em></button>
+            <button class="doc"><span>Frecuencias ATC</span><em>COM</em></button>
+          </section>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>

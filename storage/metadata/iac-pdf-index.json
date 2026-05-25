@@ -1,0 +1,143 @@
+{
+  "airport": "SKPE",
+  "chartType": "IAC",
+  "sourceFolder": "storage/uploads/pdfs/SKPE/IAC",
+  "generatedFrom": "visual header read from rendered first PDF page",
+  "items": [
+    {
+      "fileName": "23 SKPE_IAC_1_VOR_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/23 SKPE_IAC_1_VOR_RWY_08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "VOR RWY 08",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "24 SKPE_IAC_2_ILS_Z_LOC_Z_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/24 SKPE_IAC_2_ILS_Z_LOC_Z_RWY_08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "ILS Z - LOC Z RWY 08",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "25 SKPE_IAC_3_ILS_Y_LOC_Y_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/25 SKPE_IAC_3_ILS_Y_LOC_Y_RWY_08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "ILS Y - LOC Y RWY 08",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "26 SKPE_IAC_4_RNP_Z_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/26 SKPE_IAC_4_RNP_Z_RWY_08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP Z RWY 08",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "27 SKPE_IAC_5_RNP_Y_AR_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/27 SKPE_IAC_5_RNP_Y_AR_RWY_08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP Y RWY 08 (AR)",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - ILS X RWY 08 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - ILS X RWY 08 (Tabular description).pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "ILS X RWY 08",
+      "runway": "RWY 08",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - ILS X RWY 08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - ILS X RWY 08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "ILS X RWY 08",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP W RWY 08 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP W RWY 08 (Tabular description).pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP W RWY 08 (AR)",
+      "runway": "RWY 08",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP W RWY 08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP W RWY 08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP W RWY 08 (AR)",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP X RWY 08 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP X RWY 08 (Tabular description).pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP X RWY 08",
+      "runway": "RWY 08",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP X RWY 08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP X RWY 08.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP X RWY 08",
+      "runway": "RWY 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 26 (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP Y RWY 26 (Tabular description).pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP Y RWY 26 (AR)",
+      "runway": "RWY 26",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Y RWY 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP Y RWY 26.pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP Y RWY 26 (AR)",
+      "runway": "RWY 26",
+      "isTabular": false
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 26 (AR) (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP Z RWY 26 (AR) (Tabular description).pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP Z RWY 26 (AR)",
+      "runway": "RWY 26",
+      "isTabular": true
+    },
+    {
+      "fileName": "IAC - ICAO - RNP Z RWY 26 (AR).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/IAC/IAC - ICAO - RNP Z RWY 26 (AR).pdf",
+      "airport": "SKPE",
+      "chartType": "IAC",
+      "procedureName": "RNP Z RWY 26 (AR)",
+      "runway": "RWY 26",
+      "isTabular": false
+    }
+  ]
+}

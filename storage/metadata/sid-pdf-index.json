@@ -1,0 +1,158 @@
+{
+  "airport": "SKPE",
+  "chartType": "SID",
+  "sourceFolder": "storage/uploads/pdfs/SKPE/SID",
+  "generatedFrom": "visual header read from rendered first PDF page",
+  "items": [
+    {
+      "fileName": "09 SKPE_SID_1_RWY_26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/09 SKPE_SID_1_RWY_26.pdf",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "IRIGI DOS ECHO",
+      "procedures": [
+        {
+          "name": "IRIGI DOS ECHO",
+          "code": "IRIG2E"
+        }
+      ]
+    },
+    {
+      "fileName": "11 SKPE_SID_3_RWY_26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/11 SKPE_SID_3_RWY_26.pdf",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "ARMENIA CINCO BRAVO / ISNOX UNO ALFA / IRIGI TRES BRAVO",
+      "procedures": [
+        {
+          "name": "ARMENIA CINCO BRAVO",
+          "code": "AXM5B"
+        },
+        {
+          "name": "ISNOX UNO ALFA",
+          "code": "ISNO1A"
+        },
+        {
+          "name": "IRIGI TRES BRAVO",
+          "code": "IRIG3B"
+        }
+      ]
+    },
+    {
+      "fileName": "13 SKPE_SID_5_RNAV_RWY_26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/13 SKPE_SID_5_RNAV_RWY_26.pdf",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "SID RNAV (GNSS) RWY 26",
+      "procedures": [
+        {
+          "name": "TOLIM UNO DELTA",
+          "code": "TOLI1D"
+        },
+        {
+          "name": "TOROL UNO HOTEL",
+          "code": "TORO1H"
+        }
+      ]
+    },
+    {
+      "fileName": "16 SKPE_SID_8_RNAV_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/16 SKPE_SID_8_RNAV_RWY_08.pdf",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "SID RNAV (GNSS) RWY 08",
+      "procedures": [
+        {
+          "name": "TOLIM UNO CHARLIE",
+          "code": "TOLI1C"
+        },
+        {
+          "name": "TOROL UNO FOXTROT",
+          "code": "TORO1F"
+        }
+      ]
+    },
+    {
+      "fileName": "SID - ICAO - NEBO2B RWY 26 (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/SID - ICAO - NEBO2B RWY 26 (Tabular Description).pdf",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "SID RNAV (GNSS) RWY 26 TABULAR DESCRIPTION",
+      "procedures": [
+        {
+          "name": "NEBOV DOS BRAVO",
+          "code": "NEBO2B"
+        }
+      ]
+    },
+    {
+      "fileName": "SID - ICAO - NEBO2B RWY 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/SID - ICAO - NEBO2B RWY 26.pdf",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "NEBOV DOS BRAVO",
+      "procedures": [
+        {
+          "name": "NEBOV DOS BRAVO",
+          "code": "NEBO2B"
+        }
+      ]
+    },
+    {
+      "fileName": "SID - ICAO - RWY 08 PEI4A.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/SID - ICAO - RWY 08 PEI4A.pdf",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "PEREIRA CUATRO ALFA",
+      "procedures": [
+        {
+          "name": "PEREIRA CUATRO ALFA",
+          "code": "PEI4A"
+        }
+      ]
+    },
+    {
+      "fileName": "SID - ICAO - RWY 26 AKSI2B MATR4B.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/SID - ICAO - RWY 26 AKSI2B MATR4B.pdf",
+      "chartType": "SID",
+      "runway": "RWY 26",
+      "title": "AKSIM DOS BRAVO / MATRO CUATRO BRAVO",
+      "procedures": [
+        {
+          "name": "AKSIM DOS BRAVO",
+          "code": "AKSI2B"
+        },
+        {
+          "name": "MATRO CUATRO BRAVO",
+          "code": "MATR4B"
+        }
+      ]
+    },
+    {
+      "fileName": "SID -ICAO - RNP RWY 08 NEBO1A (Tabular description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/SID -ICAO - RNP RWY 08 NEBO1A (Tabular description).pdf",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "SID RNAV (GNSS) RWY 08 TABULAR DESCRIPTION",
+      "procedures": [
+        {
+          "name": "NEBOV UNO ALFA",
+          "code": "NEBO1A"
+        }
+      ]
+    },
+    {
+      "fileName": "SID -ICAO - RNP RWY 08 NEBO1A.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/SID/SID -ICAO - RNP RWY 08 NEBO1A.pdf",
+      "chartType": "SID",
+      "runway": "RWY 08",
+      "title": "NEBOV UNO ALFA",
+      "procedures": [
+        {
+          "name": "NEBOV UNO ALFA",
+          "code": "NEBO1A"
+        }
+      ]
+    }
+  ]
+}

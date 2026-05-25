@@ -1,0 +1,9 @@
+{
+  "airport": "SKPE",
+  "file": "storage/uploads/pdfs/SKPE/STAR/18 SKPE_STAR_2_RWY_08.pdf",
+  "chartType": "STAR",
+  "chartTitle": "IRIGI DOS DELTA",
+  "bracketCode": "IRIG2D",
+  "runway": "RWY 08",
+  "sourceMethod": "visual header read from rendered PDF page"
+}

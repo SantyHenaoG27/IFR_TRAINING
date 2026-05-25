@@ -1,0 +1,31 @@
+# PDFs de cartas aeronáuticas (solo en local)
+storage/uploads/pdfs/
+storage/uploads/temp/
+
+# Archivos procesados generados
+storage/processed/
+
+# Base de datos local
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user

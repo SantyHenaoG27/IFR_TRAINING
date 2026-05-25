@@ -1,0 +1,73 @@
+{
+  "airport": "SKPE",
+  "chartType": "ADC",
+  "sourceFolder": "storage/uploads/pdfs/SKPE/ADC",
+  "generatedFrom": "visual header read from rendered first PDF page",
+  "items": [
+    {
+      "fileName": "04 SKPE_TRG_ZONA 4.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/04 SKPE_TRG_ZONA 4.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "ZONA DE ENTRENAMIENTO SKE51",
+      "isTabular": false
+    },
+    {
+      "fileName": "07 SKPE_AOC.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/07 SKPE_AOC.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "PLANO DE OBSTACULOS DE AERODROMOS - OACI TIPO A",
+      "runway": "RWY 26 - 08",
+      "isTabular": false
+    },
+    {
+      "fileName": "08 SKPE_AMA.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/08 SKPE_AMA.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "ALTITUDES MINIMAS DE AREA PEREIRA",
+      "isTabular": false
+    },
+    {
+      "fileName": "29 SKPE_Carta_visibilidad.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/29 SKPE_Carta_visibilidad.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "CARTA DE VISIBILIDAD",
+      "isTabular": false
+    },
+    {
+      "fileName": "Aerodrome Heliport Chart - ICAO.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/Aerodrome Heliport Chart - ICAO.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "PLANO DE AERODROMO - OACI",
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone - ICAO - SKE10, SKE11.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/Training zone - ICAO - SKE10, SKE11.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "ZONA DE ENTRENAMIENTO SKE10 / SKE11",
+      "isTabular": false
+    },
+    {
+      "fileName": "Training zone - ICAO - SKE12, SKE13.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/Training zone - ICAO - SKE12, SKE13.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "ZONA DE ENTRENAMIENTO SKE12 / SKE13",
+      "isTabular": false
+    },
+    {
+      "fileName": "WPT Coordinates PBN Procedures.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/ADC/WPT Coordinates PBN Procedures.pdf",
+      "airport": "SKPE",
+      "chartType": "ADC",
+      "chartName": "COORDENADAS WPT PROCEDIMIENTOS PBN",
+      "isTabular": true
+    }
+  ]
+}

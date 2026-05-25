@@ -1,0 +1,1896 @@
+﻿{
+    "airport":  "SKPE",
+    "source":  "storage/metadata/Proc/SKPE.txt",
+    "procedureCount":  35,
+    "procedures":  [
+                       {
+                           "type":  "SID",
+                           "name":  "AKSI2B",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "D078B",
+                                            "latitude":  4.792569,
+                                            "longitude":  -75.804539
+                                        },
+                                        {
+                                            "legType":  "CI",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "AKSIM",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.825
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "AXM5B",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "D078B",
+                                            "latitude":  4.792569,
+                                            "longitude":  -75.804539
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "IRIG2E",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "CF08",
+                                            "latitude":  4.755678,
+                                            "longitude":  -75.915408
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D216J",
+                                            "latitude":  4.635608,
+                                            "longitude":  -75.917797
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "IRIGI",
+                                            "latitude":  4.452778,
+                                            "longitude":  -76.02
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "IRIG3B",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "D078B",
+                                            "latitude":  4.792569,
+                                            "longitude":  -75.804539
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "IRIGI",
+                                            "latitude":  4.452778,
+                                            "longitude":  -76.02
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "ISNO1A",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "D078B",
+                                            "latitude":  4.792569,
+                                            "longitude":  -75.804539
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D144T",
+                                            "latitude":  4.533661,
+                                            "longitude":  -75.611719
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "MATR4B",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "D078B",
+                                            "latitude":  4.792569,
+                                            "longitude":  -75.804539
+                                        },
+                                        {
+                                            "legType":  "CI",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "MATRO",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.710556
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "NEBO1A",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE260",
+                                            "latitude":  4.815233,
+                                            "longitude":  -75.731717
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE906",
+                                            "latitude":  4.815994,
+                                            "longitude":  -75.716706
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PE905",
+                                            "latitude":  4.713761,
+                                            "longitude":  -75.7541
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE800",
+                                            "latitude":  4.863611,
+                                            "longitude":  -75.854122
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE909",
+                                            "latitude":  4.945831,
+                                            "longitude":  -75.867692
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "NEBOV",
+                                            "latitude":  4.985528,
+                                            "longitude":  -75.874244
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "NEBO1A",
+                           "runwayOrTransition":  "AKSIM",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "NEBOV",
+                                            "latitude":  4.985528,
+                                            "longitude":  -75.874244
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AKSIM",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.825
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "NEBO1A",
+                           "runwayOrTransition":  "MATRO",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "NEBOV",
+                                            "latitude":  4.985528,
+                                            "longitude":  -75.874244
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "MATRO",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.710556
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "NEBO2B",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE800",
+                                            "latitude":  4.863611,
+                                            "longitude":  -75.854122
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE909",
+                                            "latitude":  4.945831,
+                                            "longitude":  -75.867692
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "NEBOV",
+                                            "latitude":  4.985528,
+                                            "longitude":  -75.874244
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "NEBO2B",
+                           "runwayOrTransition":  "AKSIM",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "NEBOV",
+                                            "latitude":  4.985528,
+                                            "longitude":  -75.874244
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AKSIM",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.825
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "NEBO2B",
+                           "runwayOrTransition":  "MATRO",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "NEBOV",
+                                            "latitude":  4.985528,
+                                            "longitude":  -75.874244
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "MATRO",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.710556
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "CD",
+                                            "fix":  "",
+                                            "latitude":  0,
+                                            "longitude":  0
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "AKSIM",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AKSIM",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.825
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "AXM",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "IRIGI",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "IRIGI",
+                                            "latitude":  4.452778,
+                                            "longitude":  -76.02
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "ISNOX",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "MATRO",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "MATRO",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.710556
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "PEI4A",
+                           "runwayOrTransition":  "MZL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "MZL",
+                                            "latitude":  5.053889,
+                                            "longitude":  -75.528889
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "TOLI1C",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE260",
+                                            "latitude":  4.815233,
+                                            "longitude":  -75.731717
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE906",
+                                            "latitude":  4.815994,
+                                            "longitude":  -75.716706
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PE905",
+                                            "latitude":  4.713761,
+                                            "longitude":  -75.7541
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE902",
+                                            "latitude":  4.645403,
+                                            "longitude":  -75.791778
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE908",
+                                            "latitude":  4.420139,
+                                            "longitude":  -75.638167
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "TOLIM",
+                                            "latitude":  4.375833,
+                                            "longitude":  -75.496667
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "TOLI1D",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE902",
+                                            "latitude":  4.645403,
+                                            "longitude":  -75.791778
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE908",
+                                            "latitude":  4.420139,
+                                            "longitude":  -75.638167
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "TOLIM",
+                                            "latitude":  4.375833,
+                                            "longitude":  -75.496667
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "TORO1F",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE260",
+                                            "latitude":  4.815233,
+                                            "longitude":  -75.731717
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE906",
+                                            "latitude":  4.815994,
+                                            "longitude":  -75.716706
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PE905",
+                                            "latitude":  4.713761,
+                                            "longitude":  -75.7541
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE910",
+                                            "latitude":  4.601328,
+                                            "longitude":  -75.857867
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AR402",
+                                            "latitude":  4.565025,
+                                            "longitude":  -75.877272
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "ANPET",
+                                            "latitude":  4.459722,
+                                            "longitude":  -75.949167
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "TOROL",
+                                            "latitude":  4.265833,
+                                            "longitude":  -76.125
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "SID",
+                           "name":  "TORO1H",
+                           "runwayOrTransition":  "26",
+                           "legs":  [
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE910",
+                                            "latitude":  4.601328,
+                                            "longitude":  -75.857867
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AR402",
+                                            "latitude":  4.565025,
+                                            "longitude":  -75.877272
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "ANPET",
+                                            "latitude":  4.459722,
+                                            "longitude":  -75.949167
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "TOROL",
+                                            "latitude":  4.265833,
+                                            "longitude":  -76.125
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "AKSI1G",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "AKSIM",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.825
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "URANO",
+                                            "latitude":  4.942719,
+                                            "longitude":  -75.798972
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE800",
+                                            "latitude":  4.863611,
+                                            "longitude":  -75.854122
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE801",
+                                            "latitude":  4.843036,
+                                            "longitude":  -75.917669
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE802",
+                                            "latitude":  4.817308,
+                                            "longitude":  -75.9971
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "AKSI2A",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "AKSIM",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.825
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D224E",
+                                            "latitude":  4.714786,
+                                            "longitude":  -75.886342
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "CF08",
+                                            "latitude":  4.755678,
+                                            "longitude":  -75.915408
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "AXM1K",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "IRIG2D",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "IRIGI",
+                                            "latitude":  4.452778,
+                                            "longitude":  -76.02
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D216O",
+                                            "latitude":  4.562578,
+                                            "longitude":  -75.958628
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D216K",
+                                            "latitude":  4.626844,
+                                            "longitude":  -75.922697
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D239G",
+                                            "latitude":  4.709481,
+                                            "longitude":  -75.928189
+                                        },
+                                        {
+                                            "legType":  "CI",
+                                            "fix":  "0",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "CF08",
+                                            "latitude":  4.755678,
+                                            "longitude":  -75.915408
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "ISNO1B",
+                           "runwayOrTransition":  "08",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D144T",
+                                            "latitude":  4.533661,
+                                            "longitude":  -75.611719
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "D282E",
+                                            "latitude":  4.788958,
+                                            "longitude":  -75.919267
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "CF08",
+                                            "latitude":  4.755678,
+                                            "longitude":  -75.915408
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "ISNO1C",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE804",
+                                            "latitude":  4.488889,
+                                            "longitude":  -75.604086
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE805",
+                                            "latitude":  4.564189,
+                                            "longitude":  -75.654658
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "EDRER",
+                                            "latitude":  4.681025,
+                                            "longitude":  -75.711378
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE903",
+                                            "latitude":  4.683644,
+                                            "longitude":  -75.866425
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "ISNO1D",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE804",
+                                            "latitude":  4.488889,
+                                            "longitude":  -75.604086
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE805",
+                                            "latitude":  4.564189,
+                                            "longitude":  -75.654658
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "AR804",
+                                            "latitude":  4.661728,
+                                            "longitude":  -75.630256
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE808",
+                                            "latitude":  4.711236,
+                                            "longitude":  -75.638794
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE803",
+                                            "latitude":  4.744094,
+                                            "longitude":  -75.680994
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE903",
+                                            "latitude":  4.683644,
+                                            "longitude":  -75.866425
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "ISNO1E",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE811",
+                                            "latitude":  4.492892,
+                                            "longitude":  -75.615867
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE805",
+                                            "latitude":  4.564189,
+                                            "longitude":  -75.654658
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE809",
+                                            "latitude":  4.690317,
+                                            "longitude":  -75.623256
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE810",
+                                            "latitude":  4.74415,
+                                            "longitude":  -75.680825
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE903",
+                                            "latitude":  4.683644,
+                                            "longitude":  -75.866425
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "MATR1G",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "MATRO",
+                                            "latitude":  5.141111,
+                                            "longitude":  -75.710556
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "URANO",
+                                            "latitude":  4.942719,
+                                            "longitude":  -75.798972
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE800",
+                                            "latitude":  4.863611,
+                                            "longitude":  -75.854122
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE801",
+                                            "latitude":  4.843036,
+                                            "longitude":  -75.917669
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE802",
+                                            "latitude":  4.817308,
+                                            "longitude":  -75.9971
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "MZL1G",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "MZL",
+                                            "latitude":  5.053889,
+                                            "longitude":  -75.528889
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "URANO",
+                                            "latitude":  4.942719,
+                                            "longitude":  -75.798972
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE800",
+                                            "latitude":  4.863611,
+                                            "longitude":  -75.854122
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE801",
+                                            "latitude":  4.843036,
+                                            "longitude":  -75.917669
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE802",
+                                            "latitude":  4.817308,
+                                            "longitude":  -75.9971
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "TORO1G",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "TOROL",
+                                            "latitude":  4.265833,
+                                            "longitude":  -76.125
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE807",
+                                            "latitude":  4.632181,
+                                            "longitude":  -76.025278
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       },
+                       {
+                           "type":  "STAR",
+                           "name":  "UIB1A",
+                           "runwayOrTransition":  "ALL",
+                           "legs":  [
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "UIB",
+                                            "latitude":  5.692222,
+                                            "longitude":  -76.641389
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "NIDNI",
+                                            "latitude":  4.780833,
+                                            "longitude":  -76.225278
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE812",
+                                            "latitude":  4.755197,
+                                            "longitude":  -76.074656
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "D08",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "HF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "D08",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "CF08",
+                                            "latitude":  4.755678,
+                                            "longitude":  -75.915408
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "MA08",
+                                            "latitude":  4.799167,
+                                            "longitude":  -75.780556
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "L08-Y",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "L08-Y",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PE401",
+                                            "latitude":  4.807342,
+                                            "longitude":  -75.756108
+                                        },
+                                        {
+                                            "legType":  "CA",
+                                            "fix":  "0",
+                                            "latitude":  79,
+                                            "longitude":  2
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PE903",
+                                            "latitude":  4.683644,
+                                            "longitude":  -75.866425
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "L08-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "HF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "L08-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "CF08",
+                                            "latitude":  4.755678,
+                                            "longitude":  -75.915408
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "PEI",
+                                            "latitude":  4.781667,
+                                            "longitude":  -75.836111
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "ML08",
+                                            "latitude":  4.807336,
+                                            "longitude":  -75.756075
+                                        },
+                                        {
+                                            "legType":  "CF",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "AXM",
+                                            "latitude":  4.46,
+                                            "longitude":  -75.765556
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R08-W",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "R08-W",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "RW08",
+                                            "latitude":  4.809911,
+                                            "longitude":  -75.748167
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE402",
+                                            "latitude":  4.820175,
+                                            "longitude":  -75.716461
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE403",
+                                            "latitude":  4.740528,
+                                            "longitude":  -75.690814
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R08-X",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "R08-X",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE400",
+                                            "latitude":  4.799267,
+                                            "longitude":  -75.781044
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R08-Y",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "R08-Y",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "RW08",
+                                            "latitude":  4.809911,
+                                            "longitude":  -75.748167
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE922",
+                                            "latitude":  4.817769,
+                                            "longitude":  -75.723883
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE917",
+                                            "latitude":  4.750767,
+                                            "longitude":  -75.7023
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE923",
+                                            "latitude":  4.740367,
+                                            "longitude":  -75.734078
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE901",
+                                            "latitude":  4.704219,
+                                            "longitude":  -75.802875
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE903",
+                                            "latitude":  4.683644,
+                                            "longitude":  -75.866425
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R08-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "R08-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PULBO",
+                                            "latitude":  4.783914,
+                                            "longitude":  -75.828494
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE400",
+                                            "latitude":  4.799267,
+                                            "longitude":  -75.781044
+                                        },
+                                        {
+                                            "legType":  "DF",
+                                            "fix":  "PE903",
+                                            "latitude":  4.683644,
+                                            "longitude":  -75.866425
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE806",
+                                            "latitude":  4.657917,
+                                            "longitude":  -75.945856
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R26-Y",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE914",
+                                            "latitude":  4.775686,
+                                            "longitude":  -75.853914
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE404",
+                                            "latitude":  4.759817,
+                                            "longitude":  -75.763469
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "R26-Y",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PE404",
+                                            "latitude":  4.759817,
+                                            "longitude":  -75.763469
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE405",
+                                            "latitude":  4.753514,
+                                            "longitude":  -75.727564
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE406",
+                                            "latitude":  4.747753,
+                                            "longitude":  -75.694719
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE407",
+                                            "latitude":  4.825486,
+                                            "longitude":  -75.700078
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "RW26",
+                                            "latitude":  4.815225,
+                                            "longitude":  -75.731742
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE919",
+                                            "latitude":  4.793139,
+                                            "longitude":  -75.799869
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE920",
+                                            "latitude":  4.864086,
+                                            "longitude":  -75.906883
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE921",
+                                            "latitude":  4.833247,
+                                            "longitude":  -76.002228
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R26-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "SURVA",
+                                            "latitude":  4.763339,
+                                            "longitude":  -75.892044
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE914",
+                                            "latitude":  4.775686,
+                                            "longitude":  -75.853914
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE915",
+                                            "latitude":  4.760789,
+                                            "longitude":  -75.763253
+                                        },
+                                        {
+                                            "legType":  "APPTR",
+                                            "fix":  "R26-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "ISNOX",
+                                            "latitude":  4.472778,
+                                            "longitude":  -75.556667
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE911",
+                                            "latitude":  4.479989,
+                                            "longitude":  -75.599722
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE912",
+                                            "latitude":  4.560306,
+                                            "longitude":  -75.706581
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE913",
+                                            "latitude":  4.64105,
+                                            "longitude":  -75.814053
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE915",
+                                            "latitude":  4.760789,
+                                            "longitude":  -75.763253
+                                        },
+                                        {
+                                            "legType":  "FINAL",
+                                            "fix":  "R26-Z",
+                                            "latitude":  null,
+                                            "longitude":  null
+                                        },
+                                        {
+                                            "legType":  "IF",
+                                            "fix":  "PE915",
+                                            "latitude":  4.760789,
+                                            "longitude":  -75.763253
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE916",
+                                            "latitude":  4.756186,
+                                            "longitude":  -75.735247
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE917",
+                                            "latitude":  4.750767,
+                                            "longitude":  -75.7023
+                                        },
+                                        {
+                                            "legType":  "RF",
+                                            "fix":  "PE918",
+                                            "latitude":  4.823008,
+                                            "longitude":  -75.707694
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE260",
+                                            "latitude":  4.815233,
+                                            "longitude":  -75.731717
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE919",
+                                            "latitude":  4.793139,
+                                            "longitude":  -75.799869
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE920",
+                                            "latitude":  4.864086,
+                                            "longitude":  -75.906883
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "PE921",
+                                            "latitude":  4.833247,
+                                            "longitude":  -76.002228
+                                        },
+                                        {
+                                            "legType":  "TF",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        },
+                                        {
+                                            "legType":  "HM",
+                                            "fix":  "DONBI",
+                                            "latitude":  4.737614,
+                                            "longitude":  -75.971475
+                                        }
+                                    ]
+                       }
+                   ]
+}

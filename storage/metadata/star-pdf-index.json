@@ -1,0 +1,135 @@
+{
+  "airport": "SKPE",
+  "chartType": "STAR",
+  "sourceFolder": "storage/uploads/pdfs/SKPE/STAR",
+  "generatedFrom": "visual header read from rendered first PDF page",
+  "items": [
+    {
+      "fileName": "18 SKPE_STAR_2_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/18 SKPE_STAR_2_RWY_08.pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "IRIGI DOS DELTA",
+      "procedures": [
+        {
+          "name": "IRIGI DOS DELTA",
+          "code": "IRIG2D"
+        }
+      ]
+    },
+    {
+      "fileName": "19 SKPE_STAR_3_RWY_08.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/19 SKPE_STAR_3_RWY_08.pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "ISNOX UNO BRAVO",
+      "procedures": [
+        {
+          "name": "ISNOX UNO BRAVO",
+          "code": "ISNO1B"
+        }
+      ]
+    },
+    {
+      "fileName": "21 SKPE_STAR_5_RNAV_RWY_08_26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/21 SKPE_STAR_5_RNAV_RWY_08_26.pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08/26",
+      "title": "STAR RNAV (GNSS) RWY 08/26",
+      "procedures": [
+        {
+          "name": "ISNOX UNO CHARLIE",
+          "code": "ISNO1C"
+        },
+        {
+          "name": "ISNOX UNO DELTA",
+          "code": "ISNO1D"
+        },
+        {
+          "name": "TOROL UNO GOLF",
+          "code": "TORO1G"
+        },
+        {
+          "name": "AXM UNO KILO",
+          "code": "AXM1K"
+        }
+      ]
+    },
+    {
+      "fileName": "22 SKPE_STAR_6_RNP_RWY_08_26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/22 SKPE_STAR_6_RNP_RWY_08_26.pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08/26",
+      "title": "STAR RNP RWY 08/26",
+      "procedures": [
+        {
+          "name": "ISNOX UNO ECHO",
+          "code": "ISNO1E"
+        }
+      ]
+    },
+    {
+      "fileName": "STAR - ICAO - AKSI1G MZL1G MATR1G UIB1A RWY 08 26 (Tabular Description).pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/STAR - ICAO - AKSI1G MZL1G MATR1G UIB1A RWY 08 26 (Tabular Description).pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08/26",
+      "title": "STAR RNAV (GNSS) RWY 08/26 TABULAR DESCRIPTION",
+      "procedures": [
+        {
+          "name": "AKSIM UNO GOLF",
+          "code": "AKSI1G"
+        },
+        {
+          "name": "MATRO UNO GOLF",
+          "code": "MATR1G"
+        },
+        {
+          "name": "MANIZALES UNO GOLF",
+          "code": "MZL1G"
+        },
+        {
+          "name": "QUIBDO UNO ALFA",
+          "code": "UIB1A"
+        }
+      ]
+    },
+    {
+      "fileName": "STAR - ICAO - AKSI1G MZL1G MATR1G UIB1A RWY 08 26.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/STAR - ICAO - AKSI1G MZL1G MATR1G UIB1A RWY 08 26.pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08/26",
+      "title": "AKSIM UNO GOLF / MANIZALES UNO GOLF / MATRO UNO GOLF / QUIBDO UNO ALFA",
+      "procedures": [
+        {
+          "name": "AKSIM UNO GOLF",
+          "code": "AKSI1G"
+        },
+        {
+          "name": "MANIZALES UNO GOLF",
+          "code": "MZL1G"
+        },
+        {
+          "name": "MATRO UNO GOLF",
+          "code": "MATR1G"
+        },
+        {
+          "name": "QUIBDO UNO ALFA",
+          "code": "UIB1A"
+        }
+      ]
+    },
+    {
+      "fileName": "STAR - ICAO - RWY 08 AKSI2A.pdf",
+      "filePath": "storage/uploads/pdfs/SKPE/STAR/STAR - ICAO - RWY 08 AKSI2A.pdf",
+      "chartType": "STAR",
+      "runway": "RWY 08",
+      "title": "AKSIM DOS ALFA",
+      "procedures": [
+        {
+          "name": "AKSIM DOS ALFA",
+          "code": "AKSI2A"
+        }
+      ]
+    }
+  ]
+}

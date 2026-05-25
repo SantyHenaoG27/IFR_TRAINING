@@ -1,0 +1,1019 @@
+﻿[
+    {
+        "icao":  "SKAC",
+        "name":  "ARARACUARA",
+        "latitude":  -0.600817,
+        "longitude":  -72.397553,
+        "runways":  [
+                        "11",
+                        "29"
+                    ]
+    },
+    {
+        "icao":  "SKAD",
+        "name":  "ACANDI",
+        "latitude":  8.496878,
+        "longitude":  -77.273894,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKAG",
+        "name":  "HACARITAMA",
+        "latitude":  8.246333,
+        "longitude":  -73.579547,
+        "runways":  [
+                        "12",
+                        "30"
+                    ]
+    },
+    {
+        "icao":  "SKAP",
+        "name":  "CAPT LUIS F GOMEZ NI",
+        "latitude":  4.076067,
+        "longitude":  -73.562733,
+        "runways":  [
+                        "10",
+                        "28"
+                    ]
+    },
+    {
+        "icao":  "SKAR",
+        "name":  "EL EDEN",
+        "latitude":  4.451642,
+        "longitude":  -75.766389,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKAS",
+        "name":  "3 DE MAYO",
+        "latitude":  0.505706,
+        "longitude":  -76.500708,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKBC",
+        "name":  "EL BANCO",
+        "latitude":  9.042786,
+        "longitude":  -73.97145,
+        "runways":  [
+                        "11",
+                        "29"
+                    ]
+    },
+    {
+        "icao":  "SKBG",
+        "name":  "PALONEGRO",
+        "latitude":  7.126381,
+        "longitude":  -73.184725,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKBO",
+        "name":  "EL DORADO INTL",
+        "latitude":  4.7016,
+        "longitude":  -74.146944,
+        "runways":  [
+                        "14L",
+                        "14R",
+                        "32L",
+                        "32R"
+                    ]
+    },
+    {
+        "icao":  "SKBQ",
+        "name":  "ERNESTO CORTISSOZ",
+        "latitude":  10.889461,
+        "longitude":  -74.780678,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKBS",
+        "name":  "JOSE CELESTINO MUTIS",
+        "latitude":  6.203111,
+        "longitude":  -77.394972,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKBU",
+        "name":  "GERARDO TOBAR LOPEZ",
+        "latitude":  3.819572,
+        "longitude":  -76.989906,
+        "runways":  [
+                        "09",
+                        "27"
+                    ]
+    },
+    {
+        "icao":  "SKCB",
+        "name":  "CARMEN DE BOLIVAR",
+        "latitude":  9.684167,
+        "longitude":  -75.126111,
+        "runways":  [
+                        "04",
+                        "22"
+                    ]
+    },
+    {
+        "icao":  "SKCC",
+        "name":  "CAMILO DAZA INTL",
+        "latitude":  7.927389,
+        "longitude":  -72.511589,
+        "runways":  [
+                        "03",
+                        "16",
+                        "17",
+                        "21",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKCD",
+        "name":  "MANDINGA",
+        "latitude":  5.071961,
+        "longitude":  -76.676625,
+        "runways":  [
+                        "09",
+                        "27"
+                    ]
+    },
+    {
+        "icao":  "SKCG",
+        "name":  "RAFAEL NUNEZ",
+        "latitude":  10.441681,
+        "longitude":  -75.512922,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKCL",
+        "name":  "ALFONSO BONILLA ARAG",
+        "latitude":  3.543111,
+        "longitude":  -76.381692,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKCM",
+        "name":  "CIMITARRA",
+        "latitude":  6.367361,
+        "longitude":  -73.970611,
+        "runways":  [
+                        "16",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKCN",
+        "name":  "CRAVO NORTE",
+        "latitude":  6.316758,
+        "longitude":  -70.210897,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKCO",
+        "name":  "LA FLORIDA",
+        "latitude":  1.814411,
+        "longitude":  -78.749253,
+        "runways":  [
+                        "06",
+                        "24"
+                    ]
+    },
+    {
+        "icao":  "SKCR",
+        "name":  "CARURU",
+        "latitude":  1.012658,
+        "longitude":  -71.295947,
+        "runways":  [
+                        "11",
+                        "29"
+                    ]
+    },
+    {
+        "icao":  "SKCU",
+        "name":  "JUAN HENRY WHITE",
+        "latitude":  7.968022,
+        "longitude":  -75.198083,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKCV",
+        "name":  "BASE NAVAL COVENAS",
+        "latitude":  9.401111,
+        "longitude":  -75.691111,
+        "runways":  [
+                        "06",
+                        "24"
+                    ]
+    },
+    {
+        "icao":  "SKCZ",
+        "name":  "LAS BRUJAS",
+        "latitude":  9.332597,
+        "longitude":  -75.285222,
+        "runways":  [
+                        "03",
+                        "21"
+                    ]
+    },
+    {
+        "icao":  "SKEB",
+        "name":  "EL TOMIN",
+        "latitude":  7.595786,
+        "longitude":  -74.809003,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKEJ",
+        "name":  "YARIGUIES",
+        "latitude":  7.023803,
+        "longitude":  -73.807197,
+        "runways":  [
+                        "04",
+                        "22"
+                    ]
+    },
+    {
+        "icao":  "SKFL",
+        "name":  "GUSTAVO A PAREDES",
+        "latitude":  1.589264,
+        "longitude":  -75.564431,
+        "runways":  [
+                        "12",
+                        "30"
+                    ]
+    },
+    {
+        "icao":  "SKFR",
+        "name":  "FURATENA",
+        "latitude":  5.5275,
+        "longitude":  -74.186944,
+        "runways":  [
+                        "16",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKGB",
+        "name":  "MARCO FIDEL SUAREZ",
+        "latitude":  3.458525,
+        "longitude":  -76.497253,
+        "runways":  [
+                        "07",
+                        "25"
+                    ]
+    },
+    {
+        "icao":  "SKGI",
+        "name":  "SANTIAGO VILA",
+        "latitude":  4.275347,
+        "longitude":  -74.796089,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKGO",
+        "name":  "SANTA ANA",
+        "latitude":  4.757567,
+        "longitude":  -75.956014,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKGP",
+        "name":  "JUAN CASIANO",
+        "latitude":  2.570031,
+        "longitude":  -77.897989,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKGY",
+        "name":  "FLAMINIO SUAREZ CAMA",
+        "latitude":  4.8125,
+        "longitude":  -74.065083,
+        "runways":  [
+                        "11",
+                        "29"
+                    ]
+    },
+    {
+        "icao":  "SKGZ",
+        "name":  "LA JAGUA",
+        "latitude":  2.166667,
+        "longitude":  -75.666667,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKHA",
+        "name":  "GEN NAVAS PARDO",
+        "latitude":  3.724361,
+        "longitude":  -75.465403,
+        "runways":  [
+                        "09",
+                        "27"
+                    ]
+    },
+    {
+        "icao":  "SKHC",
+        "name":  "HATO COROZAL",
+        "latitude":  6.153544,
+        "longitude":  -71.761642,
+        "runways":  [
+                        "06",
+                        "24"
+                    ]
+    },
+    {
+        "icao":  "SKHZ",
+        "name":  "VIRGILIO BARCO VARGA",
+        "latitude":  -1.456361,
+        "longitude":  -72.801083,
+        "runways":  [
+                        "04",
+                        "22"
+                    ]
+    },
+    {
+        "icao":  "SKIB",
+        "name":  "PERALES",
+        "latitude":  4.421653,
+        "longitude":  -75.133611,
+        "runways":  [
+                        "14",
+                        "32"
+                    ]
+    },
+    {
+        "icao":  "SKIP",
+        "name":  "SAN LUIS",
+        "latitude":  0.861489,
+        "longitude":  -77.667508,
+        "runways":  [
+                        "08",
+                        "26"
+                    ]
+    },
+    {
+        "icao":  "SKJC",
+        "name":  "JUANCHACO",
+        "latitude":  3.9342,
+        "longitude":  -77.361425,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKLA",
+        "name":  "MALAGA",
+        "latitude":  6.705944,
+        "longitude":  -72.730389,
+        "runways":  [
+                        "16",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKLC",
+        "name":  "ANTONIO ROLDAN BETAN",
+        "latitude":  7.81175,
+        "longitude":  -76.716442,
+        "runways":  [
+                        "15",
+                        "33"
+                    ]
+    },
+    {
+        "icao":  "SKLG",
+        "name":  "CAUCAYA",
+        "latitude":  -0.181983,
+        "longitude":  -74.770989,
+        "runways":  [
+                        "12",
+                        "30"
+                    ]
+    },
+    {
+        "icao":  "SKLM",
+        "name":  "JORGE ISAAC",
+        "latitude":  11.232583,
+        "longitude":  -72.489278,
+        "runways":  [
+                        "10",
+                        "28"
+                    ]
+    },
+    {
+        "icao":  "SKLT",
+        "name":  "ALFREDO VASQUEZ COBO",
+        "latitude":  -4.191908,
+        "longitude":  -69.942203,
+        "runways":  [
+                        "03",
+                        "21"
+                    ]
+    },
+    {
+        "icao":  "SKMA",
+        "name":  "MY JUSTINO MARINO",
+        "latitude":  4.727906,
+        "longitude":  -74.275689,
+        "runways":  [
+                        "06",
+                        "24"
+                    ]
+    },
+    {
+        "icao":  "SKMD",
+        "name":  "OLAYA HERRERA",
+        "latitude":  6.220478,
+        "longitude":  -75.590428,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKMF",
+        "name":  "MIRAFLORES",
+        "latitude":  1.337711,
+        "longitude":  -71.952086,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKMG",
+        "name":  "BARACOA",
+        "latitude":  9.284881,
+        "longitude":  -74.846456,
+        "runways":  [
+                        "11",
+                        "29"
+                    ]
+    },
+    {
+        "icao":  "SKML",
+        "name":  "EL PINDO",
+        "latitude":  7.972006,
+        "longitude":  -75.432661,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKMN",
+        "name":  "MANI",
+        "latitude":  4.833333,
+        "longitude":  -72.266667,
+        "runways":  [
+                        "04",
+                        "22"
+                    ]
+    },
+    {
+        "icao":  "SKMO",
+        "name":  "MORELIA",
+        "latitude":  3.750656,
+        "longitude":  -71.455936,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKMP",
+        "name":  "SAN BERNARDO",
+        "latitude":  9.258472,
+        "longitude":  -74.438333,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKMR",
+        "name":  "LOS GARZONES",
+        "latitude":  8.822856,
+        "longitude":  -75.825169,
+        "runways":  [
+                        "14",
+                        "32"
+                    ]
+    },
+    {
+        "icao":  "SKMU",
+        "name":  "LEON BENTLEY",
+        "latitude":  1.253553,
+        "longitude":  -70.234058,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKMZ",
+        "name":  "LA NUBIA",
+        "latitude":  5.030047,
+        "longitude":  -75.465453,
+        "runways":  [
+                        "10",
+                        "28"
+                    ]
+    },
+    {
+        "icao":  "SKNA",
+        "name":  "EL REFUGIO",
+        "latitude":  2.173533,
+        "longitude":  -73.786178,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKNC",
+        "name":  "NECOCLI",
+        "latitude":  8.45,
+        "longitude":  -76.783333,
+        "runways":  [
+                        "16",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKNQ",
+        "name":  "REYES MURILLO",
+        "latitude":  5.711244,
+        "longitude":  -77.260994,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKNV",
+        "name":  "BENITO SALAS",
+        "latitude":  2.950814,
+        "longitude":  -75.293908,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKOC",
+        "name":  "AGUAS CLARAS",
+        "latitude":  8.315108,
+        "longitude":  -73.358419,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKOE",
+        "name":  "OROCUE",
+        "latitude":  4.792222,
+        "longitude":  -71.356389,
+        "runways":  [
+                        "04",
+                        "22"
+                    ]
+    },
+    {
+        "icao":  "SKOT",
+        "name":  "OTU",
+        "latitude":  7.010556,
+        "longitude":  -74.715556,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKPA",
+        "name":  "JUAN JOSE RONDON",
+        "latitude":  5.764961,
+        "longitude":  -73.105311,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKPB",
+        "name":  "PORTETE",
+        "latitude":  12.221542,
+        "longitude":  -71.98425,
+        "runways":  [
+                        "09",
+                        "27"
+                    ]
+    },
+    {
+        "icao":  "SKPC",
+        "name":  "GERMAN OLANO",
+        "latitude":  6.185111,
+        "longitude":  -67.492508,
+        "runways":  [
+                        "07",
+                        "25"
+                    ]
+    },
+    {
+        "icao":  "SKPD",
+        "name":  "CESAR GAVIRIA TRUJIL",
+        "latitude":  3.854258,
+        "longitude":  -67.906467,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKPE",
+        "name":  "MATECANA",
+        "latitude":  4.812567,
+        "longitude":  -75.739961,
+        "runways":  [
+                        "08",
+                        "26"
+                    ]
+    },
+    {
+        "icao":  "SKPI",
+        "name":  "CONTADOR",
+        "latitude":  1.857708,
+        "longitude":  -76.085986,
+        "runways":  [
+                        "07",
+                        "25"
+                    ]
+    },
+    {
+        "icao":  "SKPP",
+        "name":  "GUILLERMO LEON VALEN",
+        "latitude":  2.454353,
+        "longitude":  -76.609797,
+        "runways":  [
+                        "08",
+                        "26"
+                    ]
+    },
+    {
+        "icao":  "SKPQ",
+        "name":  "CAPT GERMAN OLANO",
+        "latitude":  5.483483,
+        "longitude":  -74.657381,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKPR",
+        "name":  "MORELA",
+        "latitude":  6.459936,
+        "longitude":  -74.410642,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKPS",
+        "name":  "ANTONIO NARINO",
+        "latitude":  1.396467,
+        "longitude":  -77.291008,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKPV",
+        "name":  "EL EMBRUJO",
+        "latitude":  13.357164,
+        "longitude":  -81.357925,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKPZ",
+        "name":  "PAZ DE ARIPORO",
+        "latitude":  5.87615,
+        "longitude":  -71.886683,
+        "runways":  [
+                        "04",
+                        "22"
+                    ]
+    },
+    {
+        "icao":  "SKQU",
+        "name":  "JOSE CELESTINO MUTIS",
+        "latitude":  5.212614,
+        "longitude":  -74.883708,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKRG",
+        "name":  "JOSE MARIA CORDOVA",
+        "latitude":  6.164461,
+        "longitude":  -75.423,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKRH",
+        "name":  "ALMIRANTE PADILLA",
+        "latitude":  11.526167,
+        "longitude":  -72.926683,
+        "runways":  [
+                        "10",
+                        "28"
+                    ]
+    },
+    {
+        "icao":  "SKSA",
+        "name":  "COLONIZADORES",
+        "latitude":  6.950367,
+        "longitude":  -71.856203,
+        "runways":  [
+                        "16",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKSF",
+        "name":  "STA FE DE ANTIOQUIA",
+        "latitude":  6.500556,
+        "longitude":  -75.8225,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKSG",
+        "name":  "LOS POZOS",
+        "latitude":  6.590642,
+        "longitude":  -73.129033,
+        "runways":  [
+                        "18",
+                        "36"
+                    ]
+    },
+    {
+        "icao":  "SKSJ",
+        "name":  "JORGE E GONZALEZ",
+        "latitude":  2.579331,
+        "longitude":  -72.639386,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKSM",
+        "name":  "SIMON BOLIVAR INTL",
+        "latitude":  11.119689,
+        "longitude":  -74.230639,
+        "runways":  [
+                        "01",
+                        "19"
+                    ]
+    },
+    {
+        "icao":  "SKSO",
+        "name":  "ALBERTO LLERAS CAMAR",
+        "latitude":  5.675658,
+        "longitude":  -72.970483,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKSP",
+        "name":  "GUSTAVO ROJAS PINILL",
+        "latitude":  12.583661,
+        "longitude":  -81.711339,
+        "runways":  [
+                        "06",
+                        "24"
+                    ]
+    },
+    {
+        "icao":  "SKSV",
+        "name":  "EDUARDO FALLA SOLANO",
+        "latitude":  2.152281,
+        "longitude":  -74.766478,
+        "runways":  [
+                        "14",
+                        "32"
+                    ]
+    },
+    {
+        "icao":  "SKTB",
+        "name":  "TIBU",
+        "latitude":  8.630889,
+        "longitude":  -72.730694,
+        "runways":  [
+                        "09",
+                        "27"
+                    ]
+    },
+    {
+        "icao":  "SKTD",
+        "name":  "TRINIDAD",
+        "latitude":  5.430489,
+        "longitude":  -71.658397,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKTL",
+        "name":  "GOLFO DE MORROSQUILL",
+        "latitude":  9.509633,
+        "longitude":  -75.586028,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKTM",
+        "name":  "GUSTAVO VARGAS",
+        "latitude":  6.451006,
+        "longitude":  -71.76005,
+        "runways":  [
+                        "07",
+                        "25"
+                    ]
+    },
+    {
+        "icao":  "SKTQ",
+        "name":  "CT ERNESTO ESGUERRA",
+        "latitude":  0.745906,
+        "longitude":  -75.234056,
+        "runways":  [
+                        "07",
+                        "25"
+                    ]
+    },
+    {
+        "icao":  "SKTU",
+        "name":  "GONZALO MEJIA",
+        "latitude":  8.074489,
+        "longitude":  -76.741036,
+        "runways":  [
+                        "16",
+                        "34"
+                    ]
+    },
+    {
+        "icao":  "SKUA",
+        "name":  "CR LUIS A RODRIGUEZ",
+        "latitude":  5.528886,
+        "longitude":  -68.676881,
+        "runways":  [
+                        "04",
+                        "08",
+                        "22",
+                        "26"
+                    ]
+    },
+    {
+        "icao":  "SKUC",
+        "name":  "SANTIAGO PEREZ",
+        "latitude":  7.068911,
+        "longitude":  -70.736958,
+        "runways":  [
+                        "11",
+                        "29"
+                    ]
+    },
+    {
+        "icao":  "SKUI",
+        "name":  "EL CARANO",
+        "latitude":  5.690797,
+        "longitude":  -76.641219,
+        "runways":  [
+                        "13",
+                        "31"
+                    ]
+    },
+    {
+        "icao":  "SKUL",
+        "name":  "HERIBERTO GIL MARTIN",
+        "latitude":  4.094508,
+        "longitude":  -76.223944,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKUR",
+        "name":  "URRAO",
+        "latitude":  6.327308,
+        "longitude":  -76.140936,
+        "runways":  [
+                        "15",
+                        "33"
+                    ]
+    },
+    {
+        "icao":  "SKVG",
+        "name":  "CANANGUCHAL",
+        "latitude":  0.981167,
+        "longitude":  -76.603806,
+        "runways":  [
+                        "17",
+                        "35"
+                    ]
+    },
+    {
+        "icao":  "SKVP",
+        "name":  "ALFONSO LOPEZ PUMARE",
+        "latitude":  10.435131,
+        "longitude":  -73.249397,
+        "runways":  [
+                        "02",
+                        "20"
+                    ]
+    },
+    {
+        "icao":  "SKVV",
+        "name":  "VANGUARDIA",
+        "latitude":  4.169056,
+        "longitude":  -73.612794,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    },
+    {
+        "icao":  "SKYP",
+        "name":  "EL YOPAL",
+        "latitude":  5.319144,
+        "longitude":  -72.384228,
+        "runways":  [
+                        "05",
+                        "23"
+                    ]
+    }
+]
