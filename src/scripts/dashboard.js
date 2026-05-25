@@ -1126,9 +1126,14 @@ function initDashboardMap(airportsReady, waypointsReady) {
   function addRouteLine() {
     dashMap.addSource("route-line", { type: "geojson", data: routeLineGeoJSON });
     dashMap.addLayer({
+      id: "route-line-halo", type: "line", source: "route-line",
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: { "line-color": "#000000", "line-width": 7, "line-opacity": 0.45 },
+    });
+    dashMap.addLayer({
       id: "route-line-layer", type: "line", source: "route-line",
       layout: { "line-cap": "round", "line-join": "round" },
-      paint: { "line-color": "#38bdf8", "line-width": 2.5, "line-dasharray": [3, 2] },
+      paint: { "line-color": "#38bdf8", "line-width": 4 },
     });
   }
 
