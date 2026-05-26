@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css?v=5" />
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js" defer></script>
-    <script src="src/scripts/dashboard.js?v=25" defer></script>
+    <script src="src/scripts/dashboard.js?v=29" defer></script>
   </head>
   <body class="dashboard-page">
     <main class="shell">
@@ -282,6 +282,11 @@
               <span class="map-layer-dot" style="background:#34d399;"></span>
               GPS Waypoints
               <code id="dashGpsWaypointCount">----</code>
+            </button>
+            <button type="button" id="dashToggleNavaids" class="map-layer-btn is-active">
+              <span class="map-layer-dot" style="background:#a3e635;"></span>
+              RADIO AYUDAS
+              <code id="dashNavaidCount">---</code>
             </button>
           </div>
           <div id="dashMapContainer" class="dash-map-container"></div>

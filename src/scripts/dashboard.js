@@ -52,6 +52,7 @@ const skpeRows = document.querySelector("#skpeRows");
 const skpeCount = document.querySelector("#skpeCount");
 let colombianAirports = [];
 let allWaypoints = [];
+let allNavaids = [];
 let dashMapInstance = null;
 let routeLineGeoJSON = { type: "FeatureCollection", features: [] };
 let routeWaypoints = [];
@@ -71,6 +72,76 @@ async function fetchJson(path) {
 
 function formatCoordinate(value) {
   return Number(value).toFixed(6);
+}
+
+function normalizeFixName(value) {
+  return String(value || "").trim().toUpperCase();
+}
+
+function getRouteFixByName(name) {
+  const normalizedName = normalizeFixName(name);
+  const waypoint = allWaypoints.find((w) => normalizeFixName(w.name) === normalizedName);
+  if (waypoint) {
+    return {
+      name: waypoint.name,
+      type: "Waypoint",
+      latitude: waypoint.latitude,
+      longitude: waypoint.longitude,
+      detail: waypoint.region ? `Region ${waypoint.region}` : "",
+    };
+  }
+
+  const navaid = allNavaids.find((n) => normalizeFixName(n.shortName) === normalizedName);
+  if (navaid?.coordinates) {
+    return {
+      name: navaid.shortName,
+      type: "Radio ayuda",
+      latitude: navaid.coordinates.latitude,
+      longitude: navaid.coordinates.longitude,
+      detail: [navaid.longName, navaid.frequency].filter(Boolean).join(" / "),
+    };
+  }
+
+  return null;
+}
+
+function getOrderedRoutePoints() {
+  const origin = getAirportForPanel("origin");
+  const destination = getAirportForPanel("destination");
+  const orderedPoints = [];
+
+  if (origin?.latitude != null && origin?.longitude != null) {
+    orderedPoints.push({
+      type: "origin",
+      name: origin.icao,
+      latitude: origin.latitude,
+      longitude: origin.longitude,
+    });
+  }
+
+  routeWaypoints.forEach((name, index) => {
+    const fix = getRouteFixByName(name);
+    if (fix?.latitude != null && fix?.longitude != null) {
+      orderedPoints.push({
+        type: "fix",
+        sequence: index + 1,
+        name: fix.name,
+        latitude: fix.latitude,
+        longitude: fix.longitude,
+      });
+    }
+  });
+
+  if (destination?.latitude != null && destination?.longitude != null) {
+    orderedPoints.push({
+      type: "destination",
+      name: destination.icao,
+      latitude: destination.latitude,
+      longitude: destination.longitude,
+    });
+  }
+
+  return orderedPoints;
 }
 
 function renderWaypoints(waypoints) {
@@ -215,23 +286,7 @@ function updateRouteChartTitles() {
 }
 
 function updateRouteLineOnMap() {
-  const origin = getAirportForPanel("origin");
-  const destination = getAirportForPanel("destination");
-
-  const coords = [];
-
-  if (origin?.latitude != null && origin?.longitude != null)
-    coords.push([origin.longitude, origin.latitude]);
-
-  for (const name of routeWaypoints) {
-    const normalizedName = String(name).trim().toUpperCase();
-    const wp = allWaypoints.find((w) => String(w.name).trim().toUpperCase() === normalizedName);
-    if (wp?.latitude != null && wp?.longitude != null)
-      coords.push([wp.longitude, wp.latitude]);
-  }
-
-  if (destination?.latitude != null && destination?.longitude != null)
-    coords.push([destination.longitude, destination.latitude]);
+  const coords = getOrderedRoutePoints().map((point) => [point.longitude, point.latitude]);
 
   routeLineGeoJSON = coords.length >= 2
     ? { type: "FeatureCollection", features: [{ type: "Feature", geometry: { type: "LineString", coordinates: coords }, properties: {} }] }
@@ -859,6 +914,7 @@ async function loadStarOptions() {
 
 function renderStarOptions(index, icao) {
   if (!starProcedureSelect) return;
+  const previousValue = starProcedureSelect.value;
   const procedures = getProcedureCards(index);
   if (!procedures.length) {
     starProcedureSelect.innerHTML = `<option value="">Sin llegada disponible para ${icao}</option>`;
@@ -869,6 +925,9 @@ function renderStarOptions(index, icao) {
     <option value="NO_STAR">Sin llegada</option>
     ${groupProcedureOptions(procedures).map((p) => `<option value="${p.code}">${formatProcedureOption(p)}</option>`).join("")}
   `;
+  if (previousValue && Array.from(starProcedureSelect.options).some((option) => option.value === previousValue)) {
+    starProcedureSelect.value = previousValue;
+  }
 }
 
 function renderSidOptions(index) {
@@ -876,6 +935,7 @@ function renderSidOptions(index) {
     return;
   }
 
+  const previousValue = sidProcedureSelect.value;
   const procedures = getProcedureCards(index);
 
   if (!procedures.length) {
@@ -893,6 +953,9 @@ function renderSidOptions(index) {
       )
       .join("")}
   `;
+  if (previousValue && Array.from(sidProcedureSelect.options).some((option) => option.value === previousValue)) {
+    sidProcedureSelect.value = previousValue;
+  }
 }
 
 async function loadWaypoints() {
@@ -909,6 +972,15 @@ async function loadWaypoints() {
         <span>Ver storage/metadata</span>
       </div>
     `;
+  }
+}
+
+async function loadNavaids() {
+  try {
+    allNavaids = await fetchJson("storage/metadata/navaids-colombia.json");
+  } catch (error) {
+    allNavaids = [];
+    console.error("Error cargando radio ayudas:", error);
   }
 }
 
@@ -1003,12 +1075,13 @@ setupAirportSearch();
 setupChartButtons();
 setupChartPreview();
 const waypointsReady = loadWaypoints();
+const navaidsReady = loadNavaids();
 const airportsReady = loadAirports();
 loadSkpeProcedures();
 loadSidOptions();
 loadStarOptions();
 loadIacOptions();
-initDashboardMap(airportsReady, waypointsReady);
+initDashboardMap(airportsReady, waypointsReady, navaidsReady);
 
 function setupWaypointInput() {
   const input = document.querySelector("#routeWaypointsInput");
@@ -1032,9 +1105,9 @@ function setupWaypointInput() {
   }
 
   function addWaypoint(name) {
-    const normalizedName = String(name || "").trim().toUpperCase();
-    const waypointExists = allWaypoints.some((w) => String(w.name).trim().toUpperCase() === normalizedName);
-    if (!normalizedName || !waypointExists) return;
+    const normalizedName = normalizeFixName(name);
+    const fixExists = Boolean(getRouteFixByName(normalizedName));
+    if (!normalizedName || !fixExists) return;
 
     routeWaypoints = [...routeWaypoints, normalizedName];
     renderTags();
@@ -1060,8 +1133,26 @@ function setupWaypointInput() {
     const query = token.trim().toUpperCase();
     if (query.length < 2) { closeDrop(); return; }
 
-    const matches = allWaypoints
-      .filter((w) => w.name.toUpperCase().startsWith(query))
+    const waypointMatches = allWaypoints
+      .filter((w) => normalizeFixName(w.name).startsWith(query))
+      .map((w) => ({
+        name: w.name,
+        type: "Waypoint",
+        latitude: w.latitude,
+        longitude: w.longitude,
+        detail: w.region ? `Region ${w.region}` : "",
+      }));
+    const navaidMatches = allNavaids
+      .filter((n) => normalizeFixName(n.shortName).startsWith(query))
+      .filter((n) => n.coordinates?.latitude != null && n.coordinates?.longitude != null)
+      .map((n) => ({
+        name: n.shortName,
+        type: "Radio ayuda",
+        latitude: n.coordinates?.latitude,
+        longitude: n.coordinates?.longitude,
+        detail: [n.longName, n.frequency].filter(Boolean).join(" / "),
+      }));
+    const matches = [...waypointMatches, ...navaidMatches]
       .slice(0, 10);
 
     if (!matches.length) { closeDrop(); return; }
@@ -1071,7 +1162,7 @@ function setupWaypointInput() {
         (w) => `
         <button class="waypoint-drop-item" type="button" data-name="${w.name}">
           <code>${w.name}</code>
-          <span>${Number(w.latitude).toFixed(4)}, ${Number(w.longitude).toFixed(4)}</span>
+          <span>${w.type} · ${Number(w.latitude).toFixed(4)}, ${Number(w.longitude).toFixed(4)}${w.detail ? ` · ${w.detail}` : ""}</span>
         </button>
       `,
       )
@@ -1253,7 +1344,7 @@ function setupCreateRouteBtn() {
   });
 }
 
-function initDashboardMap(airportsReady, waypointsReady) {
+function initDashboardMap(airportsReady, waypointsReady, navaidsReady) {
   const container = document.getElementById("dashMapContainer");
   if (!container || typeof maplibregl === "undefined") return;
 
@@ -1292,20 +1383,23 @@ function initDashboardMap(airportsReady, waypointsReady) {
   let normalWpGeoJSON = null;
   let gpsWpGeoJSON    = null;
   let airportGeoJSON  = null;
+  let navaidGeoJSON   = null;
 
   const LAYER_GROUPS = {
     dashToggleAirports:    ["dash-airports-dot",     "dash-airports-label"],
     dashToggleWaypoints:   ["dash-waypoints-dot",    "dash-waypoints-label"],
     dashToggleGpsWaypoints:["dash-gps-waypoints-dot","dash-gps-waypoints-label"],
+    dashToggleNavaids:     ["dash-navaids-dot",      "dash-navaids-label"],
   };
 
   function layerVisible(btnId) {
     return document.getElementById(btnId)?.classList.contains("is-active") ?? true;
   }
 
-  function addDotAndLabel(sourceId, dotId, labelId, color) {
+  function addDotAndLabel(sourceId, dotId, labelId, color, toggleId = "dashToggleWaypoints") {
     dashMap.addLayer({
       id: dotId, type: "circle", source: sourceId,
+      layout: { "visibility": layerVisible(toggleId) ? "visible" : "none" },
       paint: {
         "circle-radius": ["interpolate", ["linear"], ["zoom"], 4, 2, 10, 4],
         "circle-color": color,
@@ -1321,13 +1415,10 @@ function initDashboardMap(airportsReady, waypointsReady) {
         "text-offset": [0, 1],
         "text-anchor": "top",
         "text-allow-overlap": false,
-        "visibility": layerVisible("dashToggleWaypoints") ? "visible" : "none",
+        "visibility": layerVisible(toggleId) ? "visible" : "none",
       },
       paint: { "text-color": color, "text-halo-color": "#020617", "text-halo-width": 1.2 },
     });
-    const vis = (grp) => layerVisible(grp) ? "visible" : "none";
-    dashMap.setLayoutProperty(dotId,   "visibility", vis(labelId.includes("gps") ? "dashToggleGpsWaypoints" : "dashToggleWaypoints"));
-    dashMap.setLayoutProperty(labelId, "visibility", vis(labelId.includes("gps") ? "dashToggleGpsWaypoints" : "dashToggleWaypoints"));
   }
 
   function addAllDashLayers() {
@@ -1335,8 +1426,10 @@ function initDashboardMap(airportsReady, waypointsReady) {
 
     dashMap.addSource("dash-waypoints",     { type: "geojson", data: normalWpGeoJSON });
     dashMap.addSource("dash-gps-waypoints", { type: "geojson", data: gpsWpGeoJSON });
-    addDotAndLabel("dash-waypoints",     "dash-waypoints-dot",     "dash-waypoints-label",     "#67e8f9");
-    addDotAndLabel("dash-gps-waypoints", "dash-gps-waypoints-dot", "dash-gps-waypoints-label", "#34d399");
+    dashMap.addSource("dash-navaids",       { type: "geojson", data: navaidGeoJSON });
+    addDotAndLabel("dash-waypoints",     "dash-waypoints-dot",     "dash-waypoints-label",     "#67e8f9", "dashToggleWaypoints");
+    addDotAndLabel("dash-gps-waypoints", "dash-gps-waypoints-dot", "dash-gps-waypoints-label", "#34d399", "dashToggleGpsWaypoints");
+    addDotAndLabel("dash-navaids",       "dash-navaids-dot",       "dash-navaids-label",       "#a3e635", "dashToggleNavaids");
 
     dashMap.addSource("dash-airports", { type: "geojson", data: airportGeoJSON });
     dashMap.addLayer({
@@ -1377,7 +1470,7 @@ function initDashboardMap(airportsReady, waypointsReady) {
   });
 
   // One-time setup after data is ready
-  Promise.all([airportsReady, waypointsReady]).then(() => {
+  Promise.all([airportsReady, waypointsReady, navaidsReady]).then(() => {
     const normalWaypoints = allWaypoints.filter((w) => /^[A-Za-z]+$/.test(w.name));
     const gpsWaypoints    = allWaypoints.filter((w) => /\d/.test(w.name));
 
@@ -1395,6 +1488,22 @@ function initDashboardMap(airportsReady, waypointsReady) {
     airportGeoJSON  = toGeoJSON(colombianAirports, (a) => ({
       icao: a.icao, name: a.name, runways: (a.runways || []).join(", "),
     }));
+    navaidGeoJSON = {
+      type: "FeatureCollection",
+      features: allNavaids
+        .filter((n) => n.coordinates?.latitude != null && n.coordinates?.longitude != null)
+        .map((n) => ({
+          type: "Feature",
+          geometry: { type: "Point", coordinates: [n.coordinates.longitude, n.coordinates.latitude] },
+          properties: {
+            name: n.shortName,
+            longName: n.longName,
+            frequency: n.frequency,
+            elevationFt: n.elevationFt,
+            region: n.region,
+          },
+        })),
+    };
 
     if (dashMap.isStyleLoaded()) {
       addAllDashLayers();
@@ -1410,7 +1519,22 @@ function initDashboardMap(airportsReady, waypointsReady) {
         .setHTML(`<div class="ifr-popup-inner"><code>${p.icao}</code><strong>${p.name}</strong>${p.runways ? `<span>RWY: ${p.runways}</span>` : ""}</div>`)
         .addTo(dashMap);
     });
-    ["dash-airports-dot", "dash-waypoints-dot", "dash-gps-waypoints-dot"].forEach((layer) => {
+    dashMap.on("click", "dash-navaids-dot", (e) => {
+      const p = e.features[0].properties;
+      popup
+        .setLngLat(e.features[0].geometry.coordinates.slice())
+        .setHTML(
+          `<div class="ifr-popup-inner">
+            <code>${p.name}</code>
+            <strong>${p.longName}</strong>
+            ${p.frequency ? `<span>Frecuencia: ${p.frequency}</span>` : ""}
+            ${p.elevationFt ? `<span>Elevacion: ${p.elevationFt} ft</span>` : ""}
+            ${p.region ? `<span>Region ${p.region}</span>` : ""}
+          </div>`,
+        )
+        .addTo(dashMap);
+    });
+    ["dash-airports-dot", "dash-waypoints-dot", "dash-gps-waypoints-dot", "dash-navaids-dot"].forEach((layer) => {
       dashMap.on("mouseenter", layer, () => { dashMap.getCanvas().style.cursor = "pointer"; });
       dashMap.on("mouseleave", layer, () => { dashMap.getCanvas().style.cursor = ""; });
     });
@@ -1438,9 +1562,11 @@ function initDashboardMap(airportsReady, waypointsReady) {
     const airportCountEl     = document.getElementById("dashAirportCount");
     const waypointCountEl    = document.getElementById("dashWaypointCount");
     const gpsWaypointCountEl = document.getElementById("dashGpsWaypointCount");
+    const navaidCountEl      = document.getElementById("dashNavaidCount");
     if (airportCountEl)     airportCountEl.textContent     = String(colombianAirports.length).padStart(3, "0");
     if (waypointCountEl)    waypointCountEl.textContent    = String(normalWaypoints.length).padStart(4, "0");
     if (gpsWaypointCountEl) gpsWaypointCountEl.textContent = String(gpsWaypoints.length).padStart(4, "0");
+    if (navaidCountEl)      navaidCountEl.textContent      = String(allNavaids.length).padStart(3, "0");
     const statusEl = document.getElementById("dashMapStatus");
     if (statusEl) { statusEl.textContent = "OK"; statusEl.className = "chip ok"; }
 
