@@ -196,7 +196,8 @@ function updateRouteLineOnMap() {
     coords.push([origin.longitude, origin.latitude]);
 
   for (const name of routeWaypoints) {
-    const wp = allWaypoints.find((w) => w.name === name);
+    const normalizedName = String(name).trim().toUpperCase();
+    const wp = allWaypoints.find((w) => String(w.name).trim().toUpperCase() === normalizedName);
     if (wp?.latitude != null && wp?.longitude != null)
       coords.push([wp.longitude, wp.latitude]);
   }
@@ -208,6 +209,8 @@ function updateRouteLineOnMap() {
     ? { type: "FeatureCollection", features: [{ type: "Feature", geometry: { type: "LineString", coordinates: coords }, properties: {} }] }
     : { type: "FeatureCollection", features: [] };
 
+  ensureRouteLineLayer();
+
   const source = dashMapInstance?.getSource("route-line");
   if (source) {
     source.setData(routeLineGeoJSON);
@@ -215,6 +218,61 @@ function updateRouteLineOnMap() {
     dashMapInstance.once("style.load", () => {
       dashMapInstance.getSource("route-line")?.setData(routeLineGeoJSON);
     });
+  }
+}
+
+function ensureRouteLineLayer() {
+  if (!dashMapInstance || !dashMapInstance.isStyleLoaded()) return;
+
+  if (!dashMapInstance.getSource("route-line")) {
+    dashMapInstance.addSource("route-line", { type: "geojson", data: routeLineGeoJSON });
+  }
+
+  if (!dashMapInstance.getLayer("route-line-halo")) {
+    dashMapInstance.addLayer({
+      id: "route-line-halo", type: "line", source: "route-line",
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: { "line-color": "#000000", "line-width": 7, "line-opacity": 0.45 },
+    });
+  }
+
+  if (!dashMapInstance.getLayer("route-line-layer")) {
+    dashMapInstance.addLayer({
+      id: "route-line-layer", type: "line", source: "route-line",
+      layout: { "line-cap": "round", "line-join": "round" },
+      paint: { "line-color": "#e879f9", "line-width": 4 },
+    });
+  }
+}
+
+function updateRouteSummaryWaypoints() {
+  const panel = document.getElementById("routeSummaryPanel");
+  if (!panel || panel.classList.contains("hidden-panel")) return;
+
+  const waypointItem = Array.from(panel.querySelectorAll(".rsum-item")).find((item) =>
+    item.querySelector("span")?.textContent?.trim() === "Waypoints",
+  );
+  const value = waypointItem?.querySelector("strong");
+  if (value) value.textContent = routeWaypoints.length ? routeWaypoints.join(" — ") : "—";
+
+  const routeString = panel.querySelector(".route-string");
+  if (routeString) {
+    const originIcao = parseAirportCode(originAirportInput?.value || "");
+    const destIcao = parseAirportCode(destinationAirportInput?.value || "");
+    const originRwy = originRunwaySelect?.value || "";
+    const sid = sidProcedureSelect?.value || "";
+    const star = starProcedureSelect?.value || "";
+    const destRwy = destinationRunwaySelect?.value || "";
+    const iac = iacProcedureSelect?.value || "";
+
+    const routeParts = [];
+    if (originIcao) routeParts.push(originIcao + (originRwy ? `/${originRwy}` : ""));
+    if (sid && sid !== "NO_SID") routeParts.push(sid);
+    routeParts.push(...routeWaypoints);
+    if (star && star !== "NO_STAR") routeParts.push(star);
+    if (destIcao) routeParts.push(destIcao + (destRwy ? `/${destRwy}` : ""));
+    if (iac && iac !== "NO_IAC") routeParts.push(iac);
+    routeString.textContent = routeParts.join(" — ");
   }
 }
 
@@ -884,6 +942,7 @@ function setupWaypointInput() {
       .map(
         (name, i) => `
         <span class="waypoint-tag">
+          <small>${String(i + 1).padStart(2, "0")}</small>
           ${name}
           <button type="button" data-index="${i}" aria-label="Quitar ${name}">&times;</button>
         </span>
@@ -893,17 +952,23 @@ function setupWaypointInput() {
   }
 
   function addWaypoint(name) {
-    routeWaypoints.push(name);
+    const normalizedName = String(name || "").trim().toUpperCase();
+    const waypointExists = allWaypoints.some((w) => String(w.name).trim().toUpperCase() === normalizedName);
+    if (!normalizedName || !waypointExists) return;
+
+    routeWaypoints = [...routeWaypoints, normalizedName];
     renderTags();
     updateRouteLineOnMap();
+    updateRouteSummaryWaypoints();
     input.value = "";
     input.focus();
   }
 
   function removeWaypoint(index) {
-    routeWaypoints.splice(index, 1);
+    routeWaypoints = routeWaypoints.filter((_, i) => i !== index);
     renderTags();
     updateRouteLineOnMap();
+    updateRouteSummaryWaypoints();
   }
 
   function closeDrop() {
@@ -992,7 +1057,7 @@ function setupClearRouteBtn() {
     });
 
     // Clear waypoints
-    routeWaypoints.length = 0;
+    routeWaypoints = [];
     const tagsBox = document.querySelector("#waypointTags");
     if (tagsBox) tagsBox.innerHTML = "";
     const wpInput = document.querySelector("#routeWaypointsInput");
@@ -1221,17 +1286,8 @@ function initDashboardMap(airportsReady, waypointsReady) {
   }
 
   function addRouteLine() {
-    dashMap.addSource("route-line", { type: "geojson", data: routeLineGeoJSON });
-    dashMap.addLayer({
-      id: "route-line-halo", type: "line", source: "route-line",
-      layout: { "line-cap": "round", "line-join": "round" },
-      paint: { "line-color": "#000000", "line-width": 7, "line-opacity": 0.45 },
-    });
-    dashMap.addLayer({
-      id: "route-line-layer", type: "line", source: "route-line",
-      layout: { "line-cap": "round", "line-join": "round" },
-      paint: { "line-color": "#e879f9", "line-width": 4 },
-    });
+    ensureRouteLineLayer();
+    dashMap.getSource("route-line")?.setData(routeLineGeoJSON);
   }
 
   // Re-add layers on every style switch (and initial load)
@@ -1260,7 +1316,10 @@ function initDashboardMap(airportsReady, waypointsReady) {
       icao: a.icao, name: a.name, runways: (a.runways || []).join(", "),
     }));
 
-    if (dashMap.isStyleLoaded()) addAllDashLayers();
+    if (dashMap.isStyleLoaded()) {
+      addAllDashLayers();
+      updateRouteLineOnMap();
+    }
 
     // Popup
     const popup = new maplibregl.Popup({ closeButton: true, maxWidth: "220px" });

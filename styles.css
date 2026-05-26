@@ -1099,6 +1099,13 @@ input[type="checkbox"] {
   font-weight: 700;
 }
 
+.waypoint-tag small {
+  color: var(--dim);
+  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+  font-size: 10px;
+  font-weight: 700;
+}
+
 .waypoint-tag button {
   display: flex;
   align-items: center;
