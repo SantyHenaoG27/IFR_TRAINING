@@ -11,6 +11,12 @@ const starProcedureSelect = document.querySelector("#starProcedureSelect");
 const iacProcedureSelect = document.querySelector("#iacProcedureSelect");
 const originAirportInput = document.querySelector('[data-route-role="origin"]');
 const destinationAirportInput = document.querySelector('[data-route-role="destination"]');
+const originAirportClear = document.querySelector("#originAirportClear");
+const destinationAirportClear = document.querySelector("#destinationAirportClear");
+const alternateOneInput = document.querySelector('[data-route-role="alterno1"]');
+const alternateTwoInput = document.querySelector('[data-route-role="alterno2"]');
+const alternateOneClear = document.querySelector("#alternateOneClear");
+const alternateTwoClear = document.querySelector("#alternateTwoClear");
 const originChartAirportTitle = document.querySelector("#originChartAirportTitle");
 const originChartAirportCode = document.querySelector("#originChartAirportCode");
 const originChartNote = document.querySelector("#originChartNote");
@@ -136,12 +142,34 @@ function parseAirportCode(value) {
   return match ? match[0] : "";
 }
 
+function getSelectedAirportCode(input) {
+  return input?.dataset.selectedIcao || "";
+}
+
+function getExactAirportMatch(value) {
+  const normalizedValue = normalizeSearch(value);
+  const parsedIcao = parseAirportCode(value);
+
+  if (!normalizedValue) {
+    return null;
+  }
+
+  return (
+    colombianAirports.find((airport) => {
+      const icao = normalizeSearch(airport.icao);
+      const name = normalizeSearch(airport.name);
+      const optionLabel = normalizeSearch(`${airport.icao} - ${airport.name}`);
+      return parsedIcao === airport.icao || normalizedValue === icao || normalizedValue === name || normalizedValue === optionLabel;
+    }) || null
+  );
+}
+
 function updateChartTitle(input, titleElement, codeElement, noteElement, fallbackTitle, fallbackCode, fallbackNote) {
   if (!input || !titleElement || !codeElement || !noteElement) {
     return;
   }
 
-  const icao = parseAirportCode(input.value);
+  const icao = getSelectedAirportCode(input);
   const airport = colombianAirports.find((item) => item.icao === icao);
 
   if (!airport) {
@@ -257,8 +285,8 @@ function updateRouteSummaryWaypoints() {
 
   const routeString = panel.querySelector(".route-string");
   if (routeString) {
-    const originIcao = parseAirportCode(originAirportInput?.value || "");
-    const destIcao = parseAirportCode(destinationAirportInput?.value || "");
+    const originIcao = getSelectedAirportCode(originAirportInput);
+    const destIcao = getSelectedAirportCode(destinationAirportInput);
     const originRwy = originRunwaySelect?.value || "";
     const sid = sidProcedureSelect?.value || "";
     const star = starProcedureSelect?.value || "";
@@ -315,26 +343,33 @@ function getChartPreviewElements(panel) {
   };
 }
 
+function hideChartPreview(panel) {
+  const preview = getChartPreviewElements(panel);
+  preview.preview?.classList.add("hidden-panel");
+  if (preview.frame) {
+    preview.frame.src = "";
+  }
+}
+
 function getAirportForPanel(panel) {
   let input;
   if (panel === "origin") input = originAirportInput;
   else if (panel === "destination") input = destinationAirportInput;
   else input = customAirportInput;
-  const icao = parseAirportCode(input?.value || "");
+  const icao = panel === "custom" ? parseAirportCode(input?.value || "") : getSelectedAirportCode(input);
   const airport = colombianAirports.find((item) => item.icao === icao);
   return airport || (icao ? { icao, name: icao, runways: [] } : null);
 }
 
 function renderUnavailableCharts(panel, message) {
   const box = getChartResultBox(panel);
-  const preview = getChartPreviewElements(panel);
 
   if (!box) {
     return;
   }
 
   box.innerHTML = `<div class="chart-empty">${message}</div>`;
-  preview.preview?.classList.add("hidden-panel");
+  hideChartPreview(panel);
 }
 
 function isNavigationProcedureChart(item) {
@@ -537,6 +572,7 @@ function setupChartButtons() {
       const panel = button.dataset.chartPanel;
       const airport = getAirportForPanel(panel);
       const isActive = button.classList.contains("is-active");
+      hideChartPreview(panel);
 
       document
         .querySelectorAll(`[data-chart-panel="${panel}"]`)
@@ -545,9 +581,6 @@ function setupChartButtons() {
       if (isActive) {
         const resultBox = getChartResultBox(panel);
         if (resultBox) resultBox.innerHTML = "";
-        const preview = getChartPreviewElements(panel);
-        preview.preview?.classList.add("hidden-panel");
-        if (preview.frame) preview.frame.src = "";
         return;
       }
 
@@ -592,9 +625,7 @@ function setupChartPreview() {
   ].forEach((preview) => {
     preview.hide?.addEventListener("click", () => {
       preview.preview?.classList.add("hidden-panel");
-      if (preview.frame) {
-        preview.frame.src = "";
-      }
+      if (preview.frame) preview.frame.src = "";
     });
   });
 
@@ -630,13 +661,33 @@ function closeAirportSuggestions(exceptBox) {
   });
 }
 
+function updateRouteAirportClearButtons() {
+  [
+    { input: originAirportInput, button: originAirportClear },
+    { input: destinationAirportInput, button: destinationAirportClear },
+  ].forEach(({ input, button }) => {
+    if (!input || !button) return;
+    button.classList.toggle("hidden-panel", !getSelectedAirportCode(input));
+  });
+
+  [
+    { input: alternateOneInput, button: alternateOneClear },
+    { input: alternateTwoInput, button: alternateTwoClear },
+  ].forEach(({ input, button }) => {
+    if (!input || !button) return;
+    button.classList.toggle("hidden-panel", !input.value.trim());
+  });
+}
+
 function renderAirportSuggestions(input) {
   const box = input.parentElement.querySelector(".airport-suggestions");
+  const normalizedValue = normalizeSearch(input.value);
   const matches = findAirportMatches(input.value);
+  const confirmedValue = input.dataset.confirmedAirport || "";
 
   closeAirportSuggestions(box);
 
-  if (normalizeSearch(input.value).length < 2) {
+  if (normalizedValue.length < 2 || (confirmedValue && confirmedValue === normalizedValue)) {
     box.classList.remove("is-open");
     box.innerHTML = "";
     return;
@@ -651,7 +702,7 @@ function renderAirportSuggestions(input) {
   box.innerHTML = matches
     .map(
       (airport) => `
-        <button class="airport-suggestion-item" type="button" data-value="${airport.icao} - ${airport.name}">
+        <button class="airport-suggestion-item" type="button" data-icao="${airport.icao}" data-value="${airport.icao} - ${airport.name}">
           <code>${airport.icao}</code>
           <span>${airport.name}</span>
           <em>${formatCoordinate(airport.latitude)}, ${formatCoordinate(airport.longitude)}</em>
@@ -664,8 +715,30 @@ function renderAirportSuggestions(input) {
 
 function setupAirportSearch() {
   airportSearchInputs.forEach((input) => {
-    input.addEventListener("input", () => renderAirportSuggestions(input));
+    const requiresSelection = ["origin", "destination"].includes(input.dataset.routeRole);
+
+    input.addEventListener("input", () => {
+      if (input.dataset.confirmedAirport !== normalizeSearch(input.value)) {
+        delete input.dataset.confirmedAirport;
+      }
+      if (requiresSelection) {
+        delete input.dataset.selectedIcao;
+      }
+      renderAirportSuggestions(input);
+      updateRouteAirportClearButtons();
+    });
     input.addEventListener("focus", () => renderAirportSuggestions(input));
+    input.addEventListener("blur", () => {
+      setTimeout(() => closeAirportSuggestions(), 120);
+      updateRouteAirportClearButtons();
+    });
+    input.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        closeAirportSuggestions();
+        updateRouteAirportClearButtons();
+      }
+    });
 
     input.parentElement.addEventListener("click", (event) => {
       const item = event.target.closest(".airport-suggestion-item");
@@ -675,7 +748,12 @@ function setupAirportSearch() {
       }
 
       input.value = item.dataset.value;
+      if (requiresSelection) {
+        input.dataset.selectedIcao = item.dataset.icao || parseAirportCode(item.dataset.value);
+      }
+      input.dataset.confirmedAirport = normalizeSearch(input.value);
       closeAirportSuggestions();
+      updateRouteAirportClearButtons();
       updateRouteChartTitles();
       updateRouteLineOnMap();
       loadOriginRunways();
@@ -691,6 +769,7 @@ function setupAirportSearch() {
     updateRouteLineOnMap();
     loadOriginRunways();
     loadSidOptions();
+    updateRouteAirportClearButtons();
   });
   destinationAirportInput?.addEventListener("input", () => {
     updateRouteChartTitles();
@@ -698,6 +777,7 @@ function setupAirportSearch() {
     loadDestinationRunways();
     loadStarOptions();
     loadIacOptions();
+    updateRouteAirportClearButtons();
   });
   customAirportInput?.addEventListener("input", updateRouteChartTitles);
 
@@ -766,7 +846,7 @@ async function loadStarOptions() {
   if (!starProcedureSelect) return;
   const airport = getAirportForPanel("destination");
   if (!airport) {
-    starProcedureSelect.innerHTML = `<option value="">Seleccione un aeropuerto de destino primero</option>`;
+    starProcedureSelect.innerHTML = `<option value="">Selecciona primero un destino</option>`;
     return;
   }
   try {
@@ -907,7 +987,7 @@ async function loadSidOptions() {
   const airport = getAirportForPanel("origin");
 
   if (!airport) {
-    sidProcedureSelect.innerHTML = `<option>Seleccione primero un aeropuerto de origen</option>`;
+    sidProcedureSelect.innerHTML = `<option>Selecciona primero un origen</option>`;
     return;
   }
 
@@ -1129,8 +1209,8 @@ function setupCreateRouteBtn() {
   if (!btn || !panel) return;
 
   btn.addEventListener("click", () => {
-    const originIcao = parseAirportCode(originAirportInput?.value || "");
-    const destIcao   = parseAirportCode(destinationAirportInput?.value || "");
+    const originIcao = getSelectedAirportCode(originAirportInput);
+    const destIcao = getSelectedAirportCode(destinationAirportInput);
     const originAirport = colombianAirports.find((a) => a.icao === originIcao);
     const destAirport   = colombianAirports.find((a) => a.icao === destIcao);
 
@@ -1385,3 +1465,78 @@ document.querySelector("#customSearchClear")?.addEventListener("click", () => {
   }
   updateRouteChartTitles();
 });
+
+function resetRouteSummaryIfIncomplete() {
+  if (getSelectedAirportCode(originAirportInput) && getSelectedAirportCode(destinationAirportInput)) {
+    return;
+  }
+
+  document.getElementById("routeSummaryPanel")?.classList.add("hidden-panel");
+}
+
+function resetOriginFields() {
+  if (originRunwaySelect) {
+    originRunwaySelect.innerHTML = `<option value="">Seleccione pista</option>`;
+  }
+  if (sidProcedureSelect) {
+    sidProcedureSelect.innerHTML = `<option>Selecciona primero un origen</option>`;
+  }
+}
+
+function resetDestinationFields() {
+  if (destinationRunwaySelect) {
+    destinationRunwaySelect.innerHTML = `<option value="">Seleccione pista</option>`;
+  }
+  if (starProcedureSelect) {
+    starProcedureSelect.innerHTML = `<option value="">Selecciona primero un destino</option>`;
+  }
+  if (iacProcedureSelect) {
+    iacProcedureSelect.innerHTML = `<option value="">Seleccione primero un aeropuerto de destino</option>`;
+  }
+}
+
+function clearRouteAirport(role) {
+  const isOrigin = role === "origin";
+  const input = isOrigin ? originAirportInput : destinationAirportInput;
+
+  if (!input) return;
+
+  input.value = "";
+  delete input.dataset.confirmedAirport;
+  delete input.dataset.selectedIcao;
+  input.dispatchEvent(new Event("input"));
+  closeAirportSuggestions();
+  updateRouteAirportClearButtons();
+
+  if (isOrigin) {
+    resetOriginFields();
+    if (originChartResults) originChartResults.innerHTML = "";
+    hideChartPreview("origin");
+    document.querySelectorAll('[data-chart-panel="origin"]').forEach((btn) => btn.classList.remove("is-active"));
+  } else {
+    resetDestinationFields();
+    if (destinationChartResults) destinationChartResults.innerHTML = "";
+    hideChartPreview("destination");
+    document.querySelectorAll('[data-chart-panel="destination"]').forEach((btn) => btn.classList.remove("is-active"));
+  }
+
+  updateRouteLineOnMap();
+  updateRouteChartTitles();
+  resetRouteSummaryIfIncomplete();
+}
+
+originAirportClear?.addEventListener("click", () => clearRouteAirport("origin"));
+destinationAirportClear?.addEventListener("click", () => clearRouteAirport("destination"));
+
+function clearAlternateAirport(input) {
+  if (!input) return;
+  input.value = "";
+  delete input.dataset.confirmedAirport;
+  closeAirportSuggestions();
+  updateRouteAirportClearButtons();
+}
+
+alternateOneClear?.addEventListener("click", () => clearAlternateAirport(alternateOneInput));
+alternateTwoClear?.addEventListener("click", () => clearAlternateAirport(alternateTwoInput));
+
+updateRouteAirportClearButtons();

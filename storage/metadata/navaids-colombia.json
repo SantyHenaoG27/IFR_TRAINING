@@ -1,0 +1,662 @@
+﻿[
+    {
+        "shortName":  "ABL",
+        "longName":  "AMBALEMA",
+        "frequency":  "112.700",
+        "coordinates":  {
+                            "latitude":  4.783889,
+                            "longitude":  -74.7675
+                        },
+        "elevationFt":  900,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "AP",
+        "longName":  "APIAY",
+        "frequency":  "270.000",
+        "coordinates":  {
+                            "latitude":  4.072125,
+                            "longitude":  -73.478828
+                        },
+        "elevationFt":  0,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "AUC",
+        "longName":  "ARAUCA",
+        "frequency":  "114.000",
+        "coordinates":  {
+                            "latitude":  7.067222,
+                            "longitude":  -70.732778
+                        },
+        "elevationFt":  430,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "AXM",
+        "longName":  "ARMENIA",
+        "frequency":  "111.600",
+        "coordinates":  {
+                            "latitude":  4.46,
+                            "longitude":  -75.765556
+                        },
+        "elevationFt":  3953,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "BAQ",
+        "longName":  "BARRANQUILLA",
+        "frequency":  "113.700",
+        "coordinates":  {
+                            "latitude":  10.795278,
+                            "longitude":  -74.860278
+                        },
+        "elevationFt":  315,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "BOG",
+        "longName":  "BOGOTA",
+        "frequency":  "113.900",
+        "coordinates":  {
+                            "latitude":  4.846667,
+                            "longitude":  -74.323333
+                        },
+        "elevationFt":  9825,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "BUN",
+        "longName":  "BUENAVENTURA",
+        "frequency":  "113.800",
+        "coordinates":  {
+                            "latitude":  3.825278,
+                            "longitude":  -76.995278
+                        },
+        "elevationFt":  65,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "BUV",
+        "longName":  "BUVIS",
+        "frequency":  "116.200",
+        "coordinates":  {
+                            "latitude":  5.532222,
+                            "longitude":  -73.858611
+                        },
+        "elevationFt":  9845,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "CJN",
+        "longName":  "CERREJON",
+        "frequency":  "113.400",
+        "coordinates":  {
+                            "latitude":  11.231389,
+                            "longitude":  -72.493056
+                        },
+        "elevationFt":  276,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "CLO",
+        "longName":  "CALI",
+        "frequency":  "115.500",
+        "coordinates":  {
+                            "latitude":  3.400847,
+                            "longitude":  -76.406483
+                        },
+        "elevationFt":  3062,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "CTG",
+        "longName":  "CARTAGENA",
+        "frequency":  "112.300",
+        "coordinates":  {
+                            "latitude":  10.208333,
+                            "longitude":  -75.506111
+                        },
+        "elevationFt":  100,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "CU",
+        "longName":  "CUCUTA",
+        "frequency":  "395.000",
+        "coordinates":  {
+                            "latitude":  8.034444,
+                            "longitude":  -72.575833
+                        },
+        "elevationFt":  1098,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "CUC",
+        "longName":  "CUCUTA",
+        "frequency":  "113.300",
+        "coordinates":  {
+                            "latitude":  7.933333,
+                            "longitude":  -72.513611
+                        },
+        "elevationFt":  1069,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "CZU",
+        "longName":  "COROZAL",
+        "frequency":  "113.400",
+        "coordinates":  {
+                            "latitude":  9.335833,
+                            "longitude":  -75.2825
+                        },
+        "elevationFt":  582,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "EJA",
+        "longName":  "BARRANCABERMEJA",
+        "frequency":  "115.900",
+        "coordinates":  {
+                            "latitude":  7.028611,
+                            "longitude":  -73.805556
+                        },
+        "elevationFt":  460,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "ELB",
+        "longName":  "EL BANCO",
+        "frequency":  "114.300",
+        "coordinates":  {
+                            "latitude":  9.045278,
+                            "longitude":  -73.967222
+                        },
+        "elevationFt":  111,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "EYP",
+        "longName":  "EL YOPAL",
+        "frequency":  "115.600",
+        "coordinates":  {
+                            "latitude":  5.276111,
+                            "longitude":  -72.426667
+                        },
+        "elevationFt":  906,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "FLA",
+        "longName":  "FLORENCIA",
+        "frequency":  "112.400",
+        "coordinates":  {
+                            "latitude":  1.587778,
+                            "longitude":  -75.569444
+                        },
+        "elevationFt":  729,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "GIR",
+        "longName":  "GIRARDOT",
+        "frequency":  "117.300",
+        "coordinates":  {
+                            "latitude":  4.192222,
+                            "longitude":  -74.865556
+                        },
+        "elevationFt":  1033,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "IBG",
+        "longName":  "IBAGUE",
+        "frequency":  "113.100",
+        "coordinates":  {
+                            "latitude":  4.397778,
+                            "longitude":  -75.106111
+                        },
+        "elevationFt":  2757,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "IPI",
+        "longName":  "IPIALES",
+        "frequency":  "113.600",
+        "coordinates":  {
+                            "latitude":  0.862222,
+                            "longitude":  -77.673056
+                        },
+        "elevationFt":  9664,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "LCE",
+        "longName":  "LOS CEDROS",
+        "frequency":  "112.600",
+        "coordinates":  {
+                            "latitude":  7.818889,
+                            "longitude":  -76.722222
+                        },
+        "elevationFt":  36,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "LET",
+        "longName":  "LETICIA",
+        "frequency":  "117.500",
+        "coordinates":  {
+                            "latitude":  -4.187778,
+                            "longitude":  -69.939444
+                        },
+        "elevationFt":  325,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MDU",
+        "longName":  "MARANDUA",
+        "frequency":  "114.200",
+        "coordinates":  {
+                            "latitude":  5.533056,
+                            "longitude":  -68.673333
+                        },
+        "elevationFt":  365,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MER",
+        "longName":  "MERCADERES",
+        "frequency":  "116.300",
+        "coordinates":  {
+                            "latitude":  1.788889,
+                            "longitude":  -77.151389
+                        },
+        "elevationFt":  3507,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MGN",
+        "longName":  "MAGANGUE",
+        "frequency":  "114.100",
+        "coordinates":  {
+                            "latitude":  9.287222,
+                            "longitude":  -74.846944
+                        },
+        "elevationFt":  217,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MNI",
+        "longName":  "MANI",
+        "frequency":  "322.000",
+        "coordinates":  {
+                            "latitude":  4.735833,
+                            "longitude":  -72.326944
+                        },
+        "elevationFt":  0,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MQU",
+        "longName":  "MARIQUITA",
+        "frequency":  "116.100",
+        "coordinates":  {
+                            "latitude":  5.205,
+                            "longitude":  -74.921111
+                        },
+        "elevationFt":  2786,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MRN",
+        "longName":  "MARINILLA RIONEGRO",
+        "frequency":  "113.000",
+        "coordinates":  {
+                            "latitude":  6.176389,
+                            "longitude":  -75.323889
+                        },
+        "elevationFt":  6970,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MTR",
+        "longName":  "MONTERIA",
+        "frequency":  "114.800",
+        "coordinates":  {
+                            "latitude":  8.833889,
+                            "longitude":  -75.829722
+                        },
+        "elevationFt":  49,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MTU",
+        "longName":  "MITU",
+        "frequency":  "112.200",
+        "coordinates":  {
+                            "latitude":  1.241944,
+                            "longitude":  -70.236944
+                        },
+        "elevationFt":  541,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "MZL",
+        "longName":  "MANIZALES",
+        "frequency":  "112.100",
+        "coordinates":  {
+                            "latitude":  5.053889,
+                            "longitude":  -75.528889
+                        },
+        "elevationFt":  6921,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "NVA",
+        "longName":  "NEIVA",
+        "frequency":  "115.800",
+        "coordinates":  {
+                            "latitude":  3.061944,
+                            "longitude":  -75.255833
+                        },
+        "elevationFt":  1437,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PAL",
+        "longName":  "PALANQUERO PUERTO SALGAR",
+        "frequency":  "114.200",
+        "coordinates":  {
+                            "latitude":  5.487222,
+                            "longitude":  -74.660556
+                        },
+        "elevationFt":  593,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PDA",
+        "longName":  "PUERTO INIRIDA",
+        "frequency":  "114.900",
+        "coordinates":  {
+                            "latitude":  3.852778,
+                            "longitude":  -67.903889
+                        },
+        "elevationFt":  459,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PEI",
+        "longName":  "PEREIRA",
+        "frequency":  "116.000",
+        "coordinates":  {
+                            "latitude":  4.781667,
+                            "longitude":  -75.836111
+                        },
+        "elevationFt":  3763,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PIE",
+        "longName":  "PIEDECUESTA",
+        "frequency":  "116.800",
+        "coordinates":  {
+                            "latitude":  6.883889,
+                            "longitude":  -73.091944
+                        },
+        "elevationFt":  5321,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PLG",
+        "longName":  "PUERTO LEGUIZAMO",
+        "frequency":  "112.800",
+        "coordinates":  {
+                            "latitude":  -0.178611,
+                            "longitude":  -74.775556
+                        },
+        "elevationFt":  665,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PPN",
+        "longName":  "POPAYAN",
+        "frequency":  "114.500",
+        "coordinates":  {
+                            "latitude":  2.448889,
+                            "longitude":  -76.614167
+                        },
+        "elevationFt":  5633,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PTC",
+        "longName":  "PUERTO CARRENO",
+        "frequency":  "112.900",
+        "coordinates":  {
+                            "latitude":  6.181389,
+                            "longitude":  -67.495556
+                        },
+        "elevationFt":  197,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "PY",
+        "longName":  "APIAY",
+        "frequency":  "250.000",
+        "coordinates":  {
+                            "latitude":  4.075622,
+                            "longitude":  -73.545453
+                        },
+        "elevationFt":  0,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "RHC",
+        "longName":  "RIOHACHA",
+        "frequency":  "117.100",
+        "coordinates":  {
+                            "latitude":  11.5275,
+                            "longitude":  -72.9175
+                        },
+        "elevationFt":  56,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "RNG",
+        "longName":  "RIONEGRO MEDELLIN",
+        "frequency":  "115.100",
+        "coordinates":  {
+                            "latitude":  5.980658,
+                            "longitude":  -75.418283
+                        },
+        "elevationFt":  8580,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "SJE",
+        "longName":  "SAN JOSE DEL GUAVIARE",
+        "frequency":  "113.300",
+        "coordinates":  {
+                            "latitude":  2.5325,
+                            "longitude":  -72.639722
+                        },
+        "elevationFt":  661,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "SLI",
+        "longName":  "SAN LUIS IPIALES",
+        "frequency":  "244.000",
+        "coordinates":  {
+                            "latitude":  0.856389,
+                            "longitude":  -77.675278
+                        },
+        "elevationFt":  9730,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "SOA",
+        "longName":  "SOACHA BOGOTA",
+        "frequency":  "108.600",
+        "coordinates":  {
+                            "latitude":  4.603056,
+                            "longitude":  -74.273056
+                        },
+        "elevationFt":  8069,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "SPP",
+        "longName":  "SAN ANDRES",
+        "frequency":  "113.300",
+        "coordinates":  {
+                            "latitude":  12.5825,
+                            "longitude":  -81.705278
+                        },
+        "elevationFt":  161,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "STA",
+        "longName":  "SANTA MARTA",
+        "frequency":  "116.600",
+        "coordinates":  {
+                            "latitude":  10.9625,
+                            "longitude":  -74.240556
+                        },
+        "elevationFt":  42,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "SVC",
+        "longName":  "SAN VICENTE DEL CAGUAN",
+        "frequency":  "116.500",
+        "coordinates":  {
+                            "latitude":  2.157222,
+                            "longitude":  -74.773611
+                        },
+        "elevationFt":  861,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "TCO",
+        "longName":  "TUMACO LA FLORIDA",
+        "frequency":  "114.000",
+        "coordinates":  {
+                            "latitude":  1.814722,
+                            "longitude":  -78.748056
+                        },
+        "elevationFt":  24,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "TDA",
+        "longName":  "TRINIDAD",
+        "frequency":  "1610.000",
+        "coordinates":  {
+                            "latitude":  5.433333,
+                            "longitude":  -71.650833
+                        },
+        "elevationFt":  0,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "TME",
+        "longName":  "TAME",
+        "frequency":  "114.500",
+        "coordinates":  {
+                            "latitude":  6.453056,
+                            "longitude":  -71.753889
+                        },
+        "elevationFt":  1137,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "TOL",
+        "longName":  "TOLEMAIDA",
+        "frequency":  "111.200",
+        "coordinates":  {
+                            "latitude":  4.255833,
+                            "longitude":  -74.640556
+                        },
+        "elevationFt":  1682,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "TQS",
+        "longName":  "TRES ESQUINAS",
+        "frequency":  "114.200",
+        "coordinates":  {
+                            "latitude":  0.742222,
+                            "longitude":  -75.233611
+                        },
+        "elevationFt":  645,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "UC",
+        "longName":  "CUCUTA",
+        "frequency":  "264.000",
+        "coordinates":  {
+                            "latitude":  7.950556,
+                            "longitude":  -72.525833
+                        },
+        "elevationFt":  1098,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "UIB",
+        "longName":  "QUIBDO",
+        "frequency":  "113.200",
+        "coordinates":  {
+                            "latitude":  5.692222,
+                            "longitude":  -76.641389
+                        },
+        "elevationFt":  141,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "ULQ",
+        "longName":  "TULUA",
+        "frequency":  "117.700",
+        "coordinates":  {
+                            "latitude":  4.092222,
+                            "longitude":  -76.223333
+                        },
+        "elevationFt":  3134,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "VUP",
+        "longName":  "VALLEDUPAR",
+        "frequency":  "114.600",
+        "coordinates":  {
+                            "latitude":  10.444722,
+                            "longitude":  -73.249167
+                        },
+        "elevationFt":  485,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "VVC",
+        "longName":  "VILLAVICENCIO",
+        "frequency":  "116.700",
+        "coordinates":  {
+                            "latitude":  4.066667,
+                            "longitude":  -73.382222
+                        },
+        "elevationFt":  1018,
+        "region":  "SK"
+    },
+    {
+        "shortName":  "ZIP",
+        "longName":  "ZIPAQUIRA BOGOTA",
+        "frequency":  "114.700",
+        "coordinates":  {
+                            "latitude":  5.018056,
+                            "longitude":  -73.986667
+                        },
+        "elevationFt":  8702,
+        "region":  "SK"
+    }
+]

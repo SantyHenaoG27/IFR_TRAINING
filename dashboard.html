@@ -9,17 +9,16 @@
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js" defer></script>
     <script src="src/scripts/dashboard.js?v=25" defer></script>
   </head>
-  <body>
+  <body class="dashboard-page">
     <main class="shell">
       <header class="topbar dashboard-topbar">
         <div>
           <div class="tech-label">READ ONLY / IFR TRAINING / COLOMBIA</div>
-          <h1>IFR TRAINING COL</h1>
+          <h1 class="dashboard-title">IFR TRAINING COL</h1>
         </div>
         <div class="top-actions">
-          <a class="login-access" href="index.html">
-            <span>Volver</span>
-            <strong>PLANNER</strong>
+          <a class="login-access return-access" href="index.html">
+            <strong>VOLVER</strong>
           </a>
         </div>
       </header>
@@ -34,23 +33,43 @@
           <div class="flight-airports-grid">
             <label class="field airport-combobox">
               <span>Origen</span>
-              <input class="airport-search-input" data-route-role="origin" autocomplete="off" placeholder="SKBO o El Dorado" aria-label="Origen" />
-              <div class="airport-suggestions" role="listbox"></div>
+              <div class="route-airport-row">
+                <div class="airport-combobox">
+                  <input class="airport-search-input" data-route-role="origin" autocomplete="off" placeholder="SKBO o El Dorado" aria-label="Origen" />
+                  <div class="airport-suggestions" role="listbox"></div>
+                </div>
+                <button type="button" id="originAirportClear" class="btn-clear-search route-airport-clear hidden-panel" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Quitar origen">&#x2715;</button>
+              </div>
             </label>
             <label class="field airport-combobox">
               <span>Destino</span>
-              <input class="airport-search-input" data-route-role="destination" autocomplete="off" placeholder="SKPE o Matecana" aria-label="Destino" />
-              <div class="airport-suggestions" role="listbox"></div>
+              <div class="route-airport-row">
+                <div class="airport-combobox">
+                  <input class="airport-search-input" data-route-role="destination" autocomplete="off" placeholder="SKPE o Matecana" aria-label="Destino" />
+                  <div class="airport-suggestions" role="listbox"></div>
+                </div>
+                <button type="button" id="destinationAirportClear" class="btn-clear-search route-airport-clear hidden-panel" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Quitar destino">&#x2715;</button>
+              </div>
             </label>
             <label class="field airport-combobox">
               <span>Alterno 1</span>
-              <input class="airport-search-input" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 1" />
-              <div class="airport-suggestions" role="listbox"></div>
+              <div class="route-airport-row">
+                <div class="airport-combobox">
+                  <input class="airport-search-input" data-route-role="alterno1" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 1" />
+                  <div class="airport-suggestions" role="listbox"></div>
+                </div>
+                <button type="button" id="alternateOneClear" class="btn-clear-search route-airport-clear hidden-panel" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Quitar alterno 1">&#x2715;</button>
+              </div>
             </label>
             <label class="field airport-combobox">
               <span>Alterno 2</span>
-              <input class="airport-search-input" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 2" />
-              <div class="airport-suggestions" role="listbox"></div>
+              <div class="route-airport-row">
+                <div class="airport-combobox">
+                  <input class="airport-search-input" data-route-role="alterno2" autocomplete="off" placeholder="Codigo o nombre" aria-label="Alterno 2" />
+                  <div class="airport-suggestions" role="listbox"></div>
+                </div>
+                <button type="button" id="alternateTwoClear" class="btn-clear-search route-airport-clear hidden-panel" style="background-color:#dc2626;color:#fff;border:1px solid #b91c1c;" aria-label="Quitar alterno 2">&#x2715;</button>
+              </div>
             </label>
           </div>
           <div class="flight-airports-grid" style="margin-top:10px;">
@@ -86,7 +105,7 @@
               <label class="field">
                 <span>Llegada STAR</span>
                 <select id="starProcedureSelect" aria-label="Seleccion de llegada STAR">
-                  <option value="">Seleccione un aeropuerto de destino primero</option>
+                  <option value="">Selecciona primero un destino</option>
                 </select>
               </label>
               <div class="field sid-select-field">
@@ -268,13 +287,17 @@
           <div id="dashMapContainer" class="dash-map-container"></div>
         </article>
 
-        <article class="read-card favorites-card" aria-label="Mis vuelos favoritos">
+        <article class="read-card favorites-card" aria-label="Cartas en Ruta">
           <div class="module-head">
-            <h2>Mis vuelos favoritos</h2>
+            <h2>Cartas en Ruta</h2>
             <span class="chip">000</span>
           </div>
-          <div class="favorites-empty">
-            <strong>Sin vuelos guardados</strong>
+          <div class="route-charts-search">
+            <label class="field" for="routeChartsAirport">
+              <span>Buscar aeropuerto</span>
+              <input id="routeChartsAirport" type="search" placeholder="Codigo o nombre del aeropuerto" autocomplete="off">
+            </label>
+            <button class="btn primary" type="button">Buscar cartas</button>
           </div>
         </article>
         </div>

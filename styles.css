@@ -27,10 +27,34 @@ body {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
+body.dashboard-page {
+  --font-display: "Lamborghini", "Eurostile", Arial, sans-serif;
+  --font-body: "Inter", Arial, sans-serif;
+  --font-mono: "SF Mono", ui-monospace, Menlo, monospace;
+  --accent: #22d3ee;
+  --accent-on: #050505;
+  --accent-hover: #67e8f9;
+  --focus-ring: 0 0 0 4px rgba(34, 211, 238, 0.32);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.48;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
 button,
 input,
 select {
   font: inherit;
+}
+
+.dashboard-page a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dashboard-page button {
+  cursor: pointer;
 }
 
 .shell {
@@ -93,6 +117,19 @@ select {
   color: var(--cyan);
   font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
   font-size: 12px;
+}
+
+.return-access {
+  min-width: 96px;
+  place-items: center;
+  background: #2563eb;
+  border-color: #3b82f6;
+  color: #fff;
+}
+
+.return-access strong {
+  margin-top: 0;
+  color: #fff;
 }
 
 .tech-label,
@@ -711,6 +748,21 @@ input[type="checkbox"] {
 .custom-search-row .airport-combobox {
   flex: 1;
   min-width: 0;
+}
+
+.route-airport-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.route-airport-row .airport-combobox {
+  flex: 1;
+  min-width: 0;
+}
+
+.route-airport-clear {
+  flex-shrink: 0;
 }
 
 .btn-clear-search {
@@ -1500,16 +1552,21 @@ input[type="checkbox"] {
   min-height: 400px;
 }
 
-.favorites-empty {
+.route-charts-search {
   display: grid;
-  min-height: 340px;
-  place-items: center;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: end;
   margin-top: 10px;
-  border: 1px dashed var(--border-strong);
+  padding: 12px;
+  border: 1px solid var(--border);
   border-radius: 6px;
-  color: var(--muted);
-  font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
-  font-size: 12px;
+  background: #060c18;
+}
+
+.route-charts-search .btn {
+  height: 38px;
+  white-space: nowrap;
 }
 
 /* ── Mapa IFR ─────────────────────────────────────────────────── */
@@ -1931,4 +1988,244 @@ body.map-page {
   .flight-airports-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Dashboard visual theme: mirrors the landing typography and button language. */
+.dashboard-page {
+  font-family: var(--font-body);
+}
+
+.dashboard-page h1,
+.dashboard-page h2,
+.dashboard-page h3 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+}
+
+.dashboard-page h1 {
+  font-size: clamp(34px, 4.8vw, 64px);
+  line-height: 0.96;
+  letter-spacing: -0.025em;
+}
+
+.dashboard-page .dashboard-title {
+  font-size: clamp(27px, 3.84vw, 51px);
+}
+
+.dashboard-page .module-head h2 {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+.dashboard-page .tech-label,
+.dashboard-page .metric-label,
+.dashboard-page .field span,
+.dashboard-page .group-title,
+.dashboard-page .module-head span,
+.dashboard-page .sync,
+.dashboard-page .chip {
+  font-family: var(--font-mono);
+  letter-spacing: 0.08em;
+}
+
+.dashboard-page .btn,
+.dashboard-page .login-access,
+.dashboard-page .chart-type-menu button,
+.dashboard-page .dash-style-btn,
+.dashboard-page .map-layer-btn,
+.dashboard-page .chart-preview-actions a,
+.dashboard-page .chart-preview-actions button,
+.dashboard-page .btn-create-route,
+.dashboard-page .btn-clear-route {
+  min-height: 48px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 0;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: background 120ms cubic-bezier(0.16, 1, 0.3, 1), border-color 120ms cubic-bezier(0.16, 1, 0.3, 1), color 120ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dashboard-page .btn,
+.dashboard-page .chart-type-menu button,
+.dashboard-page .dash-style-btn,
+.dashboard-page .map-layer-btn,
+.dashboard-page .chart-preview-actions a,
+.dashboard-page .chart-preview-actions button {
+  color: var(--text);
+  background: transparent;
+  border-color: rgba(248, 250, 252, 0.42);
+}
+
+.dashboard-page .login-access {
+  padding: 14px 24px;
+  box-shadow: none;
+}
+
+.dashboard-page .btn:hover,
+.dashboard-page .chart-type-menu button:hover,
+.dashboard-page .dash-style-btn:hover:not(.is-active),
+.dashboard-page .map-layer-btn:hover:not(.is-active),
+.dashboard-page .chart-preview-actions a:hover,
+.dashboard-page .chart-preview-actions button:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.dashboard-page .btn.primary,
+.dashboard-page .login-access,
+.dashboard-page .chart-type-menu button.is-active,
+.dashboard-page .dash-style-btn.is-active,
+.dashboard-page .map-layer-btn.is-active,
+.dashboard-page .btn-create-route {
+  color: var(--accent-on);
+  background: var(--accent);
+  border-color: var(--accent);
+  font-weight: 800;
+}
+
+.dashboard-page .btn.primary:hover,
+.dashboard-page .login-access:hover,
+.dashboard-page .chart-type-menu button.is-active:hover,
+.dashboard-page .dash-style-btn.is-active:hover,
+.dashboard-page .map-layer-btn.is-active:hover,
+.dashboard-page .btn-create-route:hover {
+  color: var(--accent-on);
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.dashboard-page .login-access strong {
+  color: var(--accent-on);
+  font-family: var(--font-body);
+  font-size: 14px;
+}
+
+.dashboard-page .chart-result-item {
+  border-radius: 0;
+  font-family: var(--font-body);
+}
+
+.dashboard-page .chart-result-item strong {
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.dashboard-page .btn-clear-route {
+  background: #dc2626;
+  border-color: #dc2626;
+}
+
+.dashboard-page .btn-clear-route:hover {
+  background: #b91c1c;
+  border-color: #b91c1c;
+}
+
+.dashboard-page button:focus-visible,
+.dashboard-page a:focus-visible,
+.dashboard-page input:focus-visible,
+.dashboard-page select:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* Global button sizing: 20% smaller with a slight oval shape. */
+.btn,
+.login-access,
+.chart-type-menu button,
+.dash-style-btn,
+.map-layer-btn,
+.chart-preview-actions a,
+.chart-preview-actions button,
+.btn-create-route,
+.btn-clear-route {
+  min-height: 33px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+.btn,
+.login-access,
+.chart-type-menu button,
+.dash-style-btn,
+.map-layer-btn,
+.chart-preview-actions a,
+.chart-preview-actions button {
+  padding-inline: 10px;
+}
+
+.dashboard-page .btn,
+.dashboard-page .login-access,
+.dashboard-page .chart-type-menu button,
+.dashboard-page .dash-style-btn,
+.dashboard-page .map-layer-btn,
+.dashboard-page .chart-preview-actions a,
+.dashboard-page .chart-preview-actions button,
+.dashboard-page .btn-create-route,
+.dashboard-page .btn-clear-route {
+  min-height: 33px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+.dashboard-page .login-access {
+  padding: 9px 17px;
+}
+
+.btn-create-route,
+.btn-clear-route {
+  height: 26px;
+  padding-inline: 11px;
+}
+
+.btn-clear-search {
+  width: 26px;
+  height: 26px;
+  min-height: 26px;
+  border-radius: 8px;
+  font-size: 11px;
+}
+
+.route-charts-search .btn,
+.chart-search-panel .btn {
+  height: 26px;
+}
+
+.dashboard-page .btn-create-route {
+  color: #fff;
+  background: #16a34a;
+  border-color: #15803d;
+}
+
+.dashboard-page .btn-create-route:hover {
+  background: #15803d;
+  border-color: #15803d;
+}
+
+.dashboard-page .dash-map-controls {
+  gap: 6px;
+}
+
+.dashboard-page .dash-map-controls .dash-style-btn,
+.dashboard-page .dash-map-controls .map-layer-btn {
+  min-height: 28px;
+  height: 28px;
+  padding-inline: 8px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.dashboard-page .dash-map-controls .map-layer-btn {
+  gap: 4px;
+}
+
+.dashboard-page .dash-map-controls .map-layer-btn code {
+  font-size: 9px;
 }
