@@ -324,8 +324,6 @@
 
     .cta-panel { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-8); align-items: center; background: var(--surface-warm); border: 1px solid var(--border); padding: var(--space-8); }
     .cta-panel h2 { font-size: clamp(34px, 4.8vw, var(--text-3xl)); line-height: var(--leading-tight); letter-spacing: var(--tracking-display); }
-    .waitlist { display: grid; grid-template-columns: 1fr auto; gap: var(--space-3); align-items: end; }
-    .form-note { min-height: 20px; margin: var(--space-3) 0 0; color: var(--muted); font-size: var(--text-sm); }
     .pagefoot { padding-block: var(--space-8); border-top: 1px solid var(--border-soft); color: var(--muted); }
     .pagefoot .row-between { flex-wrap: wrap; }
 
@@ -341,7 +339,7 @@
       .grid-3, .grid-2 { grid-template-columns: 1fr; }
       .nav-links { display: none; }
       .trust-strip { grid-template-columns: 1fr; }
-      .field-grid, .waitlist { grid-template-columns: 1fr; }
+      .field-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 520px) {
       .container { padding-inline: var(--container-gutter-phone); }
@@ -349,7 +347,7 @@
       .topnav-inner { min-height: 66px; }
       .topnav .btn { display: none; }
       .hero h1 { font-size: clamp(42px, 15vw, 62px); }
-      .hero-actions, .hero-actions .btn, .waitlist .btn { width: 100%; }
+      .hero-actions, .hero-actions .btn { width: 100%; }
       .console { min-height: 500px; }
       .chart-dock, .route-card { left: var(--space-4); right: var(--space-4); width: auto; max-width: none; }
       .route-card { bottom: 178px; }
@@ -479,25 +477,6 @@
       </div>
     </section>
 
-    <section class="section" id="join-list" data-od-id="cta-strip">
-      <div class="container">
-        <div class="cta-panel">
-          <div>
-            <p class="eyebrow">Cuenta gratuita</p>
-            <h2>Registra tu acceso y empieza a organizar tus rutas.</h2>
-            <p class="lead" style="margin-top: var(--space-5);">El servicio sera gratuito: crea cuenta para guardar rutas, cartas favoritas y notas de briefing cuando abra la beta.</p>
-          </div>
-          <form class="waitlist" novalidate>
-            <div class="field">
-              <label for="email">Correo</label>
-              <input id="email" name="email" type="email" placeholder="piloto@correo.com" autocomplete="email" required>
-              <p class="form-note" role="status" aria-live="polite"></p>
-            </div>
-            <button class="btn btn-primary" type="submit">Crear cuenta</button>
-          </form>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="pagefoot" data-od-id="footer">
@@ -734,20 +713,6 @@
       });
     });
 
-    const form = document.querySelector('.waitlist');
-    const email = document.querySelector('#email');
-    const note = document.querySelector('.form-note');
-
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
-      if (!email.validity.valid) {
-        note.textContent = 'Escribe un correo valido para crear tu cuenta.';
-        email.focus();
-        return;
-      }
-      note.textContent = 'Listo. Tu cuenta gratuita quedo pre-registrada para la beta.';
-      form.reset();
-    });
   </script>
 </body>
 </html>
