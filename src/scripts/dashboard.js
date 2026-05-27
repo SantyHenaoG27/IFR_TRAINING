@@ -48,6 +48,9 @@ const customPreviewView = document.querySelector("#customPreviewView");
 const customPreviewDownload = document.querySelector("#customPreviewDownload");
 const customPreviewHide = document.querySelector("#customPreviewHide");
 const customPreviewFrame = document.querySelector("#customPreviewFrame");
+const enrouteChartCount = document.querySelector("#enrouteChartCount");
+const enrouteTypeList = document.querySelector("#enrouteTypeList");
+const enrouteChartResults = document.querySelector("#enrouteChartResults");
 const skpeRows = document.querySelector("#skpeRows");
 const skpeCount = document.querySelector("#skpeCount");
 let colombianAirports = [];
@@ -57,6 +60,15 @@ let dashMapInstance = null;
 let routeLineGeoJSON = { type: "FeatureCollection", features: [] };
 let routeWaypoints = [];
 const chartCache = {};
+let enrouteCharts = [];
+
+const ENROUTE_CHART_TYPES = [
+  { id: "SECTOR", label: "SECTORIZACION", match: (name) => name.includes("SECTORIZACION") },
+  { id: "TMA", label: "TMA", match: (name) => name.includes("(TMA)") || name.includes("AREA TERMINAL") },
+  { id: "CTA", label: "CTA", match: (name) => name.includes("CTA") },
+  { id: "LOWER", label: "NIVEL INFERIOR", match: (name) => name.includes("NIVEL INFERIOR") },
+  { id: "UPPER", label: "NIVEL SUPERIOR", match: (name) => name.includes("NIVEL SUPERIOR") },
+];
 
 async function fetchJson(path) {
   const separator = path.includes("?") ? "&" : "?";
@@ -182,6 +194,85 @@ function renderAirports(airports) {
       `,
     )
     .join("");
+}
+
+function getEnrouteChartType(chart) {
+  const name = normalizeSearch(chart.internalName || chart.originalFileName || "");
+  return ENROUTE_CHART_TYPES.find((type) => type.match(name)) || null;
+}
+
+function getEnrouteChartsByType(typeId) {
+  return enrouteCharts.filter((chart) => getEnrouteChartType(chart)?.id === typeId);
+}
+
+function renderEnrouteCharts(typeId) {
+  if (!enrouteChartResults) return;
+
+  const type = ENROUTE_CHART_TYPES.find((item) => item.id === typeId);
+  const charts = getEnrouteChartsByType(typeId);
+
+  if (!type || !charts.length) {
+    enrouteChartResults.innerHTML = `<div class="chart-empty">No hay cartas disponibles para este tipo.</div>`;
+    return;
+  }
+
+  enrouteChartResults.innerHTML = charts
+    .map(
+      (chart) => `
+        <a class="chart-result-item" href="${encodeURI(chart.path)}" target="_blank" rel="noreferrer">
+          <strong>${chart.internalName}</strong>
+          <span>${type.label}</span>
+        </a>
+      `,
+    )
+    .join("");
+}
+
+function renderEnrouteTypeButtons() {
+  if (!enrouteTypeList) return;
+
+  enrouteTypeList.innerHTML = ENROUTE_CHART_TYPES
+    .map((type) => {
+      const count = getEnrouteChartsByType(type.id).length;
+      return `
+        <button type="button" class="enroute-type-btn" data-enroute-type="${type.id}">
+          <span>${type.label}</span>
+          <code>${String(count).padStart(2, "0")}</code>
+        </button>
+      `;
+    })
+    .join("");
+
+  if (enrouteChartCount) {
+    enrouteChartCount.textContent = String(enrouteCharts.length).padStart(3, "0");
+  }
+
+  if (enrouteChartResults) {
+    enrouteChartResults.innerHTML = `<div class="chart-empty">Selecciona un tipo de carta.</div>`;
+  }
+}
+
+async function loadEnrouteCharts() {
+  if (!enrouteTypeList || !enrouteChartResults) return;
+
+  try {
+    enrouteCharts = await fetchJson("storage/metadata/enroute-charts.json");
+    renderEnrouteTypeButtons();
+  } catch (error) {
+    if (enrouteChartCount) enrouteChartCount.textContent = "ERR";
+    enrouteChartResults.innerHTML = `<div class="chart-empty">No se pudo cargar el indice de cartas en ruta.</div>`;
+  }
+}
+
+function setupEnrouteCharts() {
+  enrouteTypeList?.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-enroute-type]");
+    if (!button) return;
+
+    enrouteTypeList.querySelectorAll("[data-enroute-type]").forEach((item) => item.classList.remove("is-active"));
+    button.classList.add("is-active");
+    renderEnrouteCharts(button.dataset.enrouteType);
+  });
 }
 
 function normalizeSearch(value) {
@@ -685,7 +776,7 @@ function setupChartPreview() {
   });
 
   document.addEventListener("click", (event) => {
-    const item = event.target.closest(".chart-result-item");
+    const item = event.target.closest(".chart-result-item[data-panel]");
 
     if (!item) {
       return;
@@ -1074,9 +1165,11 @@ async function loadSidOptions() {
 setupAirportSearch();
 setupChartButtons();
 setupChartPreview();
+setupEnrouteCharts();
 const waypointsReady = loadWaypoints();
 const navaidsReady = loadNavaids();
 const airportsReady = loadAirports();
+loadEnrouteCharts();
 loadSkpeProcedures();
 loadSidOptions();
 loadStarOptions();

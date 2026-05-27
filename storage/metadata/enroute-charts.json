@@ -1,0 +1,117 @@
+[
+  {
+    "internalName": "CARTA DE NAVEGACION CTA BARRANQUILLA SECTOR NORTE",
+    "originalFileName": "ENROUTE CHART ICAO CTA BARRANQUILLA SECTOR NORTE.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE CHART ICAO CTA BARRANQUILLA SECTOR NORTE.pdf"
+  },
+  {
+    "internalName": "CARTA DE NAVEGACION CTA BARRANQUILLA SECTOR SUR",
+    "originalFileName": "ENROUTE CHART ICAO CTA BARRANQUILLA SECTOR SUR.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE CHART ICAO CTA BARRANQUILLA SECTOR SUR.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL BARRANQUILLA (TMA), COLOMBIA",
+    "originalFileName": "ENROUTE CHART ICAO TMA BARRANQUILLA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE CHART ICAO TMA BARRANQUILLA.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL BUCARAMANGA (TMA), COLOMBIA",
+    "originalFileName": "ENROUTE CHART ICAO TMA BUCARAMANGA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE CHART ICAO TMA BUCARAMANGA.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL MARANDUA (TMA)",
+    "originalFileName": "ENROUTE CHART ICAO TMA MARANDUA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE CHART ICAO TMA MARANDUA.pdf"
+  },
+  {
+    "internalName": "CARTA DE NAVEGACION NIVEL SUPERIOR RNAV 5 - OACI - COLOMBIA",
+    "originalFileName": "ENROUTE CHART ICAO UPPER AIRSPACE RNAV5.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE CHART ICAO UPPER AIRSPACE RNAV5.pdf"
+  },
+  {
+    "internalName": "CARTA DE RADIONAVEGACION FIR BOGOTA SECTOR CALI - CTA. COLOMBIA",
+    "originalFileName": "ENROUTE_CHART_ICAO_CTA_CALI.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_CTA_CALI.pdf"
+  },
+  {
+    "internalName": "CTA MDE/RIONEGRO, COLOMBIA",
+    "originalFileName": "ENROUTE_CHART_ICAO_CTA_MEDELLIN.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_CTA_MEDELLIN.pdf"
+  },
+  {
+    "internalName": "CARTA DE NAVEGACION NIVEL INFERIOR - OACI - COLOMBIA",
+    "originalFileName": "ENROUTE_CHART_ICAO_LOWER_AIRSPACE.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_LOWER_AIRSPACE.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL PEREIRA (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA _PEREIRA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA _PEREIRA.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL ANDES (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_ANDES.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_ANDES.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL BOGOTA (TMA), COLOMBIA",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_BOGOTA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_BOGOTA.pdf"
+  },
+  {
+    "internalName": "SECTORIZACION AREA TERMINAL BOGOTA (BOGOTA, COLOMBIA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_BOGOTA_SECTORIZACION.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_BOGOTA_SECTORIZACION.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL CALI (TMA), COLOMBIA",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_CALI.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_CALI.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL CUCUTA (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_CUCUTA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_CUCUTA.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL LETICIA (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_LETICIA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_LETICIA.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL MEDELLIN (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_MEDELLIN.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_MEDELLIN.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL NEIVA (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_NEIVA.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_NEIVA.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL PALANQUERO (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_PALANQUERO.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_PALANQUERO.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL SAN ANDRES (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_SAN_ANDRES.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_SAN_ANDRES.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL TRES ESQUINAS (CAQUETA, COLOMBIA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_TRES_ESQUINAS.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_TRES_ESQUINAS.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL VILLAVICENCIO (TMA), COLOMBIA",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_VILLAVICENCIO.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_VILLAVICENCIO.pdf"
+  },
+  {
+    "internalName": "AREA TERMINAL EL YOPAL (TMA)",
+    "originalFileName": "ENROUTE_CHART_ICAO_TMA_YOPAL.pdf",
+    "path": "storage/uploads/pdfs/CARTAS EN RUTA/ENROUTE_CHART_ICAO_TMA_YOPAL.pdf"
+  }
+]

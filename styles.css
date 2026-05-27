@@ -1569,6 +1569,25 @@ input[type="checkbox"] {
   white-space: nowrap;
 }
 
+.enroute-type-list {
+  grid-template-columns: 1fr;
+}
+
+.enroute-type-btn {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.enroute-type-btn code {
+  color: inherit;
+  font-size: 10px;
+  opacity: 0.85;
+}
+
+.enroute-chart-list {
+  max-height: 300px;
+}
+
 /* ── Mapa IFR ─────────────────────────────────────────────────── */
 
 body.map-page {

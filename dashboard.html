@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css?v=5" />
     <link rel="stylesheet" href="https://unpkg.com/maplibre-gl/dist/maplibre-gl.css" />
     <script src="https://unpkg.com/maplibre-gl/dist/maplibre-gl.js" defer></script>
-    <script src="src/scripts/dashboard.js?v=29" defer></script>
+    <script src="src/scripts/dashboard.js?v=30" defer></script>
   </head>
   <body class="dashboard-page">
     <main class="shell">
@@ -295,15 +295,10 @@
         <article class="read-card favorites-card" aria-label="Cartas en Ruta">
           <div class="module-head">
             <h2>Cartas en Ruta</h2>
-            <span class="chip">000</span>
+            <span class="chip" id="enrouteChartCount">000</span>
           </div>
-          <div class="route-charts-search">
-            <label class="field" for="routeChartsAirport">
-              <span>Buscar aeropuerto</span>
-              <input id="routeChartsAirport" type="search" placeholder="Codigo o nombre del aeropuerto" autocomplete="off">
-            </label>
-            <button class="btn primary" type="button">Buscar cartas</button>
-          </div>
+          <div class="chart-type-menu enroute-type-list" id="enrouteTypeList" aria-label="Tipos de cartas en ruta"></div>
+          <div class="chart-result-list enroute-chart-list" id="enrouteChartResults"></div>
         </article>
         </div>
 
