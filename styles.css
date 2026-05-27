@@ -2007,6 +2007,40 @@ body.map-page {
   .flight-airports-grid {
     grid-template-columns: 1fr;
   }
+
+  /* ── map.html responsive ── */
+  .map-topbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 14px;
+  }
+
+  .map-controls-bar {
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .map-layer-group {
+    flex-wrap: wrap;
+    gap: 6px;
+    width: 100%;
+    padding: 6px 8px;
+  }
+
+  .map-layer-label {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+
+  .map-topbar h1 {
+    font-size: 15px;
+  }
+
+  .map-topbar .tech-label {
+    font-size: 9px;
+  }
 }
 
 /* Dashboard visual theme: mirrors the landing typography and button language. */

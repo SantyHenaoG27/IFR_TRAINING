@@ -299,6 +299,20 @@
           </div>
           <div class="chart-type-menu enroute-type-list" id="enrouteTypeList" aria-label="Tipos de cartas en ruta"></div>
           <div class="chart-result-list enroute-chart-list" id="enrouteChartResults"></div>
+          <div class="chart-preview hidden-panel" id="enrouteChartPreview">
+            <div class="chart-preview-head">
+              <div>
+                <span>Previsualizacion</span>
+                <strong id="enroutePreviewTitle">Carta seleccionada</strong>
+              </div>
+              <div class="chart-preview-actions">
+                <a id="enroutePreviewView" href="#" target="_blank" rel="noreferrer">Ver</a>
+                <a id="enroutePreviewDownload" href="#" download>Descargar</a>
+                <button id="enroutePreviewHide" type="button">Ocultar</button>
+              </div>
+            </div>
+            <iframe id="enroutePreviewFrame" title="Previsualizacion carta en ruta"></iframe>
+          </div>
         </article>
         </div>
 

@@ -51,6 +51,12 @@ const customPreviewFrame = document.querySelector("#customPreviewFrame");
 const enrouteChartCount = document.querySelector("#enrouteChartCount");
 const enrouteTypeList = document.querySelector("#enrouteTypeList");
 const enrouteChartResults = document.querySelector("#enrouteChartResults");
+const enrouteChartPreview = document.querySelector("#enrouteChartPreview");
+const enroutePreviewTitle = document.querySelector("#enroutePreviewTitle");
+const enroutePreviewView = document.querySelector("#enroutePreviewView");
+const enroutePreviewDownload = document.querySelector("#enroutePreviewDownload");
+const enroutePreviewHide = document.querySelector("#enroutePreviewHide");
+const enroutePreviewFrame = document.querySelector("#enroutePreviewFrame");
 const skpeRows = document.querySelector("#skpeRows");
 const skpeCount = document.querySelector("#skpeCount");
 let colombianAirports = [];
@@ -208,6 +214,10 @@ function getEnrouteChartsByType(typeId) {
 function renderEnrouteCharts(typeId) {
   if (!enrouteChartResults) return;
 
+  // Ocultar preview al cambiar de tipo
+  enrouteChartPreview?.classList.add("hidden-panel");
+  if (enroutePreviewFrame) enroutePreviewFrame.src = "";
+
   const type = ENROUTE_CHART_TYPES.find((item) => item.id === typeId);
   const charts = getEnrouteChartsByType(typeId);
 
@@ -219,10 +229,13 @@ function renderEnrouteCharts(typeId) {
   enrouteChartResults.innerHTML = charts
     .map(
       (chart) => `
-        <a class="chart-result-item" href="${encodeURI(chart.path)}" target="_blank" rel="noreferrer">
+        <button class="chart-result-item" type="button"
+          data-panel="enroute"
+          data-title="${chart.internalName}"
+          data-file="${encodeURI(chart.path)}">
           <strong>${chart.internalName}</strong>
           <span>${type.label}</span>
-        </a>
+        </button>
       `,
     )
     .join("");
@@ -265,14 +278,26 @@ async function loadEnrouteCharts() {
 }
 
 function setupEnrouteCharts() {
+  // Toggle de tipos: si el tipo ya está activo, lo desactiva; si no, activa el nuevo
   enrouteTypeList?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-enroute-type]");
     if (!button) return;
 
+    const isAlreadyActive = button.classList.contains("is-active");
+
     enrouteTypeList.querySelectorAll("[data-enroute-type]").forEach((item) => item.classList.remove("is-active"));
-    button.classList.add("is-active");
-    renderEnrouteCharts(button.dataset.enrouteType);
+
+    if (isAlreadyActive) {
+      // Desactivar: limpiar lista y preview
+      enrouteChartResults.innerHTML = `<div class="chart-empty">Selecciona un tipo de carta.</div>`;
+      enrouteChartPreview?.classList.add("hidden-panel");
+      if (enroutePreviewFrame) enroutePreviewFrame.src = "";
+    } else {
+      button.classList.add("is-active");
+      renderEnrouteCharts(button.dataset.enrouteType);
+    }
   });
+
 }
 
 function normalizeSearch(value) {
@@ -476,6 +501,17 @@ function getChartPreviewElements(panel) {
       download: destinationPreviewDownload,
       hide: destinationPreviewHide,
       frame: destinationPreviewFrame,
+    };
+  }
+
+  if (panel === "enroute") {
+    return {
+      preview: enrouteChartPreview,
+      title: enroutePreviewTitle,
+      view: enroutePreviewView,
+      download: enroutePreviewDownload,
+      hide: enroutePreviewHide,
+      frame: enroutePreviewFrame,
     };
   }
 
@@ -768,6 +804,7 @@ function setupChartPreview() {
     getChartPreviewElements("origin"),
     getChartPreviewElements("destination"),
     getChartPreviewElements("custom"),
+    getChartPreviewElements("enroute"),
   ].forEach((preview) => {
     preview.hide?.addEventListener("click", () => {
       preview.preview?.classList.add("hidden-panel");
